@@ -1,0 +1,47 @@
+name: actmonitor
+description: actmonitor
+
+version: 1.1.120+120
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: any
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_mobx: any
+  flutter_svg: any
+  hive: any
+  mobx: any
+  package_info_plus: any
+  path_provider: any
+  trotter: 2.0.0-dev.1
+
+dev_dependencies:
+  build_runner: any
+  effective_dart: any
+  flutter_launcher_icons: any
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+  mobx_codegen: any
+  test: any
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: assets/icons/ios_icon_raw.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/demo_data/
+    - assets/icons/
+
+flutter_intl:
+  main_locale: en
+  enabled: true

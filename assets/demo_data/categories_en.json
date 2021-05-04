@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "title": "Car",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Brand",
+          "data_type": "string"
+        },
+        {
+          "title": "Year of issue",
+          "data_type": "number"
+        },
+        {
+          "title": "Price",
+          "data_type": "number"
+        },
+        {
+          "title": "Engine volume / power",
+          "data_type": "string"
+        },
+        {
+          "title": "Type of drive",
+          "data_type": "string"
+        },
+        {
+          "title": "Interior",
+          "data_type": "string"
+        },
+        {
+          "title": "Equipment",
+          "data_type": "string"
+        }
+      ]
+    },
+    {
+      "title": "Job",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Salary",
+          "data_type": "number"
+        },
+        {
+          "title": "Workplace",
+          "data_type": "string"
+        },
+        {
+          "title": "Social package",
+          "data_type": "string"
+        },
+        {
+          "title": "Schedule",
+          "data_type": "string"
+        },
+        {
+          "title": "Career and development",
+          "data_type": "bool"
+        },
+        {
+          "title": "Stability",
+          "data_type": "bool"
+        },
+        {
+          "title": "Time to commute",
+          "data_type": "string"
+        }
+      ]
+    },
+    {
+      "title": "House / apartment",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Space",
+          "data_type": "string"
+        },
+        {
+          "title": "Price",
+          "data_type": "number"
+        },
+        {
+          "title": "Transport infrastructure",
+          "data_type": "string"
+        },
+        {
+          "title": "Interior, rooms",
+          "data_type": "string"
+        },
+        {
+          "title": "District ecology",
+          "data_type": "string"
+        },
+        {
+          "title": "Building",
+          "data_type": "string"
+        },
+        {
+          "title": "View",
+          "data_type": "string"
+        }
+      ]
+    },
+    {
+      "title": "Household appliances / electronics",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Manufacturer",
+          "data_type": "string"
+        },
+        {
+          "title": "Price",
+          "data_type": "number"
+        },
+        {
+          "title": "Delivery",
+          "data_type": "string"
+        }
+      ]
+    },
+    {
+      "title": "Leisure / hotel",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Place / Location",
+          "data_type": "string"
+        },
+        {
+          "title": "Price",
+          "data_type": "number"
+        },
+        {
+          "title": "Amenities, services, meals",
+          "data_type": "string"
+        },
+        {
+          "title": "Transfer",
+          "data_type": "string"
+        },
+        {
+          "title": "Sights",
+          "data_type": "string"
+        }
+      ]
+    },
+    {
+      "title": "Bank loan",
+      "description": "",
+      "criteria": [
+        {
+          "title": "Credit amount",
+          "data_type": "number"
+        },
+        {
+          "title": "Initial fee",
+          "data_type": "number"
+        },
+        {
+          "title": "Loan interest",
+          "data_type": "number"
+        },
+        {
+          "title": "Credit term",
+          "data_type": "string"
+        },
+        {
+          "title": "Loan application processing time",
+          "data_type": "string"
+        },
+        {
+          "title": "Documents, security (pledge)",
+          "data_type": "string"
+        }
+      ]
+    }
+  ]
+}
