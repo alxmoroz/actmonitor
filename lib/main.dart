@@ -32,7 +32,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      title: 'Actmonitor',
+      title: 'Activity Monitor',
       home: FutureBuilder(
         future: _initFuture,
         builder: (context, snapshot) => snapshot.connectionState == ConnectionState.done ? Container() : SplashScreen(),
