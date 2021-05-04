@@ -1,4 +1,4 @@
-package ru.w_cafe.actmonitor
+package ru.w_cafe.AMonitor
 
 import io.flutter.embedding.android.FlutterActivity
 

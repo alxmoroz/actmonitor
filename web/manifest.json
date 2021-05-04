@@ -1,11 +1,11 @@
 {
-  "name": "Actmonitor",
-  "short_name": "Actmonitor",
+  "name": "AMonitor",
+  "short_name": "AMonitor",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",
   "theme_color": "#0175C2",
-  "description": "Actmonitor",
+  "description": "AMonitor",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

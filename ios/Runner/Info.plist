@@ -16,7 +16,7 @@
 		<string>ru</string>
 	</array>
 	<key>CFBundleName</key>
-	<string>ActMonitor</string>
+	<string>AMonitor</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

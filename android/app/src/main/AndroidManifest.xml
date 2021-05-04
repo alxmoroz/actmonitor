@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="ru.w_cafe.actmonitor">
+          package="ru.w_cafe.AMonitor">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -8,7 +8,7 @@
     <application
             android:name="io.flutter.app.FlutterApplication"
             android:icon="@mipmap/ic_launcher"
-            android:label="actmonitor">
+            android:label="AMonitor">
         <activity
                 android:name=".MainActivity"
                 android:launchMode="singleTop"

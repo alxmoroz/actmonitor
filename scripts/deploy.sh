@@ -7,7 +7,7 @@ fi
 
 echo "DEPLOYING..."
 
-appName="Actmonitor"
+appName="AMonitor"
 
 version="v$(grep 'version: ' ./pubspec.yaml | sed 's/version: //')"
 
