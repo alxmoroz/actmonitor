@@ -1,6 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:AMonitor/services/hive_storage.dart';
+import 'package:amonitor/services/hive_storage.dart';
 import 'package:hive/hive.dart';
 
 part 'app_settings.g.dart';

@@ -43,7 +43,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "ru.w_cafe.AMonitor"
+        applicationId "ru.w_cafe.amonitor"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
@@ -54,10 +54,10 @@ android {
         release {
             // You need to specify either an absolute path or include the
             // keystore file in the same directory as the build.gradle file.
-            storeFile file("AMonitor-release-key.jks")
-            storePassword "AMonitor-w-cafe"
-            keyAlias "AMonitor-key"
-            keyPassword "AMonitor-w-cafe"
+            storeFile file("amonitor-release-key.jks")
+            storePassword "amonitor-w-cafe"
+            keyAlias "amonitor-key"
+            keyPassword "amonitor-w-cafe"
         }
     }
 

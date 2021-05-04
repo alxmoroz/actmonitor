@@ -1,6 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:AMonitor/components/material_wrapper.dart';
+import 'package:amonitor/components/material_wrapper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -35,7 +35,7 @@ class App extends StatelessWidget {
       title: 'Activity Monitor',
       home: FutureBuilder(
         future: _initFuture,
-        builder: (context, snapshot) => snapshot.connectionState == ConnectionState.done ? Container() : SplashScreen(),
+        builder: (context, snapshot) => snapshot.connectionState == ConnectionState.done ? materialWrap(Container()) : SplashScreen(),
       ),
       routes: {},
       localizationsDelegates: const [
