@@ -6,7 +6,6 @@ Color? resolvedColor(CupertinoDynamicColor? color, BuildContext context) {
   return CupertinoDynamicColor.resolve(color!, context);
 }
 
-//TODO: попробовать хранить глобальный контекст после запуска приложения...
 Color? darkColor(BuildContext context) =>
     resolvedColor(const CupertinoDynamicColor.withBrightness(color: Color(0xFF666666), darkColor: Color(0xFFBBBBBB)), context);
 

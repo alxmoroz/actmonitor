@@ -8,8 +8,6 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 const bool kIsWeb = identical(0, 0.0);
 
-//TODO: не очень четко видно отличие от GlobalState по функциональности
-
 late AppSettings settings;
 late GlobalState globalState;
 

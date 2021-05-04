@@ -15,7 +15,6 @@ class MainView extends StatelessWidget {
       CompareView(),
     ];
 
-    // TODO: implement build
     return CupertinoTabScaffold(
       tabBar: CupertinoTabBar(
         items: [
