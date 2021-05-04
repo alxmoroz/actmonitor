@@ -385,7 +385,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.actmonitor;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.AMonitor;
 				PRODUCT_NAME = Actmonitor;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -530,7 +530,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.actmonitor;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.AMonitor;
 				PRODUCT_NAME = Actmonitor;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -567,7 +567,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.actmonitor;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.aeonika.AMonitor;
 				PRODUCT_NAME = Actmonitor;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
