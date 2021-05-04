@@ -1,6 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:choice/components/material_wrapper.dart';
+import 'package:actmonitor/components/material_wrapper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -32,7 +32,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      title: 'Choice',
+      title: 'Actmonitor',
       home: FutureBuilder(
         future: _initFuture,
         builder: (context, snapshot) => snapshot.connectionState == ConnectionState.done ? Container() : SplashScreen(),

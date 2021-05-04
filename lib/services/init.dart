@@ -1,9 +1,9 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:choice/generated/l10n.dart';
-import 'package:choice/models/app_settings.dart';
-import 'package:choice/services/hive_storage.dart';
-import 'package:choice/state/global_state.dart';
+import 'package:actmonitor/generated/l10n.dart';
+import 'package:actmonitor/models/app_settings.dart';
+import 'package:actmonitor/services/hive_storage.dart';
+import 'package:actmonitor/state/global_state.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 const bool kIsWeb = identical(0, 0.0);

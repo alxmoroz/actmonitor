@@ -1,7 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:choice/models/app_settings.dart';
-import 'package:choice/services/init.dart';
+import 'package:actmonitor/models/app_settings.dart';
+import 'package:actmonitor/services/init.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
 

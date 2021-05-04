@@ -1,7 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:choice/components/colors.dart';
-import 'package:choice/components/notch.dart';
+import 'package:actmonitor/components/colors.dart';
+import 'package:actmonitor/components/notch.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';

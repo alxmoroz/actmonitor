@@ -54,10 +54,10 @@ android {
         release {
             // You need to specify either an absolute path or include the
             // keystore file in the same directory as the build.gradle file.
-            storeFile file("choice-release-key.jks")
-            storePassword "choice-w-cafe"
-            keyAlias "choice-key"
-            keyPassword "choice-w-cafe"
+            storeFile file("actmonitor-release-key.jks")
+            storePassword "actmonitor-w-cafe"
+            keyAlias "actmonitor-key"
+            keyPassword "actmonitor-w-cafe"
         }
     }
 
