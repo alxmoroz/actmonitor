@@ -1,13 +1,14 @@
 name: amonitor
 description: AMonitor
 
-version: 3.0.13+13
+version: 3.0.16+16
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   cupertino_icons: any
+  device_info: any
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -16,7 +17,7 @@ dependencies:
   flutter_svg: any
   hive: any
   mobx: any
-  package_info_plus: any
+  package_info: any
   path_provider: any
 
 dev_dependencies:
