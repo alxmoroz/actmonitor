@@ -4,12 +4,14 @@ import 'package:amonitor/generated/l10n.dart';
 import 'package:amonitor/models/app_settings.dart';
 import 'package:amonitor/services/hive_storage.dart';
 import 'package:amonitor/state/global_state.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+import 'package:amonitor/state/usage_state.dart';
+import 'package:package_info/package_info.dart';
 
 const bool kIsWeb = identical(0, 0.0);
 
 late AppSettings settings;
 late GlobalState globalState;
+late UsageState usageState;
 
 S get loc => S.current;
 
@@ -35,5 +37,6 @@ class Init {
     await settings.save();
 
     globalState = GlobalState();
+    usageState = UsageState();
   }
 }
