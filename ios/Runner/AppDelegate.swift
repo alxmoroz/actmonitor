@@ -19,6 +19,9 @@ import Darwin.Mach
         if call.method == "getRamUsage" {
             self?.getRamUsage(result: result)
         }
+        else if call.method == "getDiskUsage" {
+            self?.getDiskUsage(result: result)
+        }
         else {
             result(FlutterMethodNotImplemented)
             return
@@ -64,6 +67,25 @@ import Darwin.Mach
             total
     ])
   }
+    private func getDiskUsage(result: FlutterResult) {
+        var freeDiskSpace:Int64 {
+            if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
+                return space
+            } else {
+                return 0
+            }
+        }
+        
+        var totalDiskSpace:Int64 {
+            if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeTotalCapacityKey]).volumeTotalCapacity {
+                return Int64(space)
+            } else {
+                return 0
+            }
+        }
+        
+        result([freeDiskSpace, totalDiskSpace])
+}
 }
 
 

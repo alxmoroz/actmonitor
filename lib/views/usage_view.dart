@@ -15,22 +15,22 @@ class UsageView extends StatefulWidget {
 class _UsageViewState extends State<UsageView> {
   late final Timer usageTimer;
 
-  String bytesToString(int bytes) {
+  String bytesToString(int bytes, [double base = 1000]) {
     String unit = 'KB';
-    double divider = 1024.0;
-    if (bytes > divider * 1024) {
-      divider *= 1024.0;
+    double divider = base;
+    if (bytes > divider * base) {
+      divider *= base;
       unit = 'MB';
     }
-    if (bytes > divider * 1024) {
-      divider *= 1024.0;
+    if (bytes > divider * base) {
+      divider *= base;
       unit = 'GB';
     }
-    if (bytes > divider * 1024) {
-      divider *= 1024.0;
+    if (bytes > divider * base) {
+      divider *= base;
       unit = 'TB';
     }
-    return '${NumberFormat("0.##").format(bytes / divider)} $unit';
+    return '${NumberFormat("0.#").format(bytes / divider)} $unit';
   }
 
   Widget buildRamUsageInfo() {
@@ -44,10 +44,21 @@ class _UsageViewState extends State<UsageView> {
               NormalText('Graphics: ${bytesToString(usageState.ram.graphics)}'),
               NormalText('Free: ${bytesToString(usageState.ram.freeTotal)}'),
               NormalText('\nTotal: ${bytesToString(usageState.ram.total)}'),
-              const Spacer(),
             ],
           )
         : NormalText(usageState.ram.error);
+  }
+
+  Widget buildDiskUsageInfo() {
+    return usageState.disk.error.isEmpty
+        ? Column(
+            children: [
+              const H3('\nCapacity\n\n'),
+              NormalText('Free: ${bytesToString(usageState.disk.free)}'),
+              NormalText('Total: ${bytesToString(usageState.disk.total)}'),
+            ],
+          )
+        : NormalText(usageState.disk.error);
   }
 
   void updateState() {
@@ -74,7 +85,14 @@ class _UsageViewState extends State<UsageView> {
       child: SafeArea(
         child: materialWrap(
           Observer(
-            builder: (_) => Center(child: buildRamUsageInfo()),
+            builder: (_) => Center(
+              child: Column(
+                children: [
+                  buildRamUsageInfo(),
+                  buildDiskUsageInfo(),
+                ],
+              ),
+            ),
           ),
         ),
       ),
