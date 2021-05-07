@@ -15,7 +15,7 @@ class UsageView extends StatefulWidget {
 class _UsageViewState extends State<UsageView> {
   late final Timer usageTimer;
 
-  String bytesToString(int bytes, [double base = 1000]) {
+  String bytesToString(int bytes, [double base = 1024]) {
     String unit = 'KB';
     double divider = base;
     if (bytes > divider * base) {
@@ -54,8 +54,8 @@ class _UsageViewState extends State<UsageView> {
         ? Column(
             children: [
               const H3('\nCapacity\n\n'),
-              NormalText('Free: ${bytesToString(usageState.disk.free)}'),
-              NormalText('Total: ${bytesToString(usageState.disk.total)}'),
+              NormalText('Free: ${bytesToString(usageState.disk.free, 1000)}'),
+              NormalText('Total: ${bytesToString(usageState.disk.total, 1000)}'),
             ],
           )
         : NormalText(usageState.disk.error);
