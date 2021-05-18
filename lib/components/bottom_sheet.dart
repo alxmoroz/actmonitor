@@ -18,7 +18,7 @@ class AMBottomSheet extends StatelessWidget {
       onTap: FocusScope.of(context).unfocus,
       child: Container(
         decoration: BoxDecoration(
-          color: secondaryBackgroundColor(context),
+          color: secondaryBackgroundColor,
           borderRadius: const BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20)),
         ),
         child: Column(

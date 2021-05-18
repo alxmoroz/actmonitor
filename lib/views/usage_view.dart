@@ -1,55 +1,58 @@
+import 'package:amonitor/components/colors.dart';
 import 'package:amonitor/components/material_wrapper.dart';
 import 'package:amonitor/components/text/text_widgets.dart';
+import 'package:amonitor/components/usage_card.dart';
 import 'package:amonitor/services/init.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:intl/intl.dart';
 
 class UsageView extends StatelessWidget {
-  String bytesToString(int bytes, [double base = 1024]) {
-    String unit = 'KB';
-    double divider = base;
-    if (bytes > divider * base) {
-      divider *= base;
-      unit = 'MB';
-    }
-    if (bytes > divider * base) {
-      divider *= base;
-      unit = 'GB';
-    }
-    if (bytes > divider * base) {
-      divider *= base;
-      unit = 'TB';
-    }
-    return '${NumberFormat("0.#").format(bytes / divider)} $unit';
-  }
-
-  Widget buildRamUsageInfo() {
-    return usageState.ram.error.isEmpty
-        ? Column(
-            children: [
-              const H3('Ram Usage\n'),
-              NormalText('Wired: ${bytesToString(usageState.ram.wired)}'),
-              NormalText('Active: ${bytesToString(usageState.ram.active)}'),
-              NormalText('Compressed: ${bytesToString(usageState.ram.compressed)}'),
-              NormalText('Graphics: ${bytesToString(usageState.ram.graphics)}'),
-              NormalText('Free: ${bytesToString(usageState.ram.freeTotal)}'),
-              NormalText('Total: ${bytesToString(usageState.ram.total)}'),
+  Widget buildRamUsage(BuildContext ctx) {
+    final ram = usageState.ram;
+    return ram.error.isEmpty
+        ? UsageCard(
+            title: 'Memory',
+            total: ram.total,
+            elements: [
+              UsageElement('Wired', ram.wired, warningColor),
+              UsageElement('Active', ram.active, null),
+              UsageElement('Compressed', ram.compressed, indigoColor),
+              UsageElement('Graphics', ram.graphics, purpleColor),
+              UsageElement('Free', ram.freeTotal, greyColor4),
             ],
           )
-        : NormalText(usageState.ram.error);
+        : NormalText(ram.error);
   }
 
-  Widget buildDiskUsageInfo() {
-    return usageState.disk.error.isEmpty
-        ? Column(
-            children: [
-              const H3('\nCapacity\n'),
-              NormalText('Free: ${bytesToString(usageState.disk.free, 1000)}'),
-              NormalText('Total: ${bytesToString(usageState.disk.total, 1000)}'),
+  Widget buildDiskUsage(BuildContext ctx) {
+    final disk = usageState.disk;
+    return disk.error.isEmpty
+        ? UsageCard(
+            title: 'Capacity',
+            total: disk.total,
+            elements: [
+              UsageElement('Used', disk.total - disk.free, null),
+              UsageElement('Free', disk.free, greyColor4),
             ],
+            base: 1000,
           )
-        : NormalText(usageState.disk.error);
+        : NormalText(disk.error);
+  }
+
+  Widget buildBatteryUsage(BuildContext ctx) {
+    final battery = usageState.battery;
+    return battery.error.isEmpty
+        ? UsageCard(
+            title: 'Battery',
+            total: 100,
+            elements: [
+              UsageElement('Charged', battery.level, null),
+              UsageElement('Discharged', battery.level - 100, greyColor4),
+            ],
+            base: 1,
+          )
+        : NormalText(battery.error);
   }
 
   @override
@@ -59,11 +62,10 @@ class UsageView extends StatelessWidget {
         child: materialWrap(
           Observer(
             builder: (_) => Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                buildRamUsageInfo(),
-                buildDiskUsageInfo(),
+                buildRamUsage(context),
+                buildDiskUsage(context),
+                buildBatteryUsage(context),
               ],
             ),
           ),

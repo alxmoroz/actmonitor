@@ -33,8 +33,8 @@ class Button extends StatelessWidget {
       padding: padding ?? EdgeInsets.zero,
       onPressed: onPressed,
       color: type == ButtonType.primary ? CupertinoTheme.of(context).primaryColor : color,
-      disabledColor: greyColor5(context)!,
-      child: child ?? Text(title ?? '', style: TextStyle(color: onPressed != null ? titleColor : greyColor2(context))),
+      disabledColor: greyColor5,
+      child: child ?? Text(title ?? '', style: TextStyle(color: onPressed != null ? titleColor : greyColor2)),
     );
   }
 }

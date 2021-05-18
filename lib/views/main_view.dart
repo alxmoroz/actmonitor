@@ -37,6 +37,8 @@ class _MainViewState extends State<MainView> {
 
   @override
   Widget build(BuildContext context) {
+    globalState.setContext(context);
+
     final tabViews = [
       UsageView(),
       BatteryView(),

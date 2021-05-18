@@ -1,24 +1,30 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/services/init.dart';
 import 'package:flutter/cupertino.dart';
 
-Color? resolvedColor(CupertinoDynamicColor? color, BuildContext context) {
-  return CupertinoDynamicColor.resolve(color!, context);
-}
+Color _r(CupertinoDynamicColor color) => CupertinoDynamicColor.resolve(color, globalState.context!);
 
-Color? darkColor(BuildContext context) =>
-    resolvedColor(const CupertinoDynamicColor.withBrightness(color: Color(0xFF666666), darkColor: Color(0xFFBBBBBB)), context);
+Color get warningColor => _r(CupertinoColors.activeOrange);
 
-Color? greyColor(BuildContext context) => resolvedColor(CupertinoColors.systemGrey, context);
+Color get purpleColor => _r(CupertinoColors.systemPurple);
 
-Color? greyColor2(BuildContext context) => resolvedColor(CupertinoColors.systemGrey2, context);
+Color get indigoColor => _r(CupertinoColors.systemIndigo);
 
-Color? greyColor3(BuildContext context) => resolvedColor(CupertinoColors.systemGrey3, context);
+Color get greenColor => _r(CupertinoColors.systemGreen);
 
-Color? greyColor4(BuildContext context) => resolvedColor(CupertinoColors.systemGrey4, context);
+Color get darkColor => _r(const CupertinoDynamicColor.withBrightness(color: Color(0xFF666666), darkColor: Color(0xFFBBBBBB)));
 
-Color? greyColor5(BuildContext context) => resolvedColor(CupertinoColors.systemGrey5, context);
+Color get greyColor => _r(CupertinoColors.systemGrey);
 
-Color? greyColor6(BuildContext context) => resolvedColor(CupertinoColors.systemGrey6, context);
+Color get greyColor2 => _r(CupertinoColors.systemGrey2);
 
-Color? secondaryBackgroundColor(BuildContext context) => resolvedColor(CupertinoColors.secondarySystemBackground, context);
+Color get greyColor3 => _r(CupertinoColors.systemGrey3);
+
+Color get greyColor4 => _r(CupertinoColors.systemGrey4);
+
+Color get greyColor5 => _r(CupertinoColors.systemGrey5);
+
+Color get greyColor6 => _r(CupertinoColors.systemGrey6);
+
+Color get secondaryBackgroundColor => _r(CupertinoColors.secondarySystemBackground);
