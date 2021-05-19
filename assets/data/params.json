@@ -1,6 +1,15 @@
 {
-  "parameters": [
+  "meta": [
     "Name",
+    "DetailName"
+  ],
+  "battery": [
+    "BatteryLife.Audio Playback",
+    "BatteryLife.Video Playback",
+    "BatteryLife.Browsing over Wi-Fi",
+    "BatteryLife.Browsing over LTE"
+  ],
+  "parameters": [
     "Processor",
     "GPU",
     "Onboard RAM",
@@ -15,13 +24,6 @@
     "Bluetooth",
     "Cellular",
     "Battery Capacity",
-    "BatteryLife.Audio Playback",
-    "BatteryLife.Video Playback",
-    "BatteryLife.Talk over 2G",
-    "BatteryLife.Talk over 3G",
-    "BatteryLife.Browsing over Wi-Fi",
-    "BatteryLife.Browsing over 3G",
-    "BatteryLife.Browsing over LTE",
     "Sensors",
     "Location",
     "Connector",

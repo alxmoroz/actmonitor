@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 
 // Icon chevronIcon() => const Icon(CupertinoIcons.chevron_right);
-// Icon dropdownIcon() => const Icon(CupertinoIcons.chevron_up_chevron_down);
+Icon dropdownIcon() => const Icon(CupertinoIcons.chevron_up_chevron_down, color: CupertinoColors.systemBlue);
 
 Widget usageTabbarIcon() => const Icon(CupertinoIcons.chart_pie_fill);
 

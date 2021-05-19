@@ -7,24 +7,18 @@ import 'package:flutter/services.dart';
 class SpecsClient {
   static Future<void> load() async {
     await _loadParams();
+
     final List<Device> devices = [];
-    List<Device> specs = await _loadSpecsForDevice('ipad');
-    devices.addAll(specs);
-    specs = await _loadSpecsForDevice('iphone');
-    devices.addAll(specs);
-    devices.addAll(await _loadSpecsForDevice('ipod'));
+    ['ipad', 'iphone', 'ipod'].forEach((type) async {
+      devices.addAll(await _loadSpecsForDevice(type));
+    });
     specsState.setDevices(devices);
   }
 
   static Future<void> _loadParams() async {
-    final List<Parameter> params = [];
     final paramsJsonString = await rootBundle.loadString('assets/data/params.json');
     final Map<String, dynamic> paramsJson = await json.decode(paramsJsonString);
-
-    (paramsJson['parameters'] ?? <dynamic>[]).forEach((dynamic param) {
-      params.add(Parameter(param));
-    });
-    specsState.setParameters(params);
+    specsState.setParameters(paramsJson);
   }
 
   static Future<List<Device>> _loadSpecsForDevice(String type) async {
@@ -32,18 +26,20 @@ class SpecsClient {
     final Map<String, dynamic> deviceJson = await json.decode(deviceJsonString);
 
     final List<Device> devices = [];
-
-    deviceJson.forEach((id, dynamic deviceParams) {
-      final List<ParamValue> pValues = [];
-      specsState.parameters.forEach((param) {
-        final dynamic valueJson = deviceParams[param.name];
-        if (valueJson != null) {
-          pValues.add(ParamValue(parameter: param, value: valueJson));
-        }
+    deviceJson.forEach((id, dynamic paramsValues) {
+      final Map<String, List<ParamValue>> deviceParamsValues = {};
+      specsState.parameters.forEach((section, dynamic params) {
+        final List<ParamValue> pValues = [];
+        (params as List<dynamic>).forEach((dynamic param) {
+          final dynamic valueJson = paramsValues[param];
+          if (valueJson != null) {
+            pValues.add(ParamValue(name: param, value: valueJson));
+          }
+        });
+        deviceParamsValues.putIfAbsent(section, () => pValues);
       });
-      devices.add(Device(id, type, pValues));
+      devices.add(Device(id, type, deviceParamsValues));
     });
-
     return devices;
   }
 }

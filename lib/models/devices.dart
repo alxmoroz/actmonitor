@@ -1,13 +1,7 @@
-class Parameter {
-  Parameter(this.name);
+class ParamValue {
+  ParamValue({required this.name, this.value = ''});
 
   final String name;
-}
-
-class ParamValue {
-  ParamValue({required this.parameter, this.value = ''});
-
-  final Parameter parameter;
   final dynamic value;
 
   bool get comparable => value is Map && value['numericValue'] != null && value['numericValue'].isNotEmpty;
@@ -18,7 +12,7 @@ class ParamValue {
     if (value is String) {
       res = value;
     } else if (value is Map) {
-      res = (value as Map).values.toList().join(', ');
+      res = (value as Map).values.toList().join('\n');
     }
     return res;
   }
@@ -29,10 +23,19 @@ class Device {
 
   final String id;
   final String type;
-  final List<ParamValue> paramsValues;
+  final Map<String, List<ParamValue>> paramsValues;
 
-  ParamValue paramByName(String name) => paramsValues.firstWhere(
-        (pv) => pv.parameter.name == name,
-        orElse: () => ParamValue(parameter: Parameter(name)),
-      );
+  ParamValue paramByName(String name, String section) {
+    final sectionParams = paramsValues[section] ?? [];
+    return sectionParams.firstWhere(
+      (pv) => pv.name == name,
+      orElse: () => ParamValue(name: name),
+    );
+  }
+
+  String get name => paramByName('Name', 'meta').value ?? '';
+
+  String get detailName => paramByName('DetailName', 'meta').value ?? '';
+
+  bool get isKnown => detailName != 'Unknown model';
 }

@@ -173,7 +173,6 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over 3G": "9",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -241,7 +240,6 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over 3G": "9",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -434,8 +432,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "16.3 Whr (3.72 V)",
@@ -501,8 +498,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "16.3 Whr (3.72 V)",
@@ -634,8 +630,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "42.5 Wh (3.7 V)",
@@ -702,8 +697,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "42.5 Wh (3.7 V)",
@@ -835,8 +829,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "43 Wh (3.7 V)",
@@ -903,8 +896,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "43 Wh (3.7 V)",
@@ -1036,8 +1028,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -1105,8 +1096,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -1236,8 +1226,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1304,8 +1293,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1437,8 +1425,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1506,8 +1493,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1637,8 +1623,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "19.32 Wh (3.82 V)",
@@ -1768,8 +1753,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "27.3 Wh (3.73 V)",
@@ -1837,8 +1821,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Geekbench 3": "3058 \/ 5247 (Multi-Core)",
     "Geekbench 2": "3443",
@@ -1901,8 +1884,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "27.91 Wh (3.82 V)",
@@ -1970,8 +1952,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Geekbench 3": "3160 \/ 5411 (Multi-Core)",
     "Geekbench 2": "3591",
@@ -2033,8 +2014,7 @@
     "BatteryLife": {
       "Audio Playback": "10",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "9"
+      "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
       "Value": "38.8 Wh (3.77 V)",

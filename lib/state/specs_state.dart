@@ -9,13 +9,17 @@ class SpecsState = _SpecsStateBase with _$SpecsState;
 
 abstract class _SpecsStateBase with Store {
   @observable
-  List<Parameter> parameters = [];
+  Map<String, dynamic> parameters = <String, List<String>>{};
 
   @observable
   List<Device> devices = [];
 
+  // выбранное устройство
+  @observable
+  Device? device;
+
   @action
-  void setParameters(List<Parameter> params) {
+  void setParameters(Map<String, dynamic> params) {
     parameters = params;
   }
 
@@ -23,4 +27,13 @@ abstract class _SpecsStateBase with Store {
   void setDevices(List<Device> devs) {
     devices = devs;
   }
+
+  @action
+  void setDevice(Device dev) {
+    device = dev;
+  }
+
+  List<Device> get knownDevices => devices.where((d) => d.isKnown).toList(growable: false);
+
+  List<String> get devicesIds => knownDevices.map((e) => e.id).toList(growable: false);
 }

@@ -5,8 +5,7 @@
     "BatteryLife": {
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over Wi-Fi": "10",
-      "Browsing over 3G": "8"
+      "Browsing over Wi-Fi": "10"
     }
   },
   "iPhone1,1": {
@@ -48,7 +47,6 @@
     },
     "BatteryLife": {
       "Audio Playback": "24",
-      "Talk over 2G": "8",
       "Video Playback": "7",
       "Browsing over Wi-Fi": "6"
     },
@@ -107,11 +105,8 @@
       "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz) UMTS\/HSDPA (850, 1900, 2100 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "5",
       "Audio Playback": "24",
-      "Talk over 2G": "10",
       "Video Playback": "7",
-      "Browsing over 3G": "5",
       "Browsing over Wi-Fi": "9"
     },
     "Battery Capacity": {
@@ -172,11 +167,8 @@
       "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "5",
       "Audio Playback": "30",
-      "Talk over 2G": "12",
       "Video Playback": "10",
-      "Browsing over 3G": "5",
       "Browsing over Wi-Fi": "9"
     },
     "Battery Capacity": {
@@ -238,11 +230,8 @@
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "7",
       "Audio Playback": "40",
-      "Talk over 2G": "14",
       "Video Playback": "10",
-      "Browsing over 3G": "6",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -308,11 +297,8 @@
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "7",
       "Audio Playback": "40",
-      "Talk over 2G": "14",
       "Video Playback": "10",
-      "Browsing over 3G": "6",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -378,10 +364,8 @@
       "Value": "CDMA EV-DO Rev. A (800, 1900 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "7",
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over 3G": "6",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -447,11 +431,8 @@
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev.A (800, 1900 MHz)"
     },
     "BatteryLife": {
-      "Talk over 3G": "8",
       "Audio Playback": "40",
-      "Talk over 2G": "14",
       "Video Playback": "10",
-      "Browsing over 3G": "6",
       "Browsing over Wi-Fi": "9"
     },
     "Battery Capacity": {
@@ -516,10 +497,8 @@
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) LTE (Bands 4,17 - A1428; Bands 1,3,5 - A1429)"
     },
     "BatteryLife": {
-      "Talk over 3G": "8",
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over 3G": "8",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -585,10 +564,8 @@
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM Model: LTE (Bands 1, 3, 5) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz); LTE (Bands 1, 3, 5, 13, 25)"
     },
     "BatteryLife": {
-      "Talk over 3G": "8",
       "Audio Playback": "40",
       "Video Playback": "10",
-      "Browsing over 3G": "8",
       "Browsing over Wi-Fi": "10"
     },
     "Battery Capacity": {
@@ -656,9 +633,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "10",
       "Audio Playback": "40",
-      "Talk over 3G": "10",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "8",
       "Video Playback": "10"
     },
     "Battery Capacity": {
@@ -726,9 +701,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "10",
       "Audio Playback": "40",
-      "Talk over 3G": "10",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "8",
       "Video Playback": "10"
     },
     "Battery Capacity": {
@@ -797,9 +770,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "10",
       "Audio Playback": "40",
-      "Talk over 3G": "10",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "8",
       "Video Playback": "10"
     },
     "Battery Capacity": {
@@ -868,9 +839,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "10",
       "Audio Playback": "40",
-      "Talk over 3G": "10",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "8",
       "Video Playback": "10"
     },
     "Battery Capacity": {
@@ -939,9 +908,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "12",
       "Audio Playback": "80",
-      "Talk over 3G": "24",
       "Browsing over LTE": "12",
-      "Browsing over 3G": "12",
       "Video Playback": "14"
     },
     "Battery Capacity": {
@@ -1009,9 +976,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "11",
       "Audio Playback": "50",
-      "Talk over 3G": "14",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "10",
       "Video Playback": "11"
     },
     "Battery Capacity": {
@@ -1078,9 +1043,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "11",
       "Audio Playback": "50",
-      "Talk over 3G": "14",
       "Browsing over LTE": "10",
-      "Browsing over 3G": "10",
       "Video Playback": "11"
     },
     "Battery Capacity": {
@@ -1147,9 +1110,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "12",
       "Audio Playback": "80",
-      "Talk over 3G": "24",
       "Browsing over LTE": "12",
-      "Browsing over 3G": "12",
       "Video Playback": "14"
     },
     "Battery Capacity": {
@@ -1216,9 +1177,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "13",
       "Audio Playback": "50",
-      "Talk over 3G": "14",
       "Browsing over LTE": "13",
-      "Browsing over 3G": "12",
       "Video Playback": "13"
     },
     "Battery Capacity": {
@@ -1285,9 +1244,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "14",
       "Audio Playback": "40",
-      "Talk over 3G": "14",
       "Browsing over LTE": "12",
-      "Browsing over 3G": "12",
       "Video Playback": "13"
     },
     "Battery Capacity": {
@@ -1354,9 +1311,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "15",
       "Audio Playback": "60",
-      "Talk over 3G": "21",
       "Browsing over LTE": "13",
-      "Browsing over 3G": "13",
       "Video Playback": "14"
     },
     "Battery Capacity": {
@@ -1423,9 +1378,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "14",
       "Audio Playback": "40",
-      "Talk over 3G": "14",
       "Browsing over LTE": "12",
-      "Browsing over 3G": "12",
       "Video Playback": "13"
     },
     "Battery Capacity": {
@@ -1492,9 +1445,7 @@
     "BatteryLife": {
       "Browsing over Wi-Fi": "15",
       "Audio Playback": "60",
-      "Talk over 3G": "21",
       "Browsing over LTE": "13",
-      "Browsing over 3G": "13",
       "Video Playback": "14"
     },
     "Battery Capacity": {
