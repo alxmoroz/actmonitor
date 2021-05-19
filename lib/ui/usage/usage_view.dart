@@ -1,11 +1,12 @@
-import 'package:amonitor/components/colors.dart';
-import 'package:amonitor/components/material_wrapper.dart';
-import 'package:amonitor/components/text/text_widgets.dart';
-import 'package:amonitor/components/usage_card.dart';
 import 'package:amonitor/services/init.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+
+import '../components/colors.dart';
+import '../components/material_wrapper.dart';
+import '../components/text/text_widgets.dart';
+import 'usage_card.dart';
 
 class UsageView extends StatelessWidget {
   Widget buildRamUsage(BuildContext ctx) {

@@ -1,8 +1,9 @@
-import 'package:amonitor/components/colors.dart';
-import 'package:amonitor/components/text/text_widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
+import '../components/colors.dart';
+import '../components/text/text_widgets.dart';
 
 class UsageElement {
   const UsageElement(this.label, this.value, this.color);

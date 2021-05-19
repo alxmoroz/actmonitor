@@ -1,11 +1,12 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/components/colors.dart';
-import 'package:amonitor/components/notch.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
+
+import 'colors.dart';
+import 'notch.dart';
 
 class AMBottomSheet extends StatelessWidget {
   const AMBottomSheet(this.bodyWidget);

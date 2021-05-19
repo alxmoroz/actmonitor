@@ -1,8 +1,9 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'colors.dart';
 
 class Notch extends StatelessWidget {
   const Notch();

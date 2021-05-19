@@ -1,8 +1,9 @@
-import 'package:amonitor/components/material_wrapper.dart';
-import 'package:amonitor/components/text/text_widgets.dart';
 import 'package:amonitor/services/init.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+
+import '../components/material_wrapper.dart';
+import '../components/text/text_widgets.dart';
 
 class BatteryView extends StatelessWidget {
   Widget buildBatteryInfo() {

@@ -1,7 +1,8 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/components/colors.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../colors.dart';
 
 enum ButtonType { primary, secondary, outlined, error }
 

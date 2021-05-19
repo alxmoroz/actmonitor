@@ -1,12 +1,13 @@
 import 'dart:async';
 
-import 'package:amonitor/components/icons.dart';
 import 'package:amonitor/services/init.dart';
-import 'package:amonitor/views/battery_view.dart';
-import 'package:amonitor/views/compare_view.dart';
-import 'package:amonitor/views/specs_view.dart';
-import 'package:amonitor/views/usage_view.dart';
 import 'package:flutter/cupertino.dart';
+
+import 'compare_view.dart';
+import 'components/icons.dart';
+import 'specs_view.dart';
+import 'usage/battery_view.dart';
+import 'usage/usage_view.dart';
 
 class MainView extends StatefulWidget {
   @override

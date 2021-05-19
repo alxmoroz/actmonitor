@@ -1,6 +1,7 @@
-import 'package:amonitor/components/material_wrapper.dart';
-import 'package:amonitor/components/text/text_widgets.dart';
 import 'package:flutter/cupertino.dart';
+
+import 'components/material_wrapper.dart';
+import 'components/text/text_widgets.dart';
 
 class CompareView extends StatelessWidget {
   @override

@@ -1,13 +1,13 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/components/material_wrapper.dart';
-import 'package:amonitor/views/main_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'generated/l10n.dart';
 import 'services/init.dart';
+import 'ui/components/material_wrapper.dart';
+import 'ui/main_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
