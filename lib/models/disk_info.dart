@@ -12,12 +12,11 @@ class DiskInfo extends UsageInfo {
 
   @override
   void fillData() {
-    if (values != null && values!.length == 2) {
-      free = values![0];
-      total = values![1];
-      exception = null;
+    if (values.length == 2) {
+      free = values[0];
+      total = values[1];
     } else {
-      exception = Exception('Failed to get disk info.');
+      throw Exception('Failed to get disk info.');
     }
   }
 }

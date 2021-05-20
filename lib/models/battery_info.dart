@@ -16,12 +16,11 @@ class BatteryInfo extends UsageInfo {
 
   @override
   void fillData() {
-    if (values != null && values!.length == 2 && values![0] > -1) {
-      rawLevel = values![0];
-      rawState = values![1];
-      exception = null;
+    if (values.length == 2 && values[0] > -1) {
+      rawLevel = values[0];
+      rawState = values[1];
     } else {
-      exception = Exception('Failed to get Battery info.');
+      throw Exception('Failed to get Battery info.');
     }
   }
 }

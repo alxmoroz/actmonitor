@@ -20,16 +20,15 @@ class RamInfo extends UsageInfo {
 
   @override
   void fillData() {
-    if (values != null && values!.length == 6) {
-      wired = values![0];
-      active = values![1];
-      inactive = values![2];
-      compressed = values![3];
-      free = values![4];
-      total = values![5];
-      exception = null;
+    if (values.length == 6) {
+      wired = values[0];
+      active = values[1];
+      inactive = values[2];
+      compressed = values[3];
+      free = values[4];
+      total = values[5];
     } else {
-      exception = Exception('Failed to get RAM info.');
+      throw Exception('Failed to get RAM info.');
     }
   }
 }

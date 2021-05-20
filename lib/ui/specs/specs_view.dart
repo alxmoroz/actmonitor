@@ -45,13 +45,11 @@ class SpecsView extends StatelessWidget {
     }
 
     return Expanded(
-      child: Scrollbar(
-        child: ListView.separated(
-          padding: EdgeInsets.zero,
-          itemBuilder: (_, index) => _buildItem(index),
-          itemCount: params.length,
-          separatorBuilder: (_, int index) => const Separator(height: 4),
-        ),
+      child: ListView.separated(
+        padding: EdgeInsets.zero,
+        itemBuilder: (_, index) => _buildItem(index),
+        itemCount: params.length,
+        separatorBuilder: (_, int index) => const Separator(height: 4),
       ),
     );
   }
@@ -61,7 +59,7 @@ class SpecsView extends StatelessWidget {
     return ListTile(
       title: TitleText(specsState.device?.name ?? 'Select device'),
       subtitle: detName.isNotEmpty ? SubtitleText(detName) : null,
-      trailing: dropdownIcon(),
+      trailing: dropdownIcon,
       onTap: _selectDevice,
       dense: true,
       visualDensity: VisualDensity.compact,
@@ -71,6 +69,8 @@ class SpecsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
+      // backgroundColor: greyColor3,
+      backgroundColor: Colors.transparent,
       child: SafeArea(
         child: materialWrap(
           Observer(

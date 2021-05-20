@@ -1,12 +1,13 @@
 import 'dart:async';
 
 import 'package:amonitor/services/init.dart';
+import 'package:amonitor/ui/components/images.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-import 'compare_view.dart';
+import 'compare/compare_view.dart';
 import 'components/icons.dart';
 import 'specs/specs_view.dart';
-import 'usage/battery_view.dart';
 import 'usage/usage_view.dart';
 
 class MainView extends StatefulWidget {
@@ -42,21 +43,26 @@ class _MainViewState extends State<MainView> {
 
     final tabViews = [
       UsageView(),
-      BatteryView(),
       SpecsView(),
       CompareView(),
     ];
 
-    return CupertinoTabScaffold(
-      tabBar: CupertinoTabBar(
-        items: [
-          BottomNavigationBarItem(icon: usageTabbarIcon()),
-          BottomNavigationBarItem(icon: batteryTabbarIcon()),
-          BottomNavigationBarItem(icon: specsTabbarIcon()),
-          BottomNavigationBarItem(icon: compareTabbarIcon()),
-        ],
+    return Container(
+      decoration: bgDecoration,
+      child: CupertinoTabScaffold(
+        backgroundColor: Colors.transparent,
+        tabBar: CupertinoTabBar(
+          backgroundColor: Colors.transparent,
+          items: [
+            BottomNavigationBarItem(icon: usageTabbarIcon),
+            BottomNavigationBarItem(icon: specsTabbarIcon),
+            BottomNavigationBarItem(icon: compareTabbarIcon),
+          ],
+        ),
+        tabBuilder: (_, index) => CupertinoTabView(
+          builder: (_) => tabViews[index],
+        ),
       ),
-      tabBuilder: (BuildContext context, int index) => CupertinoTabView(builder: (BuildContext context) => tabViews[index]),
     );
   }
 }

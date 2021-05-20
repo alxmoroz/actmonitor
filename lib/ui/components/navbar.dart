@@ -12,7 +12,7 @@ Widget _backButton(BuildContext context) =>
     CupertinoNavigationBarBackButton(onPressed: () => Navigator.of(context).canPop() ? Navigator.of(context).pop() : null);
 
 CupertinoNavigationBar navBar(BuildContext context, {Widget? leading, Widget? middle, String? title}) => CupertinoNavigationBar(
-      leading: mQuery(leading ?? _backButton(context)),
+      leading: leading != null || Navigator.of(context).canPop() ? mQuery(leading ?? _backButton(context)) : null,
       middle: middle != null
           ? mQuery(middle)
           : title != null

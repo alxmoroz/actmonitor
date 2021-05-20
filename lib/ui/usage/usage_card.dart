@@ -21,6 +21,7 @@ class UsageCard extends StatelessWidget {
     required this.title,
     required this.elements,
     required this.total,
+    this.placeholder = '',
     this.base = 1024,
   });
 
@@ -32,6 +33,8 @@ class UsageCard extends StatelessWidget {
   final int total;
   @protected
   final double base;
+  @protected
+  final String placeholder;
 
   String bytesToString(int bytes) {
     String unit = 'KB';
@@ -48,7 +51,7 @@ class UsageCard extends StatelessWidget {
       divider *= base;
       unit = 'TB';
     }
-    return '${NumberFormat("0.#").format(bytes / divider)} $unit';
+    return '${NumberFormat("#").format(bytes / divider)} $unit';
   }
 
   Widget buildUsageChart() {
@@ -103,8 +106,11 @@ class UsageCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           TitleText('$title ${bytesToString(total)}', padding: const EdgeInsets.all(12), align: TextAlign.left),
-          buildUsageChart(),
-          buildLegend(),
+          if (placeholder.isEmpty) ...[
+            buildUsageChart(),
+            buildLegend(),
+          ],
+          if (placeholder.isNotEmpty) Padding(padding: const EdgeInsets.all(12), child: NormalText(placeholder)),
         ],
       ),
     );

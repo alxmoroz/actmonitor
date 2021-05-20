@@ -20,25 +20,22 @@ class DevicesList extends StatelessWidget {
         const SizedBox(height: 8),
         Container(
           constraints: BoxConstraints(maxHeight: MediaQuery.of(context).size.height - 190),
-          child: Scrollbar(
-            // isAlwaysShown: true,
-            child: SingleChildScrollView(
-              child: SingleVariantSelection(
-                specsState.knownDevices
-                    .map((device) => SelectionItem(
-                        view: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            NormalText(device.name),
-                            if (device.detailName.isNotEmpty) SubtitleText(device.detailName),
-                          ],
-                        ),
-                        onSelect: () => Navigator.of(context).pop(device)))
-                    .toList(growable: false),
-                selectedIndex: _selectionIndex(),
-                hasDivider: true,
-              ),
+          child: SingleChildScrollView(
+            child: SingleVariantSelection(
+              specsState.knownDevices
+                  .map((device) => SelectionItem(
+                      view: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          NormalText(device.name),
+                          if (device.detailName.isNotEmpty) SubtitleText(device.detailName),
+                        ],
+                      ),
+                      onSelect: () => Navigator.of(context).pop(device)))
+                  .toList(growable: false),
+              selectedIndex: _selectionIndex(),
+              hasDivider: true,
             ),
           ),
         ),
