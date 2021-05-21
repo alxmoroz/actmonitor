@@ -5,7 +5,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import '../components/colors.dart';
 import '../components/text/text_widgets.dart';
 
-class CompareView extends StatelessWidget {
+class ComparisonView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(

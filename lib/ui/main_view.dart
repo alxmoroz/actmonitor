@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/comparison/comparison_view.dart';
 import 'package:amonitor/ui/components/images.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'compare/compare_view.dart';
 import 'components/icons.dart';
 import 'specs/specs_view.dart';
 import 'usage/usage_view.dart';
@@ -44,7 +44,7 @@ class _MainViewState extends State<MainView> {
     final tabViews = [
       UsageView(),
       SpecsView(),
-      CompareView(),
+      ComparisonView(),
     ];
 
     return Container(
