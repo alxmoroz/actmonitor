@@ -1,12 +1,12 @@
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import '../components/colors.dart';
 import '../components/text/text_widgets.dart';
 
 class UsageElement {
-  const UsageElement(this.label, this.value, this.color);
+  const UsageElement(this.label, this.value, [this.color]);
 
   @protected
   final String label;
@@ -59,28 +59,26 @@ class UsageCard extends StatelessWidget {
 
     return elements.isNotEmpty
         ? Stack(
-            children: elements
-                .map((el) {
-                  lastValue += el.value;
-                  final color = el.color;
-                  return LinearProgressIndicator(
-                    value: lastValue / total,
-                    minHeight: 24,
-                    valueColor: color != null ? AlwaysStoppedAnimation<Color>(color) : null,
-                    backgroundColor: Colors.transparent,
-                  );
-                })
-                .toList(growable: false)
-                .reversed
-                .toList(growable: false),
-          )
+      children: elements
+          .map((el) {
+        lastValue += el.value;
+        final color = el.color;
+        return LinearProgressIndicator(
+          value: lastValue / total,
+          minHeight: 24,
+          valueColor: color != null ? AlwaysStoppedAnimation<Color>(color) : null,
+          backgroundColor: Colors.transparent,
+        );
+      })
+          .toList(growable: false)
+          .reversed
+          .toList(growable: false),
+    )
         : Container();
   }
 
-  Widget usageLabel(
-    String title,
-    int value,
-  ) =>
+  Widget usageLabel(String title,
+      int value,) =>
       Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
