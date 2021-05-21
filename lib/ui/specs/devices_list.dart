@@ -1,6 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

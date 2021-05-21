@@ -4,7 +4,8 @@ import 'package:amonitor/generated/l10n.dart';
 import 'package:amonitor/models/app_settings.dart';
 import 'package:amonitor/services/hive_storage.dart';
 import 'package:amonitor/services/specs_client.dart';
-import 'package:amonitor/state/global_state.dart';
+import 'package:amonitor/state/app_state.dart';
+import 'package:amonitor/state/comparison_state.dart';
 import 'package:amonitor/state/specs_state.dart';
 import 'package:amonitor/state/usage_state.dart';
 import 'package:package_info/package_info.dart';
@@ -12,21 +13,21 @@ import 'package:package_info/package_info.dart';
 const bool kIsWeb = identical(0, 0.0);
 
 late AppSettings settings;
-late GlobalState globalState;
+late AppState appState;
 late UsageState usageState;
 late SpecsState specsState;
+late ComparisonState comparisonState;
 
 S get loc => S.current;
 
-class Init {
-  Init();
-
+class Globals {
   static Future<void> initialize() async {
     await HiveStorage.init();
 
-    globalState = GlobalState();
+    appState = AppState();
     usageState = UsageState();
     specsState = SpecsState();
+    comparisonState = ComparisonState();
 
     // первый запуск приложения
     final firstLaunch = HiveStorage.appSettingsBox.values.isEmpty;

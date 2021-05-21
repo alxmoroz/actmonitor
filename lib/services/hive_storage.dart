@@ -1,7 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
 import 'package:amonitor/models/app_settings.dart';
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
 

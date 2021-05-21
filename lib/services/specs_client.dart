@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:amonitor/models/devices.dart';
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:flutter/services.dart';
 
 class SpecsClient {

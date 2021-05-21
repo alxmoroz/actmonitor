@@ -1,7 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
 import 'package:amonitor/models/devices.dart';
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/selection/separator.dart';
 import 'package:amonitor/ui/specs/devices_list.dart';
 import 'package:flutter/cupertino.dart';
@@ -18,7 +18,7 @@ class SpecsView extends StatelessWidget {
   Future<void> _selectDevice() async {
     if (specsState.devices.isNotEmpty) {
       final device = await showModalBottomSheet<Device>(
-        context: globalState.context!,
+        context: appState.context!,
         backgroundColor: Colors.transparent,
         isScrollControlled: true,
         enableDrag: false,

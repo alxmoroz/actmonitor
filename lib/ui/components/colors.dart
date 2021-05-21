@@ -1,9 +1,9 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 
-Color _r(CupertinoDynamicColor color) => CupertinoDynamicColor.resolve(color, globalState.context!);
+Color _r(CupertinoDynamicColor color) => CupertinoDynamicColor.resolve(color, appState.context!);
 
 Color get warningColor => _r(CupertinoColors.activeOrange);
 

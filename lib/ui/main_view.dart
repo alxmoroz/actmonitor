@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:amonitor/services/init.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/images.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +39,7 @@ class _MainViewState extends State<MainView> {
 
   @override
   Widget build(BuildContext context) {
-    globalState.setContext(context);
+    appState.setContext(context);
 
     final tabViews = [
       UsageView(),

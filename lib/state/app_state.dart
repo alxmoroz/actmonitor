@@ -3,11 +3,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:mobx/mobx.dart';
 
-part 'global_state.g.dart';
+part 'app_state.g.dart';
 
-class GlobalState = _GlobalStateBase with _$GlobalState;
+class AppState = _AppStateBase with _$AppState;
 
-abstract class _GlobalStateBase with Store {
+abstract class _AppStateBase with Store {
   @observable
   BuildContext? context;
 

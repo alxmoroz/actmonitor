@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'generated/l10n.dart';
-import 'services/init.dart';
+import 'services/globals.dart';
 import 'ui/main_view.dart';
 
 Future<void> main() async {
@@ -27,7 +27,7 @@ class SplashScreen extends StatelessWidget {
 }
 
 class App extends StatelessWidget {
-  final Future<void> _initFuture = Init.initialize();
+  final Future<void> _initFuture = Globals.initialize();
 
   @override
   Widget build(BuildContext context) {
