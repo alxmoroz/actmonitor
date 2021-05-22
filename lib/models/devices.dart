@@ -4,7 +4,9 @@ class ParamValue {
   final String name;
   final dynamic value;
 
-  bool get comparable => value is Map && value['numericValue'] != null && value['numericValue'].isNotEmpty;
+  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(value is Map ? (value['NumericValue'] ?? '') : toString())?.group(0) ?? '');
+
+  bool get comparable => numericValue != null;
 
   @override
   String toString() {

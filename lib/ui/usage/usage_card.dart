@@ -96,7 +96,7 @@ class UsageCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       color: greyColor6,
-      margin: const EdgeInsets.all(12),
+      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       elevation: 5,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,

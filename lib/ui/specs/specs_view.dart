@@ -49,7 +49,7 @@ class SpecsView extends StatelessWidget {
         padding: EdgeInsets.zero,
         itemBuilder: (_, index) => _buildItem(index),
         itemCount: params.length,
-        separatorBuilder: (_, int index) => const Separator(height: 4),
+        separatorBuilder: (_, index) => const Separator(height: 4),
       ),
     );
   }

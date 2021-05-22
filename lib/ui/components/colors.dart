@@ -9,6 +9,8 @@ Color get warningColor => _r(CupertinoColors.activeOrange);
 
 Color get purpleColor => _r(CupertinoColors.systemPurple);
 
+Color get tealColor => _r(CupertinoColors.systemTeal);
+
 Color get indigoColor => _r(CupertinoColors.systemIndigo);
 
 Color get greenColor => _r(CupertinoColors.systemGreen);

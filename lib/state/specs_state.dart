@@ -36,4 +36,5 @@ abstract class _SpecsStateBase with Store {
   List<Device> get knownDevices => devices.where((d) => d.isKnown).toList(growable: false);
 
   List<String> get devicesIds => knownDevices.map((e) => e.id).toList(growable: false);
+  List<dynamic> paramsBySection(String section) => parameters[section] ?? <dynamic>[];
 }
