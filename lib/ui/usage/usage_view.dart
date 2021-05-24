@@ -63,7 +63,7 @@ class UsageView extends StatelessWidget {
               buildDiskUsage(),
               buildBatteryUsage(),
             ],
-              ),
+          ),
         ),
       ),
     );
