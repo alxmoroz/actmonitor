@@ -9,7 +9,9 @@
     }
   },
   "iPhone1,1": {
-    "Release Date": "2007-06-29T20:00:00Z",
+    "Release Date": {
+      "Date": "2007-06-29T20:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.0 + EDR Cambridge"
     },
@@ -18,10 +20,12 @@
       "NumericValue": "103 MHz"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3G"
     },
-    "Discontinued Date": "2008-07-11T20:00:00Z",
+    "Discontinued Date": {
+      "Date": "2008-07-11T20:00:00Z"
+    },
     "Supported OS": "iPhone OS 1.0 — 3.1.3",
     "Onboard RAM": {
       "Value": "LPDDR",
@@ -40,7 +44,7 @@
     },
     "Capacity": "4, 8 & 16 GB",
     "Dimensions": {
-      "Value": "115 × 61 × 11.6 mm"
+      "NumericValue": "115 × 61 × 11.6 mm"
     },
     "Cellular": {
       "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -62,13 +66,15 @@
       "Value": "2.0 MP f\/2.8"
     },
     "Weight": {
-      "Value": "135 g"
+      "NumericValue": "135 g"
     },
     "Price": "399-599 USD",
     "Geekbench 2": "135"
   },
   "iPhone1,2": {
-    "Release Date": "2008-07-11T20:00:00Z",
+    "Release Date": {
+      "Date": "2008-07-11T20:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.0 + EDR Cambridge"
     },
@@ -77,10 +83,12 @@
       "NumericValue": "103 MHz"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3G"
     },
-    "Discontinued Date": "2010-06-07T20:00:00Z",
+    "Discontinued Date": {
+      "Date": "2010-06-07T20:00:00Z"
+    },
     "Supported OS": "iPhone OS 2.0 — iOS 4.2.1",
     "Onboard RAM": {
       "Value": "LPDDR",
@@ -99,7 +107,7 @@
     },
     "Capacity": "8 & 16 GB",
     "Dimensions": {
-      "Value": "115.5 × 62.1 × 12.3 mm"
+      "NumericValue": "115.5 × 62.1 × 12.3 mm"
     },
     "Cellular": {
       "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz) UMTS\/HSDPA (850, 1900, 2100 MHz)"
@@ -121,16 +129,20 @@
       "Value": "2.0 MP f\/2.8"
     },
     "Weight": {
-      "Value": "133 g"
+      "NumericValue": "133 g"
     },
     "Price": "199-499 USD",
-    "Geekbench 2": "135",
+    "Geekbench 2": {
+      "NumericValue": "135"
+    },
     "Sensors": {
       "Value": "Sensors iPhone 3G"
     }
   },
   "iPhone2,1": {
-    "Release Date": "2009-06-19T20:00:00Z",
+    "Release Date": {
+      "Date": "2009-06-19T20:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR Broadcom"
     },
@@ -139,10 +151,12 @@
       "NumericValue": "150 MHz"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3GS"
     },
-    "Discontinued Date": "2012-09-12T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2012-09-12T07:00:00Z"
+    },
     "Supported OS": "iPhone OS 3.0 — iOS 6.1.6",
     "Onboard RAM": {
       "Value": "LPDDR",
@@ -161,7 +175,7 @@
     },
     "Capacity": "8, 16 & 32 GB",
     "Dimensions": {
-      "Value": "115.5 × 62.1 × 12.3 mm"
+      "NumericValue": "115.5 × 62.1 × 12.3 mm"
     },
     "Cellular": {
       "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz)"
@@ -175,7 +189,9 @@
       "Value": "4.51 Wh (3.7 V)",
       "NumericValue": "1219 mAh"
     },
-    "Geekbench 3": "150",
+    "Geekbench 3": {
+      "NumericValue": "150"
+    },
     "SIM Card": "Mini-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g"
@@ -184,16 +200,20 @@
       "Value": "Rear Camera iPhone 3GS"
     },
     "Price": "199-699 USD",
-    "Geekbench 2": "280",
+    "Geekbench 2": {
+      "NumericValue": "280"
+    },
     "Weight": {
-      "Value": "135 g"
+      "NumericValue": "135 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 3G"
     }
   },
   "iPhone3,1": {
-    "Release Date": "2010-06-24T20:00:00Z",
+    "Release Date": {
+      "Date": "2010-06-24T20:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR Broadcom"
     },
@@ -202,10 +222,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "3.5\" 960 × 640 (326 ppi)",
+      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2011-10-14T20:00:00Z",
+    "Discontinued Date": {
+      "Date": "2011-10-14T20:00:00Z"
+    },
     "Supported OS": "iOS 4.0 — 7.1.2",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -224,7 +246,7 @@
     },
     "Capacity": "8, 16 & 32 GB",
     "Dimensions": {
-      "Value": "115.2 × 58.6 × 9.3 mm"
+      "NumericValue": "115.2 × 58.6 × 9.3 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
@@ -238,7 +260,9 @@
       "Value": "5.25 Wh (3.7 V)",
       "NumericValue": "1420 mAh"
     },
-    "Geekbench 3": "206",
+    "Geekbench 3": {
+      "NumericValue": "206"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g\/n"
@@ -247,9 +271,11 @@
       "Value": "Rear Camera iPhone 4"
     },
     "Price": "199-749 USD",
-    "Geekbench 2": "378",
+    "Geekbench 2": {
+      "NumericValue": "378"
+    },
     "Weight": {
-      "Value": "137 g"
+      "NumericValue": "137 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -257,7 +283,9 @@
     "DetailName": "GSM"
   },
   "iPhone3,2": {
-    "Release Date": "2011-10-04T20:00:00Z",
+    "Release Date": {
+      "Date": "2011-10-04T20:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR Broadcom"
     },
@@ -266,10 +294,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "3.5\" 960 × 640 (326 ppi)",
+      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2013-09-10T20:00:00Z",
+    "Discontinued Date": {
+      "Date": "2013-09-10T20:00:00Z"
+    },
     "Supported OS": "iOS 4.0 — 7.1.2",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -291,7 +321,7 @@
     },
     "Capacity": "8 GB",
     "Dimensions": {
-      "Value": "115.2 × 58.6 × 9.3 mm"
+      "NumericValue": "115.2 × 58.6 × 9.3 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
@@ -305,7 +335,9 @@
       "Value": "5.25 Wh (3.7 V)",
       "NumericValue": "1420 mAh"
     },
-    "Geekbench 3": "206",
+    "Geekbench 3": {
+      "NumericValue": "206"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g\/n"
@@ -314,9 +346,11 @@
       "Value": "Rear Camera iPhone 4"
     },
     "Price": "99-549 USD",
-    "Geekbench 2": "378",
+    "Geekbench 2": {
+      "NumericValue": "378"
+    },
     "Weight": {
-      "Value": "137 g"
+      "NumericValue": "137 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -324,7 +358,9 @@
     "DetailName": "GSM (8 GB)"
   },
   "iPhone3,3": {
-    "Release Date": "2011-02-10T21:00:00Z",
+    "Release Date": {
+      "Date": "2011-02-10T21:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR Broadcom"
     },
@@ -333,10 +369,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "3.5\" 960 × 640 (326 ppi)",
+      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2013-09-10T20:00:00Z",
+    "Discontinued Date": {
+      "Date": "2013-09-10T20:00:00Z"
+    },
     "Supported OS": "iOS 4.2.2 — 7.1.2",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -358,7 +396,7 @@
     },
     "Capacity": "8, 16 & 32 GB",
     "Dimensions": {
-      "Value": "115.2 × 58.6 × 9.3 mm"
+      "NumericValue": "115.2 × 58.6 × 9.3 mm"
     },
     "Cellular": {
       "Value": "CDMA EV-DO Rev. A (800, 1900 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
@@ -372,7 +410,9 @@
       "Value": "5.25 Wh (3.7 V)",
       "NumericValue": "1420 mAh"
     },
-    "Geekbench 3": "206",
+    "Geekbench 3": {
+      "NumericValue": "206"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g\/n"
@@ -381,9 +421,11 @@
       "Value": "Rear Camera iPhone 4"
     },
     "Price": "199-749 USD",
-    "Geekbench 2": "378",
+    "Geekbench 2": {
+      "NumericValue": "378"
+    },
     "Weight": {
-      "Value": "137 g"
+      "NumericValue": "137 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -391,7 +433,9 @@
     "DetailName": "CDMA"
   },
   "iPhone4,1": {
-    "Release Date": "2011-10-14T07:00:00Z",
+    "Release Date": {
+      "Date": "2011-10-14T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -400,10 +444,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "3.5\" 960 × 640 (326 ppi)",
+      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2014-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 5.0 — iOS 9.3.5",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -425,7 +471,7 @@
     },
     "Capacity": "8, 16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "115.2 × 58.6 × 9.3 mm"
+      "NumericValue": "115.2 × 58.6 × 9.3 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev.A (800, 1900 MHz)"
@@ -439,7 +485,9 @@
       "Value": "5.3 Wh (3.7 V)",
       "NumericValue": "1430 mAh"
     },
-    "Geekbench 3": "215 \/ 406 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "215 \/ 406 (Multi-Core)"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g\/n"
@@ -448,16 +496,20 @@
       "Value": "Rear Camera iPhone 4S"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "617",
+    "Geekbench 2": {
+      "NumericValue": "617"
+    },
     "Weight": {
-      "Value": "140 g"
+      "NumericValue": "140 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
     }
   },
   "iPhone5,1": {
-    "Release Date": "2012-09-21T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-09-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -466,10 +518,12 @@
       "NumericValue": "266 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2013-09-10T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2013-09-10T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -491,7 +545,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "123.8 × 58.6 × 7.6 mm"
+      "NumericValue": "123.8 × 58.6 × 7.6 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) LTE (Bands 4,17 - A1428; Bands 1,3,5 - A1429)"
@@ -505,7 +559,9 @@
       "Value": "5.45 Wh (3.8 V)",
       "NumericValue": "1440 mAh"
     },
-    "Geekbench 3": "712 \/ 1279 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "712 \/ 1279 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -514,9 +570,11 @@
       "Value": "Rear Camera iPhone 5"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "1577",
+    "Geekbench 2": {
+      "NumericValue": "1577"
+    },
     "Weight": {
-      "Value": "112 g"
+      "NumericValue": "112 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -524,7 +582,9 @@
     "DetailName": "GSM"
   },
   "iPhone5,2": {
-    "Release Date": "2012-09-21T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-09-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -533,10 +593,12 @@
       "NumericValue": "266 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2013-09-10T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2013-09-10T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -558,7 +620,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "123.8 × 58.6 × 7.6 mm"
+      "NumericValue": "123.8 × 58.6 × 7.6 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM Model: LTE (Bands 1, 3, 5) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz); LTE (Bands 1, 3, 5, 13, 25)"
@@ -572,7 +634,9 @@
       "Value": "5.45 Wh (3.8 V)",
       "NumericValue": "1440 mAh"
     },
-    "Geekbench 3": "712 \/ 1279 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "712 \/ 1279 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -581,9 +645,11 @@
       "Value": "Rear Camera iPhone 5"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "1577",
+    "Geekbench 2": {
+      "NumericValue": "1577"
+    },
     "Weight": {
-      "Value": "112 g"
+      "NumericValue": "112 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -591,7 +657,9 @@
     "DetailName": "CDMA\/GSM"
   },
   "iPhone5,3": {
-    "Release Date": "2013-09-20T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-09-20T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -600,10 +668,12 @@
       "NumericValue": "266 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -625,7 +695,7 @@
     },
     "Capacity": "8, 16 & 32 GB",
     "Dimensions": {
-      "Value": "124.4 × 59.2 × 8.97 mm"
+      "NumericValue": "124.4 × 59.2 × 8.97 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) GSM Model: LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800,1700\/2100,1900,2100 MHz) LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25,26)"
@@ -640,7 +710,9 @@
       "Value": "5.73 Wh (3.8 V)",
       "NumericValue": "1510 mAh"
     },
-    "Geekbench 3": "700 \/ 1251 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "700 \/ 1251 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -649,9 +721,11 @@
       "Value": "Rear Camera iPhone 5"
     },
     "Price": "99-649 USD",
-    "Geekbench 2": "1637",
+    "Geekbench 2": {
+      "NumericValue": "1637"
+    },
     "Weight": {
-      "Value": "132 g"
+      "NumericValue": "132 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -659,7 +733,9 @@
     "DetailName": "GSM"
   },
   "iPhone5,4": {
-    "Release Date": "2013-09-20T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-09-20T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -668,10 +744,12 @@
       "NumericValue": "266 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -693,7 +771,7 @@
     },
     "Capacity": "8, 16 & 32 GB",
     "Dimensions": {
-      "Value": "124.4 × 59.2 × 8.97 mm"
+      "NumericValue": "124.4 × 59.2 × 8.97 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850,900,1800,1900 MHz) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 19, 20, 25) A1507 Model: UMTS\/HSPA+\/DC-HSDPA (850,900,1900,2100 MHz) LTE (Bands 1,2,3,5,7,8,20) A1529 Model: UMTS\/HSPA+\/DC-HSDPA (850,900,1900,2100 MHz) FDD-LTE (Bands 1,2,3,5,7,8,20) TD-LTE (Bands 38,39,40)"
@@ -708,7 +786,9 @@
       "Value": "5.73 Wh (3.8 V)",
       "NumericValue": "1510 mAh"
     },
-    "Geekbench 3": "700 \/ 1251 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "700 \/ 1251 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -717,9 +797,11 @@
       "Value": "Rear Camera iPhone 5"
     },
     "Price": "99-649 USD",
-    "Geekbench 2": "1637",
+    "Geekbench 2": {
+      "NumericValue": "1637"
+    },
     "Weight": {
-      "Value": "132 g"
+      "NumericValue": "132 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 4"
@@ -727,7 +809,9 @@
     "DetailName": "GSM\/CDMA"
   },
   "iPhone6,1": {
-    "Release Date": "2013-09-20T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-09-20T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -736,10 +820,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2016-03-21T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -762,7 +848,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "123.8 × 58.6 × 7.6 mm"
+      "NumericValue": "123.8 × 58.6 × 7.6 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850,900,1800,1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26(A1453 Model)) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz)"
@@ -777,7 +863,9 @@
       "Value": "5.92 Wh (3.8 V)",
       "NumericValue": "1560 mAh"
     },
-    "Geekbench 3": "1401 \/ 2526 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1401 \/ 2526 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -786,9 +874,11 @@
       "Value": "Rear Camera iPhone 5s"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "2224",
+    "Geekbench 2": {
+      "NumericValue": "2224"
+    },
     "Weight": {
-      "Value": "112 g"
+      "NumericValue": "112 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 5s"
@@ -796,7 +886,9 @@
     "DetailName": "A1453\/A1533"
   },
   "iPhone6,2": {
-    "Release Date": "2013-09-20T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-09-20T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -805,10 +897,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2016-03-21T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -831,7 +925,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "123.8 × 58.6 × 7.6 mm"
+      "NumericValue": "123.8 × 58.6 × 7.6 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM\/EDGE (850, 900, 1800, 1900 MHz);  A1457 Model: LTE (Bands 1, 2, 3, 5, 7, 8, 20) A1530 Model: FDD-LTE (Bands 1, 2, 3, 5, 7, 8, 20); TD-LTE (Bands 38, 39, 40)"
@@ -846,7 +940,9 @@
       "Value": "5.92 Wh (3.8 V)",
       "NumericValue": "1560 mAh"
     },
-    "Geekbench 3": "1401 \/ 2526 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1401 \/ 2526 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -855,9 +951,11 @@
       "Value": "Rear Camera iPhone 5s"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "2224",
+    "Geekbench 2": {
+      "NumericValue": "2224"
+    },
     "Weight": {
-      "Value": "112 g"
+      "NumericValue": "112 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 5s"
@@ -865,7 +963,9 @@
     "DetailName": "A1457\/A1530"
   },
   "iPhone7,1": {
-    "Release Date": "2014-09-19T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-09-19T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -874,10 +974,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "5.5\" 1920 × 1080 (401 ppi)",
+      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "Display iPhone 6+"
     },
-    "Discontinued Date": "2016-09-07T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-09-07T07:00:00Z"
+    },
     "Supported OS": "iOS 8.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -900,7 +1002,7 @@
     },
     "Capacity": "16, 64 & 128 GB",
     "Dimensions": {
-      "Value": "158.1 × 77.8 × 7.1 mm"
+      "NumericValue": "158.1 × 77.8 × 7.1 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29) CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz) Model A1524: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
@@ -915,7 +1017,9 @@
       "Value": "11.1 Wh (3.8 V)",
       "NumericValue": "2915 mAh"
     },
-    "Geekbench 3": "1578 \/ 2812 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1578 \/ 2812 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -924,16 +1028,20 @@
       "Value": "Rear Camera iPhone 6"
     },
     "Price": "299-949 USD",
-    "Geekbench 2": "2384",
+    "Geekbench 2": {
+      "NumericValue": "2384"
+    },
     "Weight": {
-      "Value": "172 g"
+      "NumericValue": "172 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
     }
   },
   "iPhone7,2": {
-    "Release Date": "2014-09-19T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-09-19T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -942,10 +1050,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4.7\" 1334 × 750 (326 ppi)",
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "Display iPhone 6"
     },
-    "Discontinued Date": "2016-09-07T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-09-07T07:00:00Z"
+    },
     "Supported OS": "iOS 8.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -968,7 +1078,7 @@
     },
     "Capacity": "16, 64 & 128 GB",
     "Dimensions": {
-      "Value": "138.1 × 67.0 × 6.9 mm"
+      "NumericValue": "138.1 × 67.0 × 6.9 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29)CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz) Model A1586: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
@@ -983,7 +1093,9 @@
       "Value": "6.91 Wh (3.8 V)",
       "NumericValue": "1810 mAh"
     },
-    "Geekbench 3": "1612 \/ 2885 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1612 \/ 2885 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -992,16 +1104,20 @@
       "Value": "Rear Camera iPhone 6"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "2421",
+    "Geekbench 2": {
+      "NumericValue": "2421"
+    },
     "Weight": {
-      "Value": "129 g"
+      "NumericValue": "129 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
     }
   },
   "iPhone8,1": {
-    "Release Date": "2015-09-25T07:00:00Z",
+    "Release Date": {
+      "Date": "2015-09-25T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1010,7 +1126,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4.7\" 1334 × 750 (326 ppi)",
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "Display iPhone 6s"
     },
     "Supported OS": "iOS 9.0 — current",
@@ -1035,7 +1151,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "138.3 × 67.1 × 7.1 mm"
+      "NumericValue": "138.3 × 67.1 × 7.1 mm"
     },
     "Cellular": {
       "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1050,7 +1166,9 @@
       "Value": "6.55 Wh (3.82 V)",
       "NumericValue": "1715 mAh"
     },
-    "Geekbench 3": "2506 \/ 4346 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "2506 \/ 4346 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1059,16 +1177,20 @@
       "Value": "Rear Camera iPhone 6s"
     },
     "Price": "199-849 USD",
-    "Geekbench 2": "3000",
+    "Geekbench 2": {
+      "NumericValue": "3000"
+    },
     "Weight": {
-      "Value": "143 g"
+      "NumericValue": "143 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
     }
   },
   "iPhone8,2": {
-    "Release Date": "2015-09-09T07:00:00Z",
+    "Release Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1077,7 +1199,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "5.5\" 1920 × 1080 (401 ppi)",
+      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "Display iPhone 6s+"
     },
     "Supported OS": "iOS 9.0 — current",
@@ -1102,7 +1224,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "158.2 × 77.9 × 7.3 mm"
+      "NumericValue": "158.2 × 77.9 × 7.3 mm"
     },
     "Cellular": {
       "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1117,7 +1239,9 @@
       "Value": "10.45 Wh (3.8 V)",
       "NumericValue": "2750 mAh"
     },
-    "Geekbench 3": "2496 \/ 4345 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "2496 \/ 4345 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1126,16 +1250,20 @@
       "Value": "Rear Camera iPhone 6s"
     },
     "Price": "299-949 USD",
-    "Geekbench 2": "2985",
+    "Geekbench 2": {
+      "NumericValue": "2985"
+    },
     "Weight": {
-      "Value": "192 g"
+      "NumericValue": "192 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
     }
   },
   "iPhone8,4": {
-    "Release Date": "2016-03-21T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1144,7 +1272,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 9.3 — current",
@@ -1169,7 +1297,7 @@
     },
     "Capacity": "16 & 64 GB",
     "Dimensions": {
-      "Value": "123.8 × 58.6 × 7.6 mm"
+      "NumericValue": "123.8 × 58.6 × 7.6 mm"
     },
     "Cellular": {
       "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25,26,28,29) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1184,7 +1312,9 @@
       "Value": "6.21 Wh (3.82 V)",
       "NumericValue": "1624 mAh"
     },
-    "Geekbench 3": "2544 \/ 4422 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "2544 \/ 4422 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1193,16 +1323,20 @@
       "Value": "Rear Camera iPhone 6s"
     },
     "Price": "399-499 USD",
-    "Geekbench 2": "3035",
+    "Geekbench 2": {
+      "NumericValue": "3035"
+    },
     "Weight": {
-      "Value": "113 g"
+      "NumericValue": "113 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 5s"
     }
   },
   "iPhone9,1": {
-    "Release Date": "2016-09-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-09-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1211,7 +1345,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "4.7\" 1334 × 750 (326 ppi)",
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "Display iPhone 6s"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1236,7 +1370,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "138.3 × 67.1 × 7.1 mm"
+      "NumericValue": "138.3 × 67.1 × 7.1 mm"
     },
     "Cellular": {
       "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1251,7 +1385,9 @@
       "Value": "7.45 Wh (3.82 V)",
       "NumericValue": "1960 mAh"
     },
-    "Geekbench 3": "3427 \/ 5524 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
@@ -1261,7 +1397,7 @@
     },
     "Price": "199-849 USD",
     "Weight": {
-      "Value": "138 g"
+      "NumericValue": "138 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
@@ -1269,7 +1405,9 @@
     "DetailName": "A1660"
   },
   "iPhone9,2": {
-    "Release Date": "2016-09-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-09-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1278,7 +1416,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "5.5\" 1920 × 1080 (401 ppi)",
+      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "Display iPhone 6s+"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1303,7 +1441,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "158.2 × 77.9 × 7.3 mm"
+      "NumericValue": "158.2 × 77.9 × 7.3 mm"
     },
     "Cellular": {
       "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1318,7 +1456,9 @@
       "Value": "11.1 Wh (3.82 V)",
       "NumericValue": "2900 mAh"
     },
-    "Geekbench 3": "3427 \/ 5524 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
@@ -1328,7 +1468,7 @@
     },
     "Price": "319-969 USD",
     "Weight": {
-      "Value": "188 g"
+      "NumericValue": "188 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
@@ -1336,7 +1476,9 @@
     "DetailName": "A1661"
   },
   "iPhone9,3": {
-    "Release Date": "2016-09-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-09-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1345,7 +1487,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "4.7\" 1334 × 750 (326 ppi)",
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "Display iPhone 6s"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1370,7 +1512,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "138.3 × 67.1 × 7.1 mm"
+      "NumericValue": "138.3 × 67.1 × 7.1 mm"
     },
     "Cellular": {
       "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1385,7 +1527,9 @@
       "Value": "7.45 Wh (3.82 V)",
       "NumericValue": "1960 mAh"
     },
-    "Geekbench 3": "3427 \/ 5524 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
@@ -1395,7 +1539,7 @@
     },
     "Price": "199-849 USD",
     "Weight": {
-      "Value": "138 g"
+      "NumericValue": "138 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"
@@ -1403,7 +1547,9 @@
     "DetailName": "A1778"
   },
   "iPhone9,4": {
-    "Release Date": "2016-09-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-09-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1412,7 +1558,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "5.5\" 1920 × 1080 (401 ppi)",
+      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "Display iPhone 6s+"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1437,7 +1583,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "158.2 × 77.9 × 7.3 mm"
+      "NumericValue": "158.2 × 77.9 × 7.3 mm"
     },
     "Cellular": {
       "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -1452,7 +1598,9 @@
       "Value": "11.1 Wh (3.82 V)",
       "NumericValue": "2900 mAh"
     },
-    "Geekbench 3": "3427 \/ 5524 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
@@ -1462,7 +1610,7 @@
     },
     "Price": "319-969 USD",
     "Weight": {
-      "Value": "188 g"
+      "NumericValue": "188 g"
     },
     "Sensors": {
       "Value": "Sensors iPhone 6"

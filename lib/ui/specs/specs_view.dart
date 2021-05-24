@@ -8,7 +8,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../components/bottom_safe_padding.dart';
 import '../components/bottom_sheet.dart';
 import '../components/icons.dart';
 import '../components/material_wrapper.dart';
@@ -79,7 +78,6 @@ class SpecsView extends StatelessWidget {
                 const SizedBox(height: 8),
                 _buildDeviceSelectBtn(),
                 _buildSpecs(),
-                BottomSafePadding(context),
               ],
             ),
           ),

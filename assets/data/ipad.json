@@ -9,7 +9,9 @@
     }
   },
   "iPad1,1": {
-    "Release Date": "2010-04-03T07:00:00Z",
+    "Release Date": {
+      "Date": "2010-04-03T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR"
     },
@@ -18,10 +20,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "9.7\" 1024 × 768 (132 ppi)",
+      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2011-03-02T08:00:00Z",
+    "Discontinued Date": {
+      "Date": "2011-03-02T08:00:00Z"
+    },
     "Supported OS": "iOS 3.2 — 5.1.1",
     "Onboard RAM": {
       "Value": "LPDDR",
@@ -40,7 +44,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "242.8 × 189.7 × 13.4 mm"
+      "NumericValue": "242.8 × 189.7 × 13.4 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -58,9 +62,11 @@
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
-    "Geekbench 2": "454",
+    "Geekbench 2": {
+      "NumericValue": "454"
+    },
     "Weight": {
-      "Value": "680\/730(3G) g"
+      "NumericValue": "680\/730(3G) g"
     },
     "Price": "499-699 USD",
     "Sensors": {
@@ -68,7 +74,11 @@
     }
   },
   "iPad2,1": {
-    "Release Date": "2011-03-11T08:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2011-03-11T08:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR technology"
     },
@@ -77,10 +87,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "9.7\" 1024 × 768 (132 ppi)",
+      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2014-03-18T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-03-18T07:00:00Z"
+    },
     "Supported OS": "iOS 4.2.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -102,7 +114,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 8.8 mm"
+      "NumericValue": "241.2 × 185.7 × 8.8 mm"
     },
     "Battery Capacity": {
       "Value": "25 Wh (3.8 V)",
@@ -113,8 +125,12 @@
       "Audio Playback": "40",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "261 \/ 496 (Multi-Core)",
-    "Geekbench 2": "721",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 496 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "721"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -123,7 +139,7 @@
     },
     "Price": "499-699 USD",
     "Weight": {
-      "Value": "601 g"
+      "NumericValue": "601 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 2"
@@ -131,7 +147,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad2,2": {
-    "Release Date": "2011-03-11T08:00:00Z",
+    "Release Date": {
+      "Date": "2011-03-11T08:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR technology"
     },
@@ -140,10 +158,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "9.7\" 1024 × 768 (132 ppi)",
+      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2014-03-18T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-03-18T07:00:00Z"
+    },
     "Supported OS": "iOS 4.2.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -165,7 +185,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 8.8 mm"
+      "NumericValue": "241.2 × 185.7 × 8.8 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -179,7 +199,9 @@
       "Value": "25 Wh (3.8 V)",
       "NumericValue": "6579 mAh"
     },
-    "Geekbench 3": "261 \/ 496 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 496 (Multi-Core)"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
@@ -188,9 +210,11 @@
       "Value": "Video HD (720p), 30 fps, audio Still camera with 5x digital zoom"
     },
     "Price": "629-829 USD",
-    "Geekbench 2": "721",
+    "Geekbench 2": {
+      "NumericValue": "721"
+    },
     "Weight": {
-      "Value": "613 g"
+      "NumericValue": "613 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 2"
@@ -198,7 +222,9 @@
     "DetailName": "Wi-Fi + 3G (GSM)"
   },
   "iPad2,3": {
-    "Release Date": "2011-03-11T08:00:00Z",
+    "Release Date": {
+      "Date": "2011-03-11T08:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR technology"
     },
@@ -207,10 +233,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "9.7\" 1024 × 768 (132 ppi)",
+      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2014-03-18T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-03-18T07:00:00Z"
+    },
     "Supported OS": "iOS 4.2.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -232,7 +260,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 8.8 mm"
+      "NumericValue": "241.2 × 185.7 × 8.8 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A (800, 1900 MHz)"
@@ -246,8 +274,12 @@
       "Value": "25 Wh (3.8 V)",
       "NumericValue": "6579 mAh"
     },
-    "Geekbench 3": "261 \/ 496 (Multi-Core)",
-    "Geekbench 2": "721",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 496 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "721"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -256,7 +288,7 @@
     },
     "Price": "629-829 USD",
     "Weight": {
-      "Value": "607 g"
+      "NumericValue": "607 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 2"
@@ -264,7 +296,9 @@
     "DetailName": "Wi-Fi + 3G (CDMA)"
   },
   "iPad2,4": {
-    "Release Date": "2012-03-25T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-03-25T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR technology"
     },
@@ -273,10 +307,12 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "9.7\" 1024 × 768 (132 ppi)",
+      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2014-03-18T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-03-18T07:00:00Z"
+    },
     "Supported OS": "iOS 4.2.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -298,7 +334,7 @@
     },
     "Capacity": "16 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 8.8 mm"
+      "NumericValue": "241.2 × 185.7 × 8.8 mm"
     },
     "Battery Capacity": {
       "Value": "25 Wh (3.8 V)",
@@ -309,8 +345,12 @@
       "Audio Playback": "40",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "261 \/ 488 (Multi-Core)",
-    "Geekbench 2": "721",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 488 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "721"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -319,7 +359,7 @@
     },
     "Price": "399 USD",
     "Weight": {
-      "Value": "601 g"
+      "NumericValue": "601 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 2"
@@ -327,7 +367,9 @@
     "DetailName": "Wi-Fi (16 GB)"
   },
   "iPad2,5": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -336,10 +378,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "7.9\" 1024 × 768 (163 ppi)",
+      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2015-06-19T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-06-19T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -361,7 +405,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.2 mm"
+      "NumericValue": "200 × 134.7 × 7.2 mm"
     },
     "Battery Capacity": {
       "Value": "16.3 Whr (3.72 V)",
@@ -372,8 +416,12 @@
       "Audio Playback": "40",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
-    "Geekbench 2": "745",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "745"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -381,7 +429,7 @@
       "Value": "Rear Camera iPad 3,4,mini"
     },
     "Weight": {
-      "Value": "308 g"
+      "NumericValue": "308 g"
     },
     "Price": "249-529 USD",
     "Sensors": {
@@ -390,7 +438,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad2,6": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -399,10 +449,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "7.9\" 1024 × 768 (163 ppi)",
+      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2015-06-19T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-06-19T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -424,7 +476,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.2 mm"
+      "NumericValue": "200 × 134.7 × 7.2 mm"
     },
     "Cellular": {
       "Value": "CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 1, 3, 5, 13, 25)"
@@ -438,8 +490,12 @@
       "Value": "16.3 Whr (3.72 V)",
       "NumericValue": "4440 mAh"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
-    "Geekbench 2": "745",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "745"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -448,7 +504,7 @@
     },
     "Price": "379-659 USD",
     "Weight": {
-      "Value": "312 g"
+      "NumericValue": "312 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -456,7 +512,9 @@
     "DetailName": "Cellular CDMA"
   },
   "iPad2,7": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -465,10 +523,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "7.9\" 1024 × 768 (163 ppi)",
+      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
       "Details": "Display iPad"
     },
-    "Discontinued Date": "2015-06-19T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-06-19T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -490,7 +550,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.2 mm"
+      "NumericValue": "200 × 134.7 × 7.2 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 4 and 17)"
@@ -504,7 +564,9 @@
       "Value": "16.3 Whr (3.72 V)",
       "NumericValue": "4440 mAh"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -513,9 +575,11 @@
       "Value": "Rear Camera iPad 3,4,mini"
     },
     "Price": "379-659 USD",
-    "Geekbench 2": "745",
+    "Geekbench 2": {
+      "NumericValue": "745"
+    },
     "Weight": {
-      "Value": "312 g"
+      "NumericValue": "312 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -523,7 +587,9 @@
     "DetailName": "Cellular"
   },
   "iPad3,1": {
-    "Release Date": "2012-03-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-03-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -532,10 +598,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2012-10-23T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2012-10-23T07:00:00Z"
+    },
     "Supported OS": "iOS 5.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -558,7 +626,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 9.4 mm"
+      "NumericValue": "241.2 × 185.7 × 9.4 mm"
     },
     "Battery Capacity": {
       "Value": "42.5 Wh (3.7 V)",
@@ -569,8 +637,12 @@
       "Audio Playback": "40",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
-    "Geekbench 2": "756",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "756"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -579,7 +651,7 @@
     },
     "Price": "499-699 USD",
     "Weight": {
-      "Value": "652 g"
+      "NumericValue": "652 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -587,7 +659,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad3,2": {
-    "Release Date": "2012-03-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-03-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -596,10 +670,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2012-10-23T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2012-10-23T07:00:00Z"
+    },
     "Supported OS": "iOS 5.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -622,7 +698,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 9.4 mm"
+      "NumericValue": "241.2 × 185.7 × 9.4 mm"
     },
     "Cellular": {
       "Value": "4G LTE (700) — U.S. & Canada only CDMA EV-DO Rev. A (800, 1900 MHz) UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -636,8 +712,12 @@
       "Value": "42.5 Wh (3.7 V)",
       "NumericValue": "11487 mAh"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
-    "Geekbench 2": "756",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "756"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -646,7 +726,7 @@
     },
     "Price": "629-829 USD",
     "Weight": {
-      "Value": "662 g"
+      "NumericValue": "662 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -654,7 +734,9 @@
     "DetailName": "Cellular CDMA"
   },
   "iPad3,3": {
-    "Release Date": "2012-03-16T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-03-16T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -663,10 +745,12 @@
       "NumericValue": "250 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2012-10-23T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2012-10-23T07:00:00Z"
+    },
     "Supported OS": "iOS 5.1 — iOS 9.3.5 ",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -689,7 +773,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 9.4 mm"
+      "NumericValue": "241.2 × 185.7 × 9.4 mm"
     },
     "Cellular": {
       "Value": "4G LTE (700, 2100 MHz) — U.S. & Canada only; UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM\/EDGE (850, 900, 1800, 1900 MHz)"
@@ -703,7 +787,9 @@
       "Value": "42.5 Wh (3.7 V)",
       "NumericValue": "11487 mAh"
     },
-    "Geekbench 3": "261 \/ 492 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 (Multi-Core)"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
@@ -712,9 +798,11 @@
       "Value": "Rear Camera iPad 3,4,mini"
     },
     "Price": "629-829 USD",
-    "Geekbench 2": "756",
+    "Geekbench 2": {
+      "NumericValue": "756"
+    },
     "Weight": {
-      "Value": "662 g"
+      "NumericValue": "662 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -722,7 +810,9 @@
     "DetailName": "Cellular"
   },
   "iPad3,4": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -731,10 +821,12 @@
       "NumericValue": "300 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2014-10-16T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-10-16T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -757,7 +849,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "241 × 186 × 9.4 mm"
+      "NumericValue": "241 × 186 × 9.4 mm"
     },
     "Battery Capacity": {
       "Value": "43 Wh (3.7 V)",
@@ -768,8 +860,12 @@
       "Audio Playback": "40",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "773 \/ 1410 (Multi-Core)",
-    "Geekbench 2": "1756",
+    "Geekbench 3": {
+      "NumericValue": "773 \/ 1410 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "1756"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -778,7 +874,7 @@
     },
     "Price": "399-799 USD",
     "Weight": {
-      "Value": "652 g"
+      "NumericValue": "652 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -786,7 +882,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad3,5": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -795,10 +893,12 @@
       "NumericValue": "300 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2014-10-16T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-10-16T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0.1 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -821,7 +921,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 9.4 mm"
+      "NumericValue": "241.2 × 185.7 × 9.4 mm"
     },
     "Cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 4 and 17)"
@@ -835,8 +935,12 @@
       "Value": "43 Wh (3.7 V)",
       "NumericValue": "11560 mAh"
     },
-    "Geekbench 3": "773 \/ 1410 (Multi-Core)",
-    "Geekbench 2": "1756",
+    "Geekbench 3": {
+      "NumericValue": "773 \/ 1410 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "1756"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -845,7 +949,7 @@
     },
     "Price": "529-929 USD",
     "Weight": {
-      "Value": "662 g"
+      "NumericValue": "662 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -853,7 +957,9 @@
     "DetailName": "Cellular CDMA"
   },
   "iPad3,6": {
-    "Release Date": "2012-11-02T07:00:00Z",
+    "Release Date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -862,10 +968,12 @@
       "NumericValue": "300 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2014-10-16T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2014-10-16T07:00:00Z"
+    },
     "Supported OS": "iOS 6.0.1 — current",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -888,7 +996,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "241.2 × 185.7 × 9.4 mm"
+      "NumericValue": "241.2 × 185.7 × 9.4 mm"
     },
     "Cellular": {
       "Value": "CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 1, 3, 5, 13, 25)"
@@ -902,7 +1010,9 @@
       "Value": "43 Wh (3.7 V)",
       "NumericValue": "11560 mAh"
     },
-    "Geekbench 3": "769 \/ 1399 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "769 \/ 1399 (Multi-Core)"
+    },
     "SIM Card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -911,9 +1021,11 @@
       "Value": "Rear Camera iPad 3,4,mini"
     },
     "Price": "529-929 USD",
-    "Geekbench 2": "1756",
+    "Geekbench 2": {
+      "NumericValue": "1756"
+    },
     "Weight": {
-      "Value": "662 g"
+      "NumericValue": "662 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -921,7 +1033,9 @@
     "DetailName": "Cellular"
   },
   "iPad4,1": {
-    "Release Date": "2013-11-01T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-11-01T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -930,10 +1044,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2016-03-21T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -956,7 +1072,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 7.5 mm"
+      "NumericValue": "240 × 169.5 × 7.5 mm"
     },
     "Battery Capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -967,8 +1083,12 @@
       "Audio Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "1474 \/ 2669 (Multi-Core)",
-    "Geekbench 2": "2377",
+    "Geekbench 3": {
+      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "2377"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
     },
@@ -977,7 +1097,7 @@
     },
     "Price": "399-799 USD",
     "Weight": {
-      "Value": "469 g"
+      "NumericValue": "469 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -985,7 +1105,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad4,2": {
-    "Release Date": "2013-11-01T07:00:00Z",
+    "Release Date": {
+      "Date": "2013-11-01T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -994,10 +1116,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2016-03-21T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0.3 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -1020,7 +1144,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 7.5 mm"
+      "NumericValue": "240 × 169.5 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
@@ -1034,7 +1158,9 @@
       "Value": "32.9 Wh (3.73 V)",
       "NumericValue": "8827 mAh"
     },
-    "Geekbench 3": "1474 \/ 2669 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1043,9 +1169,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "529-929 USD",
-    "Geekbench 2": "2377",
+    "Geekbench 2": {
+      "NumericValue": "2377"
+    },
     "Weight": {
-      "Value": "478 g"
+      "NumericValue": "478 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -1053,7 +1181,9 @@
     "DetailName": "Cellular"
   },
   "iPad4,3": {
-    "Release Date": "2014-04-01T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-04-01T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1062,10 +1192,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2016-03-21T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Supported OS": "iOS 7.0.3 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -1088,7 +1220,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 7.5 mm"
+      "NumericValue": "240 × 169.5 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS (WCDMA)\/HSPA+\/ DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) TD-SCDMA (1900 (F), 2000 (A)) TD-LTE (bands 38 and 39)"
@@ -1102,7 +1234,9 @@
       "Value": "32.9 Wh (3.73 V)",
       "NumericValue": "8827 mAh"
     },
-    "Geekbench 3": "1474 \/ 2669 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1111,9 +1245,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "529-929 USD (not sold in U.S.)",
-    "Geekbench 2": "2377",
+    "Geekbench 2": {
+      "NumericValue": "2377"
+    },
     "Weight": {
-      "Value": "478 g"
+      "NumericValue": "478 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -1121,7 +1257,9 @@
     "DetailName": "Cellular (China)"
   },
   "iPad4,4": {
-    "Release Date": "2013-11-12T06:42:00Z",
+    "Release Date": {
+      "Date": "2013-11-12T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1130,7 +1268,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 7.0 — current",
@@ -1155,7 +1293,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1166,8 +1304,12 @@
       "Audio Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "1385 \/ 2496 (Multi-Core)",
-    "Geekbench 2": "2274",
+    "Geekbench 3": {
+      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
     },
@@ -1175,7 +1317,7 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Weight": {
-      "Value": "331 g"
+      "NumericValue": "331 g"
     },
     "Price": "269-699 USD",
     "Sensors": {
@@ -1184,7 +1326,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad4,5": {
-    "Release Date": "2013-11-12T06:42:00Z",
+    "Release Date": {
+      "Date": "2013-11-12T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1193,7 +1337,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 7.0.3 — current",
@@ -1218,7 +1362,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
@@ -1232,7 +1376,9 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "Geekbench 3": "1385 \/ 2496 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1241,9 +1387,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "399-829 USD",
-    "Geekbench 2": "2274",
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Weight": {
-      "Value": "341 g"
+      "NumericValue": "341 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -1251,7 +1399,9 @@
     "DetailName": "Cellular"
   },
   "iPad4,6": {
-    "Release Date": "2014-04-01T06:42:00Z",
+    "Release Date": {
+      "Date": "2014-04-01T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1260,7 +1410,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 7.0.3 — current",
@@ -1285,7 +1435,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz); GSM\/EDGE (850, 900, 1800, 1900 MHz); CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
@@ -1299,7 +1449,9 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "Geekbench 3": "1385 \/ 2496 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1308,9 +1460,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "429-829 USD (not sold in U.S.)",
-    "Geekbench 2": "2274",
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Weight": {
-      "Value": "341 g"
+      "NumericValue": "341 g"
     },
     "Sensors": {
       "Value": "Sensors iPad 3"
@@ -1318,7 +1472,9 @@
     "DetailName": "Cellular (China)"
   },
   "iPad4,7": {
-    "Release Date": "2014-10-24T06:42:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1327,10 +1483,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 8.1 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -1353,7 +1511,7 @@
     },
     "Capacity": "16, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Battery Capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1364,8 +1522,12 @@
       "Audio Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "1385 \/ 2496 (Multi-Core)",
-    "Geekbench 2": "2274",
+    "Geekbench 3": {
+      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
     },
@@ -1374,7 +1536,7 @@
     },
     "Price": "399-599 USD",
     "Weight": {
-      "Value": "341 g"
+      "NumericValue": "341 g"
     },
     "Sensors": {
       "Value": "Sensors iPad-mini-3"
@@ -1382,7 +1544,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad4,8": {
-    "Release Date": "2014-10-24T06:42:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1391,10 +1555,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 8.1 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -1417,7 +1583,7 @@
     },
     "Capacity": "16, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
@@ -1431,7 +1597,9 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "Geekbench 3": "1385 \/ 2496 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1440,9 +1608,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "529-729 USD",
-    "Geekbench 2": "2274",
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Weight": {
-      "Value": "341 g"
+      "NumericValue": "341 g"
     },
     "Sensors": {
       "Value": "Sensors iPad-mini-3"
@@ -1450,7 +1620,9 @@
     "DetailName": "Cellular"
   },
   "iPad4,9": {
-    "Release Date": "2014-10-24T06:42:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T06:42:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1459,10 +1631,12 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Supported OS": "iOS 8.1 — current",
     "Onboard RAM": {
       "Value": "LPDDR3",
@@ -1485,7 +1659,7 @@
     },
     "Capacity": "16, 64 & 128 GB",
     "Dimensions": {
-      "Value": "200 × 134.7 × 7.5 mm"
+      "NumericValue": "200 × 134.7 × 7.5 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
@@ -1499,7 +1673,9 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "Geekbench 3": "1379 \/ 2482 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1379 \/ 2482 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -1508,9 +1684,11 @@
       "Value": "Rear Camera iPad Air,mini2,3"
     },
     "Price": "529-729 USD (not sold in U.S.)",
-    "Geekbench 2": "2274",
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Weight": {
-      "Value": "341 g"
+      "NumericValue": "341 g"
     },
     "Sensors": {
       "Value": "Sensors iPad-mini-3"
@@ -1518,7 +1696,9 @@
     "DetailName": "Cellular (China)"
   },
   "iPad5,1": {
-    "Release Date": "2015-09-09T07:00:00Z",
+    "Release Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1527,7 +1707,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1552,7 +1732,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "203.2 × 134.8 × 6.1 mm"
+      "NumericValue": "203.2 × 134.8 × 6.1 mm"
     },
     "Battery Capacity": {
       "Value": "19.32 Wh (3.82 V)",
@@ -1563,8 +1743,12 @@
       "Audio Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "1704 \/ 3096 (Multi-Core)",
-    "Geekbench 2": "2611",
+    "Geekbench 3": {
+      "NumericValue": "1704 \/ 3096 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "2611"
+    },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
     },
@@ -1572,7 +1756,7 @@
       "Value": "Rear Camera iPad Air2"
     },
     "Weight": {
-      "Value": "298.8 g"
+      "NumericValue": "298.8 g"
     },
     "Price": "399-599 USD",
     "Sensors": {
@@ -1581,7 +1765,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad5,2": {
-    "Release Date": "2015-09-09T07:00:00Z",
+    "Release Date": {
+      "Date": "2015-09-09T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1590,7 +1776,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "7.9\" 2048 × 1536 (326 ppi)",
+      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 10.0 — current",
@@ -1615,7 +1801,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "203.2 × 134.8 × 6.1 mm"
+      "NumericValue": "203.2 × 134.8 × 6.1 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC‑HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
@@ -1629,7 +1815,9 @@
       "Value": "19.32 Wh (3.82 V)",
       "NumericValue": "5124 mAh"
     },
-    "Geekbench 3": "1704 \/ 3096 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1704 \/ 3096 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -1638,9 +1826,11 @@
       "Value": "Rear Camera iPad Air2"
     },
     "Price": "529-729 USD",
-    "Geekbench 2": "2611",
+    "Geekbench 2": {
+      "NumericValue": "2611"
+    },
     "Weight": {
-      "Value": "304 g"
+      "NumericValue": "304 g"
     },
     "Sensors": {
       "Value": "Sensors iPad Air 2"
@@ -1648,7 +1838,9 @@
     "DetailName": "Cellular"
   },
   "iPad5,3": {
-    "Release Date": "2014-10-24T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1657,7 +1849,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 8.1 — current",
@@ -1682,7 +1874,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 6.1 mm"
+      "NumericValue": "240 × 169.5 × 6.1 mm"
     },
     "Battery Capacity": {
       "Value": "27.3 Wh (3.73 V)",
@@ -1693,8 +1885,12 @@
       "Audio Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "1808 \/ 4530 (Multi-Core)",
-    "Geekbench 2": "3042",
+    "Geekbench 3": {
+      "NumericValue": "1808 \/ 4530 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3042"
+    },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
     },
@@ -1702,7 +1898,7 @@
       "Value": "Rear Camera iPad Air2"
     },
     "Weight": {
-      "Value": "437 g"
+      "NumericValue": "437 g"
     },
     "Price": "499-699 USD",
     "Sensors": {
@@ -1711,7 +1907,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad5,4": {
-    "Release Date": "2014-10-24T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -1720,7 +1918,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 8.1 — current",
@@ -1745,7 +1943,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 6.1 mm"
+      "NumericValue": "240 × 169.5 × 6.1 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC‑HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
@@ -1759,7 +1957,9 @@
       "Value": "27.3 Wh (3.73 V)",
       "NumericValue": "7340 mAh"
     },
-    "Geekbench 3": "1808 \/ 4530 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "1808 \/ 4530 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -1768,9 +1968,11 @@
       "Value": "Rear Camera iPad Air2"
     },
     "Price": "529-829 USD",
-    "Geekbench 2": "3042",
+    "Geekbench 2": {
+      "NumericValue": "3042"
+    },
     "Weight": {
-      "Value": "444 g"
+      "NumericValue": "444 g"
     },
     "Sensors": {
       "Value": "Sensors iPad Air 2"
@@ -1778,7 +1980,9 @@
     "DetailName": "Cellular"
   },
   "iPad6,3": {
-    "Release Date": "2016-03-21T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1787,7 +1991,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 9.3 — current",
@@ -1812,7 +2016,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 6.1 mm"
+      "NumericValue": "240 × 169.5 × 6.1 mm"
     },
     "Battery Capacity": {
       "Value": "27.91 Wh (3.82 V)",
@@ -1823,8 +2027,12 @@
       "Video Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "3058 \/ 5247 (Multi-Core)",
-    "Geekbench 2": "3443",
+    "Geekbench 3": {
+      "NumericValue": "3058 \/ 5247 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3443"
+    },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
     },
@@ -1834,7 +2042,7 @@
     "New item": "",
     "Price": "599-899 USD",
     "Weight": {
-      "Value": "437 g"
+      "NumericValue": "437 g"
     },
     "Sensors": {
       "Value": "Sensors 9.7‑inch iPad Pro"
@@ -1842,7 +2050,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad6,4": {
-    "Release Date": "2016-03-21T07:00:00Z",
+    "Release Date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1851,7 +2061,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "9.7\" 2048 × 1536 (264 ppi)",
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 9.3 — current",
@@ -1876,7 +2086,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "240 × 169.5 × 6.1 mm"
+      "NumericValue": "240 × 169.5 × 6.1 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE Advanced (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30, 38-41)"
@@ -1890,7 +2100,9 @@
       "Value": "27.91 Wh (3.82 V)",
       "NumericValue": "7306 mAh"
     },
-    "Geekbench 3": "3058 \/ 5247 (Multi-Core)",
+    "Geekbench 3": {
+      "NumericValue": "3058 \/ 5247 (Multi-Core)"
+    },
     "SIM Card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -1899,9 +2111,11 @@
       "Value": "Rear Camera 9.7‑inch iPad Pro"
     },
     "Price": "729-1,029 USD",
-    "Geekbench 2": "3443",
+    "Geekbench 2": {
+      "NumericValue": "3443"
+    },
     "Weight": {
-      "Value": "444 g"
+      "NumericValue": "444 g"
     },
     "Sensors": {
       "Value": "Sensors 9.7‑inch iPad Pro"
@@ -1909,7 +2123,9 @@
     "DetailName": "Cellular"
   },
   "iPad6,7": {
-    "Release Date": "2014-10-24T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1918,7 +2134,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "12.9\" 2732 × 2048 (264 ppi)",
+      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 9.1 — current",
@@ -1943,7 +2159,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "305.7 × 220.6 × 6.9 mm"
+      "NumericValue": "305.7 × 220.6 × 6.9 mm"
     },
     "Battery Capacity": {
       "Value": "38.8 Wh (3.77 V)",
@@ -1954,8 +2170,12 @@
       "Video Playback": "10",
       "Browsing over Wi-Fi": "10"
     },
-    "Geekbench 3": "3160 \/ 5411 (Multi-Core)",
-    "Geekbench 2": "3591",
+    "Geekbench 3": {
+      "NumericValue": "3160 \/ 5411 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3591"
+    },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
     },
@@ -1963,7 +2183,7 @@
       "Value": "Rear Camera 12.9‑inch iPad Pro"
     },
     "Weight": {
-      "Value": "713 g"
+      "NumericValue": "713 g"
     },
     "Price": "799-1,099 USD",
     "Sensors": {
@@ -1972,7 +2192,9 @@
     "DetailName": "Wi-Fi"
   },
   "iPad6,8": {
-    "Release Date": "2014-10-24T07:00:00Z",
+    "Release Date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1981,7 +2203,7 @@
       "NumericValue": ""
     },
     "Display": {
-      "Value": "12.9\" 2732 × 2048 (264 ppi)",
+      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
       "Details": "Display iPad Air 2"
     },
     "Supported OS": "iOS 9.1 — current",
@@ -2006,7 +2228,7 @@
     },
     "Capacity": "32, 128 & 256 GB",
     "Dimensions": {
-      "Value": "305.7 × 220.6 × 6.9 mm"
+      "NumericValue": "305.7 × 220.6 × 6.9 mm"
     },
     "Cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
@@ -2020,8 +2242,12 @@
       "Value": "38.8 Wh (3.77 V)",
       "NumericValue": "10307 mAh"
     },
-    "Geekbench 3": "3160 \/ 5411 (Multi-Core)",
-    "Geekbench 2": "3591",
+    "Geekbench 3": {
+      "NumericValue": "3160 \/ 5411 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3591"
+    },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
     },
@@ -2030,7 +2256,7 @@
     },
     "Price": "799-1,099 USD",
     "Weight": {
-      "Value": "713 g"
+      "NumericValue": "713 g"
     },
     "Sensors": {
       "Value": "Sensors 12.9‑inch iPad Pro"

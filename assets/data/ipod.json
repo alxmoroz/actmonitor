@@ -8,20 +8,28 @@
     }
   },
   "iPod1,1": {
-    "Release Date": "2007-09-05T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2007-09-05T07:00:00Z"
+      }
+    },
     "GPU": {
       "Value": "PowerVR MBX Lite 3D",
       "NumericValue": "103 MHz"
     },
     "Name": "iPod touch Original",
     "Weight": {
-      "Value": "120 g"
+      "NumericValue": "120 g"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3G"
     },
-    "Discontinued Date": "2008-09-09T07:00:00Z",
+    "Discontinued Date": {
+      "Date": {
+        "Date": "2008-09-09T07:00:00Z"
+      }
+    },
     "Capacity": "8, 16 & 32 GB",
     "BatteryLife": {
       "Video Playback": "5",
@@ -31,7 +39,7 @@
       "Value": "802.11 b\/g"
     },
     "Dimensions": {
-      "Value": "110 × 61.8 × 8 mm"
+      "NumericValue": "110 × 61.8 × 8 mm"
     },
     "Supported OS": "iPhone OS 1.0 — 3.1.3",
     "Onboard RAM": {
@@ -43,7 +51,9 @@
       "NumericValue": "580 mAh"
     },
     "Price": "299-499 USD",
-    "Geekbench 2": "137",
+    "Geekbench 2": {
+      "NumericValue": "137"
+    },
     "Connector": {
       "Value": "30-pin"
     },
@@ -53,7 +63,11 @@
     }
   },
   "iPod2,1": {
-    "Release Date": "2008-09-09T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2008-09-09T07:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR"
     },
@@ -63,13 +77,17 @@
     },
     "Name": "iPod touch 2nd",
     "Weight": {
-      "Value": "115 g"
+      "NumericValue": "115 g"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3G"
     },
-    "Discontinued Date": "2010-09-01T07:00:00Z",
+    "Discontinued Date": {
+      "Date": {
+        "Date": "2010-09-01T07:00:00Z"
+      }
+    },
     "Capacity": "8, 16 & 32 GB",
     "BatteryLife": {
       "Video Playback": "6",
@@ -79,7 +97,7 @@
       "Value": "802.11b\/g"
     },
     "Dimensions": {
-      "Value": "110 × 61.8 × 8.5 mm"
+      "NumericValue": "110 × 61.8 × 8.5 mm"
     },
     "Supported OS": "iPhone OS 2.1 — iOS 4.2.1",
     "Onboard RAM": {
@@ -91,7 +109,9 @@
       "NumericValue": "739 mAh"
     },
     "Price": "229-399 USD",
-    "Geekbench 2": "186",
+    "Geekbench 2": {
+      "NumericValue": "186"
+    },
     "Connector": {
       "Value": "30-pin"
     },
@@ -101,7 +121,11 @@
     }
   },
   "iPod3,1": {
-    "Release Date": "2010-09-09T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2010-09-09T07:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR"
     },
@@ -111,13 +135,17 @@
     },
     "Name": "iPod touch 3rd",
     "Weight": {
-      "Value": "115 g"
+      "NumericValue": "115 g"
     },
     "Display": {
-      "Value": "3.5\" 480 × 320 (163 ppi)",
+      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
       "Details": "Display iPhone 3G"
     },
-    "Discontinued Date": "2010-09-01T07:00:00Z",
+    "Discontinued Date": {
+      "Date": {
+        "Date": "2010-09-01T07:00:00Z"
+      }
+    },
     "Capacity": "32 & 64 GB",
     "BatteryLife": {
       "Video Playback": "6",
@@ -127,7 +155,7 @@
       "Value": "802.11b\/g"
     },
     "Dimensions": {
-      "Value": "110 × 61.8 × 8.5 mm"
+      "NumericValue": "110 × 61.8 × 8.5 mm"
     },
     "Supported OS": "iPhone OS 3.1.1 — iOS 5.1.1",
     "Onboard RAM": {
@@ -139,7 +167,9 @@
       "NumericValue": "789 mAh"
     },
     "Price": "299-399 USD",
-    "Geekbench 2": "278",
+    "Geekbench 2": {
+      "NumericValue": "278"
+    },
     "Connector": {
       "Value": "30-pin"
     },
@@ -149,7 +179,11 @@
     }
   },
   "iPod4,1": {
-    "Release Date": "2010-09-01T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2010-09-01T07:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "2.1 + EDR"
     },
@@ -158,10 +192,14 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "3.5\" 960 × 640 (326 ppi)",
+      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
       "Details": "Display iPod 4"
     },
-    "Discontinued Date": "2013-05-30T07:00:00Z",
+    "Discontinued Date": {
+      "Date": {
+        "Date": "2013-05-30T07:00:00Z"
+      }
+    },
     "Supported OS": "iOS 4.1 — iOS 6.1.6",
     "Onboard RAM": {
       "Value": "LPDDR",
@@ -180,7 +218,7 @@
     },
     "Capacity": "8, 16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "110 × 58 × 7.1 mm"
+      "NumericValue": "110 × 58 × 7.1 mm"
     },
     "Battery Capacity": {
       "Value": "3.44 Wh (3.7 V)",
@@ -190,8 +228,12 @@
       "Video Playback": "7",
       "Audio Playback": "40"
     },
-    "Geekbench 3": "209",
-    "Geekbench 2": "374",
+    "Geekbench 3": {
+      "NumericValue": "209"
+    },
+    "Geekbench 2": {
+      "NumericValue": "374"
+    },
     "Wi-Fi": {
       "Value": "802.11b\/g\/n Wi-Fi (802.11n 2.4GHz only)"
     },
@@ -199,7 +241,7 @@
       "Value": "0.7 MP (960 × 720) Tap to focus 720p HD 30 fps"
     },
     "Weight": {
-      "Value": "101 g"
+      "NumericValue": "101 g"
     },
     "Price": "199-399 USD",
     "Sensors": {
@@ -207,7 +249,11 @@
     }
   },
   "iPod5,1": {
-    "Release Date": "2012-10-11T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2012-10-11T07:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -216,10 +262,14 @@
       "NumericValue": "200 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
-    "Discontinued Date": "2015-07-15T07:00:00Z",
+    "Discontinued Date": {
+      "Date": {
+        "Date": "2015-07-15T07:00:00Z"
+      }
+    },
     "Supported OS": "iOS 6.0 — 9.3.5",
     "Onboard RAM": {
       "Value": "LPDDR2",
@@ -238,7 +288,7 @@
     },
     "Capacity": "16, 32 & 64 GB",
     "Dimensions": {
-      "Value": "123.4 × 58.6 × 6.1 mm"
+      "NumericValue": "123.4 × 58.6 × 6.1 mm"
     },
     "Battery Capacity": {
       "Value": "3.8 Wh (3.7 V)",
@@ -248,8 +298,12 @@
       "Video Playback": "8",
       "Audio Playback": "40"
     },
-    "Geekbench 3": "215 \/ 410 (Multi-Core)",
-    "Geekbench 2": "625",
+    "Geekbench 3": {
+      "NumericValue": "215 \/ 410 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "625"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -257,7 +311,7 @@
       "Value": "Rear Camera iPod 5"
     },
     "Weight": {
-      "Value": "88 g"
+      "NumericValue": "88 g"
     },
     "Price": "199-299 USD",
     "Sensors": {
@@ -265,7 +319,11 @@
     }
   },
   "iPod7,1": {
-    "Release Date": "2015-07-15T07:00:00Z",
+    "Release Date": {
+      "Date": {
+        "Date": "2015-07-15T07:00:00Z"
+      }
+    },
     "Bluetooth": {
       "Value": "4.1"
     },
@@ -274,7 +332,7 @@
       "NumericValue": "450 MHz"
     },
     "Display": {
-      "Value": "4\" 1136 × 640 (326 ppi)",
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "Display iPhone 4-5s"
     },
     "Supported OS": "iOS 8.4 — current",
@@ -296,7 +354,7 @@
     },
     "Capacity": "16, 32, 64 & 128 GB",
     "Dimensions": {
-      "Value": "123.4 × 58.6 × 6.1 mm"
+      "NumericValue": "123.4 × 58.6 × 6.1 mm"
     },
     "Battery Capacity": {
       "Value": "3.99 Wh (3.83 V)",
@@ -306,8 +364,12 @@
       "Video Playback": "8",
       "Audio Playback": "40"
     },
-    "Geekbench 3": "1350 \/ 2400 (Multi-Core)",
-    "Geekbench 2": "2004",
+    "Geekbench 3": {
+      "NumericValue": "1350 \/ 2400 (Multi-Core)"
+    },
+    "Geekbench 2": {
+      "NumericValue": "2004"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac (802.11n 2.4GHz and 5GHz)"
     },
@@ -315,7 +377,7 @@
       "Value": "Rear Camera iPhone 6"
     },
     "Weight": {
-      "Value": "88 g"
+      "NumericValue": "88 g"
     },
     "Price": "199-399 USD",
     "Sensors": {

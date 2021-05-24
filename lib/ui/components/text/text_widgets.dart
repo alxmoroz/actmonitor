@@ -1,5 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +30,7 @@ class NormalText extends StatelessWidget {
   Widget build(BuildContext context) {
     final cupertinoTS = CupertinoTheme.of(context).textTheme.textStyle;
     final textStyle = cupertinoTS.copyWith(
-      color: color ?? cupertinoTS.color,
+      color: CupertinoDynamicColor.maybeResolve(color ?? darkColor, context),
       fontWeight: weight ?? cupertinoTS.fontWeight,
       fontSize: size ?? cupertinoTS.fontSize! * (sizeScale ?? 1),
       height: height ?? cupertinoTS.height,
@@ -42,14 +43,15 @@ class NormalText extends StatelessWidget {
 }
 
 class SubtitleText extends NormalText {
-  const SubtitleText(String text, {double? size, Color? color, TextAlign? align, EdgeInsets? padding})
+  const SubtitleText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
       : super(
           text,
           color: color ?? CupertinoColors.systemGrey,
+          weight: weight,
           size: size,
           sizeScale: 0.85,
           align: align,
-          padding: padding ?? const EdgeInsets.only(top: 4),
+          padding: padding,
         );
 }
 

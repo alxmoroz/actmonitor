@@ -3,23 +3,24 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../components/colors.dart';
 import 'usage_card.dart';
 
 class UsageView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final freeColor = CupertinoColors.systemGrey3;
+
     Widget buildRamUsage() {
       final ram = usageState.ram;
       return UsageCard(
         title: 'Memory',
         total: ram.total,
         elements: [
-          UsageElement('Wired', ram.wired, warningColor(context)),
+          UsageElement('Wired', ram.wired, CupertinoColors.activeOrange),
           UsageElement('Active', ram.active),
-          UsageElement('Compressed', ram.compressed, indigoColor(context)),
-          UsageElement('Graphics', ram.graphics, purpleColor(context)),
-          UsageElement('Free', ram.freeTotal, greyColor4(context)),
+          UsageElement('Compressed', ram.compressed, CupertinoColors.systemIndigo),
+          UsageElement('Graphics', ram.graphics, CupertinoColors.systemPurple),
+          UsageElement('Free', ram.freeTotal, freeColor),
         ],
         placeholder: ram.placeholder,
       );
@@ -32,7 +33,7 @@ class UsageView extends StatelessWidget {
         total: disk.total,
         elements: [
           UsageElement('Used', disk.total - disk.free),
-          UsageElement('Free', disk.free, greyColor4(context)),
+          UsageElement('Free', disk.free, freeColor),
         ],
         base: 1000,
         placeholder: disk.placeholder,
@@ -46,7 +47,7 @@ class UsageView extends StatelessWidget {
         total: 100,
         elements: [
           UsageElement('Charged', battery.level),
-          UsageElement('Discharged', battery.level - 100, greyColor4(context)),
+          UsageElement('Discharged', battery.level - 100, freeColor),
         ],
         base: 1,
         placeholder: battery.placeholder,

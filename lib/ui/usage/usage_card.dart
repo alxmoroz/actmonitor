@@ -1,3 +1,4 @@
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -35,6 +36,7 @@ class UsageCard extends StatelessWidget {
   @protected
   final String placeholder;
 
+  //TODO: это должно быть в презентере, а не здесь. Хотя бы потому что тут используется бизнес-логика немного (не все параметры в байтах - батарея)
   String bytesToString(int bytes) {
     String unit = 'KB';
     double divider = base;
@@ -53,48 +55,48 @@ class UsageCard extends StatelessWidget {
     return '${NumberFormat("#").format(bytes / divider)} $unit';
   }
 
-  Widget buildUsageChart() {
-    int lastValue = 0;
-
-    return elements.isNotEmpty
-        ? Stack(
-            children: elements
-                .map((el) {
-                  lastValue += el.value;
-                  final color = el.color;
-                  return LinearProgressIndicator(
-                    value: lastValue / total,
-                    minHeight: 24,
-                    valueColor: color != null ? AlwaysStoppedAnimation<Color>(color) : null,
-                    backgroundColor: Colors.transparent,
-                  );
-                })
-                .toList(growable: false)
-                .reversed
-                .toList(growable: false),
-          )
-        : Container();
-  }
-
-  Widget usageLabel(String title, int value) => Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          NormalText(title),
-          NormalText('${bytesToString(value)}'),
-        ],
-      );
-
-  Widget buildLegend() => Padding(
-      padding: const EdgeInsets.all(12),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: elements.map((el) => usageLabel(el.label, el.value)).toList(growable: false),
-      ));
-
   @override
   Widget build(BuildContext context) {
+    Widget buildUsageChart() {
+      int lastValue = 0;
+
+      return elements.isNotEmpty
+          ? Stack(
+              children: elements
+                  .map((el) {
+                    lastValue += el.value;
+                    final color = el.color;
+                    return LinearProgressIndicator(
+                      value: lastValue / total,
+                      minHeight: 24,
+                      valueColor: color != null ? AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)) : null,
+                      backgroundColor: Colors.transparent,
+                    );
+                  })
+                  .toList(growable: false)
+                  .reversed
+                  .toList(growable: false),
+            )
+          : Container();
+    }
+
+    Widget usageLabel(String title, int value) => Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SubtitleText(title, color: darkColor),
+            NormalText('${bytesToString(value)}'),
+          ],
+        );
+
+    Widget buildLegend() => Padding(
+        padding: const EdgeInsets.all(12),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: elements.map((el) => usageLabel(el.label, el.value)).toList(growable: false),
+        ));
+
     return Card(
-      color: CupertinoDynamicColor.resolve(CupertinoColors.systemGrey6, context),
+      color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       elevation: 5,
       child: Column(

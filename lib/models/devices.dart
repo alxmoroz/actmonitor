@@ -4,7 +4,11 @@ class ParamValue {
   final String name;
   final dynamic value;
 
-  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(value is Map ? (value['NumericValue'] ?? '') : toString())?.group(0) ?? '');
+  String get numValString => value['NumericValue'] ?? '';
+
+  String get valString => value['Value'] ?? '';
+
+  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(value is Map ? numValString : '')?.group(0) ?? '');
 
   bool get comparable => numericValue != null;
 
@@ -13,8 +17,10 @@ class ParamValue {
     String res = '';
     if (value is String) {
       res = value;
+    } else if (comparable) {
+      res = '$numValString${valString.isNotEmpty ? '\n' + valString : ''}';
     } else if (value is Map) {
-      res = (value as Map).values.toList().join('\n');
+      res = (value as Map).values.join('\n');
     }
     return res;
   }

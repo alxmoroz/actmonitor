@@ -3,8 +3,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../colors.dart';
-
 class Separator extends StatelessWidget {
   const Separator({this.height});
 
@@ -12,6 +10,9 @@ class Separator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Divider(color: greyColor3(context), height: height);
+    return Divider(
+      color: CupertinoDynamicColor.resolve(CupertinoColors.systemGrey3, context),
+      height: height,
+    );
   }
 }

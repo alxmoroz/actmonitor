@@ -1,6 +1,6 @@
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:amonitor/ui/components/material_wrapper.dart';
-import 'package:amonitor/ui/components/selection/separator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -9,95 +9,97 @@ import '../components/text/text_widgets.dart';
 class ComparisonView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Widget buildBlocks() {
-      //TODO: редактор выбранных устройств
-      comparisonState.setComparisonDevices(specsState.knownDevices.getRange(5, 8).toList());
+    //TODO: редактор выбранных устройств
+    comparisonState.setComparisonDevices(specsState.knownDevices.getRange(8, 12).toList(growable: false));
 
-      final devices = comparisonState.comparisonDevices;
+    final devices = comparisonState.comparisonDevices;
 
-      // TODO: подумать при возможности над упрощением подготовки презентера этого
-      // группируем по параметрам, которые можно сравнивать для выбранных устройств
-      const section = 'parameters';
-      final comparableParams = specsState.paramsBySection(section).where((dynamic p) {
-        int comparableValuesCount = 0;
-        devices.forEach((d) {
-          final pv = d.paramByName(p, section);
-          if (pv.comparable) {
-            comparableValuesCount++;
-          }
-        });
-        return comparableValuesCount > 0;
-      }).toList();
+    // TODO: подумать при возможности над упрощением подготовки презентера этого
+    // группируем по параметрам, которые можно сравнивать для выбранных устройств
+    const section = 'parameters';
+    final comparableParams = specsState.paramsBySection(section).where((dynamic p) {
+      int comparableValuesCount = 0;
+      devices.forEach((d) {
+        final pv = d.paramByName(p, section);
+        if (pv.comparable) {
+          comparableValuesCount++;
+        }
+      });
+      return comparableValuesCount > 0;
+    }).toList(growable: false);
 
-      Widget buildHeader(int index) {
-        return MediumText(comparableParams[index]);
-      }
+    Widget buildBlock(int index) {
+      final dynamic p = comparableParams[index];
+      double maxScale = -1.0;
+      devices.forEach((d) {
+        final pv = d.paramByName(p, section);
+        final numValue = pv.numericValue!.toDouble();
+        if (maxScale <= numValue) {
+          maxScale = numValue;
+        }
+      });
 
-      Widget buildBlock(int index) {
-        final dynamic p = comparableParams[index];
-        double maxScale = -1.0;
-        devices.forEach((d) {
-          final pv = d.paramByName(p, section);
-          final numValue = pv.numericValue!.toDouble();
-          if (maxScale <= numValue) {
-            maxScale = numValue;
-          }
-        });
-
-        final items = devices.map((d) {
-          final pv = d.paramByName(p, section);
-          return Column(
-            children: [
-              Row(
-                // crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Expanded(
-                    child: SubtitleText('${d.name} ${d.detailName}'),
-                  ),
-                  Expanded(
-                    flex: 2,
-                    child: Stack(
-                      alignment: Alignment.topLeft,
+      final items = devices.map((d) {
+        final pv = d.paramByName(p, section);
+        return Column(
+          children: [
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 4, top: 2),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
-                        LinearProgressIndicator(
-                          value: pv.numericValue!.toDouble() / maxScale,
-                          minHeight: 21,
-                          // color: tealColor,
-                          backgroundColor: Colors.transparent,
-                        ),
-                        // SubtitleText(pv.toString(), color: darkColor, padding: const EdgeInsets.symmetric(horizontal: 4)),
-                        NormalText(pv.toString(), padding: const EdgeInsets.symmetric(horizontal: 4)),
+                        NormalText(d.name),
+                        SubtitleText(d.detailName, padding: const EdgeInsets.only(top: 2)),
                       ],
                     ),
                   ),
-                ],
-              ),
-              const Separator(height: 8),
-            ],
-          );
-        }).toList(growable: false);
-
-        return Card(
-          color: CupertinoDynamicColor.resolve(CupertinoColors.systemGrey6, context),
-          margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-          elevation: 8,
-          child: Padding(
-            padding: const EdgeInsets.all(12),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                buildHeader(index),
-                const SizedBox(height: 8),
-                ...items,
+                ),
+                Expanded(
+                  flex: 5,
+                  child: Stack(
+                    alignment: Alignment.topLeft,
+                    children: [
+                      LinearProgressIndicator(value: pv.numericValue!.toDouble() / maxScale, minHeight: 24, backgroundColor: Colors.transparent),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 4, top: 2),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            MediumText(pv.numValString),
+                            SubtitleText(pv.valString, padding: const EdgeInsets.only(top: 2)),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
-          ),
+            const SizedBox(height: 10),
+          ],
         );
-      }
+      }).toList(growable: false);
 
-      return ListView.builder(
-        itemBuilder: (_, index) => buildBlock(index),
-        itemCount: comparableParams.length,
+      return Card(
+        color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
+        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        elevation: 8,
+        child: Padding(
+          padding: const EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              MediumText(comparableParams[index]),
+              const SizedBox(height: 8),
+              ...items,
+            ],
+          ),
+        ),
       );
     }
 
@@ -105,7 +107,10 @@ class ComparisonView extends StatelessWidget {
       backgroundColor: Colors.transparent,
       child: SafeArea(
         child: materialWrap(
-          buildBlocks(),
+          ListView.builder(
+            itemBuilder: (_, index) => buildBlock(index),
+            itemCount: comparableParams.length,
+          ),
         ),
       ),
     );

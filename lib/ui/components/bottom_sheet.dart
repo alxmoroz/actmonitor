@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
-import 'colors.dart';
 import 'notch.dart';
 
 class AMBottomSheet extends StatelessWidget {
@@ -19,7 +18,7 @@ class AMBottomSheet extends StatelessWidget {
       onTap: FocusScope.of(context).unfocus,
       child: Container(
         decoration: BoxDecoration(
-          color: secondaryBackgroundColor(context),
+          color: CupertinoDynamicColor.resolve(CupertinoColors.tertiarySystemBackground, context),
           borderRadius: const BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20)),
         ),
         child: Column(
