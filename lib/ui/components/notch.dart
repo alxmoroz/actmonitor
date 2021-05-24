@@ -20,7 +20,7 @@ class Notch extends StatelessWidget {
           height: 4,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(100),
-            color: greyColor,
+            color: greyColor(context),
           ),
         ),
       ),

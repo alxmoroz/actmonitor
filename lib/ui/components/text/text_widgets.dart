@@ -77,12 +77,8 @@ class TitleText extends MediumText {
 }
 
 class H3 extends MediumText {
-  const H3(
-    String text, {
-    CupertinoDynamicColor? color,
-    TextAlign align = TextAlign.center,
-    EdgeInsets? padding,
-  }) : super(
+  const H3(String text, {Color? color, TextAlign align = TextAlign.center, EdgeInsets? padding})
+      : super(
           text,
           color: color,
           size: 20,

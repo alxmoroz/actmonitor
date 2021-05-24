@@ -12,6 +12,6 @@ class Separator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Divider(color: greyColor3, height: height);
+    return Divider(color: greyColor3(context), height: height);
   }
 }

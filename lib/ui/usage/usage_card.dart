@@ -1,4 +1,3 @@
-import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -95,7 +94,7 @@ class UsageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: greyColor6,
+      color: CupertinoDynamicColor.resolve(CupertinoColors.systemGrey6, context),
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       elevation: 5,
       child: Column(
