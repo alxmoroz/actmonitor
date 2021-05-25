@@ -2,7 +2,6 @@
 
 import 'package:amonitor/models/devices.dart';
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/selection/separator.dart';
 import 'package:amonitor/ui/specs/devices_list.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -45,21 +44,25 @@ class SpecsView extends StatelessWidget {
         );
       }
 
-      return Expanded(
-        child: ListView.separated(
-          padding: EdgeInsets.zero,
-          itemBuilder: (_, index) => _buildItem(index),
-          itemCount: params.length,
-          separatorBuilder: (_, index) => const Separator(height: 4),
-        ),
+      return ListView.builder(
+        itemBuilder: (_, index) => _buildItem(index),
+        itemCount: params.length,
       );
     }
 
     Widget _buildDeviceSelectBtn() {
-      final detName = specsState.device?.detailName ?? '';
       return ListTile(
-        title: TitleText(specsState.device?.name ?? 'Select device'),
-        subtitle: detName.isNotEmpty ? SubtitleText(detName) : null,
+        title: Row(
+          children: [
+            TitleText(specsState.device?.name ?? 'Select device', color: CupertinoColors.systemGrey6),
+            TitleText(
+              specsState.device?.detailName ?? '',
+              color: CupertinoColors.systemGrey5,
+              padding: const EdgeInsets.only(left: 4),
+              weight: FontWeight.w300,
+            ),
+          ],
+        ),
         trailing: dropdownIcon,
         onTap: _selectDevice,
         dense: true,
@@ -67,20 +70,27 @@ class SpecsView extends StatelessWidget {
       );
     }
 
-    return CupertinoPageScaffold(
-      // backgroundColor: greyColor3,
-      backgroundColor: Colors.transparent,
-      child: SafeArea(
+    return Observer(
+      builder: (_) => CupertinoPageScaffold(
+        backgroundColor: Colors.transparent,
+        navigationBar: CupertinoNavigationBar(
+          backgroundColor: CupertinoColors.systemFill,
+          middle: materialWrap(_buildDeviceSelectBtn()),
+        ),
+
+        /// тень
+        // Container(
+        //   height: 12,
+        //   decoration: const BoxDecoration(
+        //     gradient: LinearGradient(
+        //       begin: Alignment.topCenter,
+        //       end: Alignment.bottomCenter,
+        //       colors: [Color(0x33000000), Color(0x00000000)],
+        //     ),
+        //   ),
+        // ),
         child: materialWrap(
-          Observer(
-            builder: (_) => Column(
-              children: [
-                const SizedBox(height: 8),
-                _buildDeviceSelectBtn(),
-                _buildSpecs(),
-              ],
-            ),
-          ),
+          _buildSpecs(),
         ),
       ),
     );

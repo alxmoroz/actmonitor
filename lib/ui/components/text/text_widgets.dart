@@ -56,11 +56,11 @@ class SubtitleText extends NormalText {
 }
 
 class MediumText extends NormalText {
-  const MediumText(String text, {double? size, Color? color, TextAlign? align, EdgeInsets? padding})
+  const MediumText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
       : super(
           text,
           color: color,
-          weight: FontWeight.w500,
+          weight: weight ?? FontWeight.w500,
           size: size,
           align: align,
           padding: padding,
@@ -68,10 +68,11 @@ class MediumText extends NormalText {
 }
 
 class TitleText extends MediumText {
-  const TitleText(String text, {Color? color, TextAlign? align, EdgeInsets? padding})
+  const TitleText(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
       : super(
           text,
           color: color,
+          weight: weight,
           size: 20,
           align: align,
           padding: padding,

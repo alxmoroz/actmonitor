@@ -50,11 +50,11 @@ class _MainViewState extends State<MainView> {
       child: CupertinoTabScaffold(
         backgroundColor: Colors.transparent,
         tabBar: CupertinoTabBar(
-          backgroundColor: Colors.transparent,
+          backgroundColor: CupertinoColors.systemFill,
           items: [
-            BottomNavigationBarItem(icon: usageTabbarIcon),
-            BottomNavigationBarItem(icon: specsTabbarIcon),
-            BottomNavigationBarItem(icon: compareTabbarIcon),
+            BottomNavigationBarItem(icon: usageTabbarIcon, label: 'Usage'),
+            BottomNavigationBarItem(icon: specsTabbarIcon, label: 'Specs'),
+            BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Compare'),
           ],
         ),
         tabBuilder: (_, index) => CupertinoTabView(
