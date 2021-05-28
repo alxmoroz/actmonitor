@@ -2,17 +2,21 @@
 
 import 'package:amonitor/models/devices.dart';
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/specs/devices_list.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../components/bottom_sheet.dart';
 import '../components/icons.dart';
+import '../components/images.dart';
 import '../components/material_wrapper.dart';
+import '../components/navbar.dart';
 import '../components/text/text_widgets.dart';
+import '../specs/devices_list.dart';
 
 class SpecsView extends StatelessWidget {
+  static String get routeName => 'SpecsView';
+
   @override
   Widget build(BuildContext context) {
     Future<void> _selectDevice() async {
@@ -54,10 +58,13 @@ class SpecsView extends StatelessWidget {
       return ListTile(
         title: Row(
           children: [
-            TitleText(specsState.device?.name ?? 'Select device', color: CupertinoColors.systemGrey6),
+            TitleText(
+              specsState.device?.name ?? 'Select device',
+              // color: CupertinoColors.systemGrey6,
+            ),
             TitleText(
               specsState.device?.detailName ?? '',
-              color: CupertinoColors.systemGrey5,
+              // color: CupertinoColors.systemGrey5,
               padding: const EdgeInsets.only(left: 4),
               weight: FontWeight.w300,
             ),
@@ -72,25 +79,10 @@ class SpecsView extends StatelessWidget {
 
     return Observer(
       builder: (_) => CupertinoPageScaffold(
-        backgroundColor: Colors.transparent,
-        navigationBar: CupertinoNavigationBar(
-          backgroundColor: CupertinoColors.systemFill,
-          middle: materialWrap(_buildDeviceSelectBtn()),
-        ),
-
-        /// тень
-        // Container(
-        //   height: 12,
-        //   decoration: const BoxDecoration(
-        //     gradient: LinearGradient(
-        //       begin: Alignment.topCenter,
-        //       end: Alignment.bottomCenter,
-        //       colors: [Color(0x33000000), Color(0x00000000)],
-        //     ),
-        //   ),
-        // ),
-        child: materialWrap(
-          _buildSpecs(),
+        navigationBar: navBar(context, middle: materialWrap(_buildDeviceSelectBtn())),
+        child: Container(
+          decoration: bgDecoration,
+          child: materialWrap(_buildSpecs()),
         ),
       ),
     );

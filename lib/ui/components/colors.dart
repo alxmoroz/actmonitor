@@ -18,6 +18,9 @@ import 'package:flutter/cupertino.dart';
 Color get darkColor => const CupertinoDynamicColor.withBrightness(color: Color(0xFF333333), darkColor: Color(0xFFCCCCCC));
 
 Color get cardBackgroundColor => CupertinoColors.systemGrey6;
+
+Color get navbarBgColor => CupertinoColors.systemFill;
+
 //
 // Color greyColor(BuildContext ctx) => _r(CupertinoColors.systemGrey, ctx);
 //

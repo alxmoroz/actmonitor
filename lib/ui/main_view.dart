@@ -1,8 +1,9 @@
 import 'dart:async';
 
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/comparison/comparison_list_view.dart';
 import 'package:amonitor/ui/comparison/comparison_view.dart';
-import 'package:amonitor/ui/components/images.dart';
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -45,21 +46,20 @@ class _MainViewState extends State<MainView> {
       ComparisonView(),
     ];
 
-    return Container(
-      decoration: bgDecoration,
-      child: CupertinoTabScaffold(
-        backgroundColor: Colors.transparent,
-        tabBar: CupertinoTabBar(
-          backgroundColor: CupertinoColors.systemFill,
-          items: [
-            BottomNavigationBarItem(icon: usageTabbarIcon, label: 'Usage'),
-            BottomNavigationBarItem(icon: specsTabbarIcon, label: 'Specs'),
-            BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Compare'),
-          ],
-        ),
-        tabBuilder: (_, index) => CupertinoTabView(
-          builder: (_) => tabViews[index],
-        ),
+    return CupertinoTabScaffold(
+      tabBar: CupertinoTabBar(
+        backgroundColor: navbarBgColor,
+        items: [
+          BottomNavigationBarItem(icon: usageTabbarIcon, label: 'Usage'),
+          BottomNavigationBarItem(icon: specsTabbarIcon, label: 'Specs'),
+          BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Compare'),
+        ],
+      ),
+      tabBuilder: (_, index) => CupertinoTabView(
+        builder: (_) => tabViews[index],
+        routes: {
+          ComparisonListView.routeName: (_) => ComparisonListView(),
+        },
       ),
     );
   }

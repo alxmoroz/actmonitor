@@ -35,9 +35,8 @@ class App extends StatelessWidget {
       title: 'Activity Monitor',
       home: FutureBuilder(
         future: _initFuture,
-        builder: (context, snapshot) => snapshot.connectionState == ConnectionState.done ? MainView() : SplashScreen(),
+        builder: (_, snapshot) => snapshot.connectionState == ConnectionState.done ? MainView() : SplashScreen(),
       ),
-      // routes: {},
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,
