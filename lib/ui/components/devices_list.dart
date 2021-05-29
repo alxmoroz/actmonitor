@@ -41,7 +41,7 @@ class DevicesList extends StatelessWidget {
             child: SingleVariantSelection(
               specsState.knownDevices
                   .map((device) => SelectionItem(
-                  view: Row(
+                      view: Row(
                         children: [
                           MediumText(device.name),
                           SmallText(device.detailName, padding: const EdgeInsets.only(left: 6)),
