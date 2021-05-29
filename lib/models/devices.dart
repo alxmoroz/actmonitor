@@ -4,11 +4,11 @@ class ParamValue {
   final String name;
   final dynamic value;
 
-  String get numValString => value['NumericValue'] ?? '';
+  String get numValString => value is Map ? value['NumericValue'] ?? '?' : '?';
 
-  String get valString => value['Value'] ?? '';
+  String get valString => value is Map ? value['Value'] ?? '' : '';
 
-  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(value is Map ? numValString : '')?.group(0) ?? '');
+  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(numValString)?.group(0) ?? '');
 
   bool get comparable => numericValue != null;
 
@@ -42,7 +42,6 @@ class Device {
   }
 
   String get name => paramByName('Name', 'meta').value ?? '';
-
   String get detailName => paramByName('DetailName', 'meta').value ?? '';
 
   bool get isKnown => detailName != 'Unknown model';

@@ -1,4 +1,3 @@
-import 'package:amonitor/models/devices.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/colors.dart';
 import 'package:amonitor/ui/components/text/text_widgets.dart';
@@ -11,16 +10,15 @@ class ComparisonParameterCard extends StatelessWidget {
   @protected
   final String paramName;
 
-  List<Device> get _devices => comparisonState.comparisonDevices;
-
-  static const String section = 'parameters';
-
   @override
   Widget build(BuildContext context) {
+    final _devices = comparisonState.comparisonDevices;
+    const String section = 'parameters';
+
     double maxScale = -1.0;
     _devices.forEach((d) {
       final pv = d.paramByName(paramName, section);
-      final numValue = pv.numericValue!.toDouble();
+      final numValue = pv.comparable ? pv.numericValue!.toDouble() : 0.0;
       if (maxScale <= numValue) {
         maxScale = numValue;
       }
@@ -34,31 +32,36 @@ class ComparisonParameterCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
-                flex: 2,
+                flex: 3,
                 child: Padding(
-                  padding: const EdgeInsets.only(right: 4, top: 2),
+                  padding: const EdgeInsets.only(right: 6, top: 2),
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      NormalText(d.name),
-                      SubtitleText(d.detailName, padding: const EdgeInsets.only(top: 2)),
+                      NormalText(d.name, align: TextAlign.right),
+                      if (d.detailName.isNotEmpty) SmallText(d.detailName, padding: const EdgeInsets.only(top: 2), align: TextAlign.right),
                     ],
                   ),
                 ),
               ),
               Expanded(
-                flex: 5,
+                flex: 4,
                 child: Stack(
                   alignment: Alignment.topLeft,
                   children: [
-                    LinearProgressIndicator(value: pv.numericValue!.toDouble() / maxScale, minHeight: 24, backgroundColor: Colors.transparent),
+                    if (pv.comparable)
+                      LinearProgressIndicator(
+                        value: pv.numericValue!.toDouble() / maxScale,
+                        minHeight: 24,
+                        backgroundColor: Colors.transparent,
+                      ),
                     Padding(
                       padding: const EdgeInsets.only(left: 4, top: 2),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           MediumText(pv.numValString),
-                          SubtitleText(pv.valString, padding: const EdgeInsets.only(top: 2)),
+                          SmallText(pv.valString, padding: const EdgeInsets.only(top: 2)),
                         ],
                       ),
                     ),
@@ -67,7 +70,7 @@ class ComparisonParameterCard extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 12),
         ],
       );
     }).toList(growable: false);
@@ -77,11 +80,11 @@ class ComparisonParameterCard extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       elevation: 8,
       child: Padding(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            MediumText(paramName),
+            H3(paramName, color: CupertinoColors.systemGrey),
             const SizedBox(height: 8),
             ...items,
           ],

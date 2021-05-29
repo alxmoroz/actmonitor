@@ -10,10 +10,27 @@ class ComparisonState = _ComparisonStateBase with _$ComparisonState;
 abstract class _ComparisonStateBase with Store {
   // выбранные устройства
   @observable
-  List<Device> comparisonDevices = [];
+  ObservableSet<Device> comparisonDevicesSet = ObservableSet();
+
+  @computed
+  List<Device> get comparisonDevices {
+    return comparisonDevicesSet.toList(growable: false);
+  }
 
   @action
-  void setComparisonDevices(List<Device> devices) {
-    comparisonDevices = devices;
+  void addComparisonDevice(Device device) {
+    comparisonDevicesSet.add(device);
+  }
+
+  @action
+  void removeComparisonDevice(Device device) {
+    comparisonDevicesSet.remove(device);
+  }
+
+  @action
+  void setComparisonDevices(Iterable<Device> devices) {
+    comparisonDevicesSet
+      ..clear()
+      ..addAll(devices);
   }
 }

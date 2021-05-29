@@ -258,7 +258,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -283,7 +283,7 @@
       "Value": "FaceTime HD camera with 1.2MP photos and HD video (720p) up to 30 fps"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "800 MHz"
     },
     "Capacity": "16, 32 & 64 GB",
@@ -328,7 +328,7 @@
       "Value": "4.1"
     },
     "GPU": {
-      "Value": "PowerVR GX6450 (quad-core)",
+      "Value": "PowerVR GX6450 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -348,7 +348,7 @@
       "Value": "Front Camera iPhone 6"
     },
     "Processor": {
-      "Value": "Apple A8 (dual-core)",
+      "Value": "Apple A8 dual-core",
       "NumericValue": "1100 MHz",
       "Details": "64-bit architecture and M8 motion coprocessor"
     },

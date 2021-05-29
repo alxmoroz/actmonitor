@@ -1,6 +1,8 @@
+import 'package:amonitor/models/devices.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/comparison/comparison_list_view.dart';
 import 'package:amonitor/ui/comparison/comparison_parameter_card.dart';
+import 'package:amonitor/ui/components/buttons.dart';
 import 'package:amonitor/ui/components/images.dart';
 import 'package:amonitor/ui/components/navbar.dart';
 import 'package:flutter/cupertino.dart';
@@ -14,6 +16,8 @@ class ComparisonView extends StatefulWidget {
 }
 
 class _ComparisonViewState extends State<ComparisonView> {
+  List<Device> get devices => comparisonState.comparisonDevices;
+
   Future<void> _gotoComparisonList() async {
     await Navigator.of(context).pushNamed(ComparisonListView.routeName);
     setState(() {});
@@ -21,11 +25,6 @@ class _ComparisonViewState extends State<ComparisonView> {
 
   @override
   Widget build(BuildContext context) {
-    //TODO: редактор выбранных устройств
-    comparisonState.setComparisonDevices(specsState.knownDevices.getRange(8, 12).toList(growable: false));
-
-    final devices = comparisonState.comparisonDevices;
-
     // группируем по параметрам, которые можно сравнивать для выбранных устройств
     const section = 'parameters';
     final comparableParams = specsState.paramsBySection(section).where((dynamic p) {
@@ -42,7 +41,7 @@ class _ComparisonViewState extends State<ComparisonView> {
     return CupertinoPageScaffold(
       navigationBar: navBar(
         context,
-        trailing: CupertinoButton(onPressed: _gotoComparisonList, padding: const EdgeInsets.only(right: 12), child: const Text('Edit')),
+        trailing: Button('Edit', _gotoComparisonList, padding: const EdgeInsets.only(right: 12)),
       ),
       child: Container(
         decoration: bgDecoration,

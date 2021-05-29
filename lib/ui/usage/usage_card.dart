@@ -83,7 +83,7 @@ class UsageCard extends StatelessWidget {
     Widget usageLabel(String title, int value) => Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SubtitleText(title, color: darkColor),
+            SmallText(title, color: darkColor),
             NormalText('${bytesToString(value)}'),
           ],
         );
@@ -102,7 +102,7 @@ class UsageCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          TitleText('$title ${bytesToString(total)}', padding: const EdgeInsets.all(12), align: TextAlign.left),
+          H3('$title ${bytesToString(total)}', padding: const EdgeInsets.all(12), align: TextAlign.left),
           if (placeholder.isEmpty) ...[
             buildUsageChart(),
             buildLegend(),

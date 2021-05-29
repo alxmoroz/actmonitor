@@ -440,7 +440,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -456,7 +456,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "800 MHz"
     },
     "Name": "iPhone 4S",
@@ -514,7 +514,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP3 (triple-core)",
+      "Value": "PowerVR SGX543MP3 triple-core",
       "NumericValue": "266 MHz"
     },
     "Display": {
@@ -530,7 +530,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6 (dual-core)",
+      "Value": "Apple A6 dual-core",
       "NumericValue": "1300 MHz"
     },
     "Name": "iPhone 5",
@@ -589,7 +589,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP3 (triple-core)",
+      "Value": "PowerVR SGX543MP3 triple-core",
       "NumericValue": "266 MHz"
     },
     "Display": {
@@ -605,7 +605,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6 (dual-core)",
+      "Value": "Apple A6 dual-core",
       "NumericValue": "1300 MHz"
     },
     "Name": "iPhone 5",
@@ -664,7 +664,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP3 (triple-core)",
+      "Value": "PowerVR SGX543MP3 triple-core",
       "NumericValue": "266 MHz"
     },
     "Display": {
@@ -680,7 +680,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6 (dual-core)",
+      "Value": "Apple A6 dual-core",
       "NumericValue": "1300 MHz"
     },
     "Name": "iPhone 5c",
@@ -740,7 +740,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP3 (triple-core)",
+      "Value": "PowerVR SGX543MP3 triple-core",
       "NumericValue": "266 MHz"
     },
     "Display": {
@@ -756,7 +756,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6 (dual-core)",
+      "Value": "Apple A6 dual-core",
       "NumericValue": "1300 MHz"
     },
     "Name": "iPhone 5c",
@@ -816,7 +816,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -832,7 +832,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "NumericValue": "1300 MHz",
       "Details": "64-bit architecture and M7 motion coprocessor"
     },
@@ -893,7 +893,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -909,7 +909,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "NumericValue": "1300 MHz",
       "Details": "64-bit architecture and M7 motion coprocessor"
     },
@@ -970,7 +970,7 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR GX6450 (quad-core)",
+      "Value": "PowerVR GX6450 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -986,7 +986,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A8 (dual-core)",
+      "Value": "Apple A8 dual-core",
       "NumericValue": "1400 MHz",
       "Details": "64-bit architecture and M8 motion coprocessor"
     },
@@ -1046,7 +1046,7 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR GX6450 (quad-core)",
+      "Value": "PowerVR GX6450 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1062,7 +1062,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A8 (dual-core)",
+      "Value": "Apple A8 dual-core",
       "NumericValue": "1400 MHz",
       "Details": "64-bit architecture and M8 motion coprocessor"
     },
@@ -1122,7 +1122,7 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR GT7600 (hexa-core)",
+      "Value": "PowerVR GT7600 hexa-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1142,7 +1142,7 @@
       "Value": "Front Camera iPhone 6s"
     },
     "Processor": {
-      "Value": "Apple A9 (dual-core)",
+      "Value": "Apple A9 dual-core",
       "NumericValue": "1850 MHz",
       "Details": "64-bit architecture and M9 motion coprocessor"
     },
@@ -1195,7 +1195,7 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR GT7600 (hexa-core)",
+      "Value": "PowerVR GT7600 hexa-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1215,7 +1215,7 @@
       "Value": "Front Camera iPhone 6s"
     },
     "Processor": {
-      "Value": "Apple A9 (dual-core)",
+      "Value": "Apple A9 dual-core",
       "NumericValue": "1850 MHz",
       "Details": "64-bit architecture and M9 motion coprocessor"
     },
@@ -1268,7 +1268,7 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR GT7600 (hexa-core)",
+      "Value": "PowerVR GT7600 hexa-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1288,7 +1288,7 @@
       "Value": "Front Camera iPhone 6s"
     },
     "Processor": {
-      "Value": "Apple A9 (dual-core)",
+      "Value": "Apple A9 dual-core",
       "NumericValue": "1800 MHz",
       "Details": "64-bit architecture and M9 motion coprocessor"
     },
@@ -1341,8 +1341,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "hexa-core",
-      "NumericValue": ""
+      "Value": "PowerVR GT7600 hexa-core",
+      "NumericValue": "900 MHz"
     },
     "Display": {
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
@@ -1361,7 +1361,7 @@
       "Value": "Front Camera iPhone 7"
     },
     "Processor": {
-      "Value": "Apple A10 (quad-core)",
+      "Value": "Apple A10 quad-core",
       "NumericValue": "2300 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },
@@ -1412,8 +1412,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "hexa-core",
-      "NumericValue": ""
+      "Value": "PowerVR GT7600 hexa-core",
+      "NumericValue": "900 MHz"
     },
     "Display": {
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
@@ -1432,7 +1432,7 @@
       "Value": "Front Camera iPhone 7"
     },
     "Processor": {
-      "Value": "Apple A10 (quad-core)",
+      "Value": "Apple A10 quad-core",
       "NumericValue": "2300 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },
@@ -1483,8 +1483,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "hexa-core",
-      "NumericValue": ""
+      "Value": "PowerVR GT7600 hexa-core",
+      "NumericValue": "900 MHz"
     },
     "Display": {
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
@@ -1503,7 +1503,7 @@
       "Value": "Front Camera iPhone 7"
     },
     "Processor": {
-      "Value": "Apple A10 (quad-core)",
+      "Value": "Apple A10 quad-core",
       "NumericValue": "2300 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },
@@ -1554,8 +1554,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "hexa-core",
-      "NumericValue": ""
+      "Value": "PowerVR GT7600 hexa-core",
+      "NumericValue": "900 MHz"
     },
     "Display": {
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
@@ -1574,7 +1574,7 @@
       "Value": "Front Camera iPhone 7"
     },
     "Processor": {
-      "Value": "Apple A10 (quad-core)",
+      "Value": "Apple A10 quad-core",
       "NumericValue": "2300 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },

@@ -83,7 +83,7 @@
       "Value": "2.1 + EDR technology"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -106,7 +106,7 @@
       "Value": "Video recording, VGA up to 30 fps with audio. VGA-quality still camera"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Location": {
@@ -154,7 +154,7 @@
       "Value": "2.1 + EDR technology"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -170,7 +170,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Name": "iPad 2",
@@ -229,7 +229,7 @@
       "Value": "2.1 + EDR technology"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -245,7 +245,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Name": "iPad 2",
@@ -303,7 +303,7 @@
       "Value": "2.1 + EDR technology"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "200 MHz"
     },
     "Display": {
@@ -326,7 +326,7 @@
       "Value": "Video recording, VGA up to 30 fps with audio. VGA-quality still camera"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Location": {
@@ -374,7 +374,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -390,7 +390,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Name": "iPad mini",
@@ -445,7 +445,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -461,7 +461,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Name": "iPad mini",
@@ -519,7 +519,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP2 (dual-core)",
+      "Value": "PowerVR SGX543MP2 dual-core",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -535,7 +535,7 @@
       "NumericValue": "512 MB"
     },
     "Processor": {
-      "Value": "Apple A5 (dual-core)",
+      "Value": "Apple A5 dual-core",
       "NumericValue": "1000 MHz"
     },
     "Name": "iPad mini",
@@ -594,7 +594,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP4 (quad-core) ",
+      "Value": "PowerVR SGX543MP4 quad-core ",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -617,7 +617,7 @@
       "Value": "FaceTime VGA 30 fps"
     },
     "Processor": {
-      "Value": "Apple A5X (dual-core)",
+      "Value": "Apple A5X dual-core",
       "NumericValue": "1000 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -666,7 +666,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP4 (quad-core) ",
+      "Value": "PowerVR SGX543MP4 quad-core ",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -682,7 +682,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A5X (dual-core)",
+      "Value": "Apple A5X dual-core",
       "NumericValue": "1000 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -741,7 +741,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP4 (quad-core) ",
+      "Value": "PowerVR SGX543MP4 quad-core ",
       "NumericValue": "250 MHz"
     },
     "Display": {
@@ -757,7 +757,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A5X (dual-core)",
+      "Value": "Apple A5X dual-core",
       "NumericValue": "1000 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -817,7 +817,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX554MP4 (quad-core) ",
+      "Value": "PowerVR SGX554MP4 quad-core ",
       "NumericValue": "300 MHz"
     },
     "Display": {
@@ -840,7 +840,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A6X (dual-core)",
+      "Value": "Apple A6X dual-core",
       "NumericValue": "1400 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -889,7 +889,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP4 (quad-core) ",
+      "Value": "PowerVR SGX543MP4 quad-core ",
       "NumericValue": "300 MHz"
     },
     "Display": {
@@ -905,7 +905,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6X (dual-core)",
+      "Value": "Apple A6X dual-core",
       "NumericValue": "1400 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -964,7 +964,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR SGX543MP4 (quad-core) ",
+      "Value": "PowerVR SGX543MP4 quad-core ",
       "NumericValue": "300 MHz"
     },
     "Display": {
@@ -980,7 +980,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A6X (dual-core)",
+      "Value": "Apple A6X dual-core",
       "NumericValue": "1400 MHz",
       "Details": "Custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics"
     },
@@ -1040,7 +1040,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1063,7 +1063,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1400 MHz"
     },
@@ -1112,7 +1112,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1128,7 +1128,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1400 MHz"
     },
@@ -1188,7 +1188,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1204,7 +1204,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1400 MHz"
     },
@@ -1264,7 +1264,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1284,7 +1284,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1333,7 +1333,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1346,7 +1346,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1406,7 +1406,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1419,7 +1419,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1479,7 +1479,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1502,7 +1502,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1551,7 +1551,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1567,7 +1567,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1627,7 +1627,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR G6430 (quad-core)",
+      "Value": "PowerVR G6430 quad-core",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1643,7 +1643,7 @@
       "NumericValue": "1024 MB"
     },
     "Processor": {
-      "Value": "Apple A7 (dual-core)",
+      "Value": "Apple A7 dual-core",
       "Details": "64-bit architecture and M7 motion coprocessor",
       "NumericValue": "1300 MHz"
     },
@@ -1723,7 +1723,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A8 (dual-core)",
+      "Value": "Apple A8 dual-core",
       "Details": "64-bit architecture and M8 motion coprocessor",
       "NumericValue": "1500 MHz"
     },
@@ -1785,7 +1785,7 @@
       "NumericValue": "2000 MB"
     },
     "Processor": {
-      "Value": "Apple A8 (dual-core)",
+      "Value": "Apple A8 dual-core",
       "Details": "64-bit architecture and M8 motion coprocessor",
       "NumericValue": "1500 MHz"
     },
@@ -1845,7 +1845,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR GXA6850 (eight-core) = 2 × GX6650",
+      "Value": "PowerVR GXA6850 eight-core = 2 × GX6650",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1865,7 +1865,7 @@
       "Value": "Front Camera iPad 4-mini-Air2"
     },
     "Processor": {
-      "Value": "Apple A8X (triple-core)",
+      "Value": "Apple A8X triple-core",
       "Details": "64-bit architecture and M8 motion coprocessor",
       "NumericValue": "1500 MHz"
     },
@@ -1914,7 +1914,7 @@
       "Value": "4.0"
     },
     "GPU": {
-      "Value": "PowerVR GXA6850 (eight-core) = 2 × GX6650",
+      "Value": "PowerVR GXA6850 eight-core = 2 × GX6650",
       "NumericValue": "450 MHz"
     },
     "Display": {
@@ -1927,7 +1927,7 @@
       "NumericValue": "2048 MB"
     },
     "Processor": {
-      "Value": "Apple A8X (triple-core)",
+      "Value": "Apple A8X triple-core",
       "Details": "64-bit architecture and M8 motion coprocessor",
       "NumericValue": "1500 MHz"
     },
@@ -1987,8 +1987,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR 7XT Series (12-core)",
-      "NumericValue": ""
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
     },
     "Display": {
       "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
@@ -2007,7 +2007,7 @@
       "Value": "Front Camera 9.7‑inch iPad Pro"
     },
     "Processor": {
-      "Value": "Apple A9X (dual-core)    ",
+      "Value": "Apple A9X dual-core",
       "Details": "64-bit architecture and M9 motion coprocessor",
       "NumericValue": "2160 MHz"
     },
@@ -2057,8 +2057,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR 7XT Series (12-core)",
-      "NumericValue": ""
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
     },
     "Display": {
       "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
@@ -2070,7 +2070,7 @@
       "NumericValue": "2048 MB"
     },
     "Processor": {
-      "Value": "Apple A9X (dual-core)    ",
+      "Value": "Apple A9X dual-core",
       "Details": "64-bit architecture and M9 motion coprocessor",
       "NumericValue": "2160 MHz"
     },
@@ -2130,8 +2130,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR 7XT Series (12-core)",
-      "NumericValue": ""
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
     },
     "Display": {
       "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
@@ -2150,7 +2150,7 @@
       "Value": "Front Camera 12.9‑inch iPad Pro"
     },
     "Processor": {
-      "Value": "Apple A9X (dual-core)",
+      "Value": "Apple A9X dual-core",
       "Details": "64-bit architecture and M9 motion coprocessor",
       "NumericValue": "2200 MHz"
     },
@@ -2199,8 +2199,8 @@
       "Value": "4.2"
     },
     "GPU": {
-      "Value": "PowerVR 7XT Series (12-core)",
-      "NumericValue": ""
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
     },
     "Display": {
       "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
@@ -2219,7 +2219,7 @@
       "Value": "Front Camera 12.9‑inch iPad Pro"
     },
     "Processor": {
-      "Value": "Apple A9X (dual-core)",
+      "Value": "Apple A9X dual-core",
       "Details": "64-bit architecture and M9 motion coprocessor",
       "NumericValue": "2200 MHz"
     },

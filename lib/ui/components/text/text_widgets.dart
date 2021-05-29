@@ -42,14 +42,25 @@ class NormalText extends StatelessWidget {
   }
 }
 
-class SubtitleText extends NormalText {
-  const SubtitleText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+class SmallText extends NormalText {
+  const SmallText(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
       : super(
           text,
           color: color ?? CupertinoColors.systemGrey,
           weight: weight,
-          size: size,
           sizeScale: 0.85,
+          align: align,
+          padding: padding,
+        );
+}
+
+class LightText extends NormalText {
+  const LightText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+      : super(
+          text,
+          color: color,
+          weight: weight ?? FontWeight.w300,
+          size: size,
           align: align,
           padding: padding,
         );
@@ -67,23 +78,12 @@ class MediumText extends NormalText {
         );
 }
 
-class TitleText extends MediumText {
-  const TitleText(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+class H3 extends MediumText {
+  const H3(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
       : super(
           text,
           color: color,
           weight: weight,
-          size: 20,
-          align: align,
-          padding: padding,
-        );
-}
-
-class H3 extends MediumText {
-  const H3(String text, {Color? color, TextAlign align = TextAlign.center, EdgeInsets? padding})
-      : super(
-          text,
-          color: color,
           size: 20,
           align: align,
           padding: padding,

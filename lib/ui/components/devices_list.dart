@@ -1,11 +1,28 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/models/devices.dart';
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/bottom_sheet.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../components/selection/single_variant_selection.dart';
-import '../components/text/text_widgets.dart';
+import 'selection/single_variant_selection.dart';
+import 'text/text_widgets.dart';
+
+Future<Device?> selectDevice(BuildContext context) async {
+  Device? device;
+  if (specsState.devices.isNotEmpty) {
+    device = await showModalBottomSheet<Device>(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      enableDrag: false,
+      useRootNavigator: true,
+      builder: (context) => AMBottomSheet(DevicesList()),
+    );
+  }
+  return device;
+}
 
 class DevicesList extends StatelessWidget {
   int _selectionIndex() => specsState.devicesIds.indexOf(specsState.device?.id ?? '');
@@ -24,12 +41,10 @@ class DevicesList extends StatelessWidget {
             child: SingleVariantSelection(
               specsState.knownDevices
                   .map((device) => SelectionItem(
-                      view: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.start,
+                  view: Row(
                         children: [
-                          NormalText(device.name),
-                          if (device.detailName.isNotEmpty) SubtitleText(device.detailName),
+                          MediumText(device.name),
+                          SmallText(device.detailName, padding: const EdgeInsets.only(left: 6)),
                         ],
                       ),
                       onSelect: () => Navigator.of(context).pop(device)))

@@ -6,13 +6,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../components/bottom_sheet.dart';
+import '../components/devices_list.dart';
 import '../components/icons.dart';
 import '../components/images.dart';
 import '../components/material_wrapper.dart';
 import '../components/navbar.dart';
 import '../components/text/text_widgets.dart';
-import '../specs/devices_list.dart';
 
 class SpecsView extends StatelessWidget {
   static String get routeName => 'SpecsView';
@@ -20,18 +19,9 @@ class SpecsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _selectDevice() async {
-      if (specsState.devices.isNotEmpty) {
-        final device = await showModalBottomSheet<Device>(
-          context: context,
-          backgroundColor: Colors.transparent,
-          isScrollControlled: true,
-          enableDrag: false,
-          useRootNavigator: true,
-          builder: (context) => AMBottomSheet(DevicesList()),
-        );
-        if (device != null) {
-          specsState.setDevice(device);
-        }
+      final device = await selectDevice(context);
+      if (device != null) {
+        specsState.setDevice(device);
       }
     }
 
@@ -41,7 +31,7 @@ class SpecsView extends StatelessWidget {
       Widget _buildItem(int index) {
         final pv = params[index];
         return ListTile(
-          title: SubtitleText(pv.name),
+          title: SmallText(pv.name),
           subtitle: NormalText(pv.toString()),
           visualDensity: VisualDensity.compact,
           dense: true,
@@ -58,16 +48,8 @@ class SpecsView extends StatelessWidget {
       return ListTile(
         title: Row(
           children: [
-            TitleText(
-              specsState.device?.name ?? 'Select device',
-              // color: CupertinoColors.systemGrey6,
-            ),
-            TitleText(
-              specsState.device?.detailName ?? '',
-              // color: CupertinoColors.systemGrey5,
-              padding: const EdgeInsets.only(left: 4),
-              weight: FontWeight.w300,
-            ),
+            H3(specsState.device?.name ?? 'Select device'),
+            H3(specsState.device?.detailName ?? '', padding: const EdgeInsets.only(left: 4), weight: FontWeight.w300),
           ],
         ),
         trailing: dropdownIcon,
