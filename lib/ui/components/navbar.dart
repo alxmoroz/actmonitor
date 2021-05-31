@@ -6,8 +6,19 @@ import 'package:flutter/material.dart';
 import 'colors.dart';
 import 'text/text_widgets.dart';
 
-CupertinoNavigationBar navBar(BuildContext context, {Widget? leading, Widget? middle, String? title, Widget? trailing, Color? bgColor}) {
-  Widget backButton() => CupertinoNavigationBarBackButton(onPressed: () => Navigator.of(context).canPop() ? Navigator.of(context).pop() : null);
+CupertinoNavigationBar navBar(
+  BuildContext context, {
+  String? backTitle,
+  Widget? leading,
+  Widget? middle,
+  String? title,
+  Widget? trailing,
+  Color? bgColor,
+}) {
+  Widget backButton() => CupertinoNavigationBarBackButton(
+        previousPageTitle: backTitle,
+        onPressed: () => Navigator.of(context).canPop() ? Navigator.of(context).pop() : null,
+      );
 
   MediaQuery mQuery(Widget child) => MediaQuery(
         data: MediaQuery.of(context),

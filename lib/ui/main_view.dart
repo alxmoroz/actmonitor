@@ -52,7 +52,7 @@ class _MainViewState extends State<MainView> {
         items: [
           BottomNavigationBarItem(icon: usageTabbarIcon, label: 'Usage'),
           BottomNavigationBarItem(icon: specsTabbarIcon, label: 'Specs'),
-          BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Compare'),
+          BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Comparison'),
         ],
       ),
       tabBuilder: (_, index) => CupertinoTabView(

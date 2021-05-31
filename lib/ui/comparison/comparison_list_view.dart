@@ -35,7 +35,8 @@ class ComparisonListView extends StatelessWidget {
     return CupertinoPageScaffold(
       navigationBar: navBar(
         context,
-        title: 'Select models',
+        backTitle: 'OK',
+        title: 'Comparison models',
         trailing: Button.icon(plusIcon, _addDevice, padding: const EdgeInsets.only(left: 20, right: 12, bottom: 8)),
       ),
       backgroundColor: cardBackgroundColor,
@@ -71,9 +72,21 @@ class ComparisonListView extends StatelessWidget {
             SafeArea(
               child: Align(
                 alignment: Alignment.bottomCenter,
-                child: ListTile(
-                  title: Button.primary('Add device', _addDevice, titleColor: const Color(0xFFDDDDDD)),
-                  contentPadding: const EdgeInsets.all(8),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    ListTile(
+                      title: Button('+ Model', _addDevice),
+                      dense: true,
+                      visualDensity: VisualDensity.compact,
+                    ),
+                    ListTile(
+                      title: Button.primary('Compare', () => Navigator.of(context).pop()),
+                      dense: true,
+                      visualDensity: VisualDensity.compact,
+                    ),
+                    const SizedBox(height: 12),
+                  ],
                 ),
               ),
             ),

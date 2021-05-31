@@ -8,10 +8,15 @@ enum ButtonType { primary, secondary, outlined, error }
 class Button extends StatelessWidget {
   const Button(this.title, this.onPressed, {this.child, this.color, this.type, this.titleColor, this.padding, this.icon});
 
-  const Button.primary(this.title, this.onPressed, {this.child, this.titleColor, this.padding})
+  const Button.primary(this.title, this.onPressed, {this.child, this.titleColor = CupertinoColors.systemGrey6, this.padding})
       : type = ButtonType.primary,
         icon = null,
         color = null;
+
+  const Button.secondary(this.title, this.onPressed, {this.child, this.titleColor, this.padding})
+      : type = ButtonType.secondary,
+        icon = null,
+        color = CupertinoColors.systemGrey4;
 
   const Button.icon(this.icon, this.onPressed, {this.color, this.type, this.padding})
       : title = null,
@@ -29,13 +34,12 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color? resolvedColor = type == ButtonType.primary ? color ?? CupertinoTheme.of(context).primaryColor : color;
     return CupertinoButton(
       padding: padding ?? EdgeInsets.zero,
       onPressed: onPressed,
-      color: resolvedColor,
+      color: type == ButtonType.primary ? CupertinoTheme.of(context).primaryColor : color,
       disabledColor: CupertinoColors.systemGrey5,
-      child: child ?? MediumText(title ?? '', color: onPressed != null ? titleColor ?? CupertinoTheme.of(context).primaryColor : null),
+      child: child ?? MediumText(title ?? '', color: titleColor ?? (type == null ? CupertinoTheme.of(context).primaryColor : null)),
     );
   }
 }

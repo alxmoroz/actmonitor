@@ -41,6 +41,7 @@ class _ComparisonViewState extends State<ComparisonView> {
     return CupertinoPageScaffold(
       navigationBar: navBar(
         context,
+        title: 'Comparison',
         trailing: Button('Edit', _gotoComparisonList, padding: const EdgeInsets.only(right: 12)),
       ),
       child: Container(
