@@ -19,7 +19,7 @@ class SpecsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _selectDevice() async {
-      final model = await selectModel(context, specsState.selectedModel?.id ?? '');
+      final model = await selectModel(context, specsState.selectedModel);
       if (model != null) {
         specsState.setSelectedModel(model);
         settings.selectedModelId = model.id;

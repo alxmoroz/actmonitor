@@ -9,7 +9,7 @@ class SpecsClient {
     await _loadParams();
 
     final List<DeviceModel> models = [];
-    for (String type in ['ipad', 'iphone', 'ipod']) {
+    for (String type in ['iphone', 'ipad', 'ipod']) {
       models.addAll(await _getSpecsForType(type));
     }
     specsState.setModels(models);

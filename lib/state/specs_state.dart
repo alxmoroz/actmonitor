@@ -14,15 +14,15 @@ abstract class _SpecsStateBase with Store {
   @observable
   List<DeviceModel> models = [];
 
+  // выбранное устройство
+  @observable
+  DeviceModel? selectedModel;
+
   @computed
   List<DeviceModel> get knownModels => models.where((m) => m.isKnown).toList(growable: false);
 
   @computed
   List<String> get knownModelsIds => knownModels.map((m) => m.id).toList(growable: false);
-
-  // выбранное устройство
-  @observable
-  DeviceModel? selectedModel;
 
   @action
   void setParameters(Map<String, dynamic> params) {

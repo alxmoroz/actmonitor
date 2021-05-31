@@ -1,5 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/models/device_models.dart';
 import 'package:mobx/mobx.dart';
 
 part 'comparison_state.g.dart';
@@ -9,6 +10,9 @@ class ComparisonState = _ComparisonStateBase with _$ComparisonState;
 abstract class _ComparisonStateBase with Store {
   @observable
   ObservableList<String> comparisonModelsIds = ObservableList();
+
+  @observable
+  DeviceModel? selectedModel;
 
   @action
   void addComparisonModelId(String id) {
@@ -25,5 +29,10 @@ abstract class _ComparisonStateBase with Store {
     comparisonModelsIds
       ..clear()
       ..addAll(ids);
+  }
+
+  @action
+  void setSelectedModel(DeviceModel model) {
+    selectedModel = model;
   }
 }
