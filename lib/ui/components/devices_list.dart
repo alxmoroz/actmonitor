@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'selection/single_variant_selection.dart';
 import 'text/text_widgets.dart';
 
-Future<Device?> selectDevice(BuildContext context) async {
+Future<Device?> selectDevice(BuildContext context, String id) async {
   Device? device;
   if (specsState.devices.isNotEmpty) {
     device = await showModalBottomSheet<Device>(
@@ -18,14 +18,19 @@ Future<Device?> selectDevice(BuildContext context) async {
       isScrollControlled: true,
       enableDrag: false,
       useRootNavigator: true,
-      builder: (context) => AMBottomSheet(DevicesList()),
+      builder: (context) => AMBottomSheet(DevicesList(id)),
     );
   }
   return device;
 }
 
 class DevicesList extends StatelessWidget {
-  int _selectionIndex() => specsState.devicesIds.indexOf(specsState.device?.id ?? '');
+  const DevicesList(this.selectedId);
+
+  @protected
+  final String selectedId;
+
+  int _selectionIndex() => specsState.devicesIds.indexOf(selectedId);
 
   @override
   Widget build(BuildContext context) {

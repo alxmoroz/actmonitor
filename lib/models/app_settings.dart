@@ -9,4 +9,10 @@ part 'app_settings.g.dart';
 class AppSettings extends HiveObject {
   @HiveField(0)
   String version = '';
+
+  @HiveField(1)
+  String selectedDeviceId = '';
+
+  @HiveField(2)
+  List<String> comparisonDevicesIds = [];
 }

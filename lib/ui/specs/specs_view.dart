@@ -19,14 +19,16 @@ class SpecsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _selectDevice() async {
-      final device = await selectDevice(context);
+      final device = await selectDevice(context, specsState.selectedDevice?.id ?? '');
       if (device != null) {
-        specsState.setDevice(device);
+        specsState.setSelectedDevice(device);
+        settings.selectedDeviceId = device.id;
+        await settings.save();
       }
     }
 
     Widget _buildSpecs() {
-      final device = specsState.device;
+      final device = specsState.selectedDevice;
       final params = device != null ? device.paramsValues['parameters'] ?? [] : <ParamValue>[];
       Widget _buildItem(int index) {
         final pv = params[index];
@@ -48,8 +50,8 @@ class SpecsView extends StatelessWidget {
       return ListTile(
         title: Row(
           children: [
-            H3(specsState.device?.name ?? 'Select device'),
-            H3(specsState.device?.detailName ?? '', padding: const EdgeInsets.only(left: 4), weight: FontWeight.w300),
+            H3(specsState.selectedDevice?.name ?? 'Select device'),
+            H3(specsState.selectedDevice?.detailName ?? '', padding: const EdgeInsets.only(left: 4), weight: FontWeight.w300),
           ],
         ),
         trailing: dropdownIcon,

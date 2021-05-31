@@ -9,10 +9,12 @@ class SpecsClient {
     await _loadParams();
 
     final List<Device> devices = [];
-    ['ipad', 'iphone', 'ipod'].forEach((type) async {
-      devices.addAll(await _loadSpecsForDevice(type));
-    });
+    for (String type in ['ipad', 'iphone', 'ipod']) {
+      devices.addAll(await _getSpecsForDevice(type));
+    }
     specsState.setDevices(devices);
+
+    specsState.setSelectedDeviceById(settings.selectedDeviceId);
   }
 
   static Future<void> _loadParams() async {
@@ -21,7 +23,7 @@ class SpecsClient {
     specsState.setParameters(paramsJson);
   }
 
-  static Future<List<Device>> _loadSpecsForDevice(String type) async {
+  static Future<List<Device>> _getSpecsForDevice(String type) async {
     final String deviceJsonString = await rootBundle.loadString('assets/data/$type.json');
     final Map<String, dynamic> deviceJson = await json.decode(deviceJsonString);
 

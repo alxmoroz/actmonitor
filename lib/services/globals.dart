@@ -2,6 +2,7 @@
 
 import 'package:amonitor/generated/l10n.dart';
 import 'package:amonitor/models/app_settings.dart';
+import 'package:amonitor/services/comparison_client.dart';
 import 'package:amonitor/services/hive_storage.dart';
 import 'package:amonitor/services/specs_client.dart';
 import 'package:amonitor/state/comparison_state.dart';
@@ -42,5 +43,8 @@ class Globals {
 
     // загрузка предустановленных данных
     await SpecsClient.load();
+
+    // загрузка списка сравниваемых устройств из бд в стейт
+    ComparisonClient.load();
   }
 }

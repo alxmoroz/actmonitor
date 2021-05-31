@@ -18,15 +18,18 @@ class ComparisonListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _addDevice() async {
-      final device = await selectDevice(context);
+      final device = await selectDevice(context, '');
       if (device != null) {
         comparisonState.addComparisonDevice(device);
+        settings.comparisonDevicesIds.add(device.id);
+        await settings.save();
       }
     }
 
-    void _removeDevice(Device device) {
-      // final device = await selectDevice(context);
+    Future<void> _removeDevice(Device device) async {
       comparisonState.removeComparisonDevice(device);
+      settings.comparisonDevicesIds.remove(device.id);
+      await settings.save();
     }
 
     return CupertinoPageScaffold(
