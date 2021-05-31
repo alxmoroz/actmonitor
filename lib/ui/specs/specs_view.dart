@@ -1,15 +1,15 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/models/devices.dart';
+import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-import '../components/devices_list.dart';
 import '../components/icons.dart';
 import '../components/images.dart';
 import '../components/material_wrapper.dart';
+import '../components/models_list.dart';
 import '../components/navbar.dart';
 import '../components/text/text_widgets.dart';
 
@@ -19,17 +19,17 @@ class SpecsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _selectDevice() async {
-      final device = await selectDevice(context, specsState.selectedDevice?.id ?? '');
-      if (device != null) {
-        specsState.setSelectedDevice(device);
-        settings.selectedDeviceId = device.id;
+      final model = await selectModel(context, specsState.selectedModel?.id ?? '');
+      if (model != null) {
+        specsState.setSelectedModel(model);
+        settings.selectedModelId = model.id;
         await settings.save();
       }
     }
 
     Widget _buildSpecs() {
-      final device = specsState.selectedDevice;
-      final params = device != null ? device.paramsValues['parameters'] ?? [] : <ParamValue>[];
+      final model = specsState.selectedModel;
+      final params = model != null ? model.paramsValues['parameters'] ?? [] : <ParamValue>[];
       Widget _buildItem(int index) {
         final pv = params[index];
         return ListTile(
@@ -50,8 +50,8 @@ class SpecsView extends StatelessWidget {
       return ListTile(
         title: Row(
           children: [
-            H3(specsState.selectedDevice?.name ?? 'Select device'),
-            H3(specsState.selectedDevice?.detailName ?? '', padding: const EdgeInsets.only(left: 4), weight: FontWeight.w300),
+            H3(specsState.selectedModel?.name ?? 'Select model'),
+            H3(specsState.selectedModel?.detailName ?? '', padding: const EdgeInsets.only(left: 4), weight: FontWeight.w300),
           ],
         ),
         trailing: dropdownIcon,

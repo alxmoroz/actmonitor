@@ -3,10 +3,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'checkbox_circle.dart';
 //TODO: рефакторинг
 
-import 'separator.dart';
+import '../separator.dart';
+import 'checkbox_circle.dart';
 
 class SelectionItem {
   const SelectionItem({required this.view, required this.onSelect});

@@ -1,7 +1,8 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/ui/components/text/text_widgets.dart';
 import 'package:flutter/cupertino.dart';
+
+import 'text/text_widgets.dart';
 
 enum ButtonType { primary, secondary, outlined, error }
 

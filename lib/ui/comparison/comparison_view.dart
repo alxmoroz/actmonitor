@@ -1,12 +1,13 @@
-import 'package:amonitor/models/devices.dart';
+import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/comparison/comparison_list_view.dart';
-import 'package:amonitor/ui/comparison/comparison_parameter_card.dart';
-import 'package:amonitor/ui/components/buttons.dart';
-import 'package:amonitor/ui/components/images.dart';
-import 'package:amonitor/ui/components/navbar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../comparison/comparison_list_view.dart';
+import '../comparison/comparison_parameter_card.dart';
+import '../components/buttons.dart';
+import '../components/images.dart';
+import '../components/navbar.dart';
 
 class ComparisonView extends StatefulWidget {
   static String get routeName => 'ComparisonView';
@@ -16,7 +17,7 @@ class ComparisonView extends StatefulWidget {
 }
 
 class _ComparisonViewState extends State<ComparisonView> {
-  List<Device> get devices => comparisonState.comparisonDevices;
+  List<DeviceModel> get devices => specsState.modelsForIds(comparisonState.comparisonModelsIds);
 
   Future<void> _gotoComparisonList() async {
     await Navigator.of(context).pushNamed(ComparisonListView.routeName);

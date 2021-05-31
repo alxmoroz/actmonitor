@@ -1,6 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/models/devices.dart';
+import 'package:amonitor/models/device_models.dart';
 import 'package:mobx/mobx.dart';
 
 part 'specs_state.g.dart';
@@ -12,11 +12,17 @@ abstract class _SpecsStateBase with Store {
   Map<String, dynamic> parameters = <String, List<String>>{};
 
   @observable
-  List<Device> devices = [];
+  List<DeviceModel> models = [];
+
+  @computed
+  List<DeviceModel> get knownModels => models.where((m) => m.isKnown).toList(growable: false);
+
+  @computed
+  List<String> get knownModelsIds => knownModels.map((m) => m.id).toList(growable: false);
 
   // выбранное устройство
   @observable
-  Device? selectedDevice;
+  DeviceModel? selectedModel;
 
   @action
   void setParameters(Map<String, dynamic> params) {
@@ -24,26 +30,23 @@ abstract class _SpecsStateBase with Store {
   }
 
   @action
-  void setDevices(List<Device> devs) {
-    devices = devs;
+  void setModels(List<DeviceModel> ms) {
+    models = ms;
   }
 
   @action
-  void setSelectedDevice(Device device) {
-    selectedDevice = device;
+  void setSelectedModel(DeviceModel model) {
+    selectedModel = model;
   }
 
   @action
-  void setSelectedDeviceById(String id) {
+  void setSelectedModelById(String id) {
     try {
-      setSelectedDevice(devices.firstWhere((d) => d.id == id));
+      setSelectedModel(models.firstWhere((m) => m.id == id));
     } catch (_) {}
   }
 
-  @computed
-  List<Device> get knownDevices => devices.where((d) => d.isKnown).toList(growable: false);
-
-  List<String> get devicesIds => knownDevices.map((e) => e.id).toList(growable: false);
+  List<DeviceModel> modelsForIds(Iterable<String> ids) => models.where((m) => ids.contains(m.id)).toList(growable: false);
 
   List<dynamic> paramsBySection(String section) => parameters[section] ?? <dynamic>[];
 }

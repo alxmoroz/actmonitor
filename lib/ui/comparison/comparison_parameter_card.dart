@@ -1,8 +1,10 @@
+import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/colors.dart';
-import 'package:amonitor/ui/components/text/text_widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../components/colors.dart';
+import '../components/text/text_widgets.dart';
 
 class ComparisonParameterCard extends StatelessWidget {
   const ComparisonParameterCard(this.paramName);
@@ -10,22 +12,23 @@ class ComparisonParameterCard extends StatelessWidget {
   @protected
   final String paramName;
 
+  List<DeviceModel> get models => specsState.modelsForIds(comparisonState.comparisonModelsIds);
+
   @override
   Widget build(BuildContext context) {
-    final _devices = comparisonState.comparisonDevices;
     const String section = 'parameters';
 
     double maxScale = -1.0;
-    _devices.forEach((d) {
-      final pv = d.paramByName(paramName, section);
+    models.forEach((model) {
+      final pv = model.paramByName(paramName, section);
       final numValue = pv.comparable ? pv.numericValue!.toDouble() : 0.0;
       if (maxScale <= numValue) {
         maxScale = numValue;
       }
     });
 
-    final items = _devices.map((d) {
-      final pv = d.paramByName(paramName, section);
+    final items = models.map((model) {
+      final pv = model.paramByName(paramName, section);
       return Column(
         children: [
           Row(
@@ -38,8 +41,8 @@ class ComparisonParameterCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      NormalText(d.name, align: TextAlign.right),
-                      if (d.detailName.isNotEmpty) SmallText(d.detailName, padding: const EdgeInsets.only(top: 2), align: TextAlign.right),
+                      NormalText(model.name, align: TextAlign.right),
+                      if (model.detailName.isNotEmpty) SmallText(model.detailName, padding: const EdgeInsets.only(top: 2), align: TextAlign.right),
                     ],
                   ),
                 ),

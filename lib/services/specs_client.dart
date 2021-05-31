@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:amonitor/models/devices.dart';
+import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:flutter/services.dart';
 
@@ -8,13 +8,13 @@ class SpecsClient {
   static Future<void> load() async {
     await _loadParams();
 
-    final List<Device> devices = [];
+    final List<DeviceModel> models = [];
     for (String type in ['ipad', 'iphone', 'ipod']) {
-      devices.addAll(await _getSpecsForDevice(type));
+      models.addAll(await _getSpecsForType(type));
     }
-    specsState.setDevices(devices);
+    specsState.setModels(models);
 
-    specsState.setSelectedDeviceById(settings.selectedDeviceId);
+    specsState.setSelectedModelById(settings.selectedModelId);
   }
 
   static Future<void> _loadParams() async {
@@ -23,11 +23,11 @@ class SpecsClient {
     specsState.setParameters(paramsJson);
   }
 
-  static Future<List<Device>> _getSpecsForDevice(String type) async {
+  static Future<List<DeviceModel>> _getSpecsForType(String type) async {
     final String deviceJsonString = await rootBundle.loadString('assets/data/$type.json');
     final Map<String, dynamic> deviceJson = await json.decode(deviceJsonString);
 
-    final List<Device> devices = [];
+    final List<DeviceModel> devices = [];
     deviceJson.forEach((id, dynamic paramsValues) {
       final Map<String, List<ParamValue>> deviceParamsValues = {};
       specsState.parameters.forEach((section, dynamic params) {
@@ -40,7 +40,7 @@ class SpecsClient {
         });
         deviceParamsValues.putIfAbsent(section, () => pValues);
       });
-      devices.add(Device(id, type, deviceParamsValues));
+      devices.add(DeviceModel(id, type, deviceParamsValues));
     });
     return devices;
   }

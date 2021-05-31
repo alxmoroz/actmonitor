@@ -26,8 +26,8 @@ class ParamValue {
   }
 }
 
-class Device {
-  Device(this.id, this.type, this.paramsValues);
+class DeviceModel {
+  DeviceModel(this.id, this.type, this.paramsValues);
 
   final String id;
   final String type;

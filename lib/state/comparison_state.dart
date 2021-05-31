@@ -1,6 +1,5 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/models/devices.dart';
 import 'package:mobx/mobx.dart';
 
 part 'comparison_state.g.dart';
@@ -8,29 +7,23 @@ part 'comparison_state.g.dart';
 class ComparisonState = _ComparisonStateBase with _$ComparisonState;
 
 abstract class _ComparisonStateBase with Store {
-  // выбранные устройства
   @observable
-  ObservableSet<Device> comparisonDevicesSet = ObservableSet();
+  ObservableList<String> comparisonModelsIds = ObservableList();
 
-  @computed
-  List<Device> get comparisonDevices {
-    return comparisonDevicesSet.toList(growable: false);
+  @action
+  void addComparisonModelId(String id) {
+    comparisonModelsIds.add(id);
   }
 
   @action
-  void addComparisonDevice(Device device) {
-    comparisonDevicesSet.add(device);
+  void removeComparisonModelId(String id) {
+    comparisonModelsIds.remove(id);
   }
 
   @action
-  void removeComparisonDevice(Device device) {
-    comparisonDevicesSet.remove(device);
-  }
-
-  @action
-  void setComparisonDevices(Iterable<Device> devices) {
-    comparisonDevicesSet
+  void setComparisonModelsIds(Iterable<String> ids) {
+    comparisonModelsIds
       ..clear()
-      ..addAll(devices);
+      ..addAll(ids);
   }
 }

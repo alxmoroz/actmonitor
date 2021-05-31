@@ -1,9 +1,9 @@
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/images.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
+import '../components/images.dart';
 import 'usage_card.dart';
 
 class UsageView extends StatelessWidget {
