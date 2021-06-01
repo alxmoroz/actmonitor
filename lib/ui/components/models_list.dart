@@ -45,7 +45,7 @@ class _ModelsListState extends State<ModelsList> with TickerProviderStateMixin {
 
   @override
   void initState() {
-    selectedType = widget.selectedModel != null ? widget.selectedModel!.type : 'iphone';
+    selectedType = widget.selectedModel != null ? widget.selectedModel!.type : specsState.hostModel?.type ?? 'iphone';
     super.initState();
   }
 

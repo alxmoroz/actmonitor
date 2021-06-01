@@ -1,6 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
 import 'package:amonitor/models/device_models.dart';
+import 'package:amonitor/services/globals.dart';
 import 'package:mobx/mobx.dart';
 
 part 'specs_state.g.dart';
@@ -14,7 +15,6 @@ abstract class _SpecsStateBase with Store {
   @observable
   List<DeviceModel> models = [];
 
-  // выбранное устройство
   @observable
   DeviceModel? selectedModel;
 
@@ -23,6 +23,13 @@ abstract class _SpecsStateBase with Store {
 
   @computed
   List<String> get knownModelsIds => knownModels.map((m) => m.id).toList(growable: false);
+
+  @computed
+  DeviceModel? get hostModel {
+    // симулятор, неизвестное устройство
+    final id = iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model;
+    return modelForId(id);
+  }
 
   @action
   void setParameters(Map<String, dynamic> params) {
@@ -35,15 +42,21 @@ abstract class _SpecsStateBase with Store {
   }
 
   @action
-  void setSelectedModel(DeviceModel model) {
+  void setSelectedModel(DeviceModel? model) {
     selectedModel = model;
   }
 
   @action
-  void setSelectedModelById(String id) {
+  void setSelectedModelById(String? id) {
+    setSelectedModel(modelForId(id));
+  }
+
+  DeviceModel? modelForId(String? id) {
     try {
-      setSelectedModel(models.firstWhere((m) => m.id == id));
-    } catch (_) {}
+      return models.firstWhere((m) => m.id == id);
+    } catch (_) {
+      return null;
+    }
   }
 
   List<DeviceModel> modelsForIds(Iterable<String> ids) => models.where((m) => ids.contains(m.id)).toList(growable: false);

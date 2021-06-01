@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   cupertino_icons: any
+  device_info_plus: any
   flutter:
     sdk: flutter
   flutter_localizations:

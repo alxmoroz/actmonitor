@@ -8,6 +8,7 @@ import 'package:amonitor/services/specs_client.dart';
 import 'package:amonitor/state/comparison_state.dart';
 import 'package:amonitor/state/specs_state.dart';
 import 'package:amonitor/state/usage_state.dart';
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:package_info/package_info.dart';
 
 const bool kIsWeb = identical(0, 0.0);
@@ -16,6 +17,7 @@ late AppSettings settings;
 late UsageState usageState;
 late SpecsState specsState;
 late ComparisonState comparisonState;
+late IosDeviceInfo iosInfo;
 
 S get loc => S.current;
 
@@ -46,5 +48,8 @@ class Globals {
 
     // загрузка списка сравниваемых устройств из бд в стейт
     ComparisonClient.load();
+
+    // инфа о текущем устройстве
+    iosInfo = await DeviceInfoPlugin().iosInfo;
   }
 }
