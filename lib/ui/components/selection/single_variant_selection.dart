@@ -9,10 +9,11 @@ import '../separator.dart';
 import 'checkbox_circle.dart';
 
 class SelectionItem {
-  const SelectionItem({required this.view, required this.onSelect});
+  const SelectionItem({required this.view, required this.onSelect, this.alreadySelected = false});
 
   final Widget view;
   final VoidCallback onSelect;
+  final bool alreadySelected;
 }
 
 class SingleVariantSelection extends StatelessWidget {
@@ -38,7 +39,7 @@ class SingleVariantSelection extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            CheckboxCircle(isActive: selectedIndex == index),
+            CheckboxCircle(isActive: selectedIndex == index, alreadySelected: items[index].alreadySelected),
             const SizedBox(width: 8),
             Expanded(child: items[index].view),
           ],

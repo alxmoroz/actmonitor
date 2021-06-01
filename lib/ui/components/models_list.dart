@@ -9,7 +9,7 @@ import 'notch.dart';
 import 'selection/single_variant_selection.dart';
 import 'text/text_widgets.dart';
 
-Future<DeviceModel?> selectModel(BuildContext context, DeviceModel? selectedModel, [bool exclude = false]) async {
+Future<DeviceModel?> selectModel(BuildContext context, DeviceModel? selectedModel, {bool comparisonMode = false}) async {
   DeviceModel? model;
   if (specsState.models.isNotEmpty) {
     model = await showModalBottomSheet<DeviceModel>(
@@ -17,19 +17,19 @@ Future<DeviceModel?> selectModel(BuildContext context, DeviceModel? selectedMode
       backgroundColor: Colors.transparent,
       isScrollControlled: true,
       useRootNavigator: true,
-      builder: (context) => ModelsList(selectedModel, exclude),
+      builder: (context) => ModelsList(selectedModel, comparisonMode),
     );
   }
   return model;
 }
 
 class ModelsList extends StatefulWidget {
-  const ModelsList(this.selectedModel, this.exclude);
+  const ModelsList(this.selectedModel, this.comparisonMode);
 
   @protected
   final DeviceModel? selectedModel;
   @protected
-  final bool exclude;
+  final bool comparisonMode;
 
   @override
   _ModelsListState createState() => _ModelsListState();
@@ -40,7 +40,8 @@ class _ModelsListState extends State<ModelsList> with TickerProviderStateMixin {
 
   Iterable<DeviceModel> get pageModels => specsState.knownModels.where((m) => m.type == selectedType);
 
-  int selectedIndex() => widget.selectedModel != null && !widget.exclude ? pageModels.toList(growable: false).indexOf(widget.selectedModel!) : -1;
+  int selectedIndex() =>
+      widget.selectedModel != null && !widget.comparisonMode ? pageModels.toList(growable: false).indexOf(widget.selectedModel!) : -1;
 
   @override
   void initState() {
@@ -83,16 +84,20 @@ class _ModelsListState extends State<ModelsList> with TickerProviderStateMixin {
               child: SingleChildScrollView(
                 controller: scrollController,
                 child: SingleVariantSelection(
-                  pageModels
-                      .map((model) => SelectionItem(
+                  pageModels.map(
+                    (model) {
+                      final alreadySelected = widget.comparisonMode && comparisonState.comparisonModelsIds.contains(model.id);
+                      return SelectionItem(
                           view: Row(
                             children: [
-                              MediumText(model.name),
+                              MediumText(model.name, weight: alreadySelected ? FontWeight.w300 : null),
                               SmallText(model.detailName, padding: const EdgeInsets.only(left: 6)),
                             ],
                           ),
-                          onSelect: () => Navigator.of(context).pop(model)))
-                      .toList(growable: false),
+                          alreadySelected: alreadySelected,
+                          onSelect: () => !alreadySelected ? Navigator.of(context).pop(model) : null);
+                    },
+                  ).toList(growable: false),
                   selectedIndex: selectedIndex(),
                   hasDivider: true,
                 ),

@@ -21,7 +21,7 @@ class ComparisonListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future<void> _addModel() async {
-      final model = await selectModel(context, comparisonState.selectedModel, true);
+      final model = await selectModel(context, comparisonState.selectedModel, comparisonMode: true);
       if (model != null) {
         comparisonState.addComparisonModelId(model.id);
         comparisonState.setSelectedModel(model);
