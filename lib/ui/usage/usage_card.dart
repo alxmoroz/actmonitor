@@ -63,29 +63,29 @@ class UsageCard extends StatelessWidget {
 
       return elements.isNotEmpty
           ? Stack(
-        children: elements
-            .map((el) {
-          lastValue += el.value;
-          final color = el.color;
-          return LinearProgressIndicator(
-            value: lastValue / total,
-            minHeight: 24,
-            valueColor: color != null ? AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)) : null,
-            backgroundColor: Colors.transparent,
-          );
-        })
-            .toList(growable: false)
-            .reversed
-            .toList(growable: false),
-      )
+              children: elements
+                  .map((el) {
+                    lastValue += el.value;
+                    final color = el.color;
+                    return LinearProgressIndicator(
+                      value: lastValue / total,
+                      minHeight: 24,
+                      valueColor: color != null ? AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)) : null,
+                      backgroundColor: Colors.transparent,
+                    );
+                  })
+                  .toList(growable: false)
+                  .reversed
+                  .toList(growable: false),
+            )
           : Container();
     }
 
     Widget usageLabel(String title, int value) => Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SmallText(title, color: darkColor),
-        NormalText('${bytesToString(value)}'),
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SmallText(title, color: darkColor),
+            NormalText('${bytesToString(value)}'),
           ],
         );
 
