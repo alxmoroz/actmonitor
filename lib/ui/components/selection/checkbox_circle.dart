@@ -3,8 +3,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../ui_constants.dart';
-
 class CheckboxCircle extends StatelessWidget {
   const CheckboxCircle({required this.isActive, this.alreadySelected = false});
 
@@ -21,7 +19,7 @@ class CheckboxCircle extends StatelessWidget {
       height: 20,
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: borderRadiusCircle,
+          shape: BoxShape.circle,
           border: Border.all(color: isActive ? activeColor : inactiveColor, width: 2),
         ),
         child: Center(
@@ -30,7 +28,7 @@ class CheckboxCircle extends StatelessWidget {
             height: 12,
             decoration: BoxDecoration(
               color: (isActive || alreadySelected) ? activeColor : Colors.transparent,
-              borderRadius: borderRadiusCircle,
+              shape: BoxShape.circle,
             ),
           ),
         ),

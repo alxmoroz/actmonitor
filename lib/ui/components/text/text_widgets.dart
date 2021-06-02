@@ -4,8 +4,32 @@ import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+class TextShadow {
+  const TextShadow(this.color, this.offset);
+
+  final Color color;
+
+  @protected
+  final Offset offset;
+
+  double get dx => offset.dx;
+
+  double get dy => offset.dy;
+}
+
 class NormalText extends StatelessWidget {
-  const NormalText(this.text, {this.size, this.sizeScale, this.color, this.weight, this.align, this.padding, this.height, this.overflow});
+  const NormalText(
+    this.text, {
+    this.size,
+    this.sizeScale,
+    this.color,
+    this.weight,
+    this.align,
+    this.padding,
+    this.height,
+    this.overflow,
+    this.shadow,
+  });
 
   @protected
   final String text;
@@ -25,6 +49,8 @@ class NormalText extends StatelessWidget {
   final double? height;
   @protected
   final TextOverflow? overflow;
+  @protected
+  final TextShadow? shadow;
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +63,22 @@ class NormalText extends StatelessWidget {
     );
     return Padding(
       padding: padding ?? EdgeInsets.zero,
-      child: Text(text, style: textStyle, textAlign: align, overflow: overflow),
+      child: Stack(
+        children: [
+          if (shadow != null)
+            Positioned(
+              top: shadow!.dy,
+              left: shadow!.dx,
+              child: Text(
+                text,
+                style: textStyle.copyWith(color: CupertinoDynamicColor.maybeResolve(shadow!.color, context)),
+                textAlign: align,
+                overflow: overflow,
+              ),
+            ),
+          Text(text, style: textStyle, textAlign: align, overflow: overflow),
+        ],
+      ),
     );
   }
 }
@@ -67,7 +108,7 @@ class LightText extends NormalText {
 }
 
 class MediumText extends NormalText {
-  const MediumText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+  const MediumText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow})
       : super(
           text,
           color: color,
@@ -75,11 +116,12 @@ class MediumText extends NormalText {
           size: size,
           align: align,
           padding: padding,
+          shadow: shadow,
         );
 }
 
 class H3 extends MediumText {
-  const H3(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+  const H3(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow})
       : super(
           text,
           color: color,
@@ -87,5 +129,6 @@ class H3 extends MediumText {
           size: 20,
           align: align,
           padding: padding,
+          shadow: shadow,
         );
 }

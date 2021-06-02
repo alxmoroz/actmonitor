@@ -1,7 +1,10 @@
+import 'dart:ui';
+
 import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 import '../components/buttons.dart';
@@ -75,22 +78,30 @@ class ComparisonListView extends StatelessWidget {
               SafeArea(
                 child: Align(
                   alignment: Alignment.bottomCenter,
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      ListTile(
-                        title: Button('+ Model', _addModel),
-                        dense: true,
-                        visualDensity: VisualDensity.compact,
-                      ),
-                      if (comparisonState.comparisonModelsIds.length > 1)
-                        ListTile(
-                          title: Button.primary('Compare', () => Navigator.of(context).pop()),
-                          dense: true,
-                          visualDensity: VisualDensity.compact,
+                  child: ClipRect(
+                    child: Container(
+                      color: CupertinoDynamicColor.resolve(navbarBgColor, context),
+                      child: BackdropFilter(
+                        filter: ImageFilter.blur(sigmaX: 9, sigmaY: 9),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            ListTile(
+                              title: Button('+ Model', _addModel),
+                              dense: true,
+                              visualDensity: VisualDensity.compact,
+                            ),
+                            if (comparisonState.comparisonModelsIds.length > 1)
+                              ListTile(
+                                title: Button.primary('Compare', () => Navigator.of(context).pop()),
+                                dense: true,
+                                visualDensity: VisualDensity.compact,
+                              ),
+                            const SizedBox(height: 12),
+                          ],
                         ),
-                      const SizedBox(height: 12),
-                    ],
+                      ),
+                    ),
                   ),
                 ),
               ),

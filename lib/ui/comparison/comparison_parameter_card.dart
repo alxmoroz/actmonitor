@@ -1,9 +1,9 @@
 import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../components/colors.dart';
 import '../components/text/text_widgets.dart';
 
 class ComparisonParameterCard extends StatelessWidget {
@@ -31,6 +31,7 @@ class ComparisonParameterCard extends StatelessWidget {
       final pv = model.paramByName(paramName, section);
       return Column(
         children: [
+          const SizedBox(height: 10),
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -73,26 +74,13 @@ class ComparisonParameterCard extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 12),
         ],
       );
     }).toList(growable: false);
 
-    return Card(
-      color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
-      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-      elevation: 8,
-      child: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            H3(paramName, color: CupertinoColors.systemGrey),
-            const SizedBox(height: 8),
-            ...items,
-          ],
-        ),
-      ),
+    return AMCard(
+      title: CardTitle(paramName),
+      body: Padding(padding: const EdgeInsets.fromLTRB(10, 0, 10, 10), child: Column(children: [...items])),
     );
   }
 }
