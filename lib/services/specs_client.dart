@@ -13,8 +13,6 @@ class SpecsClient {
       models.addAll(await _getSpecsForType(type));
     }
     specsState.setModels(models);
-
-    specsState.setSelectedModelById(settings.selectedModelId);
   }
 
   static Future<void> _loadParams() async {

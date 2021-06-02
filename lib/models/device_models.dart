@@ -43,6 +43,4 @@ class DeviceModel {
 
   String get name => paramByName('Name', 'meta').value ?? '';
   String get detailName => paramByName('DetailName', 'meta').value ?? '';
-
-  bool get isKnown => detailName != 'Unknown model';
 }

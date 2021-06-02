@@ -17,7 +17,7 @@ class ComparisonView extends StatefulWidget {
 }
 
 class _ComparisonViewState extends State<ComparisonView> {
-  List<DeviceModel> get devices => specsState.modelsForIds(comparisonState.comparisonModelsIds);
+  List<DeviceModel> get models => specsState.modelsForIds(comparisonState.comparisonModelsIds);
 
   Future<void> _gotoComparisonList() async {
     await Navigator.of(context).pushNamed(ComparisonListView.routeName);
@@ -30,8 +30,8 @@ class _ComparisonViewState extends State<ComparisonView> {
     const section = 'parameters';
     final comparableParams = specsState.paramsBySection(section).where((dynamic p) {
       int comparableValuesCount = 0;
-      devices.forEach((d) {
-        final pv = d.paramByName(p, section);
+      models.forEach((m) {
+        final pv = m.paramByName(p, section);
         if (pv.comparable) {
           comparableValuesCount++;
         }

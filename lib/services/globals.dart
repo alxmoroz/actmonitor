@@ -2,7 +2,7 @@
 
 import 'package:amonitor/generated/l10n.dart';
 import 'package:amonitor/models/app_settings.dart';
-import 'package:amonitor/services/comparison_client.dart';
+import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/hive_storage.dart';
 import 'package:amonitor/services/specs_client.dart';
 import 'package:amonitor/state/comparison_state.dart';
@@ -11,13 +11,12 @@ import 'package:amonitor/state/usage_state.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:package_info/package_info.dart';
 
-const bool kIsWeb = identical(0, 0.0);
-
 late AppSettings settings;
 late UsageState usageState;
 late SpecsState specsState;
 late ComparisonState comparisonState;
 late IosDeviceInfo iosInfo;
+DeviceModel? hostModel;
 
 S get loc => S.current;
 
@@ -41,15 +40,22 @@ class Globals {
     // final savedVersion = settings.version;
     final currentVersion = packageInfo.version;
     settings.version = currentVersion;
-    await settings.save();
 
-    // загрузка предустановленных данных
+    // загрузка спецификаций
     await SpecsClient.load();
-
-    // загрузка списка сравниваемых устройств из бд в стейт
-    ComparisonClient.load();
 
     // инфа о текущем устройстве
     iosInfo = await DeviceInfoPlugin().iosInfo;
+    hostModel = specsState.modelForId(iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model);
+    if (specsState.isKnownModel(hostModel) && settings.selectedModelId.isEmpty) {
+      settings.selectedModelId = hostModel!.id;
+    }
+    specsState.setSelectedModelById(settings.selectedModelId);
+
+    // настройки
+    await settings.save();
+
+    // загрузка списка сравниваемых устройств из бд в стейт
+    comparisonState.setComparisonModelsIds(settings.comparisonModelsIds);
   }
 }
