@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class ParamValue {
   ParamValue({required this.name, this.value = ''});
 
@@ -12,6 +14,10 @@ class ParamValue {
 
   bool get comparable => numericValue != null;
 
+  bool get isDate => date != null;
+
+  DateTime? get date => DateTime.tryParse(value is Map ? value['Date'] ?? '' : '');
+
   @override
   String toString() {
     String res = '';
@@ -19,6 +25,8 @@ class ParamValue {
       res = value;
     } else if (comparable) {
       res = '$numValString${valString.isNotEmpty ? '\n' + valString : ''}';
+    } else if (isDate) {
+      res = DateFormat.yMMMMd().format(date!);
     } else if (value is Map) {
       res = (value as Map).values.join('\n');
     }
@@ -36,11 +44,12 @@ class DeviceModel {
   ParamValue paramByName(String name, String section) {
     final sectionParams = paramsValues[section] ?? [];
     return sectionParams.firstWhere(
-      (pv) => pv.name == name,
+          (pv) => pv.name == name,
       orElse: () => ParamValue(name: name),
     );
   }
 
   String get name => paramByName('Name', 'meta').value ?? '';
+
   String get detailName => paramByName('DetailName', 'meta').value ?? '';
 }
