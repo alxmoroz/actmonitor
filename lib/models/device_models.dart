@@ -44,7 +44,7 @@ class DeviceModel {
   ParamValue paramByName(String name, String section) {
     final sectionParams = paramsValues[section] ?? [];
     return sectionParams.firstWhere(
-          (pv) => pv.name == name,
+      (pv) => pv.name == name,
       orElse: () => ParamValue(name: name),
     );
   }
