@@ -3,6 +3,7 @@ import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../components/text/text_widgets.dart';
 
@@ -79,7 +80,7 @@ class ComparisonParameterCard extends StatelessWidget {
     }).toList(growable: false);
 
     return AMCard(
-      title: CardTitle(paramName),
+      title: CardTitle(Intl.message(paramName, name: paramName)),
       body: Padding(padding: const EdgeInsets.fromLTRB(10, 0, 10, 10), child: Column(children: [...items])),
     );
   }

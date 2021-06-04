@@ -64,7 +64,6 @@ class _ModelsListState extends State<ModelsList> with TickerProviderStateMixin {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Notch(),
-            const MediumText('Select model', align: TextAlign.center),
             const SizedBox(height: 8),
             CupertinoSlidingSegmentedControl(
               children: const {

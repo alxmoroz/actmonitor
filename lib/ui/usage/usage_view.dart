@@ -16,14 +16,14 @@ class UsageView extends StatelessWidget {
     Widget buildRamUsage() {
       final ram = usageState.ram;
       return UsageCard(
-        title: 'Memory',
+        title: loc.memory,
         total: ram.total,
         elements: [
-          UsageElement('Wired', ram.wired, CupertinoColors.activeOrange),
-          UsageElement('Active', ram.active),
-          UsageElement('Compressed', ram.compressed, CupertinoColors.systemIndigo),
-          UsageElement('Graphics', ram.graphics, CupertinoColors.systemPurple),
-          UsageElement('Free', ram.freeTotal, freeColor),
+          UsageElement(loc.wired, ram.wired, CupertinoColors.activeOrange),
+          UsageElement(loc.active, ram.active),
+          UsageElement(loc.compressed, ram.compressed, CupertinoColors.systemIndigo),
+          UsageElement(loc.graphics, ram.graphics, CupertinoColors.systemPurple),
+          UsageElement(loc.free, ram.freeTotal, freeColor),
         ],
         placeholder: ram.placeholder,
       );
@@ -32,11 +32,11 @@ class UsageView extends StatelessWidget {
     Widget buildDiskUsage() {
       final disk = usageState.disk;
       return UsageCard(
-        title: 'Capacity',
+        title: loc.capacity,
         total: disk.total,
         elements: [
-          UsageElement('Used', disk.total - disk.free),
-          UsageElement('Free', disk.free, freeColor),
+          UsageElement(loc.used, disk.total - disk.free),
+          UsageElement(loc.free, disk.free, freeColor),
         ],
         base: 1000,
         placeholder: disk.placeholder,
@@ -46,7 +46,7 @@ class UsageView extends StatelessWidget {
     Widget buildBatteryUsage() {
       final battery = usageState.battery;
       return UsageCard(
-        title: 'Battery',
+        title: loc.battery,
         total: 100,
         elements: [
           UsageElement('Charged', battery.level),

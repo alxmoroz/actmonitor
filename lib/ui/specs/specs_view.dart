@@ -5,6 +5,7 @@ import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:intl/intl.dart';
 
 import '../components/icons.dart';
 import '../components/images.dart';
@@ -32,9 +33,10 @@ class SpecsView extends StatelessWidget {
       final params = model != null ? model.paramsValues['parameters'] ?? [] : <ParamValue>[];
       Widget _buildItem(int index) {
         final pv = params[index];
+        final valueStr = pv.toString();
         return ListTile(
-          title: SmallText(pv.name),
-          subtitle: NormalText(pv.toString()),
+          title: SmallText(Intl.message(pv.name, name: pv.name)),
+          subtitle: NormalText(Intl.message(valueStr, name: valueStr)),
           visualDensity: VisualDensity.compact,
           dense: true,
         );

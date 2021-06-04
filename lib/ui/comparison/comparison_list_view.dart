@@ -43,7 +43,7 @@ class ComparisonListView extends StatelessWidget {
       navigationBar: navBar(
         context,
         backTitle: 'OK',
-        title: 'Comparison models',
+        title: loc.comparison_models_title,
         trailing: Button.icon(plusIcon, _addModel, padding: const EdgeInsets.only(left: 20, right: 12, bottom: 8)),
       ),
       backgroundColor: cardBackgroundColor,
@@ -87,13 +87,13 @@ class ComparisonListView extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             ListTile(
-                              title: Button('+ Model', _addModel),
+                              title: Button(loc.add_model, _addModel),
                               dense: true,
                               visualDensity: VisualDensity.compact,
                             ),
                             if (comparisonState.comparisonModelsIds.length > 1)
                               ListTile(
-                                title: Button.primary('Compare', () => Navigator.of(context).pop()),
+                                title: Button.primary(loc.compare, () => Navigator.of(context).pop()),
                                 dense: true,
                                 visualDensity: VisualDensity.compact,
                               ),

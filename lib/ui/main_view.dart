@@ -50,9 +50,9 @@ class _MainViewState extends State<MainView> {
       tabBar: CupertinoTabBar(
         backgroundColor: navbarBgColor,
         items: [
-          BottomNavigationBarItem(icon: usageTabbarIcon, label: 'Usage'),
-          BottomNavigationBarItem(icon: specsTabbarIcon, label: 'Specs'),
-          BottomNavigationBarItem(icon: compareTabbarIcon, label: 'Comparison'),
+          BottomNavigationBarItem(icon: usageTabbarIcon, label: loc.usage),
+          BottomNavigationBarItem(icon: specsTabbarIcon, label: loc.specs),
+          BottomNavigationBarItem(icon: compareTabbarIcon, label: loc.comparison),
         ],
       ),
       tabBuilder: (_, index) => CupertinoTabView(
