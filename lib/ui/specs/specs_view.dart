@@ -2,8 +2,10 @@
 
 import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
@@ -34,11 +36,9 @@ class SpecsView extends StatelessWidget {
       Widget _buildItem(int index) {
         final pv = params[index];
         final valueStr = pv.toString();
-        return ListTile(
-          title: SmallText(Intl.message(pv.name, name: pv.name)),
-          subtitle: NormalText(Intl.message(valueStr, name: valueStr)),
-          visualDensity: VisualDensity.compact,
-          dense: true,
+        return AMCard(
+          title: CardTitle(Intl.message(pv.name, name: pv.name)),
+          body: NormalText(Intl.message(valueStr, name: valueStr), padding: const EdgeInsets.all(10)),
         );
       }
 
@@ -67,8 +67,16 @@ class SpecsView extends StatelessWidget {
       builder: (_) => CupertinoPageScaffold(
         navigationBar: navBar(context, middle: materialWrap(_buildDeviceSelectBtn())),
         child: Container(
-          decoration: bgDecoration,
-          child: materialWrap(_buildSpecs()),
+          decoration: bgDecoration(context),
+          child: Column(
+            children: [
+              const SizedBox(height: 8),
+              Expanded(
+                child: materialWrap(_buildSpecs()),
+              ),
+              const SizedBox(height: 20),
+            ],
+          ),
         ),
       ),
     );

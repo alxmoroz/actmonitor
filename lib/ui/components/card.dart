@@ -17,8 +17,9 @@ class CardTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final offset = Offset(0, (CupertinoTheme.brightnessOf(context) == Brightness.dark ? -1 : 1) * 1.2);
 
-    return H3(
+    return NormalText(
       title,
+      size: 18,
       weight: FontWeight.bold,
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
@@ -28,7 +29,7 @@ class CardTitle extends StatelessWidget {
 }
 
 class AMCard extends StatelessWidget {
-  const AMCard({this.body, this.title});
+  const AMCard({this.body, this.title, this.margin});
 
   @protected
   final Widget? title;
@@ -36,11 +37,14 @@ class AMCard extends StatelessWidget {
   @protected
   final Widget? body;
 
+  @protected
+  final EdgeInsetsGeometry? margin;
+
   @override
   Widget build(BuildContext context) {
     const double radius = 8;
     return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      margin: margin ?? const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       elevation: 5,
       color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius)),

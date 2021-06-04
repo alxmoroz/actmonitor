@@ -59,7 +59,7 @@ class UsageView extends StatelessWidget {
 
     return CupertinoPageScaffold(
       child: Container(
-        decoration: bgDecoration,
+        decoration: bgDecoration(context),
         child: SafeArea(
           child: Observer(
             builder: (_) => Column(

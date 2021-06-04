@@ -1,7 +1,14 @@
 // Copyright (c) 2021. Alexandr Moroz
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-ImageProvider get backgroundImage => const AssetImage('assets/images/background.png');
-
-BoxDecoration get bgDecoration => BoxDecoration(image: DecorationImage(image: backgroundImage, fit: BoxFit.fill));
+BoxDecoration bgDecoration(BuildContext context) => BoxDecoration(
+      image: DecorationImage(
+        image: const AssetImage('assets/images/background.png'),
+        fit: BoxFit.fill,
+        // colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0xFFFFFFFF), BlendMode.overlay),
+        colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0x99FFFFFF), BlendMode.plus),
+        // colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0x00FFFFFF), BlendMode.src),
+      ),
+    );

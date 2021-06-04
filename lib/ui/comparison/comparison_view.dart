@@ -46,17 +46,17 @@ class _ComparisonViewState extends State<ComparisonView> {
         trailing: Button(loc.comparison_models_list_edit, _gotoComparisonList, padding: const EdgeInsets.only(right: 12)),
       ),
       child: Container(
-        decoration: bgDecoration,
+        decoration: bgDecoration(context),
         child: Column(
           children: [
-            const SizedBox(height: 6),
+            const SizedBox(height: 8),
             Expanded(
               child: ListView.builder(
                 itemBuilder: (_, index) => ComparisonParameterCard(comparableParams[index]),
                 itemCount: comparableParams.length,
               ),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 30),
           ],
         ),
       ),

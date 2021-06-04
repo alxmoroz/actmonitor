@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: bgDecoration,
+      decoration: bgDecoration(context),
       child: const Center(
         child: CircularProgressIndicator(),
       ),
