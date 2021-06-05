@@ -48,6 +48,7 @@ class _MainViewState extends State<MainView> {
 
     return CupertinoTabScaffold(
       tabBar: CupertinoTabBar(
+        inactiveColor: inactiveColor,
         backgroundColor: navbarBgColor,
         items: [
           BottomNavigationBarItem(icon: usageTabbarIcon, label: loc.usage),

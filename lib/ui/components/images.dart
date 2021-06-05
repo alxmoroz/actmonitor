@@ -7,8 +7,6 @@ BoxDecoration bgDecoration(BuildContext context) => BoxDecoration(
       image: DecorationImage(
         image: const AssetImage('assets/images/background.png'),
         fit: BoxFit.fill,
-        // colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0xFFFFFFFF), BlendMode.overlay),
-        colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0x99FFFFFF), BlendMode.plus),
-        // colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0x00FFFFFF), BlendMode.src),
+        colorFilter: CupertinoTheme.brightnessOf(context) == Brightness.dark ? null : const ColorFilter.mode(Color(0xFFFFFFFF), BlendMode.overlay),
       ),
     );
