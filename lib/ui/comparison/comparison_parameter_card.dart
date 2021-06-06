@@ -22,7 +22,7 @@ class ComparisonParameterCard extends StatelessWidget {
     double maxScale = -1.0;
     models.forEach((model) {
       final pv = model.paramByName(paramName, section);
-      final numValue = pv.comparable ? pv.numericValue!.toDouble() : 0.0;
+      final numValue = pv.isNum ? pv.numValue!.toDouble() : 0.0;
       if (maxScale <= numValue) {
         maxScale = numValue;
       }
@@ -54,9 +54,9 @@ class ComparisonParameterCard extends StatelessWidget {
                 child: Stack(
                   alignment: Alignment.topLeft,
                   children: [
-                    if (pv.comparable)
+                    if (pv.isNum)
                       LinearProgressIndicator(
-                        value: pv.numericValue!.toDouble() / maxScale,
+                        value: pv.numValue!.toDouble() / maxScale,
                         minHeight: 24,
                         backgroundColor: Colors.transparent,
                       ),

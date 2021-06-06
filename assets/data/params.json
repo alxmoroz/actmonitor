@@ -3,7 +3,7 @@
     "Name",
     "DetailName"
   ],
-  "battery": [
+  "battery_life": [
     "audio_playback",
     "video_playback",
     "browsing_over_wifi",

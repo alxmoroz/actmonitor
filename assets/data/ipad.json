@@ -2,10 +2,14 @@
   "iPad": {
     "DetailName": "Unknown model",
     "Name": "iPad",
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     }
   },
   "iPad1,1": {
@@ -49,10 +53,14 @@
     "cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.8 Wh (3.75 V)",
@@ -75,9 +83,7 @@
   },
   "iPad2,1": {
     "release_date": {
-      "Date": {
-        "Date": "2011-03-11T08:00:00Z"
-      }
+      "Date": "2011-03-11T08:00:00Z"
     },
     "Bluetooth": {
       "Value": "2.1 + EDR technology"
@@ -120,10 +126,14 @@
       "Value": "25 Wh (3.8 V)",
       "NumericValue": "6579 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "261 \/ 496 (Multi-Core)"
@@ -190,10 +200,14 @@
     "cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "25 Wh (3.8 V)",
@@ -265,10 +279,14 @@
     "cellular": {
       "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A (800, 1900 MHz)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "25 Wh (3.8 V)",
@@ -340,10 +358,14 @@
       "Value": "25 Wh (3.8 V)",
       "NumericValue": "6579 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "261 \/ 488 (Multi-Core)"
@@ -411,10 +433,14 @@
       "Value": "16.3 Whr (3.72 V)",
       "NumericValue": "4440 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "261 \/ 492 (Multi-Core)"
@@ -481,10 +507,14 @@
     "cellular": {
       "Value": "CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 1, 3, 5, 13, 25)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "16.3 Whr (3.72 V)",
@@ -555,10 +585,14 @@
     "cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 4 and 17)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "16.3 Whr (3.72 V)",
@@ -632,10 +666,14 @@
       "Value": "42.5 Wh (3.7 V)",
       "NumericValue": "11487 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "261 \/ 492 (Multi-Core)"
@@ -703,10 +741,14 @@
     "cellular": {
       "Value": "4G LTE (700) — U.S. & Canada only CDMA EV-DO Rev. A (800, 1900 MHz) UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "42.5 Wh (3.7 V)",
@@ -778,10 +820,14 @@
     "cellular": {
       "Value": "4G LTE (700, 2100 MHz) — U.S. & Canada only; UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz); GSM\/EDGE (850, 900, 1800, 1900 MHz)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "42.5 Wh (3.7 V)",
@@ -855,10 +901,14 @@
       "Value": "43 Wh (3.7 V)",
       "NumericValue": "11560 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "40",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "773 \/ 1410 (Multi-Core)"
@@ -926,10 +976,14 @@
     "cellular": {
       "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 4 and 17)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "43 Wh (3.7 V)",
@@ -1001,10 +1055,14 @@
     "cellular": {
       "Value": "CDMA EV-DO Rev. A and Rev. B (800, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) LTE (Bands 1, 3, 5, 13, 25)"
     },
-    "BatteryLife": {
-      "audio_playback": "40",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "43 Wh (3.7 V)",
@@ -1078,10 +1136,14 @@
       "Value": "32.9 Wh (3.73 V)",
       "NumericValue": "8827 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "1474 \/ 2669 (Multi-Core)"
@@ -1149,10 +1211,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -1225,10 +1291,14 @@
     "cellular": {
       "Value": "UMTS (WCDMA)\/HSPA+\/ DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) TD-SCDMA (1900 (F), 2000 (A)) TD-LTE (bands 38 and 39)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -1299,10 +1369,14 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "1385 \/ 2496 (Multi-Core)"
@@ -1367,10 +1441,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1440,10 +1518,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz); GSM\/EDGE (850, 900, 1800, 1900 MHz); CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz); LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1517,10 +1599,14 @@
       "Value": "24.3 Wh (3.75 V)",
       "NumericValue": "6471 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "1385 \/ 2496 (Multi-Core)"
@@ -1588,10 +1674,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1664,10 +1754,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.3 Wh (3.75 V)",
@@ -1738,10 +1832,14 @@
       "Value": "19.32 Wh (3.82 V)",
       "NumericValue": "5124 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "1704 \/ 3096 (Multi-Core)"
@@ -1806,10 +1904,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC‑HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "19.32 Wh (3.82 V)",
@@ -1880,10 +1982,14 @@
       "Value": "27.3 Wh (3.73 V)",
       "NumericValue": "7340 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "10",
-      "audio_playback": "10",
-      "browsing_over_wifi": "10"
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "1808 \/ 4530 (Multi-Core)"
@@ -1948,10 +2054,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC‑HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "27.3 Wh (3.73 V)",
@@ -2022,10 +2132,14 @@
       "Value": "27.91 Wh (3.82 V)",
       "NumericValue": "7306 mAh"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "3058 \/ 5247 (Multi-Core)"
@@ -2091,10 +2205,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE Advanced (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30, 38-41)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "27.91 Wh (3.82 V)",
@@ -2165,10 +2283,14 @@
       "Value": "38.8 Wh (3.77 V)",
       "NumericValue": "10307 mAh"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "Geekbench 3": {
       "NumericValue": "3160 \/ 5411 (Multi-Core)"
@@ -2233,10 +2355,14 @@
     "cellular": {
       "Value": "UMTS\/HSPA\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev. A and Rev. B (800, 1900 MHz) LTE (Bands 1-5, 7, 8, 13, 17-20, 25, 26, 28, 29, 38-41)"
     },
-    "BatteryLife": {
-      "audio_playback": "10",
-      "video_playback": "10",
-      "browsing_over_wifi": "10"
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "38.8 Wh (3.77 V)",

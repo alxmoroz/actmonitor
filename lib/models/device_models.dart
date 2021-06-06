@@ -10,9 +10,9 @@ class ParamValue {
 
   String get valString => value is Map ? value['Value'] ?? '' : '';
 
-  num? get numericValue => num.tryParse(RegExp(r'^\d+').firstMatch(numValString)?.group(0) ?? '');
+  num? get numValue => num.tryParse(RegExp(r'^\d+').firstMatch(numValString)?.group(0) ?? '');
 
-  bool get comparable => numericValue != null;
+  bool get isNum => numValue != null;
 
   bool get isDate => date != null;
 
@@ -23,7 +23,7 @@ class ParamValue {
     String res = '';
     if (value is String) {
       res = value;
-    } else if (comparable) {
+    } else if (isNum) {
       res = '$numValString${valString.isNotEmpty ? '\n' + valString : ''}';
     } else if (isDate) {
       res = DateFormat.yMMMMd().format(date!);

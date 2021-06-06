@@ -1,7 +1,10 @@
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/usage/usage_element.dart';
+import 'package:amonitor/ui/usage/usage_legend.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:intl/intl.dart';
 
 import '../components/images.dart';
 import 'usage_card.dart';
@@ -16,14 +19,14 @@ class UsageView extends StatelessWidget {
     Widget buildRamUsage() {
       final ram = usageState.ram;
       return UsageCard(
-        title: loc.memory,
+        title: '${loc.memory} ${UsageElement.memory(ram.total)}',
         total: ram.total,
         elements: [
-          UsageElement(loc.wired, ram.wired, CupertinoColors.activeOrange),
-          UsageElement(loc.active, ram.active),
-          UsageElement(loc.compressed, ram.compressed, CupertinoColors.systemIndigo),
-          UsageElement(loc.graphics, ram.graphics, CupertinoColors.systemPurple),
-          UsageElement(loc.free, ram.freeTotal, freeColor),
+          UsageElement.memory(ram.wired, label: loc.wired, color: CupertinoColors.activeOrange),
+          UsageElement.memory(ram.active, label: loc.active),
+          UsageElement.memory(ram.compressed, label: loc.compressed, color: CupertinoColors.systemIndigo),
+          UsageElement.memory(ram.graphics, label: loc.graphics, color: CupertinoColors.systemPurple),
+          UsageElement.memory(ram.freeTotal, label: loc.free, color: freeColor),
         ],
         placeholder: ram.placeholder,
       );
@@ -32,27 +35,42 @@ class UsageView extends StatelessWidget {
     Widget buildDiskUsage() {
       final disk = usageState.disk;
       return UsageCard(
-        title: loc.capacity,
+        title: '${loc.capacity} ${UsageElement.disk(disk.total)}',
         total: disk.total,
         elements: [
-          UsageElement(loc.used, disk.total - disk.free),
-          UsageElement(loc.free, disk.free, freeColor),
+          UsageElement.disk(disk.total - disk.free, label: loc.used),
+          UsageElement.disk(disk.free, label: loc.free, color: freeColor),
         ],
-        base: 1000,
         placeholder: disk.placeholder,
       );
     }
 
     Widget buildBatteryUsage() {
       final battery = usageState.battery;
+      final batteryLifeElements = <UsageElement>[];
+      const batterySection = 'battery_life';
+      specsState.paramsBySection(batterySection).forEach((dynamic p) {
+        if (hostModel != null) {
+          final pv = hostModel?.paramByName(p, batterySection);
+
+          if (pv != null && pv.isNum) {
+            final hours = pv.numValue!.toInt();
+            batteryLifeElements.add(UsageElement.duration(
+              hours * battery.level / 100,
+              label: Intl.message(p, name: p),
+            ));
+          }
+        }
+      });
+
       return UsageCard(
-        title: loc.battery,
+        title: '${loc.battery} ${UsageElement.battery(battery.level)} ${Intl.message(battery.state, name: battery.state)}',
         total: 100,
         elements: [
-          UsageElement('Charged', battery.level),
-          UsageElement('Discharged', battery.level - 100, freeColor),
+          UsageElement.battery(battery.level, color: CupertinoColors.systemGreen),
+          UsageElement.battery(100 - battery.level, color: freeColor),
         ],
-        base: 1,
+        legend: UsageLegend(batteryLifeElements),
         placeholder: battery.placeholder,
       );
     }

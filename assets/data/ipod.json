@@ -2,16 +2,16 @@
   "iPod": {
     "DetailName": "Unknown model",
     "Name": "iPod",
-    "BatteryLife": {
-      "video_playback": "8",
-      "audio_playback": "40"
+    "video_playback": {
+      "NumericValue": "8"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
     }
   },
   "iPod1,1": {
     "release_date": {
-      "Date": {
-        "Date": "2007-09-05T07:00:00Z"
-      }
+      "Date": "2007-09-05T07:00:00Z"
     },
     "GPU": {
       "Value": "PowerVR MBX Lite 3D",
@@ -26,14 +26,14 @@
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
-      "Date": {
-        "Date": "2008-09-09T07:00:00Z"
-      }
+      "Date": "2008-09-09T07:00:00Z"
     },
     "capacity": "8, 16 & 32 GB",
-    "BatteryLife": {
-      "video_playback": "5",
-      "audio_playback": "22"
+    "video_playback": {
+      "NumericValue": "5"
+    },
+    "audio_playback": {
+      "NumericValue": "22"
     },
     "Wi-Fi": {
       "Value": "802.11 b\/g"
@@ -64,9 +64,7 @@
   },
   "iPod2,1": {
     "release_date": {
-      "Date": {
-        "Date": "2008-09-09T07:00:00Z"
-      }
+      "Date": "2008-09-09T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "2.1 + EDR"
@@ -84,14 +82,14 @@
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
-      "Date": {
-        "Date": "2010-09-01T07:00:00Z"
-      }
+      "Date": "2010-09-01T07:00:00Z"
     },
     "capacity": "8, 16 & 32 GB",
-    "BatteryLife": {
-      "video_playback": "6",
-      "audio_playback": "36"
+    "video_playback": {
+      "NumericValue": "6"
+    },
+    "audio_playback": {
+      "NumericValue": "36"
     },
     "Wi-Fi": {
       "Value": "802.11b\/g"
@@ -122,9 +120,7 @@
   },
   "iPod3,1": {
     "release_date": {
-      "Date": {
-        "Date": "2010-09-09T07:00:00Z"
-      }
+      "Date": "2010-09-09T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "2.1 + EDR"
@@ -142,14 +138,14 @@
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
-      "Date": {
-        "Date": "2010-09-01T07:00:00Z"
-      }
+      "Date": "2010-09-01T07:00:00Z"
     },
     "capacity": "32 & 64 GB",
-    "BatteryLife": {
-      "video_playback": "6",
-      "audio_playback": "30"
+    "video_playback": {
+      "NumericValue": "6"
+    },
+    "audio_playback": {
+      "NumericValue": "30"
     },
     "Wi-Fi": {
       "Value": "802.11b\/g"
@@ -180,9 +176,7 @@
   },
   "iPod4,1": {
     "release_date": {
-      "Date": {
-        "Date": "2010-09-01T07:00:00Z"
-      }
+      "Date": "2010-09-01T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "2.1 + EDR"
@@ -196,9 +190,7 @@
       "Details": "display_ipod_4"
     },
     "discontinued_date": {
-      "Date": {
-        "Date": "2013-05-30T07:00:00Z"
-      }
+      "Date": "2013-05-30T07:00:00Z"
     },
     "supported_os": "iOS 4.1 — iOS 6.1.6",
     "onboard_ram": {
@@ -224,9 +216,11 @@
       "Value": "3.44 Wh (3.7 V)",
       "NumericValue": "930 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "7",
-      "audio_playback": "40"
+    "video_playback": {
+      "NumericValue": "7"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
     },
     "Geekbench 3": {
       "NumericValue": "209"
@@ -250,9 +244,7 @@
   },
   "iPod5,1": {
     "release_date": {
-      "Date": {
-        "Date": "2012-10-11T07:00:00Z"
-      }
+      "Date": "2012-10-11T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.0"
@@ -294,9 +286,11 @@
       "Value": "3.8 Wh (3.7 V)",
       "NumericValue": "1030 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "8",
-      "audio_playback": "40"
+    "video_playback": {
+      "NumericValue": "8"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
     },
     "Geekbench 3": {
       "NumericValue": "215 \/ 410 (Multi-Core)"
@@ -320,9 +314,7 @@
   },
   "iPod7,1": {
     "release_date": {
-      "Date": {
-        "Date": "2015-07-15T07:00:00Z"
-      }
+      "Date": "2015-07-15T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.1"
@@ -360,9 +352,11 @@
       "Value": "3.99 Wh (3.83 V)",
       "NumericValue": "1043 mAh"
     },
-    "BatteryLife": {
-      "video_playback": "8",
-      "audio_playback": "40"
+    "video_playback": {
+      "NumericValue": "8"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
     },
     "Geekbench 3": {
       "NumericValue": "1350 \/ 2400 (Multi-Core)"

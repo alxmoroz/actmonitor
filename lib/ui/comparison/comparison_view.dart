@@ -32,7 +32,7 @@ class _ComparisonViewState extends State<ComparisonView> {
       int comparableValuesCount = 0;
       models.forEach((m) {
         final pv = m.paramByName(p, section);
-        if (pv.comparable) {
+        if (pv.isNum) {
           comparableValuesCount++;
         }
       });
