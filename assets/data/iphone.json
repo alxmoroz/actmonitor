@@ -208,9 +208,6 @@
       "Value": "4.51 Wh (3.7 V)",
       "NumericValue": "1219 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "150"
-    },
     "sim_card": "Mini-SIM",
     "Wi-Fi": {
       "Value": "802.11b\/g"
@@ -221,6 +218,9 @@
     "price": "199-699 USD",
     "Geekbench 2": {
       "NumericValue": "280"
+    },
+    "Geekbench 3": {
+      "NumericValue": "150"
     },
     "weight": {
       "NumericValue": "135 g"
@@ -520,8 +520,14 @@
       "Value": "5.3 Wh (3.7 V)",
       "NumericValue": "1430 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "617"
+    },
     "Geekbench 3": {
-      "NumericValue": "215 \/ 406 (Multi-Core)"
+      "NumericValue": "215 \/ 406 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "284 \/ 491 Multi-Core"
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
@@ -531,9 +537,6 @@
       "Value": "rear_camera_iphone_4s"
     },
     "price": "199-849 USD",
-    "Geekbench 2": {
-      "NumericValue": "617"
-    },
     "weight": {
       "NumericValue": "140 g"
     },
@@ -598,9 +601,6 @@
       "Value": "5.45 Wh (3.8 V)",
       "NumericValue": "1440 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "712 \/ 1279 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -611,6 +611,12 @@
     "price": "199-849 USD",
     "Geekbench 2": {
       "NumericValue": "1577"
+    },
+    "Geekbench 3": {
+      "NumericValue": "712 \/ 1279 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "754 \/ 1208 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -677,9 +683,6 @@
       "Value": "5.45 Wh (3.8 V)",
       "NumericValue": "1440 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "712 \/ 1279 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -690,6 +693,12 @@
     "price": "199-849 USD",
     "Geekbench 2": {
       "NumericValue": "1577"
+    },
+    "Geekbench 3": {
+      "NumericValue": "712 \/ 1279 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "754 \/ 1208 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -759,9 +768,6 @@
       "Value": "5.73 Wh (3.8 V)",
       "NumericValue": "1510 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "700 \/ 1251 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -772,6 +778,12 @@
     "price": "99-649 USD",
     "Geekbench 2": {
       "NumericValue": "1637"
+    },
+    "Geekbench 3": {
+      "NumericValue": "700 \/ 1251 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "743 \/ 1191 Multi-Core"
     },
     "weight": {
       "NumericValue": "132 g"
@@ -842,7 +854,10 @@
       "NumericValue": "1510 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "700 \/ 1251 (Multi-Core)"
+      "NumericValue": "700 \/ 1251 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "743 \/ 1191 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -924,9 +939,6 @@
       "Value": "5.92 Wh (3.8 V)",
       "NumericValue": "1560 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "1401 \/ 2526 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -937,6 +949,15 @@
     "price": "199-849 USD",
     "Geekbench 2": {
       "NumericValue": "2224"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1401 \/ 2526 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1266 \/ 2144 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "259 \/ 476 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -1007,9 +1028,6 @@
       "Value": "5.92 Wh (3.8 V)",
       "NumericValue": "1560 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "1401 \/ 2526 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -1020,6 +1038,15 @@
     "price": "199-849 USD",
     "Geekbench 2": {
       "NumericValue": "2224"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1401 \/ 2526 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1266 \/ 2144 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "259 \/ 476 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -1090,9 +1117,6 @@
       "Value": "11.1 Wh (3.8 V)",
       "NumericValue": "2915 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "1578 \/ 2812 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1103,6 +1127,15 @@
     "price": "299-949 USD",
     "Geekbench 2": {
       "NumericValue": "2384"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1578 \/ 2812 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1490 \/ 2503 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "313 \/ 572 Multi-Core"
     },
     "weight": {
       "NumericValue": "172 g"
@@ -1172,9 +1205,6 @@
       "Value": "6.91 Wh (3.8 V)",
       "NumericValue": "1810 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "1612 \/ 2885 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1186,6 +1216,15 @@
     "Geekbench 2": {
       "NumericValue": "2421"
     },
+    "Geekbench 3": {
+      "NumericValue": "1599 \/ 2860 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1459 \/ 2455 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "308 \/ 569 Multi-Core"
+    },
     "weight": {
       "NumericValue": "129 g"
     },
@@ -1194,6 +1233,7 @@
     }
   },
   "iPhone8,1": {
+    "Name": "iPhone 6s",
     "release_date": {
       "Date": "2015-09-25T07:00:00Z"
     },
@@ -1216,7 +1256,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 6s",
     "front_camera": {
       "Value": "front_camera_iphone_6s"
     },
@@ -1251,9 +1290,6 @@
       "Value": "6.55 Wh (3.82 V)",
       "NumericValue": "1715 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "2506 \/ 4346 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1263,7 +1299,16 @@
     },
     "price": "199-849 USD",
     "Geekbench 2": {
-      "NumericValue": "3000"
+      "NumericValue": "2985"
+    },
+    "Geekbench 3": {
+      "NumericValue": "2506 \/ 4346 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "2382 \/ 4057 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "541 \/ 990 Multi-Core"
     },
     "weight": {
       "NumericValue": "143 g"
@@ -1273,6 +1318,7 @@
     }
   },
   "iPhone8,2": {
+    "Name": "iPhone 6s Plus",
     "release_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
@@ -1295,7 +1341,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 6s Plus",
     "front_camera": {
       "Value": "front_camera_iphone_6s"
     },
@@ -1330,8 +1375,17 @@
       "Value": "10.45 Wh (3.8 V)",
       "NumericValue": "2750 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "2985"
+    },
     "Geekbench 3": {
-      "NumericValue": "2496 \/ 4345 (Multi-Core)"
+      "NumericValue": "2506 \/ 4346 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "2382 \/ 4057 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "541 \/ 990 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1341,9 +1395,6 @@
       "Value": "rear_camera_iphone_6s"
     },
     "price": "299-949 USD",
-    "Geekbench 2": {
-      "NumericValue": "2985"
-    },
     "weight": {
       "NumericValue": "192 g"
     },
@@ -1352,6 +1403,7 @@
     }
   },
   "iPhone8,4": {
+    "Name": "iPhone SE",
     "release_date": {
       "Date": "2016-03-21T07:00:00Z"
     },
@@ -1374,7 +1426,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone SE",
     "front_camera": {
       "Value": "front_camera_iphone_6s"
     },
@@ -1409,9 +1460,6 @@
       "Value": "6.21 Wh (3.82 V)",
       "NumericValue": "1624 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "2544 \/ 4422 (Multi-Core)"
-    },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac"
@@ -1423,6 +1471,15 @@
     "Geekbench 2": {
       "NumericValue": "3035"
     },
+    "Geekbench 3": {
+      "NumericValue": "2544 \/ 4422 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "2473 \/ 4223 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "546 \/ 1002 Multi-Core"
+    },
     "weight": {
       "NumericValue": "113 g"
     },
@@ -1431,6 +1488,8 @@
     }
   },
   "iPhone9,1": {
+    "Name": "iPhone 7",
+    "DetailName": "A1660",
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
     },
@@ -1453,7 +1512,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 7",
     "front_camera": {
       "Value": "front_camera_iphone_7"
     },
@@ -1488,8 +1546,17 @@
       "Value": "7.45 Wh (3.82 V)",
       "NumericValue": "1960 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "3570"
+    },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+      "NumericValue": "3427 \/ 5524 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "3444 \/ 5740 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "741 \/ 1313 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1504,10 +1571,11 @@
     },
     "sensors": {
       "Value": "sensors_iphone_6"
-    },
-    "DetailName": "A1660"
+    }
   },
   "iPhone9,2": {
+    "Name": "iPhone 7 plus",
+    "DetailName": "A1661,1785,1786",
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
     },
@@ -1530,7 +1598,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 7 plus",
     "front_camera": {
       "Value": "front_camera_iphone_7"
     },
@@ -1565,8 +1632,17 @@
       "Value": "11.1 Wh (3.82 V)",
       "NumericValue": "2900 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "3570"
+    },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+      "NumericValue": "3427 \/ 5524 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "3435 \/ 5732 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "742 \/ 1324 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1581,10 +1657,11 @@
     },
     "sensors": {
       "Value": "sensors_iphone_6"
-    },
-    "DetailName": "A1661"
+    }
   },
   "iPhone9,3": {
+    "Name": "iPhone 7",
+    "DetailName": "A1778",
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
     },
@@ -1607,7 +1684,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 7",
     "front_camera": {
       "Value": "front_camera_iphone_7"
     },
@@ -1642,8 +1718,17 @@
       "Value": "7.45 Wh (3.82 V)",
       "NumericValue": "1960 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "3570"
+    },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+      "NumericValue": "3427 \/ 5524 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "3444 \/ 5740 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "741 \/ 1313 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1658,10 +1743,11 @@
     },
     "sensors": {
       "Value": "sensors_iphone_6"
-    },
-    "DetailName": "A1778"
+    }
   },
   "iPhone9,4": {
+    "Name": "iPhone 7 plus",
+    "DetailName": "A1784",
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
     },
@@ -1684,7 +1770,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPhone 7 plus",
     "front_camera": {
       "Value": "front_camera_iphone_7"
     },
@@ -1719,8 +1804,17 @@
       "Value": "11.1 Wh (3.82 V)",
       "NumericValue": "2900 mAh"
     },
+    "Geekbench 2": {
+      "NumericValue": "3570"
+    },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 (Multi-Core)"
+      "NumericValue": "3427 \/ 5524 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "3435 \/ 5732 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "742 \/ 1324 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1735,7 +1829,6 @@
     },
     "sensors": {
       "Value": "sensors_iphone_6"
-    },
-    "DetailName": "A1784"
+    }
   }
 }

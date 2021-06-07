@@ -136,7 +136,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 496 (Multi-Core)"
+      "NumericValue": "261 \/ 496 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "721"
@@ -214,7 +214,7 @@
       "NumericValue": "6579 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 496 (Multi-Core)"
+      "NumericValue": "261 \/ 496 Multi-Core"
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
@@ -293,7 +293,7 @@
       "NumericValue": "6579 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 496 (Multi-Core)"
+      "NumericValue": "261 \/ 496 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "721"
@@ -368,7 +368,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 488 (Multi-Core)"
+      "NumericValue": "261 \/ 488 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "721"
@@ -443,7 +443,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "745"
@@ -521,7 +521,7 @@
       "NumericValue": "4440 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "745"
@@ -599,7 +599,7 @@
       "NumericValue": "4440 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -676,7 +676,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "756"
@@ -755,7 +755,7 @@
       "NumericValue": "11487 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "756"
@@ -834,7 +834,7 @@
       "NumericValue": "11487 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 (Multi-Core)"
+      "NumericValue": "261 \/ 492 Multi-Core"
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
@@ -911,7 +911,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "773 \/ 1410 (Multi-Core)"
+      "NumericValue": "773 \/ 1410 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "1756"
@@ -990,7 +990,7 @@
       "NumericValue": "11560 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "773 \/ 1410 (Multi-Core)"
+      "NumericValue": "773 \/ 1410 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "1756"
@@ -1069,7 +1069,7 @@
       "NumericValue": "11560 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "769 \/ 1399 (Multi-Core)"
+      "NumericValue": "769 \/ 1399 Multi-Core"
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
@@ -1146,7 +1146,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+      "NumericValue": "1474 \/ 2669 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "2377"
@@ -1225,7 +1225,7 @@
       "NumericValue": "8827 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+      "NumericValue": "1474 \/ 2669 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1305,7 +1305,7 @@
       "NumericValue": "8827 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1474 \/ 2669 (Multi-Core)"
+      "NumericValue": "1474 \/ 2669 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1379,7 +1379,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+      "NumericValue": "1385 \/ 2496 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "2274"
@@ -1455,7 +1455,7 @@
       "NumericValue": "6471 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+      "NumericValue": "1385 \/ 2496 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1532,7 +1532,7 @@
       "NumericValue": "6471 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+      "NumericValue": "1385 \/ 2496 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1609,7 +1609,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+      "NumericValue": "1385 \/ 2496 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "2274"
@@ -1688,7 +1688,7 @@
       "NumericValue": "6471 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 (Multi-Core)"
+      "NumericValue": "1385 \/ 2496 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1768,7 +1768,7 @@
       "NumericValue": "6471 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1379 \/ 2482 (Multi-Core)"
+      "NumericValue": "1379 \/ 2482 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1842,7 +1842,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "1704 \/ 3096 (Multi-Core)"
+      "NumericValue": "1704 \/ 3096 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "2611"
@@ -1918,7 +1918,7 @@
       "NumericValue": "5124 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1704 \/ 3096 (Multi-Core)"
+      "NumericValue": "1704 \/ 3096 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -1992,7 +1992,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "1808 \/ 4530 (Multi-Core)"
+      "NumericValue": "1808 \/ 4530 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "3042"
@@ -2068,7 +2068,7 @@
       "NumericValue": "7340 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "1808 \/ 4530 (Multi-Core)"
+      "NumericValue": "1808 \/ 4530 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -2142,7 +2142,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "3058 \/ 5247 (Multi-Core)"
+      "NumericValue": "3058 \/ 5247 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "3443"
@@ -2219,7 +2219,7 @@
       "NumericValue": "7306 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "3058 \/ 5247 (Multi-Core)"
+      "NumericValue": "3058 \/ 5247 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
@@ -2293,7 +2293,7 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "3160 \/ 5411 (Multi-Core)"
+      "NumericValue": "3160 \/ 5411 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "3591"
@@ -2369,7 +2369,7 @@
       "NumericValue": "10307 mAh"
     },
     "Geekbench 3": {
-      "NumericValue": "3160 \/ 5411 (Multi-Core)"
+      "NumericValue": "3160 \/ 5411 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "3591"

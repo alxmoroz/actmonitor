@@ -293,13 +293,13 @@
       "NumericValue": "40"
     },
     "Geekbench 3": {
-      "NumericValue": "215 \/ 410 (Multi-Core)"
+      "NumericValue": "215 \/ 410 Multi-Core"
     },
     "Geekbench 2": {
       "NumericValue": "625"
     },
     "Geekbench 4": {
-      "NumericValue": "281 \/ 488 (Multi-Core)"
+      "NumericValue": "281 \/ 488 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -365,13 +365,13 @@
       "NumericValue": "2004"
     },
     "Geekbench 3": {
-      "NumericValue": "1377 \/ 2434 (Multi-Core)"
+      "NumericValue": "1377 \/ 2434 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1328 \/ 2238 (Multi-Core)"
+      "NumericValue": "1328 \/ 2238 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "270 \/ 520 (Multi-Core)"
+      "NumericValue": "270 \/ 520 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac (802.11n 2.4GHz and 5GHz)"
@@ -434,10 +434,10 @@
       "NumericValue": "40"
     },
     "Geekbench 4": {
-      "NumericValue": "2581 \/ 4593 (Multi-Core)"
+      "NumericValue": "2581 \/ 4593 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "565 \/ 1080 (Multi-Core)"
+      "NumericValue": "565 \/ 1080 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac (802.11n 2.4GHz and 5GHz)"
