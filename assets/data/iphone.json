@@ -337,7 +337,7 @@
     "discontinued_date": {
       "Date": "2014-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 5.0 — iOS 9.3.5",
+    "supported_os": "iOS 5.0 — iOS 9.3.6",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "512 MB"
@@ -421,7 +421,7 @@
     "discontinued_date": {
       "Date": "2013-09-10T07:00:00Z"
     },
-    "supported_os": "iOS 6.0 — current",
+    "supported_os": "iOS 6.0 — 10.3.4",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "1024 MB"
@@ -505,7 +505,7 @@
     "discontinued_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 7.0 — current",
+    "supported_os": "iOS 7.0 — 10.3.3",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "1024 MB"
@@ -592,7 +592,7 @@
     "discontinued_date": {
       "Date": "2016-03-21T07:00:00Z"
     },
-    "supported_os": "iOS 7.0 — current",
+    "supported_os": "iOS 7.0 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -682,7 +682,7 @@
     "discontinued_date": {
       "Date": "2016-09-07T07:00:00Z"
     },
-    "supported_os": "iOS 8.0 — current",
+    "supported_os": "iOS 8.0 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -772,7 +772,7 @@
     "discontinued_date": {
       "Date": "2016-09-07T07:00:00Z"
     },
-    "supported_os": "iOS 8.0 — current",
+    "supported_os": "iOS 8.0 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -847,6 +847,9 @@
     ],
     "release_date": {
       "Date": "2015-09-25T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2018-09-12T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.2"
@@ -935,6 +938,9 @@
     "release_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2018-09-12T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1021,6 +1027,9 @@
     ],
     "release_date": {
       "Date": "2016-03-21T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2018-09-12T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.2"
@@ -1110,6 +1119,9 @@
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2019-09-10T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -1134,7 +1146,7 @@
     },
     "processor": {
       "Value": "Apple A10 quad-core",
-      "NumericValue": "2300 MHz",
+      "NumericValue": "2340 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },
     "location": {
@@ -1190,13 +1202,16 @@
       "Value": "sensors_iphone_6"
     }
   },
-  "iPhone 7 plus": {
+  "iPhone 7 Plus": {
     "ids": [
       "iPhone9,2",
       "iPhone9,4"
     ],
     "release_date": {
       "Date": "2016-09-16T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2019-09-10T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.2"
@@ -1222,7 +1237,7 @@
     },
     "processor": {
       "Value": "Apple A10 quad-core",
-      "NumericValue": "2300 MHz",
+      "NumericValue": "2340 MHz",
       "Details": "64-bit architecture and M10 motion coprocessor"
     },
     "location": {
@@ -1276,6 +1291,164 @@
     },
     "sensors": {
       "Value": "sensors_iphone_6"
+    }
+  },
+  "iPhone 8": {
+    "ids": [
+      "iPhone10,1",
+      "iPhone10,4"
+    ],
+    "release_date": {
+      "Date": "2017-09-22T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2020-04-15T07:00:00Z"
+    },
+    "supported_os": "iOS 11.0 — current",
+    "display": {
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Details": "display_iphone_6s"
+    },
+    "processor": {
+      "Value": "Apple A11 Bionic hexa-core",
+      "NumericValue": "2390 MHz",
+      "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU three-core"
+    },
+    "capacity": "64, 128 & 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "2048 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_7"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_7"
+    },
+    "battery_capacity": {
+      "Value": "6.96 Wh (3.82 V)",
+      "NumericValue": "1821 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "12"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "video_playback": {
+      "NumericValue": "13"
+    },
+    "dimensions": {
+      "NumericValue": "138.3 × 67.1 × 7.1 mm"
+    },
+    "weight": {
+      "NumericValue": "148 g"
+    },
+    "Geekbench 3": {
+      "NumericValue": "4269 \/ 10291 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "4212 \/ 10057 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "919 \/ 2231 Multi-Core"
+    }
+  },
+  "iPhone 8 Plus": {
+    "ids": [
+      "iPhone10,2",
+      "iPhone10,5"
+    ],
+    "release_date": {
+      "Date": "2017-09-22T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2020-04-15T07:00:00Z"
+    },
+    "supported_os": "iOS 11.0 — current",
+    "display": {
+      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
+      "Details": "display_iphone_6s_plus"
+    },
+    "processor": {
+      "Value": "Apple A11 Bionic hexa-core",
+      "NumericValue": "2390 MHz",
+      "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU three-core"
+    },
+    "capacity": "64, 128 & 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "3072 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_7plus"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_7"
+    },
+    "battery_capacity": {
+      "Value": "10.28 Wh (3.82 V)",
+      "NumericValue": "2692 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "13"
+    },
+    "audio_playback": {
+      "NumericValue": "60"
+    },
+    "video_playback": {
+      "NumericValue": "14"
+    },
+    "dimensions": {
+      "NumericValue": "158.4 × 78.1 × 7.5 mm"
+    },
+    "weight": {
+      "NumericValue": "202 g"
+    },
+    "Geekbench 3": {
+      "NumericValue": "4250 \/ 10401 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "4214 \/ 10133 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "923 \/ 2327 Multi-Core"
     }
   }
 }
