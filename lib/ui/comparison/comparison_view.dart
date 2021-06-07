@@ -17,7 +17,7 @@ class ComparisonView extends StatefulWidget {
 }
 
 class _ComparisonViewState extends State<ComparisonView> {
-  List<DeviceModel> get models => specsState.modelsForIds(comparisonState.comparisonModelsIds);
+  List<DeviceModel> get models => specsState.modelsForNames(comparisonState.comparisonModelsNames);
 
   Future<void> _gotoComparisonList() async {
     await Navigator.of(context).pushNamed(ComparisonListView.routeName);

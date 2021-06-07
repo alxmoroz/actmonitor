@@ -26,7 +26,7 @@ class SpecsClient {
     final Map<String, dynamic> deviceJson = await json.decode(deviceJsonString);
 
     final List<DeviceModel> devices = [];
-    deviceJson.forEach((id, dynamic paramsValues) {
+    deviceJson.forEach((name, dynamic paramsValues) {
       final Map<String, List<ParamValue>> deviceParamsValues = {};
       specsState.parameters.forEach((section, dynamic params) {
         final List<ParamValue> pValues = [];
@@ -38,7 +38,7 @@ class SpecsClient {
         });
         deviceParamsValues.putIfAbsent(section, () => pValues);
       });
-      devices.add(DeviceModel(id, type, deviceParamsValues));
+      devices.add(DeviceModel(name, type, deviceParamsValues));
     });
     return devices;
   }

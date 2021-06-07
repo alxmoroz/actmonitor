@@ -85,7 +85,7 @@ class _ModelsListState extends State<ModelsList> with TickerProviderStateMixin {
                 child: SingleVariantSelection(
                   pageModels.map(
                     (model) {
-                      final alreadySelected = widget.comparisonMode && comparisonState.comparisonModelsIds.contains(model.id);
+                      final alreadySelected = widget.comparisonMode && comparisonState.comparisonModelsNames.contains(model.name);
                       return SelectionItem(
                           view: Row(
                             children: [

@@ -19,23 +19,23 @@ import '../components/text/text_widgets.dart';
 class ComparisonListView extends StatelessWidget {
   static String get routeName => 'ComparisonListView';
 
-  List<DeviceModel> get models => specsState.modelsForIds(comparisonState.comparisonModelsIds);
+  List<DeviceModel> get models => specsState.modelsForNames(comparisonState.comparisonModelsNames);
 
   @override
   Widget build(BuildContext context) {
     Future<void> _addModel() async {
       final model = await selectModel(context, comparisonState.selectedModel, comparisonMode: true);
       if (model != null) {
-        comparisonState.addComparisonModelId(model.id);
+        comparisonState.addComparisonModelName(model.name);
         comparisonState.setSelectedModel(model);
-        settings.comparisonModelsIds.add(model.id);
+        settings.comparisonModelsNames.add(model.name);
         await settings.save();
       }
     }
 
     Future<void> _removeModel(DeviceModel model) async {
-      comparisonState.removeComparisonModelId(model.id);
-      settings.comparisonModelsIds.remove(model.id);
+      comparisonState.removeComparisonModelName(model.name);
+      settings.comparisonModelsNames.remove(model.name);
       await settings.save();
     }
 
@@ -91,7 +91,7 @@ class ComparisonListView extends StatelessWidget {
                               dense: true,
                               visualDensity: VisualDensity.compact,
                             ),
-                            if (comparisonState.comparisonModelsIds.length > 1)
+                            if (comparisonState.comparisonModelsNames.length > 1)
                               ListTile(
                                 title: Button.primary(loc.compare, () => Navigator.of(context).pop()),
                                 dense: true,

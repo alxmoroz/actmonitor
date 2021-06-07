@@ -25,7 +25,7 @@ class SpecsView extends StatelessWidget {
       final model = await selectModel(context, specsState.selectedModel);
       if (model != null) {
         specsState.setSelectedModel(model);
-        settings.selectedModelId = model.id;
+        settings.selectedModelName = model.name;
         await settings.save();
       }
     }

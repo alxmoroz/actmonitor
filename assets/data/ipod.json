@@ -1,5 +1,5 @@
 {
-  "iPod": {
+  "iPod touch": {
     "DetailName": "Unknown model",
     "Name": "iPod",
     "video_playback": {
@@ -9,7 +9,10 @@
       "NumericValue": "40"
     }
   },
-  "iPod1,1": {
+  "iPod touch Original": {
+    "ids": [
+      "iPod1,1"
+    ],
     "release_date": {
       "Date": "2007-09-05T07:00:00Z"
     },
@@ -17,7 +20,6 @@
       "Value": "PowerVR MBX Lite 3D",
       "NumericValue": "103 MHz"
     },
-    "Name": "iPod touch Original",
     "weight": {
       "NumericValue": "120 g"
     },
@@ -62,7 +64,10 @@
       "NumericValue": "412 MHz"
     }
   },
-  "iPod2,1": {
+  "iPod touch 2nd": {
+    "ids": [
+      "iPod2,1"
+    ],
     "release_date": {
       "Date": "2008-09-09T07:00:00Z"
     },
@@ -73,7 +78,6 @@
       "Value": "PowerVR MBX Lite 3D",
       "NumericValue": "103 MHz"
     },
-    "Name": "iPod touch 2nd",
     "weight": {
       "NumericValue": "115 g"
     },
@@ -118,7 +122,10 @@
       "NumericValue": "533 MHz"
     }
   },
-  "iPod3,1": {
+  "iPod touch 3rd": {
+    "ids": [
+      "iPod3,1"
+    ],
     "release_date": {
       "Date": "2010-09-09T07:00:00Z"
     },
@@ -129,7 +136,6 @@
       "Value": "PowerVR SGX535",
       "NumericValue": "150 MHz"
     },
-    "Name": "iPod touch 3rd",
     "weight": {
       "NumericValue": "115 g"
     },
@@ -174,7 +180,10 @@
       "NumericValue": "600 MHz"
     }
   },
-  "iPod4,1": {
+  "iPod touch 4th": {
+    "ids": [
+      "iPod4,1"
+    ],
     "release_date": {
       "Date": "2010-09-01T07:00:00Z"
     },
@@ -200,7 +209,6 @@
     "connector": {
       "Value": "30-pin"
     },
-    "Name": "iPod touch 4th",
     "front_camera": {
       "Value": "FaceTime VGA 30 fps"
     },
@@ -242,7 +250,10 @@
       "Value": "sensors_ipad_3"
     }
   },
-  "iPod5,1": {
+  "iPod touch 5th": {
+    "ids": [
+      "iPod5,1"
+    ],
     "release_date": {
       "Date": "2012-10-11T07:00:00Z"
     },
@@ -270,7 +281,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPod touch 5th",
     "front_camera": {
       "Value": "FaceTime HD camera with 1.2MP photos and HD video (720p) up to 30 fps"
     },
@@ -315,7 +325,10 @@
       "Value": "sensors_ipod_5th"
     }
   },
-  "iPod7,1": {
+  "iPod touch 6th": {
+    "ids": [
+      "iPod7,1"
+    ],
     "release_date": {
       "Date": "2015-07-15T07:00:00Z"
     },
@@ -338,7 +351,7 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPod touch 6th",
+
     "front_camera": {
       "Value": "front_camera_iphone_6"
     },
@@ -387,7 +400,10 @@
       "Value": "sensors_ipod_5th"
     }
   },
-  "iPod9,1": {
+  "iPod touch 7th": {
+    "ids": [
+      "iPod9,1"
+    ],
     "release_date": {
       "Date": "2019-05-28T07:00:00Z"
     },
@@ -410,7 +426,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "Name": "iPod touch 7th",
     "front_camera": {
       "Value": "front_camera_iphone_6"
     },

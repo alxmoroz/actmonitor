@@ -47,15 +47,15 @@ class Globals {
     // инфа о текущем устройстве
     iosInfo = await DeviceInfoPlugin().iosInfo;
     hostModel = specsState.modelForId(iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model);
-    if (specsState.isKnownModel(hostModel) && settings.selectedModelId.isEmpty) {
-      settings.selectedModelId = hostModel!.id;
+    if (specsState.isKnownModel(hostModel) && settings.selectedModelName.isEmpty) {
+      settings.selectedModelName = hostModel!.name;
     }
-    specsState.setSelectedModelById(settings.selectedModelId);
+    specsState.setSelectedModelById(settings.selectedModelName);
 
     // настройки
     await settings.save();
 
     // загрузка списка сравниваемых устройств из бд в стейт
-    comparisonState.setComparisonModelsIds(settings.comparisonModelsIds);
+    comparisonState.setComparisonModelsNames(settings.comparisonModelsNames);
   }
 }

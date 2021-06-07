@@ -21,7 +21,7 @@ abstract class _SpecsStateBase with Store {
   List<DeviceModel> get knownModels => models.where((m) => isKnownModel(m)).toList(growable: false);
 
   @computed
-  List<String> get knownModelsIds => knownModels.map((m) => m.id).toList(growable: false);
+  List<String> get knownModelsNames => knownModels.map((m) => m.name).toList(growable: false);
 
   @action
   void setParameters(Map<String, dynamic> params) {
@@ -45,13 +45,13 @@ abstract class _SpecsStateBase with Store {
 
   DeviceModel? modelForId(String? id) {
     try {
-      return models.firstWhere((m) => m.id == id);
+      return models.firstWhere((m) => m.ids.contains(id));
     } catch (_) {
       return null;
     }
   }
 
-  List<DeviceModel> modelsForIds(Iterable<String> ids) => models.where((m) => ids.contains(m.id)).toList(growable: false);
+  List<DeviceModel> modelsForNames(Iterable<String> names) => models.where((m) => names.contains(m.name)).toList(growable: false);
 
   List<dynamic> paramsBySection(String section) => parameters[section] ?? <dynamic>[];
 

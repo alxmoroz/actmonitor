@@ -13,7 +13,7 @@ class ComparisonParameterCard extends StatelessWidget {
   @protected
   final String paramName;
 
-  List<DeviceModel> get models => specsState.modelsForIds(comparisonState.comparisonModelsIds);
+  List<DeviceModel> get models => specsState.modelsForNames(comparisonState.comparisonModelsNames);
 
   @override
   Widget build(BuildContext context) {

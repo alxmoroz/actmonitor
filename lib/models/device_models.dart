@@ -35,9 +35,9 @@ class ParamValue {
 }
 
 class DeviceModel {
-  DeviceModel(this.id, this.type, this.paramsValues);
+  DeviceModel(this.name, this.type, this.paramsValues);
 
-  final String id;
+  final String name;
   final String type;
   final Map<String, List<ParamValue>> paramsValues;
 
@@ -49,7 +49,7 @@ class DeviceModel {
     );
   }
 
-  String get name => paramByName('Name', 'meta').value ?? '';
+  List<String> get ids => paramByName('ids', 'meta').value ?? [];
 
   String get detailName => paramByName('DetailName', 'meta').value ?? '';
 }

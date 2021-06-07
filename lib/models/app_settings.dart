@@ -11,8 +11,8 @@ class AppSettings extends HiveObject {
   String version = '';
 
   @HiveField(1)
-  String selectedModelId = '';
+  String selectedModelName = '';
 
   @HiveField(2)
-  List<String> comparisonModelsIds = [];
+  List<String> comparisonModelsNames = [];
 }
