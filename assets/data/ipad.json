@@ -186,7 +186,7 @@
     "discontinued_date": {
       "Date": "2012-10-23T07:00:00Z"
     },
-    "supported_os": "iOS 5.1 — iOS 9.3.5 ",
+    "supported_os": "iOS 5.1 — 9.3.5 ",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "1024 MB"
@@ -268,7 +268,7 @@
     "discontinued_date": {
       "Date": "2014-10-16T07:00:00Z"
     },
-    "supported_os": "iOS 6.0 — current",
+    "supported_os": "iOS 6.0 — 10.3.4",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "1024 MB"
@@ -351,7 +351,7 @@
     "discontinued_date": {
       "Date": "2016-03-21T07:00:00Z"
     },
-    "supported_os": "iOS 7.0 — current",
+    "supported_os": "iOS 7.0 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -419,7 +419,10 @@
       "iPad5,4"
     ],
     "release_date": {
-      "Date": "2014-10-24T07:00:00Z"
+      "Date": "2014-10-22T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2017-03-21T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.0"
@@ -432,7 +435,7 @@
       "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "display_ipad_air_2"
     },
-    "supported_os": "iOS 8.1 — current",
+    "supported_os": "iOS 8.1 — ...",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "2048 MB"
@@ -502,6 +505,9 @@
     ],
     "release_date": {
       "Date": "2016-03-21T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2017-06-05T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.2"
@@ -582,7 +588,10 @@
       "iPad6,8"
     ],
     "release_date": {
-      "Date": "2014-10-24T07:00:00Z"
+      "Date": "2015-11-11T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2017-06-05T07:00:00Z"
     },
     "Bluetooth": {
       "Value": "4.2"
@@ -681,7 +690,7 @@
     "discontinued_date": {
       "Date": "2015-06-19T07:00:00Z"
     },
-    "supported_os": "iOS 6.0 — iOS 9.3.5 ",
+    "supported_os": "iOS 6.0 — iOS 9.3.6",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "512 MB"
@@ -748,6 +757,9 @@
     "release_date": {
       "Date": "2013-11-12T06:42:00Z"
     },
+    "discontinued_date": {
+      "Date": "2017-03-21T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.0"
     },
@@ -759,7 +771,7 @@
       "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "display_iphone_4_5s"
     },
-    "supported_os": "iOS 7.0 — current",
+    "supported_os": "iOS 7.0.3 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -828,7 +840,7 @@
       "iPad4,9"
     ],
     "release_date": {
-      "Date": "2014-10-24T06:42:00Z"
+      "Date": "2014-10-22T06:42:00Z"
     },
     "Bluetooth": {
       "Value": "4.0"
@@ -844,7 +856,7 @@
     "discontinued_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 8.1 — current",
+    "supported_os": "iOS 8.1 — 12.5.3",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -914,6 +926,9 @@
     "release_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2019-03-18T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.2"
     },
@@ -925,7 +940,7 @@
       "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "display_iphone_4_5s"
     },
-    "supported_os": "iOS 10.0 — current",
+    "supported_os": "iOS 9.0 — ...",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "2000 MB"

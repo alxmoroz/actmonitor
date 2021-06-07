@@ -334,6 +334,9 @@
     "release_date": {
       "Date": "2015-07-15T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2019-05-28T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.1"
     },
@@ -420,7 +423,7 @@
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "display_iphone_4_5s"
     },
-    "supported_os": "iOS 8.4 — 12.5.1",
+    "supported_os": "iOS 12.3.1 — ...",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "2048 MB"
