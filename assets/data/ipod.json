@@ -192,7 +192,7 @@
     "discontinued_date": {
       "Date": "2013-05-30T07:00:00Z"
     },
-    "supported_os": "iOS 4.1 — iOS 6.1.6",
+    "supported_os": "iOS 4.1 — 6.1.6",
     "onboard_ram": {
       "Value": "LPDDR",
       "NumericValue": "256 MB"
@@ -298,6 +298,9 @@
     "Geekbench 2": {
       "NumericValue": "625"
     },
+    "Geekbench 4": {
+      "NumericValue": "281 \/ 488 (Multi-Core)"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
     },
@@ -327,7 +330,7 @@
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "display_iphone_4_5s"
     },
-    "supported_os": "iOS 8.4 — current",
+    "supported_os": "iOS 8.4 — 12.5.1",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -358,11 +361,83 @@
     "audio_playback": {
       "NumericValue": "40"
     },
-    "Geekbench 3": {
-      "NumericValue": "1350 \/ 2400 (Multi-Core)"
-    },
     "Geekbench 2": {
       "NumericValue": "2004"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1377 \/ 2434 (Multi-Core)"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1328 \/ 2238 (Multi-Core)"
+    },
+    "Geekbench 5": {
+      "NumericValue": "270 \/ 520 (Multi-Core)"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac (802.11n 2.4GHz and 5GHz)"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_6"
+    },
+    "weight": {
+      "NumericValue": "88 g"
+    },
+    "price": "199-399 USD",
+    "sensors": {
+      "Value": "sensors_ipod_5th"
+    }
+  },
+  "iPod9,1": {
+    "release_date": {
+      "Date": "2019-05-28T07:00:00Z"
+    },
+    "Bluetooth": {
+      "Value": "4.1"
+    },
+    "GPU": {
+      "Value": "PowerVR GT7600 Plus hexa-core",
+      "NumericValue": "650 MHz"
+    },
+    "display": {
+      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Details": "display_iphone_4_5s"
+    },
+    "supported_os": "iOS 8.4 — 12.5.1",
+    "onboard_ram": {
+      "Value": "LPDDR4",
+      "NumericValue": "2048 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Name": "iPod touch 7th",
+    "front_camera": {
+      "Value": "front_camera_iphone_6"
+    },
+    "processor": {
+      "Value": "Apple A10 Fusion 4-cores",
+      "NumericValue": "1640 MHz",
+      "Details": "2 Hurricane high-performance, 2 Zephyr high-efficiency) with embedded M10 motion coprocessor"
+    },
+    "capacity": "32, 128 & 256 GB",
+    "dimensions": {
+      "NumericValue": "123.4 × 58.6 × 6.1 mm"
+    },
+    "battery_capacity": {
+      "Value": "3.99 Wh (3.83 V)",
+      "NumericValue": "1043 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "8"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "Geekbench 4": {
+      "NumericValue": "2581 \/ 4593 (Multi-Core)"
+    },
+    "Geekbench 5": {
+      "NumericValue": "565 \/ 1080 (Multi-Core)"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n\/ac (802.11n 2.4GHz and 5GHz)"
