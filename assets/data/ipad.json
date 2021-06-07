@@ -151,10 +151,10 @@
     },
     "price": "629-829 USD",
     "Geekbench 2": {
-      "NumericValue": "721"
+      "NumericValue": "749"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 496 Multi-Core"
+      "NumericValue": "261 \/ 488 Multi-Core"
     },
     "weight": {
       "NumericValue": "613 g"
@@ -222,11 +222,14 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
-    "Geekbench 3": {
-      "NumericValue": "261 \/ 492 Multi-Core"
-    },
     "Geekbench 2": {
       "NumericValue": "756"
+    },
+    "Geekbench 3": {
+      "NumericValue": "260 \/ 493 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "329 \/ 569 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
@@ -301,11 +304,14 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "1756"
+    },
     "Geekbench 3": {
       "NumericValue": "773 \/ 1410 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "1756"
+    "Geekbench 4": {
+      "NumericValue": "808 \/ 1332 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -323,6 +329,11 @@
   },
 
   "iPad Air": {
+    "ids": [
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3"
+    ],
     "release_date": {
       "Date": "2013-11-01T07:00:00Z"
     },
@@ -348,11 +359,6 @@
     "connector": {
       "Value": "Lightning"
     },
-    "ids": [
-      "iPad4,1",
-      "iPad4,2",
-      "iPad4,3"
-    ],
     "front_camera": {
       "Value": "front_camera_ipad_4_mini_air2"
     },
@@ -381,11 +387,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "2377"
+    },
     "Geekbench 3": {
       "NumericValue": "1474 \/ 2669 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "2377"
+    "Geekbench 4": {
+      "NumericValue": "1326 \/ 2254 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "278 \/ 526 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -456,11 +468,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
-    "Geekbench 3": {
-      "NumericValue": "1808 \/ 4530 Multi-Core"
-    },
     "Geekbench 2": {
       "NumericValue": "3042"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1791 \/ 4403 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "1796 \/ 4176 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "378 \/ 1049 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -476,6 +494,7 @@
       "Value": "sensors_ipad_air_2"
     }
   },
+
   "iPad Pro 9.7\"": {
     "ids": [
       "iPad6,3",
@@ -531,11 +550,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "3443"
+    },
     "Geekbench 3": {
       "NumericValue": "3058 \/ 5247 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "3443"
+    "Geekbench 4": {
+      "NumericValue": "2959 \/ 4883 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "643 \/ 1176 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -606,11 +631,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "3591"
+    },
     "Geekbench 3": {
       "NumericValue": "3160 \/ 5411 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "3591"
+    "Geekbench 4": {
+      "NumericValue": "3034 \/ 4992 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "648 \/ 1195 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
@@ -626,6 +657,7 @@
       "Value": "sensors 12.9‑inch iPad Pro"
     }
   },
+
   "iPad mini": {
     "ids": [
       "iPad2,5",
@@ -684,11 +716,14 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "745"
+    },
     "Geekbench 3": {
       "NumericValue": "261 \/ 492 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "745"
+    "Geekbench 4": {
+      "NumericValue": "329 \/ 567 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
@@ -760,11 +795,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "2274"
+    },
     "Geekbench 3": {
       "NumericValue": "1385 \/ 2496 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "2274"
+    "Geekbench 4": {
+      "NumericValue": "1247 \/ 2113 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "258 \/ 488 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
@@ -845,6 +886,12 @@
     "Geekbench 3": {
       "NumericValue": "1385 \/ 2496 Multi-Core"
     },
+    "Geekbench 4": {
+      "NumericValue": "1247 \/ 2113 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "258 \/ 488 Multi-Core"
+    },
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
     },
@@ -914,11 +961,17 @@
     "browsing_over_wifi": {
       "NumericValue": "10"
     },
+    "Geekbench 2": {
+      "NumericValue": "2611"
+    },
     "Geekbench 3": {
       "NumericValue": "1704 \/ 3096 Multi-Core"
     },
-    "Geekbench 2": {
-      "NumericValue": "2611"
+    "Geekbench 4": {
+      "NumericValue": "1654 \/ 2815 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "357 \/ 668 Multi-Core"
     },
     "Wi-Fi": {
       "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
