@@ -20,9 +20,6 @@ abstract class _SpecsStateBase with Store {
   @computed
   List<DeviceModel> get knownModels => models.where((m) => isKnownModel(m)).toList(growable: false);
 
-  @computed
-  List<String> get knownModelsNames => knownModels.map((m) => m.name).toList(growable: false);
-
   @action
   void setParameters(Map<String, dynamic> params) {
     parameters = params;

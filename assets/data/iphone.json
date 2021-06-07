@@ -1,5 +1,9 @@
 {
   "iPhone": {
+    "ids": [
+      "iPhone"
+    ],
+    "DetailName": "Unknown model",
     "audio_playback": {
       "NumericValue": "40"
     },

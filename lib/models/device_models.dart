@@ -20,7 +20,7 @@ class ParamValue {
 
   @override
   String toString() {
-    String res = '';
+    String res = value.toString();
     if (value is String) {
       res = value;
     } else if (isNum) {
@@ -49,7 +49,12 @@ class DeviceModel {
     );
   }
 
-  List<String> get ids => paramByName('ids', 'meta').value ?? [];
+  List<dynamic> get ids => paramByName('ids', 'meta').value ?? <dynamic>[];
 
   String get detailName => paramByName('DetailName', 'meta').value ?? '';
+
+  @override
+  String toString() {
+    return '$name $detailName';
+  }
 }

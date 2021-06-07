@@ -1,5 +1,9 @@
 {
   "iPad": {
+    "ids": [
+      "iPad"
+    ],
+    "DetailName": "Unknown model",
     "video_playback": {
       "NumericValue": "10"
     },
@@ -66,7 +70,6 @@
       "Value": "24.8 Wh (3.75 V)",
       "NumericValue": "6613 mAh"
     },
-    "sim_card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -127,9 +130,6 @@
     "dimensions": {
       "NumericValue": "241.2 × 185.7 × 8.8 mm"
     },
-    "cellular": {
-      "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
-    },
     "audio_playback": {
       "NumericValue": "40"
     },
@@ -143,10 +143,6 @@
       "Value": "25 Wh (3.8 V)",
       "NumericValue": "6579 mAh"
     },
-    "Geekbench 3": {
-      "NumericValue": "261 \/ 496 Multi-Core"
-    },
-    "sim_card": "Micro-SIM",
     "Wi-Fi": {
       "Value": "802.11a\/b\/g\/n"
     },
@@ -157,89 +153,14 @@
     "Geekbench 2": {
       "NumericValue": "721"
     },
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 496 Multi-Core"
+    },
     "weight": {
       "NumericValue": "613 g"
     },
     "sensors": {
       "Value": "sensors_ipad_2"
-    }
-  },
-  "iPad mini": {
-    "ids": [
-      "iPad2,5",
-      "iPad2,6",
-      "iPad2,7"
-    ],
-    "release_date": {
-      "Date": "2012-11-02T07:00:00Z"
-    },
-    "Bluetooth": {
-      "Value": "4.0"
-    },
-    "GPU": {
-      "Value": "PowerVR SGX543MP2 dual-core",
-      "NumericValue": "250 MHz"
-    },
-    "display": {
-      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
-      "Details": "display_ipad"
-    },
-    "discontinued_date": {
-      "Date": "2015-06-19T07:00:00Z"
-    },
-    "supported_os": "iOS 6.0 — iOS 9.3.5 ",
-    "onboard_ram": {
-      "Value": "LPDDR2",
-      "NumericValue": "512 MB"
-    },
-    "processor": {
-      "Value": "Apple A5 dual-core",
-      "NumericValue": "1000 MHz"
-    },
-    "front_camera": {
-      "Value": "front_camera_ipad_4_mini_air2"
-    },
-    "connector": {
-      "Value": "Lightning"
-    },
-    "location": {
-      "Value": "location_wifi"
-    },
-    "capacity": "16, 32 & 64 GB",
-    "dimensions": {
-      "NumericValue": "200 × 134.7 × 7.2 mm"
-    },
-    "battery_capacity": {
-      "Value": "16.3 Whr (3.72 V)",
-      "NumericValue": "4440 mAh"
-    },
-    "video_playback": {
-      "NumericValue": "10"
-    },
-    "audio_playback": {
-      "NumericValue": "40"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
-    "Geekbench 3": {
-      "NumericValue": "261 \/ 492 Multi-Core"
-    },
-    "Geekbench 2": {
-      "NumericValue": "745"
-    },
-    "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
-    },
-    "rear_camera": {
-      "Value": "rear_camera_ipad_3_4_mini"
-    },
-    "weight": {
-      "NumericValue": "308-312 g"
-    },
-    "price": "249-529 USD",
-    "sensors": {
-      "Value": "sensors_ipad_3"
     }
   },
   "iPad 3th": {
@@ -400,6 +321,7 @@
       "Value": "sensors_ipad_3"
     }
   },
+
   "iPad Air": {
     "release_date": {
       "Date": "2013-11-01T07:00:00Z"
@@ -475,6 +397,309 @@
     "weight": {
       "NumericValue": "469-478 g"
     },
+    "sensors": {
+      "Value": "sensors_ipad_3"
+    }
+  },
+  "iPad Air 2": {
+    "ids": [
+      "iPad5,3",
+      "iPad5,4"
+    ],
+    "release_date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
+    "Bluetooth": {
+      "Value": "4.0"
+    },
+    "GPU": {
+      "Value": "PowerVR GXA6850 eight-core = 2 × GX6650",
+      "NumericValue": "450 MHz"
+    },
+    "display": {
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Details": "display_ipad_air_2"
+    },
+    "supported_os": "iOS 8.1 — current",
+    "onboard_ram": {
+      "Value": "LPDDR3",
+      "NumericValue": "2048 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_4_mini_air2"
+    },
+    "processor": {
+      "Value": "Apple A8X triple-core",
+      "Details": "64-bit architecture and M8 motion coprocessor",
+      "NumericValue": "1500 MHz"
+    },
+    "location": {
+      "Value": "location_wifi_ibeacon"
+    },
+    "capacity": "16, 32, 64 & 128 GB",
+    "dimensions": {
+      "NumericValue": "240 × 169.5 × 6.1 mm"
+    },
+    "battery_capacity": {
+      "Value": "27.3 Wh (3.73 V)",
+      "NumericValue": "7340 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
+    },
+    "Geekbench 3": {
+      "NumericValue": "1808 \/ 4530 Multi-Core"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3042"
+    },
+    "Wi-Fi": {
+      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air2"
+    },
+    "weight": {
+      "NumericValue": "437-444 g"
+    },
+    "price": "499-829 USD",
+    "sensors": {
+      "Value": "sensors_ipad_air_2"
+    }
+  },
+  "iPad Pro 9.7\"": {
+    "ids": [
+      "iPad6,3",
+      "iPad6,4"
+    ],
+    "release_date": {
+      "Date": "2016-03-21T07:00:00Z"
+    },
+    "Bluetooth": {
+      "Value": "4.2"
+    },
+    "GPU": {
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
+    },
+    "display": {
+      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Details": "display_ipad_air_2"
+    },
+    "supported_os": "iOS 9.3 — current",
+    "onboard_ram": {
+      "Value": "LPDDR4",
+      "NumericValue": "2048 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "front_camera": {
+      "Value": "front_camera 9.7‑inch iPad Pro"
+    },
+    "processor": {
+      "Value": "Apple A9X dual-core",
+      "Details": "64-bit architecture and M9 motion coprocessor",
+      "NumericValue": "2160 MHz"
+    },
+    "location": {
+      "Value": "location_wifi_ibeacon"
+    },
+    "capacity": "32, 128 & 256 GB",
+    "dimensions": {
+      "NumericValue": "240 × 169.5 × 6.1 mm"
+    },
+    "battery_capacity": {
+      "Value": "27.91 Wh (3.82 V)",
+      "NumericValue": "7306 mAh"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
+    },
+    "Geekbench 3": {
+      "NumericValue": "3058 \/ 5247 Multi-Core"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3443"
+    },
+    "Wi-Fi": {
+      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+    },
+    "rear_camera": {
+      "Value": "rear_camera 9.7‑inch iPad Pro"
+    },
+    "price": "599-1,029 USD",
+    "weight": {
+      "NumericValue": "437 g"
+    },
+    "sensors": {
+      "Value": "sensors 9.7‑inch iPad Pro"
+    }
+  },
+  "iPad Pro 12.9\"": {
+    "ids": [
+      "iPad6,7",
+      "iPad6,8"
+    ],
+    "release_date": {
+      "Date": "2014-10-24T07:00:00Z"
+    },
+    "Bluetooth": {
+      "Value": "4.2"
+    },
+    "GPU": {
+      "Value": "PowerVR 7XT Series 12-core",
+      "NumericValue": "650 MHz"
+    },
+    "display": {
+      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Details": "display_ipad_air_2"
+    },
+    "supported_os": "iOS 9.1 — current",
+    "onboard_ram": {
+      "Value": "LPDDR4",
+      "NumericValue": "4000 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "front_camera": {
+      "Value": "front_camera 12.9‑inch iPad Pro"
+    },
+    "processor": {
+      "Value": "Apple A9X dual-core",
+      "Details": "64-bit architecture and M9 motion coprocessor",
+      "NumericValue": "2200 MHz"
+    },
+    "location": {
+      "Value": "location_wifi_ibeacon"
+    },
+    "capacity": "32, 128 & 256 GB",
+    "dimensions": {
+      "NumericValue": "305.7 × 220.6 × 6.9 mm"
+    },
+    "battery_capacity": {
+      "Value": "38.8 Wh (3.77 V)",
+      "NumericValue": "10307 mAh"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
+    },
+    "Geekbench 3": {
+      "NumericValue": "3160 \/ 5411 Multi-Core"
+    },
+    "Geekbench 2": {
+      "NumericValue": "3591"
+    },
+    "Wi-Fi": {
+      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+    },
+    "rear_camera": {
+      "Value": "rear_camera 12.9‑inch iPad Pro"
+    },
+    "weight": {
+      "NumericValue": "713 g"
+    },
+    "price": "799-1,099 USD",
+    "sensors": {
+      "Value": "sensors 12.9‑inch iPad Pro"
+    }
+  },
+  "iPad mini": {
+    "ids": [
+      "iPad2,5",
+      "iPad2,6",
+      "iPad2,7"
+    ],
+    "release_date": {
+      "Date": "2012-11-02T07:00:00Z"
+    },
+    "Bluetooth": {
+      "Value": "4.0"
+    },
+    "GPU": {
+      "Value": "PowerVR SGX543MP2 dual-core",
+      "NumericValue": "250 MHz"
+    },
+    "display": {
+      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
+      "Details": "display_ipad"
+    },
+    "discontinued_date": {
+      "Date": "2015-06-19T07:00:00Z"
+    },
+    "supported_os": "iOS 6.0 — iOS 9.3.5 ",
+    "onboard_ram": {
+      "Value": "LPDDR2",
+      "NumericValue": "512 MB"
+    },
+    "processor": {
+      "Value": "Apple A5 dual-core",
+      "NumericValue": "1000 MHz"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_4_mini_air2"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "location": {
+      "Value": "location_wifi"
+    },
+    "capacity": "16, 32 & 64 GB",
+    "dimensions": {
+      "NumericValue": "200 × 134.7 × 7.2 mm"
+    },
+    "battery_capacity": {
+      "Value": "16.3 Whr (3.72 V)",
+      "NumericValue": "4440 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "40"
+    },
+    "browsing_over_wifi": {
+      "NumericValue": "10"
+    },
+    "Geekbench 3": {
+      "NumericValue": "261 \/ 492 Multi-Core"
+    },
+    "Geekbench 2": {
+      "NumericValue": "745"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_3_4_mini"
+    },
+    "weight": {
+      "NumericValue": "308-312 g"
+    },
+    "price": "249-529 USD",
     "sensors": {
       "Value": "sensors_ipad_3"
     }
@@ -707,231 +932,6 @@
     "price": "399-729 USD",
     "sensors": {
       "Value": "sensors_ipad_air_2"
-    }
-  },
-  "iPad Air 2": {
-    "ids": [
-      "iPad5,3",
-      "iPad5,4"
-    ],
-    "release_date": {
-      "Date": "2014-10-24T07:00:00Z"
-    },
-    "Bluetooth": {
-      "Value": "4.0"
-    },
-    "GPU": {
-      "Value": "PowerVR GXA6850 eight-core = 2 × GX6650",
-      "NumericValue": "450 MHz"
-    },
-    "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
-      "Details": "display_ipad_air_2"
-    },
-    "supported_os": "iOS 8.1 — current",
-    "onboard_ram": {
-      "Value": "LPDDR3",
-      "NumericValue": "2048 MB"
-    },
-    "connector": {
-      "Value": "Lightning"
-    },
-    "front_camera": {
-      "Value": "front_camera_ipad_4_mini_air2"
-    },
-    "processor": {
-      "Value": "Apple A8X triple-core",
-      "Details": "64-bit architecture and M8 motion coprocessor",
-      "NumericValue": "1500 MHz"
-    },
-    "location": {
-      "Value": "location_wifi_ibeacon"
-    },
-    "capacity": "16, 32, 64 & 128 GB",
-    "dimensions": {
-      "NumericValue": "240 × 169.5 × 6.1 mm"
-    },
-    "battery_capacity": {
-      "Value": "27.3 Wh (3.73 V)",
-      "NumericValue": "7340 mAh"
-    },
-    "video_playback": {
-      "NumericValue": "10"
-    },
-    "audio_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
-    "Geekbench 3": {
-      "NumericValue": "1808 \/ 4530 Multi-Core"
-    },
-    "Geekbench 2": {
-      "NumericValue": "3042"
-    },
-    "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
-    },
-    "rear_camera": {
-      "Value": "rear_camera_ipad_air2"
-    },
-    "weight": {
-      "NumericValue": "437-444 g"
-    },
-    "price": "499-829 USD",
-    "sensors": {
-      "Value": "sensors_ipad_air_2"
-    }
-  },
-  "iPad Pro 9.7\"": {
-    "ids": [
-      "iPad6,3",
-      "iPad6,4"
-    ],
-    "release_date": {
-      "Date": "2016-03-21T07:00:00Z"
-    },
-    "Bluetooth": {
-      "Value": "4.2"
-    },
-    "GPU": {
-      "Value": "PowerVR 7XT Series 12-core",
-      "NumericValue": "650 MHz"
-    },
-    "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
-      "Details": "display_ipad_air_2"
-    },
-    "supported_os": "iOS 9.3 — current",
-    "onboard_ram": {
-      "Value": "LPDDR4",
-      "NumericValue": "2048 MB"
-    },
-    "connector": {
-      "Value": "Lightning"
-    },
-    "front_camera": {
-      "Value": "front_camera 9.7‑inch iPad Pro"
-    },
-    "processor": {
-      "Value": "Apple A9X dual-core",
-      "Details": "64-bit architecture and M9 motion coprocessor",
-      "NumericValue": "2160 MHz"
-    },
-    "location": {
-      "Value": "location_wifi_ibeacon"
-    },
-    "capacity": "32, 128 & 256 GB",
-    "dimensions": {
-      "NumericValue": "240 × 169.5 × 6.1 mm"
-    },
-    "battery_capacity": {
-      "Value": "27.91 Wh (3.82 V)",
-      "NumericValue": "7306 mAh"
-    },
-    "audio_playback": {
-      "NumericValue": "10"
-    },
-    "video_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
-    "Geekbench 3": {
-      "NumericValue": "3058 \/ 5247 Multi-Core"
-    },
-    "Geekbench 2": {
-      "NumericValue": "3443"
-    },
-    "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
-    },
-    "rear_camera": {
-      "Value": "rear_camera 9.7‑inch iPad Pro"
-    },
-    "price": "599-1,029 USD",
-    "weight": {
-      "NumericValue": "437 g"
-    },
-    "sensors": {
-      "Value": "sensors 9.7‑inch iPad Pro"
-    }
-  },
-  "iPad Pro 12.9\"": {
-    "ids": [
-      "iPad6,7",
-      "iPad6,8"
-    ],
-    "release_date": {
-      "Date": "2014-10-24T07:00:00Z"
-    },
-    "Bluetooth": {
-      "Value": "4.2"
-    },
-    "GPU": {
-      "Value": "PowerVR 7XT Series 12-core",
-      "NumericValue": "650 MHz"
-    },
-    "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
-      "Details": "display_ipad_air_2"
-    },
-    "supported_os": "iOS 9.1 — current",
-    "onboard_ram": {
-      "Value": "LPDDR4",
-      "NumericValue": "4000 MB"
-    },
-    "connector": {
-      "Value": "Lightning"
-    },
-    "front_camera": {
-      "Value": "front_camera 12.9‑inch iPad Pro"
-    },
-    "processor": {
-      "Value": "Apple A9X dual-core",
-      "Details": "64-bit architecture and M9 motion coprocessor",
-      "NumericValue": "2200 MHz"
-    },
-    "location": {
-      "Value": "location_wifi_ibeacon"
-    },
-    "capacity": "32, 128 & 256 GB",
-    "dimensions": {
-      "NumericValue": "305.7 × 220.6 × 6.9 mm"
-    },
-    "battery_capacity": {
-      "Value": "38.8 Wh (3.77 V)",
-      "NumericValue": "10307 mAh"
-    },
-    "audio_playback": {
-      "NumericValue": "10"
-    },
-    "video_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
-    "Geekbench 3": {
-      "NumericValue": "3160 \/ 5411 Multi-Core"
-    },
-    "Geekbench 2": {
-      "NumericValue": "3591"
-    },
-    "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
-    },
-    "rear_camera": {
-      "Value": "rear_camera 12.9‑inch iPad Pro"
-    },
-    "weight": {
-      "NumericValue": "713 g"
-    },
-    "price": "799-1,099 USD",
-    "sensors": {
-      "Value": "sensors 12.9‑inch iPad Pro"
     }
   }
 }

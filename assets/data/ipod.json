@@ -1,7 +1,9 @@
 {
   "iPod touch": {
+    "ids": [
+      "iPod"
+    ],
     "DetailName": "Unknown model",
-    "Name": "iPod",
     "video_playback": {
       "NumericValue": "8"
     },
@@ -230,11 +232,11 @@
     "audio_playback": {
       "NumericValue": "40"
     },
-    "Geekbench 3": {
-      "NumericValue": "209"
-    },
     "Geekbench 2": {
       "NumericValue": "374"
+    },
+    "Geekbench 3": {
+      "NumericValue": "209"
     },
     "Wi-Fi": {
       "Value": "802.11b\/g\/n Wi-Fi (802.11n 2.4GHz only)"
@@ -302,11 +304,11 @@
     "audio_playback": {
       "NumericValue": "40"
     },
-    "Geekbench 3": {
-      "NumericValue": "215 \/ 410 Multi-Core"
-    },
     "Geekbench 2": {
       "NumericValue": "625"
+    },
+    "Geekbench 3": {
+      "NumericValue": "215 \/ 410 Multi-Core"
     },
     "Geekbench 4": {
       "NumericValue": "281 \/ 488 Multi-Core"
