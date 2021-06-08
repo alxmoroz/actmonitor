@@ -862,7 +862,7 @@
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "display_iphone_6s"
     },
-    "supported_os": "iOS 9.0 — current",
+    "supported_os": "iOS 9.0 — ...",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "2048 MB"
@@ -952,7 +952,7 @@
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "display_iphone_6s_plus"
     },
-    "supported_os": "iOS 9.0 — current",
+    "supported_os": "iOS 9.0 — ...",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "2048 MB"
@@ -1042,7 +1042,7 @@
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "display_iphone_4_5s"
     },
-    "supported_os": "iOS 9.3 — current",
+    "supported_os": "iOS 9.3 — ...",
     "onboard_ram": {
       "Value": "LPDDR4 DRAM",
       "NumericValue": "2048 MB"
@@ -1133,7 +1133,7 @@
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "display_iphone_6s"
     },
-    "supported_os": "iOS 10.0 — current",
+    "supported_os": "iOS 10.0 — ...",
     "onboard_ram": {
       "Value": "LPDDR4 DRAM",
       "NumericValue": "2048 MB"
@@ -1224,7 +1224,7 @@
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "display_iphone_6s_plus"
     },
-    "supported_os": "iOS 10.0 — current",
+    "supported_os": "iOS 10.0 — ...",
     "onboard_ram": {
       "Value": "LPDDR4 DRAM",
       "NumericValue": "3072 MB"
@@ -1304,7 +1304,7 @@
     "discontinued_date": {
       "Date": "2020-04-15T07:00:00Z"
     },
-    "supported_os": "iOS 11.0 — current",
+    "supported_os": "iOS 11.0 — ...",
     "display": {
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "display_iphone_6s"
@@ -1383,7 +1383,7 @@
     "discontinued_date": {
       "Date": "2020-04-15T07:00:00Z"
     },
-    "supported_os": "iOS 11.0 — current",
+    "supported_os": "iOS 11.0 — ...",
     "display": {
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "display_iphone_6s_plus"
@@ -1462,7 +1462,7 @@
     "discontinued_date": {
       "Date": "2018-09-12T07:00:00Z"
     },
-    "supported_os": "iOS 11.0.1 — current",
+    "supported_os": "iOS 11.0.1 — ...",
     "display": {
       "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
       "Details": "display_iphone_x"
@@ -1685,6 +1685,78 @@
     },
     "Geekbench 5": {
       "NumericValue": "1109 \/ 2651 Multi-Core"
+    }
+  },
+  "iPhone XR": {
+    "ids": [
+      "iPhone11,8"
+    ],
+    "release_date": {
+      "Date": "2018-10-26T07:00:00Z"
+    },
+    "supported_os": "iOS 12.0 — ...",
+    "display": {
+      "NumericValue": "6.06\" 1792 × 828 (326 ppi)",
+      "Details": "display_iphone_xr"
+    },
+    "processor": {
+      "Value": "Apple A12 Bionic hexa-core",
+      "NumericValue": "2490 MHz",
+      "Details": "7 nm, M12 motion coprocessor, 8-core Neural Engine 2"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "64, 128, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "3072 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41)\nCDMA EV-DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_xr"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_xs"
+    },
+    "battery_capacity": {
+      "Value": "11.24 Wh (3.82 V)",
+      "NumericValue": "2942 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "15"
+    },
+    "video_playback": {
+      "NumericValue": "16"
+    },
+    "audio_playback": {
+      "NumericValue": "65"
+    },
+    "dimensions": {
+      "NumericValue": "150.9 × 75.7 × 8.3 mm"
+    },
+    "weight": {
+      "NumericValue": "194 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "4792 \/ 10791 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1107 \/ 2569 Multi-Core"
     }
   }
 }
