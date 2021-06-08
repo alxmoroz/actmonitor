@@ -1758,5 +1758,77 @@
     "Geekbench 5": {
       "NumericValue": "1107 \/ 2569 Multi-Core"
     }
+  },
+  "iPhone 11": {
+    "ids": [
+      "iPhone12,1"
+    ],
+    "release_date": {
+      "Date": "2019-09-20T07:00:00Z"
+    },
+    "supported_os": "iOS 13.0 — ...",
+    "display": {
+      "NumericValue": "6.06\" 1792 × 828 (326 ppi)",
+      "Details": "display_iphone_xr"
+    },
+    "processor": {
+      "Value": "Apple A13 Bionic hexa-core",
+      "NumericValue": "2650 MHz",
+      "Details": "7 nm, M13 motion coprocessor, 8-core Neural Engine 3"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "64, 128, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_11"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_11"
+    },
+    "battery_capacity": {
+      "Value": "11.91 Wh (3.83 V)",
+      "NumericValue": "3110 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "17"
+    },
+    "video_playback": {
+      "NumericValue": "17"
+    },
+    "audio_playback": {
+      "NumericValue": "65"
+    },
+    "dimensions": {
+      "NumericValue": "150.9 × 75.7 × 8.3 mm"
+    },
+    "weight": {
+      "NumericValue": "194 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "5471 \/ 13571 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1325 \/ 3229 Multi-Core"
+    }
   }
 }
