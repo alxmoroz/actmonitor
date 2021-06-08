@@ -108,7 +108,7 @@
     "discontinued_date": {
       "Date": "2014-03-18T07:00:00Z"
     },
-    "supported_os": "iOS 4.2.1 — iOS 9.3.5 ",
+    "supported_os": "iOS 4.2.1 — 9.3.5",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "512 MB"
@@ -163,7 +163,7 @@
       "Value": "sensors_ipad_2"
     }
   },
-  "iPad 3th": {
+  "iPad 3": {
     "ids": [
       "iPad3,1",
       "iPad3,2",
@@ -186,7 +186,7 @@
     "discontinued_date": {
       "Date": "2012-10-23T07:00:00Z"
     },
-    "supported_os": "iOS 5.1 — 9.3.5 ",
+    "supported_os": "iOS 5.1 — 9.3.5",
     "onboard_ram": {
       "Value": "LPDDR2",
       "NumericValue": "1024 MB"
@@ -245,7 +245,7 @@
       "Value": "sensors_ipad_3"
     }
   },
-  "iPad 4th": {
+  "iPad 4": {
     "ids": [
       "iPad3,4",
       "iPad3,5",
