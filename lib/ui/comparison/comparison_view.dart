@@ -36,7 +36,7 @@ class _ComparisonViewState extends State<ComparisonView> {
           comparableValuesCount++;
         }
       });
-      return comparableValuesCount > 0;
+      return comparableValuesCount > 1 || (models.length == 1 && comparableValuesCount > 0);
     }).toList(growable: false);
 
     return CupertinoPageScaffold(
