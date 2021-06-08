@@ -1702,7 +1702,7 @@
     "processor": {
       "Value": "Apple A12 Bionic hexa-core",
       "NumericValue": "2490 MHz",
-      "Details": "7 nm, M12 motion coprocessor, 8-core Neural Engine 2"
+      "Details": "7 nm, M12 motion coprocessor, 8-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"
@@ -1774,7 +1774,7 @@
     "processor": {
       "Value": "Apple A13 Bionic hexa-core",
       "NumericValue": "2650 MHz",
-      "Details": "7 nm, M13 motion coprocessor, 8-core Neural Engine 3"
+      "Details": "7 nm, M13 motion coprocessor, 8-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"
@@ -1829,6 +1829,81 @@
     },
     "Geekbench 5": {
       "NumericValue": "1325 \/ 3229 Multi-Core"
+    }
+  },
+  "iPhone 11 Pro": {
+    "ids": [
+      "iPhone12,3"
+    ],
+    "release_date": {
+      "Date": "2019-09-20T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2020-10-13T07:00:00Z"
+    },
+    "supported_os": "iOS 13.0 — ...",
+    "display": {
+      "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
+      "Details": "display_iphone_x11pro"
+    },
+    "processor": {
+      "Value": "Apple A13 Bionic hexa-core",
+      "NumericValue": "2650 MHz",
+      "Details": "7 nm, M13 motion coprocessor, 8-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "64, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_11pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_11"
+    },
+    "battery_capacity": {
+      "Value": "11.67 Wh (3.83 V)",
+      "NumericValue": "3046 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "18"
+    },
+    "video_playback": {
+      "NumericValue": "18"
+    },
+    "audio_playback": {
+      "NumericValue": "65"
+    },
+    "dimensions": {
+      "NumericValue": "144.0 × 71.4 × 8.1 mm"
+    },
+    "weight": {
+      "NumericValue": "188 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "5475 \/ 13537 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1327 \/ 3391 Multi-Core"
     }
   }
 }
