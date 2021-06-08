@@ -1450,5 +1450,84 @@
     "Geekbench 5": {
       "NumericValue": "923 \/ 2327 Multi-Core"
     }
+  },
+  "iPhone X": {
+    "ids": [
+      "iPhone10,3",
+      "iPhone10,6"
+    ],
+    "release_date": {
+      "Date": "2017-11-03T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2018-09-12T07:00:00Z"
+    },
+    "supported_os": "iOS 11.0.1 — current",
+    "display": {
+      "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
+      "Details": "display_iphone_x"
+    },
+    "processor": {
+      "Value": "Apple A11 Bionic hexa-core",
+      "NumericValue": "2390 MHz",
+      "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU three-core"
+    },
+    "capacity": "64, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "3072 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_7plus"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_x"
+    },
+    "battery_capacity": {
+      "Value": "10.35 Wh (3.81 V)",
+      "NumericValue": "2716 mAh"
+    },
+    "browsing_over_lte": {
+      "NumericValue": "12"
+    },
+    "audio_playback": {
+      "NumericValue": "60"
+    },
+    "video_playback": {
+      "NumericValue": "13"
+    },
+    "dimensions": {
+      "NumericValue": "143.6 × 70.9 × 7.7 mm"
+    },
+    "weight": {
+      "NumericValue": "174 g"
+    },
+    "Geekbench 3": {
+      "NumericValue": "4312 \/ 10585 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "4193 \/ 10025 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "918 \/ 2365 Multi-Core"
+    }
   }
 }
