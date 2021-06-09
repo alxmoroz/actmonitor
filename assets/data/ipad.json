@@ -9,9 +9,6 @@
     },
     "audio_playback": {
       "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
     }
   },
   "iPad Original": {
@@ -62,9 +59,6 @@
     },
     "audio_playback": {
       "NumericValue": "40"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
     },
     "battery_capacity": {
       "Value": "24.8 Wh (3.75 V)",
@@ -134,9 +128,6 @@
       "NumericValue": "40"
     },
     "video_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
       "NumericValue": "10"
     },
     "battery_capacity": {
@@ -219,9 +210,6 @@
     "audio_playback": {
       "NumericValue": "40"
     },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
     "Geekbench 2": {
       "NumericValue": "756"
     },
@@ -300,9 +288,6 @@
     },
     "audio_playback": {
       "NumericValue": "40"
-    },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
     },
     "Geekbench 2": {
       "NumericValue": "1756"
@@ -384,9 +369,6 @@
     "audio_playback": {
       "NumericValue": "10"
     },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
     "Geekbench 2": {
       "NumericValue": "2377"
     },
@@ -466,9 +448,6 @@
       "NumericValue": "10"
     },
     "audio_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
       "NumericValue": "10"
     },
     "Geekbench 2": {
@@ -553,9 +532,6 @@
     "video_playback": {
       "NumericValue": "10"
     },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
     "Geekbench 2": {
       "NumericValue": "3443"
     },
@@ -635,9 +611,6 @@
       "NumericValue": "10"
     },
     "video_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
       "NumericValue": "10"
     },
     "Geekbench 2": {
@@ -722,9 +695,6 @@
     "audio_playback": {
       "NumericValue": "40"
     },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
     "Geekbench 2": {
       "NumericValue": "745"
     },
@@ -802,9 +772,6 @@
       "NumericValue": "10"
     },
     "audio_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
       "NumericValue": "10"
     },
     "Geekbench 2": {
@@ -889,9 +856,6 @@
     "audio_playback": {
       "NumericValue": "10"
     },
-    "browsing_over_wifi": {
-      "NumericValue": "10"
-    },
     "Geekbench 2": {
       "NumericValue": "2274"
     },
@@ -971,9 +935,6 @@
       "NumericValue": "10"
     },
     "audio_playback": {
-      "NumericValue": "10"
-    },
-    "browsing_over_wifi": {
       "NumericValue": "10"
     },
     "Geekbench 2": {

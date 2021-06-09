@@ -6,8 +6,7 @@
   "battery_life": [
     "audio_playback",
     "video_playback",
-    "browsing_over_wifi",
-    "browsing_over_lte"
+    "browsing_over_cellular"
   ],
   "parameters": [
     "processor",
