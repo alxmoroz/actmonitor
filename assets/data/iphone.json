@@ -2034,7 +2034,7 @@
       "Value": "sensors_iphone_6"
     },
     "rear_camera": {
-      "Value": "rear_camera_iphone_12mini"
+      "Value": "rear_camera_iphone_12"
     },
     "front_camera": {
       "Value": "front_camera_iphone_12"
@@ -2054,6 +2054,75 @@
     },
     "weight": {
       "NumericValue": "133 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "6518 \/ 16753 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1585 \/ 3951 Multi-Core"
+    }
+  },
+  "iPhone 12": {
+    "ids": [
+      "iPhone13,2"
+    ],
+    "release_date": {
+      "Date": "2020-10-23T07:00:00Z"
+    },
+    "supported_os": "iOS 14.1 — ...",
+    "display": {
+      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Details": "display_iphone_11pro"
+    },
+    "processor": {
+      "Value": "Apple A14 Bionic hexa-core",
+      "NumericValue": "3090 MHz",
+      "Details": "5 nm, M14 motion coprocessor, 8-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "64, 128, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79)\n5G NR mmWave (Bands n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_12"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_12"
+    },
+    "battery_capacity": {
+      "Value": "10.78 Wh (3.83 V)",
+      "NumericValue": "2815 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "17"
+    },
+    "audio_playback": {
+      "NumericValue": "65"
+    },
+    "dimensions": {
+      "NumericValue": "146.7 × 71.5 × 7.4 mm"
+    },
+    "weight": {
+      "NumericValue": "162 g"
     },
     "Geekbench 4": {
       "NumericValue": "6518 \/ 16753 Multi-Core"
