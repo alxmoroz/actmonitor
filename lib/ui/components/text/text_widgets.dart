@@ -127,7 +127,7 @@ class MediumText extends NormalText {
 class H3 extends MediumText {
   const H3(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow})
       : super(
-    text,
+          text,
           color: color,
           weight: weight,
           sizeScale: 1.12,

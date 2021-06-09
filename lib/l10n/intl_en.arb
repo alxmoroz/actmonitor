@@ -5,6 +5,7 @@
   "audio_playback": "Audio",
   "battery": "Battery",
   "battery_capacity": "Battery capacity",
+  "battery_legend_title": "Remaining (hours: minutes):",
   "browsing_over_cellular": "Cellular",
   "capacity": "Capacity",
   "cellular": "Cellular",

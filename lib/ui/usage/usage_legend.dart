@@ -20,7 +20,7 @@ class UsageLegend extends StatelessWidget {
               .map((el) => Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SmallText(el.label ?? '', color: darkColor),
+                      SmallText(el.label ?? '', color: darkColor, weight: FontWeight.w300),
                       const SizedBox(height: 2),
                       MediumText(el.toString()),
                     ],

@@ -5,6 +5,7 @@
   "audio_playback": "Аудио",
   "battery": "Батарея",
   "battery_capacity": "Ёмкость батареи",
+  "battery_legend_title": "Осталось (часы:минуты):",
   "browsing_over_cellular": "Интернет",
   "capacity": "Ёмкость",
   "cellular": "Сотовая связь",

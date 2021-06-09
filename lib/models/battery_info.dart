@@ -23,7 +23,7 @@ class BatteryInfo extends UsageInfo {
     } else if (!iosInfo.isPhysicalDevice) {
       // debug simulator
       _rawLevel = 0.66;
-      _rawState = 3;
+      _rawState = 1;
     } else {
       throw Exception('Failed to get Battery info');
     }

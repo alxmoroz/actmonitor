@@ -5,6 +5,7 @@
   "audio_playback": "Audio",
   "battery": "Batterie",
   "battery_capacity": "Akkukapazität",
+  "battery_legend_title": "Verbleibend (Stunden: Minuten):",
   "browsing_over_cellular": "Internetnutzung",
   "capacity": "Kapazität",
   "cellular": "Mobilfunk",

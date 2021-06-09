@@ -1,4 +1,5 @@
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/text/text_widgets.dart';
 import 'package:amonitor/ui/usage/usage_element.dart';
 import 'package:amonitor/ui/usage/usage_legend.dart';
 import 'package:flutter/cupertino.dart';
@@ -70,7 +71,11 @@ class UsageView extends StatelessWidget {
           UsageElement.battery(battery.level, color: CupertinoColors.systemGreen),
           UsageElement.battery(100 - battery.level, color: freeColor),
         ],
-        legend: UsageLegend(batteryLifeElements),
+        legend: Column(children: [
+          SizedBox(height: cardPadding),
+          SmallText(loc.battery_legend_title),
+          UsageLegend(batteryLifeElements),
+        ]),
         placeholder: battery.placeholder,
       );
     }
