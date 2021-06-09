@@ -2,10 +2,10 @@
   "@@locale": "en",
   "active": "Active",
   "add_model": "+ Model",
-  "audio_playback": "Audio\nPlayback",
+  "audio_playback": "Audio",
   "battery": "Battery",
   "battery_capacity": "Battery capacity",
-  "browsing_over_cellular": "Browsing\ncellular",
+  "browsing_over_cellular": "Cellular",
   "capacity": "Capacity",
   "cellular": "Cellular",
   "charging": "Charging",
@@ -99,7 +99,7 @@
   "unplugged": "Unplugged",
   "usage": "Usage",
   "used": "Used",
-  "video_playback": "Video\nPlayback",
+  "video_playback": "Video",
   "weight": "Weight",
   "wired": "Wired"
 }

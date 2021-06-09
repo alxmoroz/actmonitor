@@ -20,6 +20,11 @@ DeviceModel? hostModel;
 
 S get loc => S.current;
 
+//TODO: UI-constants
+bool get isTablet => iosInfo.model == 'iPad';
+
+double get cardPadding => isTablet ? 20 : 10;
+
 class Globals {
   static Future<void> initialize() async {
     await HiveStorage.init();
@@ -41,11 +46,12 @@ class Globals {
     final currentVersion = packageInfo.version;
     settings.version = currentVersion;
 
-    // загрузка спецификаций
-    await SpecsClient.load();
-
     // инфа о текущем устройстве
     iosInfo = await DeviceInfoPlugin().iosInfo;
+
+    // загрузка спецификаций
+    await SpecsClient.load();
+    // сопоставляем текущее устройство и модель из спецификаций
     hostModel = specsState.modelForId(iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model);
     if (specsState.isKnownModel(hostModel) && settings.selectedModelName.isEmpty) {
       settings.selectedModelName = hostModel!.name;

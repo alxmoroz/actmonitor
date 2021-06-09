@@ -2,10 +2,10 @@
   "@@locale": "ru",
   "active": "Активно",
   "add_model": "+ Модель",
-  "audio_playback": "Воспроизв.\nаудио",
+  "audio_playback": "Аудио",
   "battery": "Батарея",
   "battery_capacity": "Ёмкость батареи",
-  "browsing_over_cellular": "Интернет\nсот. связь",
+  "browsing_over_cellular": "Интернет",
   "capacity": "Ёмкость",
   "cellular": "Сотовая связь",
   "charging": "Заряжается",
@@ -99,7 +99,7 @@
   "unplugged": "Разряжается",
   "usage": "Загрузка",
   "used": "Занято",
-  "video_playback": "Воспроизв.\nвидео",
+  "video_playback": "Видео",
   "weight": "Вес",
   "wired": "Система"
 }

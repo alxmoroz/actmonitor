@@ -2,10 +2,10 @@
   "@@locale": "de",
   "active": "Activ",
   "add_model": "+ Modell",
-  "audio_playback": "Audio\nwieder\ngabe",
+  "audio_playback": "Audio",
   "battery": "Batterie",
   "battery_capacity": "Akkukapazität",
-  "browsing_over_cellular": "Internetnutzung\nMobilfunk",
+  "browsing_over_cellular": "Internetnutzung",
   "capacity": "Kapazität",
   "cellular": "Mobilfunk",
   "charging": "Aufladung",
@@ -99,7 +99,7 @@
   "unplugged": "Unplugged",
   "usage": "Verwendung",
   "used": "Gebraucht",
-  "video_playback": "Video\nwieder\ngabe",
+  "video_playback": "Video",
   "weight": "Gewicht",
   "wired": "System"
 }

@@ -1,3 +1,4 @@
+import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/usage/usage_chart_bar.dart';
 import 'package:amonitor/ui/usage/usage_legend.dart';
 import 'package:flutter/cupertino.dart';
@@ -35,11 +36,11 @@ class UsageCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (placeholder.isEmpty) ...[
-            const SizedBox(height: 10),
+            SizedBox(height: cardPadding),
             UsageChartBar(elements, total),
             legend ?? UsageLegend(elements),
           ],
-          if (placeholder.isNotEmpty) NormalText(placeholder, padding: const EdgeInsets.all(10)),
+          if (placeholder.isNotEmpty) NormalText(placeholder, padding: EdgeInsets.all(cardPadding)),
         ],
       ),
     );

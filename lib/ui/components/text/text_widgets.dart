@@ -1,5 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -58,7 +59,7 @@ class NormalText extends StatelessWidget {
     final textStyle = cupertinoTS.copyWith(
       color: CupertinoDynamicColor.maybeResolve(color ?? darkColor, context),
       fontWeight: weight ?? cupertinoTS.fontWeight,
-      fontSize: size ?? cupertinoTS.fontSize! * (sizeScale ?? 1),
+      fontSize: (size ?? cupertinoTS.fontSize ?? (isTablet ? 20 : 16)) * (sizeScale ?? 1),
       height: height ?? cupertinoTS.height,
     );
     return Padding(
@@ -96,24 +97,27 @@ class SmallText extends NormalText {
 }
 
 class LightText extends NormalText {
-  const LightText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding})
+  const LightText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, double? sizeScale})
       : super(
           text,
           color: color,
           weight: weight ?? FontWeight.w300,
           size: size,
+          sizeScale: sizeScale,
           align: align,
           padding: padding,
         );
 }
 
 class MediumText extends NormalText {
-  const MediumText(String text, {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow})
+  const MediumText(String text,
+      {double? size, Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow, double? sizeScale})
       : super(
           text,
           color: color,
           weight: weight ?? FontWeight.w500,
           size: size,
+          sizeScale: sizeScale,
           align: align,
           padding: padding,
           shadow: shadow,
@@ -123,10 +127,10 @@ class MediumText extends NormalText {
 class H3 extends MediumText {
   const H3(String text, {Color? color, FontWeight? weight, TextAlign? align, EdgeInsets? padding, TextShadow? shadow})
       : super(
-          text,
+    text,
           color: color,
           weight: weight,
-          size: 20,
+          sizeScale: 1.12,
           align: align,
           padding: padding,
           shadow: shadow,

@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:amonitor/services/globals.dart';
 import 'package:amonitor/ui/components/text/text_widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -19,17 +20,17 @@ class CardTitle extends StatelessWidget {
 
     return NormalText(
       title,
-      size: 18,
+      size: isTablet ? 24 : 18,
       weight: FontWeight.bold,
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
-      padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+      padding: EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0),
     );
   }
 }
 
 class AMCard extends StatelessWidget {
-  const AMCard({this.body, this.title, this.margin});
+  const AMCard({this.body, this.title});
 
   @protected
   final Widget? title;
@@ -37,14 +38,11 @@ class AMCard extends StatelessWidget {
   @protected
   final Widget? body;
 
-  @protected
-  final EdgeInsetsGeometry? margin;
-
   @override
   Widget build(BuildContext context) {
     const double radius = 8;
     return Card(
-      margin: margin ?? const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      margin: EdgeInsets.symmetric(horizontal: isTablet ? 50 : 12, vertical: isTablet ? 8 : 6),
       elevation: 5,
       color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius)),

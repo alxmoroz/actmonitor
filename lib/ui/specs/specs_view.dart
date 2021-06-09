@@ -2,13 +2,13 @@
 
 import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
+import '../components/card.dart';
 import '../components/icons.dart';
 import '../components/images.dart';
 import '../components/material_wrapper.dart';
@@ -38,7 +38,7 @@ class SpecsView extends StatelessWidget {
         final valueStr = pv.toString();
         return AMCard(
           title: CardTitle(Intl.message(pv.name, name: pv.name)),
-          body: NormalText(Intl.message(valueStr, name: valueStr), padding: const EdgeInsets.all(10)),
+          body: NormalText(Intl.message(valueStr, name: valueStr), padding: EdgeInsets.all(cardPadding)),
         );
       }
 
@@ -70,11 +70,11 @@ class SpecsView extends StatelessWidget {
           decoration: bgDecoration(context),
           child: Column(
             children: [
-              const SizedBox(height: 8),
+              SizedBox(height: cardPadding),
               Expanded(
                 child: materialWrap(_buildSpecs()),
               ),
-              const SizedBox(height: 20),
+              SizedBox(height: cardPadding * 3),
             ],
           ),
         ),

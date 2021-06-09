@@ -1,8 +1,9 @@
-import 'package:amonitor/ui/components/colors.dart';
-import 'package:amonitor/ui/components/text/text_widgets.dart';
-import 'package:amonitor/ui/usage/usage_element.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../components/colors.dart';
+import '../components/text/text_widgets.dart';
+import 'usage_element.dart';
 
 class UsageLegend extends StatelessWidget {
   const UsageLegend(this.elements);
@@ -20,7 +21,8 @@ class UsageLegend extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SmallText(el.label ?? '', color: darkColor),
-                      NormalText(el.toString()),
+                      const SizedBox(height: 2),
+                      MediumText(el.toString()),
                     ],
                   ))
               .toList(growable: false),

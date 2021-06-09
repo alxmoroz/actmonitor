@@ -82,6 +82,7 @@ class UsageView extends StatelessWidget {
           child: Observer(
             builder: (_) => Column(
               children: [
+                SizedBox(height: cardPadding),
                 buildRamUsage(),
                 buildDiskUsage(),
                 buildBatteryUsage(),
