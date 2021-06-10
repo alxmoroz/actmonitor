@@ -881,6 +881,7 @@
       "NumericValue": "1584 \/ 4124 Multi-Core"
     }
   },
+
   "iPad Pro 12.9\"": {
     "ids": [
       "iPad6,7",
@@ -1113,7 +1114,76 @@
       "NumericValue": "832 \/ 2270 Multi-Core"
     }
   },
-
+  "iPad Pro 10.5\"": {
+    "ids": [
+      "iPad7,3",
+      "iPad7,4"
+    ],
+    "release_date": {
+      "Date": "2017-06-13T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2019-03-18T07:00:00Z"
+    },
+    "supported_os": "iOS 10.3.2 — ...",
+    "display": {
+      "NumericValue": "10.5\" 2224 × 1668 (264 ppi)",
+      "Details": "display_ipad_pro_13_2"
+    },
+    "processor": {
+      "Value": "Apple A10X Fusion hexa-core",
+      "NumericValue": "2380 MHz",
+      "Details": "10 nm, M10 motion coprocessor"
+    },
+    "GPU": {
+      "Value": "PowerVR 7XT 12-core"
+    },
+    "capacity": "64, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "4.2"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air_2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_pro_13_2"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_air3"
+    },
+    "battery_capacity": {
+      "Value": "30.8 Wh (3.77 V)",
+      "NumericValue": "8134 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "250.6 × 174.1 × 6.1 mm"
+    },
+    "weight": {
+      "NumericValue": "469-477 g"
+    },
+    "Geekbench 3": {
+      "NumericValue": "4159 \/ 9789 Multi-Core"
+    },
+    "Geekbench 4": {
+      "NumericValue": "3876 \/ 9178 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "831 \/ 2264 Multi-Core"
+    }
+  },
   "iPad mini": {
     "ids": [
       "iPad2,5",
