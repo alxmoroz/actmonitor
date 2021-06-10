@@ -2008,7 +2008,7 @@
     "processor": {
       "Value": "Apple A14 Bionic hexa-core",
       "NumericValue": "3090 MHz",
-      "Details": "5 nm, M14 motion coprocessor, 8-core Neural Engine"
+      "Details": "5 nm, M14 motion coprocessor, 16-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"
@@ -2077,7 +2077,7 @@
     "processor": {
       "Value": "Apple A14 Bionic hexa-core",
       "NumericValue": "3090 MHz",
-      "Details": "5 nm, M14 motion coprocessor, 8-core Neural Engine"
+      "Details": "5 nm, M14 motion coprocessor, 16-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"
@@ -2146,7 +2146,7 @@
     "processor": {
       "Value": "Apple A14 Bionic hexa-core",
       "NumericValue": "3090 MHz",
-      "Details": "5 nm, M14 motion coprocessor, 8-core Neural Engine"
+      "Details": "5 nm, M14 motion coprocessor, 16-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"
@@ -2215,7 +2215,7 @@
     "processor": {
       "Value": "Apple A14 Bionic hexa-core",
       "NumericValue": "3090 MHz",
-      "Details": "5 nm, M14 motion coprocessor, 8-core Neural Engine"
+      "Details": "5 nm, M14 motion coprocessor, 16-core Neural Engine"
     },
     "GPU": {
       "Value": "Apple GPU 4-core"

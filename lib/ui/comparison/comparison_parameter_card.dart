@@ -37,11 +37,11 @@ class ComparisonParameterCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
-                flex: 3,
+                flex: 2,
                 child: Padding(
                   padding: const EdgeInsets.only(right: 6, top: 2),
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
                       NormalText(model.name, align: TextAlign.right),
                       if (model.detailName.isNotEmpty) SmallText(model.detailName, padding: const EdgeInsets.only(top: 2), align: TextAlign.right),
@@ -50,7 +50,7 @@ class ComparisonParameterCard extends StatelessWidget {
                 ),
               ),
               Expanded(
-                flex: 4,
+                flex: 3,
                 child: Stack(
                   alignment: Alignment.topLeft,
                   children: [
