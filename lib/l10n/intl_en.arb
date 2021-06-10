@@ -34,8 +34,9 @@
   "display_ipod_4": "Retina TN, LED-backlit, 800:1 contrast",
   "display_ipad": "Oleophobic IPS, LED-backlit, 800:1 contrast",
   "display_ipad_air_2": "Oleophobic Retina IPS, LED-backlit, 800:1 contrast\nAntireflective coating\nFully laminated display",
+  "display_ipad_air_3": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3), True Tone\nAntireflective coating\nFully laminated display\nApple Pencil",
+  "display_ipad_pro_13_2": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil",
   "free": "Free",
-
   "front_camera": "Front Camera",
   "front_camera_iphone_5": "1.2-MP photos (1280 by 960)\nƒ/2.4 aperture\n720p HD video recording\nBackside illumination sensor\nFace detection\nExposure control",
   "front_camera_iphone_5s": "1.2-MP photos (1280 by 960)\nƒ/2.4 aperture\n720p HD video recording\nBackside illumination sensor\nAuto HDR for photos\nFace detection\nBurst mode\nExposure control",
@@ -86,6 +87,7 @@
   "rear_camera_ipad_air": "5MP photos\nAutofocus\nFace detection\nBackside illumination\nFive‑element lens\nHybrid IR filter\nƒ/2.4 aperture\nHDR photos\nPanorama\n\nTap to focus while recording\nVideo stabilization\n3x video zoom\nTime-lapse video",
   "rear_camera_ipad_air2": "8MP photos\nAutofocus\nFace detection\nBackside illumination\nFive‑element lens\nHybrid IR filter\nƒ/2.4 aperture\nHDR photos\nPanorama\nBurst mode\n\nTap to focus while recording\nVideo stabilization\n3x video zoom\nTime-lapse video\nSlo-mo video",
   "rear_camera_ipad_air4": "12MP Wide camera\nƒ/1.8 aperture\nFive-element lens\nHybrid IR ﬁlter\nBackside illumination sensor\nLive Photos with stabilization\nAutofocus with Focus Pixels\nTap to focus with Focus Pixels\nWide color capture for photos and Live Photos\nPanorama (up to 63MP)\nExposure control\nNoise reduction\nSmart HDR for photos\nAuto image stabilization\nBurst mode\nTimer mode\nPhoto geotagging\nImage formats captured: HEIF and JPEG\nVideo Recording \n4K video recording at 24 fps, 30 fps, or 60 fps\n1080p HD video recording at 30 fps or 60 fps\nSlo‑mo video support for 1080p at 120 fps or 240 fps\nTime‑lapse video with stabilization\nCinematic video stabilization (1080p and 720p)\nContinuous autofocus video\nNoise reduction\nPlayback zoom\nVideo geotagging\nVideo formats captured: HEVC and H.264",
+  "rear_camera_ipad_pro_13_2": "12-megapixel camera\nƒ/1.8 aperture\nDigital zoom up to 5x\nOptical image stabilization\nSix‑element lens\nQuad-LED True Tone flash\nPanorama (up to 63 megapixels)\nSapphire crystal lens cover\nBackside illumination sensor\nHybrid IR filter\nAutofocus with Focus Pixels\nTap to focus with Focus Pixels\nLive Photos with stabilization\nWide color capture for photos and Live Photos\nImproved local tone mapping\nBody and face detection\nExposure control\nNoise reduction\nAuto HDR for photos\nAuto image stabilization\nBurst mode\nTimer mode\nPhoto geotagging\nVideo Recording\n4K video recording at 30 fps\n1080p HD video recording at 30 fps or 60 fps\n720p HD video recording at 30 fps\nOptical image stabilization for video\nQuad-LED True Tone flash\nSlo‑mo video support for 1080p at 120 fps and 720p at 240 fps\nTime‑lapse video with stabilization\nCinematic video stabilization (1080p and 720p)\nContinuous autofocus video\nBody and face detection\nNoise reduction\nPlayback zoom\nVideo geotagging",
   "sensors": "Sensors",
   "sensors_iphone_3g": "Accelerometer\nProximity sensor\nAmbient light sensor",
   "sensors_iphone_4": "Three-axis gyro\nAccelerometer\nProximity sensor\nAmbient light sensor",
