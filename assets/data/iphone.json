@@ -243,7 +243,7 @@
     },
     "display": {
       "NumericValue": "3.5\" 960 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": "2011-10-14T20:00:00Z"
@@ -317,7 +317,7 @@
     },
     "display": {
       "NumericValue": "3.5\" 960 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": "2014-09-09T07:00:00Z"
@@ -398,7 +398,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": "2013-09-10T07:00:00Z"
@@ -479,7 +479,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": "2015-09-09T07:00:00Z"
@@ -563,7 +563,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": "2016-03-21T07:00:00Z"
@@ -1001,7 +1001,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "supported_os": "iOS 9.3 — ...",
     "onboard_ram": {
@@ -1105,7 +1105,7 @@
     "processor": {
       "Value": "Apple A10 quad-core",
       "NumericValue": "2340 MHz",
-      "Details": "64-bit architecture and M10 motion coprocessor"
+      "Details": "M10 motion coprocessor"
     },
     "location": {
       "Value": "location_cellular_glonass_ibeacon"
@@ -1193,7 +1193,7 @@
     "processor": {
       "Value": "Apple A10 quad-core",
       "NumericValue": "2340 MHz",
-      "Details": "64-bit architecture and M10 motion coprocessor"
+      "Details": "M10 motion coprocessor"
     },
     "location": {
       "Value": "location_cellular_glonass_ibeacon"
@@ -1445,7 +1445,7 @@
       "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_7plus"
@@ -1523,7 +1523,7 @@
       "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 46)\nCDMA EV-DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_xs"
@@ -1602,7 +1602,7 @@
       "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 46)\nCDMA EV-DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_xs"
@@ -1677,7 +1677,7 @@
       "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41)\nCDMA EV-DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_xr"
@@ -1821,7 +1821,7 @@
       "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_11pro"
@@ -1893,7 +1893,7 @@
       "Value": "FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 29, 30, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_11pro"
@@ -2031,7 +2031,7 @@
       "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79)\n5G NR mmWave (Bands n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_12"
@@ -2100,7 +2100,7 @@
       "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79)\n5G NR mmWave (Bands n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
-      "Value": "sensors_iphone_6"
+      "Value": "sensors_iphone_x"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_12"

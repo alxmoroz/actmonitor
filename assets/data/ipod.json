@@ -268,7 +268,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "discontinued_date": {
       "Date": {
@@ -346,7 +346,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "supported_os": "iOS 8.4 — 12.5.1",
     "onboard_ram": {
@@ -421,7 +421,7 @@
     },
     "display": {
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
-      "Details": "display_iphone_4_5s"
+      "Details": "display_iphone_4"
     },
     "supported_os": "iOS 12.3.1 — ...",
     "onboard_ram": {
@@ -435,9 +435,9 @@
       "Value": "front_camera_iphone_6"
     },
     "processor": {
-      "Value": "Apple A10 Fusion 4-cores",
+      "Value": "Apple A10 quad-core",
       "NumericValue": "1640 MHz",
-      "Details": "2 Hurricane high-performance, 2 Zephyr high-efficiency) with embedded M10 motion coprocessor"
+      "Details": "M10 motion coprocessor"
     },
     "capacity": "32, 128 & 256 GB",
     "dimensions": {
