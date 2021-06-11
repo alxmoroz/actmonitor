@@ -1267,7 +1267,7 @@
       "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
     },
     "GPU": {
-      "Value": "Apple GPU three-core"
+      "Value": "Apple GPU 3-core"
     },
     "capacity": "64, 128 & 256 GB",
     "onboard_ram": {
@@ -1346,7 +1346,7 @@
       "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
     },
     "GPU": {
-      "Value": "Apple GPU three-core"
+      "Value": "Apple GPU 3-core"
     },
     "capacity": "64, 128 & 256 GB",
     "onboard_ram": {
@@ -1425,7 +1425,7 @@
       "Details": "10 nm, M11 motion coprocessor, 2-core Neural Engine"
     },
     "GPU": {
-      "Value": "Apple GPU three-core"
+      "Value": "Apple GPU 3-core"
     },
     "capacity": "64, 256 GB",
     "onboard_ram": {

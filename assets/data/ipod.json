@@ -324,7 +324,7 @@
     },
     "price": "199-299 USD",
     "sensors": {
-      "Value": "sensors_ipod_5th"
+      "Value": "sensors_ipod5"
     }
   },
   "iPod touch 6th": {
@@ -402,7 +402,7 @@
     },
     "price": "199-399 USD",
     "sensors": {
-      "Value": "sensors_ipod_5th"
+      "Value": "sensors_ipod5"
     }
   },
   "iPod touch 7th": {
@@ -470,7 +470,7 @@
     },
     "price": "199-399 USD",
     "sensors": {
-      "Value": "sensors_ipod_5th"
+      "Value": "sensors_ipod5"
     }
   }
 }
