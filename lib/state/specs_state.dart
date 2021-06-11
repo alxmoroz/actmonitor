@@ -36,13 +36,21 @@ abstract class _SpecsStateBase with Store {
   }
 
   @action
-  void setSelectedModelById(String? id) {
-    setSelectedModel(modelForId(id));
+  void setSelectedModelByName(String name) {
+    selectedModel = modelForName(name);
   }
 
   DeviceModel? modelForId(String? id) {
     try {
       return models.firstWhere((m) => m.ids.contains(id));
+    } catch (_) {
+      return null;
+    }
+  }
+
+  DeviceModel? modelForName(String name) {
+    try {
+      return knownModels.firstWhere((m) => m.name == name);
     } catch (_) {
       return null;
     }

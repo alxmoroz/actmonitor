@@ -56,7 +56,7 @@ class Globals {
     if (specsState.isKnownModel(hostModel) && settings.selectedModelName.isEmpty) {
       settings.selectedModelName = hostModel!.name;
     }
-    specsState.setSelectedModelById(settings.selectedModelName);
+    specsState.setSelectedModelByName(settings.selectedModelName);
 
     // настройки
     await settings.save();
