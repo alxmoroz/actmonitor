@@ -1102,6 +1102,73 @@
       "NumericValue": "1112 \/ 4581 Multi-Core"
     }
   },
+  "iPad Pro 12.9\" 4": {
+    "ids": [
+      "iPad8,11",
+      "iPad8,12"
+    ],
+    "release_date": {
+      "Date": "2020-03-25T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2021-04-21T07:00:00Z"
+    },
+    "supported_os": "iPadOS 13.4 — ...",
+    "display": {
+      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Details": "display_ipad_pro3"
+    },
+    "processor": {
+      "Value": "Apple A12Z Bionic octa-core",
+      "NumericValue": "2490 MHz",
+      "Details": "7 nm, M12 motion coprocessor, 8-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 8-core "
+    },
+    "capacity": "128, 256, 512 GB, 1 TB",
+    "onboard_ram": {
+      "Value": "LPDDR4X",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_pro4"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_pro4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_pro3"
+    },
+    "battery_capacity": {
+      "Value": "36.5 Wh (3.76 V)",
+      "NumericValue": "9720 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "280.6 × 214.9 × 5.9 mm"
+    },
+    "weight": {
+      "NumericValue": "643 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "5023 \/ 17778 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1118 \/ 4624 Multi-Core"
+    }
+  },
   "iPad Pro 9.7\"": {
     "ids": [
       "iPad6,3",
@@ -1320,6 +1387,73 @@
     },
     "Geekbench 5": {
       "NumericValue": "1112 \/ 4607 Multi-Core"
+    }
+  },
+  "iPad Pro 11\" 2": {
+    "ids": [
+      "iPad8,9",
+      "iPad8,10"
+    ],
+    "release_date": {
+      "Date": "2020-03-25T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2021-04-21T07:00:00Z"
+    },
+    "supported_os": "iPadOS 13.4 — ...",
+    "display": {
+      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Details": "display_ipad_pro3"
+    },
+    "processor": {
+      "Value": "Apple A12Z Bionic octa-core",
+      "NumericValue": "2490 MHz",
+      "Details": "7 nm, M12 motion coprocessor, 8-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 8-core "
+    },
+    "capacity": "128, 256, 512 GB, 1 TB",
+    "onboard_ram": {
+      "Value": "LPDDR4X",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_pro4"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_pro4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_pro3"
+    },
+    "battery_capacity": {
+      "Value": "28.65 Wh (3.79 V)",
+      "NumericValue": "7540 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "247.6 × 178.5 × 5.9 mm"
+    },
+    "weight": {
+      "NumericValue": "473 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "5024 \/ 17809 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1116 \/ 4617 Multi-Core"
     }
   },
   "iPad mini": {
