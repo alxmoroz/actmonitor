@@ -32,6 +32,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
+      // debugShowCheckedModeBanner: false,
       title: 'Activity Monitor',
       home: FutureBuilder(
         future: _initFuture,
