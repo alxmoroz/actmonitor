@@ -23,6 +23,7 @@ class _MainViewState extends State<MainView> {
     usageState.updateRamUsage();
     usageState.updateDiskUsage();
     usageState.updateBatteryUsage();
+    usageState.updateNetUsage();
   }
 
   @override

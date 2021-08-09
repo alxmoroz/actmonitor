@@ -22,6 +22,9 @@ import Flutter
             else if call.method == "getBatteryUsage" {
                 Usage.getBatteryUsage(result: result)
             }
+            else if call.method == "getNetUsage" {
+                Usage.getNetUsage(result: result)
+            }
             else {
                 result(FlutterMethodNotImplemented)
                 return

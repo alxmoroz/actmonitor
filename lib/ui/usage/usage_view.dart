@@ -80,6 +80,21 @@ class UsageView extends StatelessWidget {
       );
     }
 
+    Widget buildNetUsage() {
+      final netInfo = usageState.netInfo;
+      return UsageCard(
+        title: '${loc.network}',
+        total: netInfo.total,
+        elements: [
+          UsageElement.memory(netInfo.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+          UsageElement.memory(netInfo.wifiSent, label: loc.net_wifi_sent),
+          UsageElement.memory(netInfo.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+          UsageElement.memory(netInfo.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+        ],
+        placeholder: netInfo.placeholder,
+      );
+    }
+
     return CupertinoPageScaffold(
       child: Container(
         decoration: bgDecoration(context),
@@ -91,6 +106,7 @@ class UsageView extends StatelessWidget {
                 buildRamUsage(),
                 buildDiskUsage(),
                 buildBatteryUsage(),
+                buildNetUsage(),
               ],
             ),
           ),

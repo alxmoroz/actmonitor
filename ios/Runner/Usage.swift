@@ -39,7 +39,7 @@ import Darwin.Mach
             total
         ])
     }
-
+    
     static func getDiskUsage(result: FlutterResult) {
         var freeDiskSpace:Int64 {
             if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
@@ -69,6 +69,75 @@ import Darwin.Mach
             level = device.batteryLevel
         }
         result([level, state])
+    }
+    
+    struct NetUsageInfo {
+        var wifiReceived: UInt64 = 0
+        var wifiSent: UInt64 = 0
+        var cellularReceived: UInt64 = 0
+        var cellularSent: UInt64 = 0
+        
+        mutating func updateInfoByAdding(_ info: NetUsageInfo) {
+            wifiSent += info.wifiSent
+            wifiReceived += info.wifiReceived
+            cellularSent += info.cellularSent
+            cellularReceived += info.cellularReceived
+        }
+    }
+
+    static func getNetUsageInfo(from infoPointer: UnsafeMutablePointer<ifaddrs>) -> NetUsageInfo? {
+        let pointer = infoPointer
+        let name: String! = String(cString: pointer.pointee.ifa_name)
+        let addr = pointer.pointee.ifa_addr.pointee
+        guard addr.sa_family == UInt8(AF_LINK) else { return nil }
+        
+        return netUsageInfo(from: pointer, name: name)
+    }
+    
+    static func netUsageInfo(from pointer: UnsafeMutablePointer<ifaddrs>, name: String) -> NetUsageInfo {
+        var networkData: UnsafeMutablePointer<if_data>?
+        var netUsageInfo = NetUsageInfo()
+        let cellularPrefix = "pdp_ip"
+        let wifiPrefix = "en"
+        
+        if name.hasPrefix(wifiPrefix) {
+            networkData = unsafeBitCast(pointer.pointee.ifa_data, to: UnsafeMutablePointer<if_data>.self)
+            if let data = networkData {
+                netUsageInfo.wifiSent += UInt64(data.pointee.ifi_obytes)
+                netUsageInfo.wifiReceived += UInt64(data.pointee.ifi_ibytes)
+            }
+            
+        } else if name.hasPrefix(cellularPrefix) {
+            networkData = unsafeBitCast(pointer.pointee.ifa_data, to: UnsafeMutablePointer<if_data>.self)
+            if let data = networkData {
+                netUsageInfo.cellularSent += UInt64(data.pointee.ifi_obytes)
+                netUsageInfo.cellularReceived += UInt64(data.pointee.ifi_ibytes)
+            }
+        }
+        return netUsageInfo
+    }
+    
+    static func getNetUsage(result: FlutterResult) {
+        
+        var ifaddr: UnsafeMutablePointer<ifaddrs>?
+        var dataUsageInfo = NetUsageInfo()
+
+        if getifaddrs(&ifaddr) == 0 {
+            while let addr = ifaddr {
+                guard let info = getNetUsageInfo(from: addr) else {
+                    ifaddr = addr.pointee.ifa_next
+                    continue
+                }
+                dataUsageInfo.updateInfoByAdding(info)
+                ifaddr = addr.pointee.ifa_next
+            }
+            
+            freeifaddrs(ifaddr)
+        }
+
+        // debugPrint(dataUsageInfo.wifiReceived)
+        
+        result([dataUsageInfo.wifiReceived, dataUsageInfo.wifiSent, dataUsageInfo.cellularReceived, dataUsageInfo.cellularSent])
     }
 }
 
