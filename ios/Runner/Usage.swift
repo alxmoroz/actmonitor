@@ -139,6 +139,20 @@ import Darwin.Mach
         
         result([dataUsageInfo.wifiReceived, dataUsageInfo.wifiSent, dataUsageInfo.cellularReceived, dataUsageInfo.cellularSent])
     }
+
+    static func getBootTime(result: FlutterResult) {
+        
+        var mib = [ CTL_KERN, KERN_BOOTTIME ]
+        var bootTime = timeval()
+        var bootTimeSize = MemoryLayout<timeval>.size
+        
+        if sysctl(&mib, UInt32(mib.count), &bootTime, &bootTimeSize, nil, 0) == 0 {
+            result([Int64(bootTime.tv_sec)])
+        }
+        else {
+            result([])
+        }
+    }
 }
 
 

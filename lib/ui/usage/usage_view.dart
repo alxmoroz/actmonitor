@@ -1,13 +1,15 @@
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/text/text_widgets.dart';
-import 'package:amonitor/ui/usage/usage_element.dart';
-import 'package:amonitor/ui/usage/usage_legend.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
+import '../components/buttons.dart';
+import '../components/card.dart';
 import '../components/images.dart';
+import '../components/text/text_widgets.dart';
+import '../usage/usage_element.dart';
+import '../usage/usage_legend.dart';
 import 'usage_card.dart';
 
 class UsageView extends StatelessWidget {
@@ -20,7 +22,7 @@ class UsageView extends StatelessWidget {
     Widget buildRamUsage() {
       final ram = usageState.ram;
       return UsageCard(
-        title: '${loc.memory} ${UsageElement.memory(ram.total)}',
+        titleText: '${loc.memory} ${UsageElement.memory(ram.total)}',
         total: ram.total,
         elements: [
           UsageElement.memory(ram.wired, label: loc.wired, color: CupertinoColors.activeOrange),
@@ -36,7 +38,7 @@ class UsageView extends StatelessWidget {
     Widget buildDiskUsage() {
       final disk = usageState.disk;
       return UsageCard(
-        title: '${loc.capacity} ${UsageElement.disk(disk.total)}',
+        titleText: '${loc.capacity} ${UsageElement.disk(disk.total)}',
         total: disk.total,
         elements: [
           UsageElement.disk(disk.total - disk.free, label: loc.used),
@@ -65,7 +67,7 @@ class UsageView extends StatelessWidget {
       });
 
       return UsageCard(
-        title: '${loc.battery} ${UsageElement.battery(battery.level)} ${Intl.message(battery.state, name: battery.state)}',
+        titleText: '${loc.battery} ${UsageElement.battery(battery.level)} ${Intl.message(battery.state, name: battery.state)}',
         total: 100,
         elements: [
           UsageElement.battery(battery.level, color: CupertinoColors.systemGreen),
@@ -81,9 +83,20 @@ class UsageView extends StatelessWidget {
     }
 
     Widget buildNetUsage() {
-      final netInfo = usageState.netInfo;
+      final netInfo = usageState.netInfoAll;
       return UsageCard(
-        title: '${loc.network}',
+        title: Padding(
+          padding: EdgeInsets.symmetric(horizontal: cardPadding),
+          child: Row(
+            children: [
+              CardTitle('${loc.network}', padding: EdgeInsets.zero),
+              const Spacer(),
+              SmallText('${DateFormat.yMMMMd().add_Hm().format(usageState.netInfoStartDate)}'),
+              const Spacer(),
+              Button.icon(const Icon(CupertinoIcons.restart, color: Colors.red), usageState.resetNetUsage),
+            ],
+          ),
+        ),
         total: netInfo.total,
         elements: [
           UsageElement.memory(netInfo.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),

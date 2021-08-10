@@ -9,10 +9,12 @@ import 'package:flutter/painting.dart';
 import 'colors.dart';
 
 class CardTitle extends StatelessWidget {
-  const CardTitle(this.title);
+  const CardTitle(this.title, {this.padding});
 
   @protected
   final String title;
+  @protected
+  final EdgeInsets? padding;
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +26,7 @@ class CardTitle extends StatelessWidget {
       weight: FontWeight.bold,
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
-      padding: EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0),
+      padding: padding ?? EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0),
     );
   }
 }

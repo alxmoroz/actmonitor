@@ -10,7 +10,8 @@ import 'usage_element.dart';
 
 class UsageCard extends StatelessWidget {
   const UsageCard({
-    required this.title,
+    this.title,
+    this.titleText,
     required this.elements,
     required this.total,
     this.placeholder = '',
@@ -18,7 +19,9 @@ class UsageCard extends StatelessWidget {
   });
 
   @protected
-  final String title;
+  final Widget? title;
+  @protected
+  final String? titleText;
   @protected
   final Widget? legend;
   @protected
@@ -31,7 +34,7 @@ class UsageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AMCard(
-      title: CardTitle(title),
+      title: title ?? CardTitle(titleText ?? ''),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [

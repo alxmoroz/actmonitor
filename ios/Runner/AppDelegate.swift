@@ -25,6 +25,9 @@ import Flutter
             else if call.method == "getNetUsage" {
                 Usage.getNetUsage(result: result)
             }
+            else if call.method == "getBootTime" {
+                Usage.getBootTime(result: result)
+            }
             else {
                 result(FlutterMethodNotImplemented)
                 return

@@ -19,17 +19,9 @@ class MainView extends StatefulWidget {
 class _MainViewState extends State<MainView> {
   late final Timer usageTimer;
 
-  void updateState() {
-    usageState.updateRamUsage();
-    usageState.updateDiskUsage();
-    usageState.updateBatteryUsage();
-    usageState.updateNetUsage();
-  }
-
   @override
   void initState() {
-    updateState();
-    usageTimer = Timer.periodic(const Duration(seconds: 3), (_) => updateState());
+    usageTimer = Timer.periodic(const Duration(seconds: 3), (_) => usageState.updateUsageInfo());
     super.initState();
   }
 

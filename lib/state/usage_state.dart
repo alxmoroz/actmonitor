@@ -1,5 +1,6 @@
 // Copyright (c) 2021. Alexandr Moroz
 
+import 'package:amonitor/models/boot_info.dart';
 import 'package:mobx/mobx.dart';
 
 import '../models/battery_info.dart';
@@ -42,18 +43,46 @@ abstract class _UsageStateBase with Store {
 
   @action
   Future<void> updateNetUsage() async {
-    final savedInfo = settings.netInfo ?? NetInfo();
-    final currentInfo = await NetInfo.get();
-    //TODO: нужно проверять на факт перезагрузки (время перезагрузки позже, чем время сохранения)
-    if (currentInfo.wifiReceived < savedInfo.wifiReceived ||
-        currentInfo.wifiSent < savedInfo.wifiSent ||
-        currentInfo.cellularReceived < savedInfo.cellularReceived ||
-        currentInfo.cellularSent < savedInfo.cellularSent) {
-      settings.netInfoChunks.add(savedInfo);
-    }
-    settings.netInfo = currentInfo;
+    netInfo = settings.netInfo = await NetInfo.get();
     await settings.save();
+  }
 
-    netInfo = settings.netInfoChunks.fold(savedInfo, (previousValue, element) => previousValue + element);
+  @computed
+  NetInfo get netInfoAll {
+    final NetInfo chunkSum = settings.netInfoChunks.fold(netInfo, (previousValue, element) => previousValue + element);
+    return chunkSum - settings.netInfoResetAdjustment;
+  }
+
+  @action
+  Future<void> resetNetUsage() async {
+    settings.netInfoResetDate = DateTime.now();
+    settings.netInfoResetAdjustment = settings.netInfo = await NetInfo.get();
+    settings.netInfoChunks.clear();
+    await settings.save();
+  }
+
+  DateTime get netInfoStartDate {
+    return settings.netInfoResetDate != null && settings.bootDate.difference(settings.netInfoResetDate!).isNegative
+        ? settings.netInfoResetDate!
+        : settings.bootDate;
+  }
+
+  Future<void> updateBootInfo() async {
+    final bootInfo = await BootInfo.get();
+    // после перезагрузки нужно добавить инфу в чанки
+    // текущая дата загрузки новее чем дата в настройках -> была перезагрузка
+    //TODO: проверить
+    if (settings.bootDate.difference(bootInfo.bootDate).isNegative) {
+      settings.netInfoChunks.add(netInfo);
+      settings.bootDate = bootInfo.bootDate;
+      await settings.save();
+    }
+  }
+
+  Future<void> updateUsageInfo() async {
+    await updateRamUsage();
+    await updateDiskUsage();
+    await updateBatteryUsage();
+    await updateNetUsage();
   }
 }

@@ -63,5 +63,10 @@ class Globals {
 
     // загрузка списка сравниваемых устройств из бд в стейт
     comparisonState.setComparisonModelsNames(settings.comparisonModelsNames);
+
+    // время загрузки
+    await usageState.updateBootInfo();
+    // получение информации о диске, памяти и батарее
+    await usageState.updateUsageInfo();
   }
 }

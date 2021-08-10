@@ -36,11 +36,23 @@ class NetInfo extends UsageInfo {
     }
   }
 
-  NetInfo operator +(NetInfo other) {
-    wifiReceived += other.wifiReceived;
-    wifiSent += other.wifiSent;
-    cellularReceived += other.cellularReceived;
-    cellularSent += other.cellularSent;
+  NetInfo operator +(NetInfo? other) {
+    if (other != null) {
+      wifiReceived += other.wifiReceived;
+      wifiSent += other.wifiSent;
+      cellularReceived += other.cellularReceived;
+      cellularSent += other.cellularSent;
+    }
+    return this;
+  }
+
+  NetInfo operator -(NetInfo? other) {
+    if (other != null) {
+      wifiReceived -= other.wifiReceived;
+      wifiSent -= other.wifiSent;
+      cellularReceived -= other.cellularReceived;
+      cellularSent -= other.cellularSent;
+    }
     return this;
   }
 }

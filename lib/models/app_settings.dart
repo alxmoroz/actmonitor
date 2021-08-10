@@ -23,4 +23,13 @@ class AppSettings extends HiveObject {
 
   @HiveField(4, defaultValue: <NetInfo>[])
   List<NetInfo> netInfoChunks = [];
+
+  @HiveField(5)
+  NetInfo? netInfoResetAdjustment;
+
+  @HiveField(6)
+  DateTime? netInfoResetDate;
+
+  @HiveField(7)
+  DateTime bootDate = DateTime.now();
 }

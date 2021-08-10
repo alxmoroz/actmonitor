@@ -11,7 +11,6 @@ class UsageChartBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double lastValue = 0;
-
     return elements.isNotEmpty
         ? Stack(
             children: elements
@@ -19,7 +18,7 @@ class UsageChartBar extends StatelessWidget {
                   lastValue += el.value.toDouble();
                   final color = el.color;
                   return LinearProgressIndicator(
-                    value: lastValue / total,
+                    value: lastValue / (total > 0 ? total : 1),
                     minHeight: 24,
                     valueColor: color != null ? AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)) : null,
                     backgroundColor: Colors.transparent,
