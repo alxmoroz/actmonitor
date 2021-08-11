@@ -1,12 +1,14 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'dart:async';
 
-import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/comparison/comparison_list_view.dart';
-import 'package:amonitor/ui/comparison/comparison_view.dart';
-import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../services/globals.dart';
+import 'comparison/comparison_list_view.dart';
+import 'comparison/comparison_view.dart';
+import 'components/colors.dart';
 import 'components/icons.dart';
 import 'specs/specs_view.dart';
 import 'usage/usage_view.dart';

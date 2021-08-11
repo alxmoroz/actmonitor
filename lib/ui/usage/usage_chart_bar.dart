@@ -1,6 +1,9 @@
-import 'package:amonitor/ui/usage/usage_element.dart';
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'usage_element.dart';
 
 class UsageChartBar extends StatelessWidget {
   const UsageChartBar(this.elements, this.total);
@@ -20,7 +23,7 @@ class UsageChartBar extends StatelessWidget {
                   return LinearProgressIndicator(
                     value: lastValue / (total > 0 ? total : 1),
                     minHeight: 24,
-                    valueColor: color != null ? AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)) : null,
+                    valueColor: AlwaysStoppedAnimation<Color>(CupertinoDynamicColor.resolve(color, context)),
                     backgroundColor: Colors.transparent,
                   );
                 })

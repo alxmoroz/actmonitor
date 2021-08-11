@@ -1,3 +1,5 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -112,15 +114,18 @@ class UsageView extends StatelessWidget {
       child: Container(
         decoration: bgDecoration(context),
         child: SafeArea(
-          child: Observer(
-            builder: (_) => Column(
-              children: [
-                SizedBox(height: cardPadding),
-                buildRamUsage(),
-                buildDiskUsage(),
-                buildBatteryUsage(),
-                buildNetUsage(),
-              ],
+          child: SingleChildScrollView(
+            child: Observer(
+              builder: (_) => Column(
+                children: [
+                  SizedBox(height: cardPadding),
+                  buildRamUsage(),
+                  buildDiskUsage(),
+                  buildBatteryUsage(),
+                  buildNetUsage(),
+                  SizedBox(height: cardPadding),
+                ],
+              ),
             ),
           ),
         ),

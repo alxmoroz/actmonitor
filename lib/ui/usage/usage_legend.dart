@@ -1,3 +1,5 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -13,18 +15,36 @@ class UsageLegend extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.symmetric(vertical: 8),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: elements
-              .map((el) => Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      SmallText(el.label ?? '', color: darkColor, weight: FontWeight.w300),
-                      const SizedBox(height: 2),
-                      MediumText(el.toString()),
-                    ],
-                  ))
+              .map(
+                (el) => Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 2, top: 5, left: 2),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: CupertinoDynamicColor.resolve(el.color, context),
+                        ),
+                        width: 7,
+                        height: 7,
+                      ),
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        SmallText(el.label ?? '', color: darkColor, weight: FontWeight.w300),
+                        const SizedBox(height: 2),
+                        MediumText(el.toString()),
+                      ],
+                    ),
+                  ],
+                ),
+              )
               .toList(growable: false),
         ));
   }

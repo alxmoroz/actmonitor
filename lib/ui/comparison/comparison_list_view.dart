@@ -1,3 +1,5 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'dart:ui';
 
 import 'package:amonitor/models/device_models.dart';

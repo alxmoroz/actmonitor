@@ -1,11 +1,13 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/usage/usage_chart_bar.dart';
-import 'package:amonitor/ui/usage/usage_legend.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../components/card.dart';
 import '../components/text/text_widgets.dart';
+import '../usage/usage_chart_bar.dart';
+import '../usage/usage_legend.dart';
 import 'usage_element.dart';
 
 class UsageCard extends StatelessWidget {

@@ -1,3 +1,5 @@
+// Copyright (c) 2021. Alexandr Moroz
+
 import 'package:amonitor/models/device_models.dart';
 import 'package:amonitor/services/globals.dart';
 import 'package:flutter/cupertino.dart';

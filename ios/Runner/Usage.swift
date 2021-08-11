@@ -29,18 +29,18 @@ import Darwin.Mach
         let pageSize64 = UInt64(pageSize)
         
         //    debugPrint(vmStats)
-        
-        result([
+        let res = [
             pageSize64 * UInt64(vmStats.wire_count),
             pageSize64 * UInt64(vmStats.active_count),
             pageSize64 * UInt64(vmStats.inactive_count),
             pageSize64 * UInt64(vmStats.compressor_page_count),
             pageSize64 * UInt64(vmStats.free_count),
-            total
-        ])
+            UInt64(total)
+        ]
+        result(res)
     }
     
-    static func getDiskUsage(result: FlutterResult) {
+    static func _getDiskUsage() -> Array<Int64> {
         var freeDiskSpace:Int64 {
             if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
                 return space
@@ -56,8 +56,11 @@ import Darwin.Mach
                 return 0
             }
         }
-        
-        result([freeDiskSpace, totalDiskSpace])
+        return  [freeDiskSpace, totalDiskSpace]
+    }
+    
+    static func getDiskUsage(result: FlutterResult) {
+        result(_getDiskUsage())
     }
     
     static func getBatteryUsage(result: FlutterResult) {

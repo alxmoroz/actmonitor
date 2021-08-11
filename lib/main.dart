@@ -1,12 +1,12 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/ui/components/images.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'generated/l10n.dart';
 import 'services/globals.dart';
+import 'ui/components/images.dart';
 import 'ui/main_view.dart';
 
 Future<void> main() async {
