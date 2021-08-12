@@ -17,13 +17,15 @@
 		A85C0E852652A51700C95A99 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C0E842652A51700C95A99 /* Usage.swift */; };
 		A871977F26C34B640080BFFF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A871977E26C34B640080BFFF /* WidgetKit.framework */; };
 		A871978126C34B640080BFFF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A871978026C34B640080BFFF /* SwiftUI.framework */; };
-		A871978426C34B640080BFFF /* UsageWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871978326C34B640080BFFF /* UsageWidget.swift */; };
+		A871978426C34B640080BFFF /* UsageWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871978326C34B640080BFFF /* UsageWidgets.swift */; };
 		A871978726C34B660080BFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A871978626C34B660080BFFF /* Assets.xcassets */; };
 		A871978926C34B660080BFFF /* UsageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A871978526C34B640080BFFF /* UsageWidget.intentdefinition */; };
 		A871978A26C34B660080BFFF /* UsageWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A871978526C34B640080BFFF /* UsageWidget.intentdefinition */; };
 		A871978D26C34B660080BFFF /* UsageWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A871977D26C34B640080BFFF /* UsageWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A871979626C3705C0080BFFF /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C0E842652A51700C95A99 /* Usage.swift */; };
 		A871979826C378E20080BFFF /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871979726C378E20080BFFF /* ChartView.swift */; };
+		A8D35FAA26C49E2200DA6F8B /* DiskWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D35FA926C49E2200DA6F8B /* DiskWidget.swift */; };
+		A8D35FAC26C49E9900DA6F8B /* RamWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D35FAB26C49E9900DA6F8B /* RamWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,12 +87,14 @@
 		A871977D26C34B640080BFFF /* UsageWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UsageWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A871977E26C34B640080BFFF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		A871978026C34B640080BFFF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		A871978326C34B640080BFFF /* UsageWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageWidget.swift; sourceTree = "<group>"; };
+		A871978326C34B640080BFFF /* UsageWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageWidgets.swift; sourceTree = "<group>"; };
 		A871978526C34B640080BFFF /* UsageWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = UsageWidget.intentdefinition; sourceTree = "<group>"; };
 		A871978626C34B660080BFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A871978826C34B660080BFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A871979726C378E20080BFFF /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		A8A59C4225E0749D004C26DE /* AMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMonitor.entitlements; sourceTree = "<group>"; };
+		A8D35FA926C49E2200DA6F8B /* DiskWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskWidget.swift; sourceTree = "<group>"; };
+		A8D35FAB26C49E9900DA6F8B /* RamWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamWidget.swift; sourceTree = "<group>"; };
 		E8A1695B670977DD7302053E /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -185,11 +189,13 @@
 		A871978226C34B640080BFFF /* UsageWidget */ = {
 			isa = PBXGroup;
 			children = (
-				A871978326C34B640080BFFF /* UsageWidget.swift */,
+				A871978326C34B640080BFFF /* UsageWidgets.swift */,
 				A871978526C34B640080BFFF /* UsageWidget.intentdefinition */,
 				A871978626C34B660080BFFF /* Assets.xcassets */,
 				A871978826C34B660080BFFF /* Info.plist */,
 				A871979726C378E20080BFFF /* ChartView.swift */,
+				A8D35FA926C49E2200DA6F8B /* DiskWidget.swift */,
+				A8D35FAB26C49E9900DA6F8B /* RamWidget.swift */,
 			);
 			path = UsageWidget;
 			sourceTree = "<group>";
@@ -415,9 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D35FAC26C49E9900DA6F8B /* RamWidget.swift in Sources */,
+				A8D35FAA26C49E2200DA6F8B /* DiskWidget.swift in Sources */,
 				A871979626C3705C0080BFFF /* Usage.swift in Sources */,
 				A871978926C34B660080BFFF /* UsageWidget.intentdefinition in Sources */,
-				A871978426C34B640080BFFF /* UsageWidget.swift in Sources */,
+				A871978426C34B640080BFFF /* UsageWidgets.swift in Sources */,
 				A871979826C378E20080BFFF /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

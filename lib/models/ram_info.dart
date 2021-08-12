@@ -8,7 +8,7 @@ class RamInfo extends UsageInfo {
   int inactive = 0;
   int compressed = 0;
 
-  int get graphics => total - (free + inactive + wired + active + compressed);
+  int get graphics => total - (freeTotal + wired + active + compressed);
 
   int get freeTotal => free + inactive;
 

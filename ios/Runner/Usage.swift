@@ -4,7 +4,7 @@ import Darwin.sys.sysctl
 import Darwin.Mach
 
 @objc class Usage : NSObject {
-    static func getRamUsage(result: FlutterResult) {
+    static func _getRamUsage() -> Array<UInt64> {
         
         let port = mach_host_self()
         var pageSize = vm_size_t()
@@ -22,14 +22,12 @@ import Darwin.Mach
         }
         
         guard machRes == KERN_SUCCESS && host_page_size(port, &pageSize) == KERN_SUCCESS else {
-            result(nil)
-            return
+            return []
         }
         
         let pageSize64 = UInt64(pageSize)
-        
-        //    debugPrint(vmStats)
-        let res = [
+
+        return [
             pageSize64 * UInt64(vmStats.wire_count),
             pageSize64 * UInt64(vmStats.active_count),
             pageSize64 * UInt64(vmStats.inactive_count),
@@ -37,7 +35,10 @@ import Darwin.Mach
             pageSize64 * UInt64(vmStats.free_count),
             UInt64(total)
         ]
-        result(res)
+    }
+    
+    static func getRamUsage(result: FlutterResult) {
+      result(_getRamUsage())
     }
     
     static func _getDiskUsage() -> Array<Int64> {

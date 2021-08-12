@@ -35,7 +35,7 @@ public struct ChartView: View {
     mainValue: String,
     values:[Double],
     colors: [Color],
-    lineWidthFraction: CGFloat = 0.1) {
+    lineWidthFraction: CGFloat = 0.12) {
     
     self.title = title
     self.mainLabel = mainLabel
