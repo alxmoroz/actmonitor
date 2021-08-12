@@ -9,7 +9,9 @@ let FreeColor = Color(UIColor.systemGray3)
 struct UsageWidgets: WidgetBundle {
   @WidgetBundleBuilder
   var body: some Widget {
-    DiskWidget()
     RamWidget()
+    DiskWidget()
+    WiFiWidget()
+    CellularWidget()
   }
 }

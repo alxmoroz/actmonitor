@@ -4,31 +4,31 @@ import WidgetKit
 import SwiftUI
 
 struct Provider: TimelineProvider {
-  func placeholder(in context: Context) -> UsageEntry {
-    return UsageEntry.getEntry()
+  func placeholder(in context: Context) -> DiskUsageEntry {
+    return DiskUsageEntry.getEntry()
   }
   
-  func getSnapshot(in context: Context, completion: @escaping (UsageEntry) -> ()) {
-    completion(UsageEntry.getEntry())
+  func getSnapshot(in context: Context, completion: @escaping (DiskUsageEntry) -> ()) {
+    completion(DiskUsageEntry.getEntry())
   }
   
   func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
     let timeline = Timeline(
-      entries: [UsageEntry.getEntry()],
+      entries: [DiskUsageEntry.getEntry()],
       policy: .atEnd
     )
     completion(timeline)
   }
 }
 
-struct UsageEntry: TimelineEntry {
+struct DiskUsageEntry: TimelineEntry {
   let date: Date
-  let freeDiskSpace: Int64
-  let totalDiskSpace: Int64
+  let free: Int64
+  let total: Int64
   
-  static func getEntry() -> UsageEntry {
+  static func getEntry() -> DiskUsageEntry {
     let diskData = Usage._getDiskUsage()
-    return UsageEntry(date: Date(), freeDiskSpace: diskData[0], totalDiskSpace: diskData[1])
+    return DiskUsageEntry(date: Date(), free: diskData[0], total: diskData[1])
   }
 }
 
@@ -40,8 +40,8 @@ struct UsageWidgetEntryView : View {
     ChartView(
       title: "Disk",
       mainLabel: "Free",
-      mainValue: formatter.string(fromByteCount: Int64(entry.freeDiskSpace)),
-      values: [Double(entry.totalDiskSpace - entry.freeDiskSpace), Double(entry.freeDiskSpace)],
+      mainValue: formatter.string(fromByteCount: entry.free),
+      values: [entry.total - entry.free, entry.free],
       colors: [Color.blue, FreeColor]
     )
   }

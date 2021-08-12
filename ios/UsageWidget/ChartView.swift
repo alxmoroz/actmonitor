@@ -6,22 +6,21 @@ public struct ChartView: View {
   public let title: String
   public let mainLabel: String
   public let mainValue: String
-  public let values: [Double]
+  public let values: [Int64]
   public var colors: [Color]
   public var lineWidthFraction: CGFloat
   
   var slices: [SliceData] {
-    let sum = values.reduce(0, +)
+    let sum = Double(values.reduce(0, +))
     var endDeg: Double = 0
     var tempSlices: [SliceData] = []
     
     for (i, value) in values.enumerated() {
-      let degrees: Double = value * 360 / sum
+      let degrees:Double = 360.0 * Double(value) / sum
       tempSlices.append(
         SliceData(
           startAngle: Angle(degrees: endDeg),
           endAngle: Angle(degrees: endDeg + degrees),
-          text: String(format: "%.0f%%", value * 100 / sum),
           color: self.colors[i]
         ))
       endDeg += degrees
@@ -33,7 +32,7 @@ public struct ChartView: View {
     title: String,
     mainLabel: String,
     mainValue: String,
-    values:[Double],
+    values:[Int64],
     colors: [Color],
     lineWidthFraction: CGFloat = 0.12) {
     
@@ -95,7 +94,6 @@ public struct ChartView: View {
   struct SliceData {
     var startAngle: Angle
     var endAngle: Angle
-    var text: String
     var color: Color
   }
 }
