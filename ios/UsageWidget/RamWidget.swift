@@ -39,10 +39,13 @@ struct RamWidgetEntryView : View {
   var body: some View {
     ChartView(
       title: "Ram",
-      mainLabel: "Free",
-      mainValue: formatter.string(fromByteCount: entry.free),
-      values: [entry.total - entry.free, entry.free],
-      colors: [Color.blue, FreeColor]
+      labels: [
+        LabelData(color: FreeColor, title: "Free", value: formatter.string(fromByteCount: entry.free))
+      ],
+      slices: [
+        SliceData(color: Color.blue, value: entry.total - entry.free),
+        SliceData(color: FreeColor, value: entry.free)
+      ]
     )
   }
 }

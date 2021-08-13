@@ -37,10 +37,15 @@ struct WiFiEntryView : View {
   var body: some View {
     ChartView(
       title: "WiFi",
-      mainLabel: "⇩⇩⇩",
-      mainValue: formatter.string(fromByteCount: entry.netUsage.wifiReceived),
-      values: [entry.netUsage.wifiReceived, entry.netUsage.wifiSent, 1],
-      colors: [Color.orange, Color.blue, FreeColor]
+      labels: [
+        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: entry.netUsage.wifiSent), oneLine: true),
+        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: entry.netUsage.wifiReceived), oneLine: true)
+      ],
+      slices: [
+        SliceData(color: Color.orange, value: entry.netUsage.wifiReceived),
+        SliceData(color: Color.blue, value: entry.netUsage.wifiSent),
+        SliceData(color: FreeColor, value: 1),
+      ]
     )
   }
 }
@@ -52,10 +57,15 @@ struct CellularEntryView : View {
   var body: some View {
     ChartView(
       title: "Cellular",
-      mainLabel: "⇩⇩⇩",
-      mainValue: formatter.string(fromByteCount: entry.netUsage.cellularReceived),
-      values: [entry.netUsage.cellularReceived, entry.netUsage.cellularSent, 1],
-      colors: [Color.orange, Color.blue, FreeColor]
+      labels: [
+        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: entry.netUsage.cellularSent), oneLine: true),
+        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: entry.netUsage.cellularReceived), oneLine: true)
+      ],
+      slices: [
+        SliceData(color: Color.orange, value: entry.netUsage.cellularReceived),
+        SliceData(color: Color.blue, value: entry.netUsage.cellularSent),
+        SliceData(color: FreeColor, value: 1),
+      ]
     )
   }
 }
