@@ -14,6 +14,8 @@ part 'usage_state.g.dart';
 class UsageState = _UsageStateBase with _$UsageState;
 
 abstract class _UsageStateBase with Store {
+  final int updateTimerInterval = 3;
+
   @observable
   RamInfo ram = RamInfo();
 
@@ -24,7 +26,13 @@ abstract class _UsageStateBase with Store {
   BatteryInfo battery = BatteryInfo();
 
   @observable
-  NetInfo netInfo = NetInfo();
+  List<NetInfo> netStatRecords = [];
+
+  @observable
+  int downloadSpeed = 0;
+
+  @observable
+  int uploadSpeed = 0;
 
   @action
   Future<void> updateRamUsage() async {
@@ -43,28 +51,37 @@ abstract class _UsageStateBase with Store {
 
   @action
   Future<void> updateNetUsage() async {
-    netInfo = await NetInfo.get();
+    final kernelData = await NetInfo.get();
 
-    //TODO: накапливать инфу по дням. При смене даты
-    // все дельты складываем в элемент с текущей датой
-    // как посчитать дельту:
-    // - если данных нет, складываем текущее значение kernelNetStat в элемент с текущей датой dailyStats
-    // - считаем разницу между текущим и предыдущим значением kernelNetStat
-    // - если разница положительная, то добавляем её в текущий элемент. Если разница отрицательная (перезагрузка или переполнение)
-    // , то добавляем значение из ядра
-
-    if (netInfo < netStat.kernelData) {
-      netStat.entries.add(netInfo);
+    // накапливаем инфу по дням. При смене даты добавляем новую запись
+    // все дельты складываем в крайний элемент (с сегодняшней датой)
+    // если данных нет, складываем текущее значение kernelNetStat в элемент с текущей датой dailyStats
+    final todayRecord = NetInfo();
+    if (netStat.records.isEmpty || !netStat.records.last.sameDay(todayRecord)) {
+      netStat.records.add(todayRecord);
     }
 
-    netStat.kernelData = netInfo;
+    // Считаем разницу между текущим и предыдущим значением kernelData
+    // Если разница положительная, то добавляем её в текущий элемент
+    // Если разница отрицательная (перезагрузка или переполнение), то добавляем значение из ядра
+    final increment = kernelData < netStat.kernelData ? kernelData : kernelData - netStat.kernelData;
+    netStat.records.last += increment;
+    netStat.kernelData = kernelData;
     await netStat.save();
+
+    netStatRecords = netStat.records;
+    downloadSpeed = ((increment.wifiReceived + increment.cellularReceived) / updateTimerInterval).ceil();
+    uploadSpeed = ((increment.wifiSent + increment.cellularSent) / updateTimerInterval).ceil();
+    // print('netStat.records.last ${UsageElement.memory(netStat.records.last.wifiReceived)}');
+    // print('KD ${UsageElement.memory(netStat.kernelData.wifiReceived)}');
+    // print('increment ${UsageElement.memory(increment.wifiReceived)}');
   }
 
   @computed
-  NetInfo get netInfoAll {
-    final NetInfo chunkSum = netStat.entries.fold(netInfo, (previousValue, element) => previousValue + element);
-    return chunkSum;
+  NetInfo get netStatSum {
+    final NetInfo sumInfo = netStatRecords.fold(NetInfo(), (prev, entry) => prev + entry);
+    sumInfo.done();
+    return sumInfo;
   }
 
   Future<void> updateBootInfo() async {

@@ -36,7 +36,7 @@ class UsageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AMCard(
-      title: title ?? CardTitle(titleText ?? ''),
+      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0)),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [

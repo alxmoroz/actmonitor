@@ -23,7 +23,7 @@ class _MainViewState extends State<MainView> {
 
   @override
   void initState() {
-    usageTimer = Timer.periodic(const Duration(seconds: 3), (_) => usageState.updateUsageInfo());
+    usageTimer = Timer.periodic(Duration(seconds: usageState.updateTimerInterval), (_) => usageState.updateUsageInfo());
     super.initState();
   }
 

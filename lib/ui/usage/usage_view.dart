@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
+import '../components/card.dart';
 import '../components/images.dart';
 import '../components/text/text_widgets.dart';
 import '../usage/usage_element.dart';
@@ -83,19 +84,25 @@ class UsageView extends StatelessWidget {
     }
 
     Widget buildNetUsage() {
-      final netInfo = usageState.netInfoAll;
+      final stat = usageState.netStatSum;
       return UsageCard(
-        titleText: '${loc.network}',
+        title: ListTile(
+          contentPadding: EdgeInsets.symmetric(horizontal: cardPadding),
+          dense: true,
+          visualDensity: VisualDensity.compact,
+          leading: CardTitle('${loc.network}', padding: EdgeInsets.zero),
+          trailing: NormalText('↓${UsageElement.memory(usageState.downloadSpeed)} / s     ↑${UsageElement.memory(usageState.uploadSpeed)} / s'),
+        ),
         // SmallText('${DateFormat.yMMMMd().add_Hm().format(usageState.netInfoStartDate)}'),
         // Button.icon(const Icon(CupertinoIcons.restart, color: Colors.red), usageState.resetNetUsage),
-        total: netInfo.total,
+        total: stat.total,
         elements: [
-          UsageElement.memory(netInfo.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
-          UsageElement.memory(netInfo.wifiSent, label: loc.net_wifi_sent),
-          UsageElement.memory(netInfo.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
-          UsageElement.memory(netInfo.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+          UsageElement.memory(stat.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+          UsageElement.memory(stat.wifiSent, label: loc.net_wifi_sent),
+          UsageElement.memory(stat.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+          UsageElement.memory(stat.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
         ],
-        placeholder: netInfo.placeholder,
+        placeholder: stat.placeholder,
       );
     }
 

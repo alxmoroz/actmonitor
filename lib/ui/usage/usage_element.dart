@@ -44,6 +44,7 @@ class UsageElement {
       divider *= base;
       unit = 'TB';
     }
+    // return '${NumberFormat('#' + (['TB', 'GB'].contains(unit) ? '.#' : '')).format(value / divider)} $unit';
     return '${NumberFormat("#").format(value / divider)} $unit';
   }
 

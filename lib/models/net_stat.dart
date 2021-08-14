@@ -8,9 +8,9 @@ part 'net_stat.g.dart';
 @HiveType(typeId: HType.NetStat)
 class NetStat extends HiveObject {
   @HiveField(0, defaultValue: <NetInfo>[])
-  List<NetInfo> entries = [];
+  List<NetInfo> records = [];
   @HiveField(1)
-  NetInfo? kernelData;
+  NetInfo kernelData = NetInfo();
 }
 
 @HiveType(typeId: HType.NetInfo)
@@ -23,6 +23,8 @@ class NetInfo extends UsageInfo {
   int cellularReceived = 0;
   @HiveField(3, defaultValue: 0)
   int cellularSent = 0;
+  @HiveField(4)
+  DateTime dateTime = DateTime.now();
 
   int get total => wifiReceived + wifiSent + cellularReceived + cellularSent;
 
@@ -44,24 +46,24 @@ class NetInfo extends UsageInfo {
     }
   }
 
-  NetInfo operator +(NetInfo? other) {
-    if (other != null) {
-      wifiReceived += other.wifiReceived;
-      wifiSent += other.wifiSent;
-      cellularReceived += other.cellularReceived;
-      cellularSent += other.cellularSent;
-    }
-    return this;
+  bool sameDay(NetInfo other) => dateTime.year == other.dateTime.year && dateTime.month == other.dateTime.month && dateTime.day == other.dateTime.day;
+
+  NetInfo operator +(NetInfo other) {
+    final res = NetInfo();
+    res.wifiReceived = wifiReceived + other.wifiReceived;
+    res.wifiSent = wifiSent + other.wifiSent;
+    res.cellularReceived = cellularReceived + other.cellularReceived;
+    res.cellularSent = cellularSent + other.cellularSent;
+    return res;
   }
 
-  NetInfo operator -(NetInfo? other) {
-    if (other != null) {
-      wifiReceived -= other.wifiReceived;
-      wifiSent -= other.wifiSent;
-      cellularReceived -= other.cellularReceived;
-      cellularSent -= other.cellularSent;
-    }
-    return this;
+  NetInfo operator -(NetInfo other) {
+    final res = NetInfo();
+    res.wifiReceived = wifiReceived - other.wifiReceived;
+    res.wifiSent = wifiSent - other.wifiSent;
+    res.cellularReceived = cellularReceived - other.cellularReceived;
+    res.cellularSent = cellularSent - other.cellularSent;
+    return res;
   }
 
   bool operator <(NetInfo? other) {
