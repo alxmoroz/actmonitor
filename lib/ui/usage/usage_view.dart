@@ -1,6 +1,7 @@
 // Copyright (c) 2021. Alexandr Moroz
 
 import 'package:amonitor/services/globals.dart';
+import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
@@ -91,10 +92,12 @@ class UsageView extends StatelessWidget {
           dense: true,
           visualDensity: VisualDensity.compact,
           leading: CardTitle('${loc.network}', padding: EdgeInsets.zero),
-          trailing: NormalText('↓${UsageElement.memory(usageState.downloadSpeed)} / s     ↑${UsageElement.memory(usageState.uploadSpeed)} / s'),
+          trailing: SmallText(
+            '↓${UsageElement.memory(usageState.downloadSpeed)} / s     ↑${UsageElement.memory(usageState.uploadSpeed)} / s',
+            weight: FontWeight.w300,
+            color: darkColor,
+          ),
         ),
-        // SmallText('${DateFormat.yMMMMd().add_Hm().format(usageState.netInfoStartDate)}'),
-        // Button.icon(const Icon(CupertinoIcons.restart, color: Colors.red), usageState.resetNetUsage),
         total: stat.total,
         elements: [
           UsageElement.memory(stat.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
