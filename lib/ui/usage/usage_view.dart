@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
-import '../components/buttons.dart';
-import '../components/card.dart';
 import '../components/images.dart';
 import '../components/text/text_widgets.dart';
 import '../usage/usage_element.dart';
@@ -87,18 +85,9 @@ class UsageView extends StatelessWidget {
     Widget buildNetUsage() {
       final netInfo = usageState.netInfoAll;
       return UsageCard(
-        title: Padding(
-          padding: EdgeInsets.symmetric(horizontal: cardPadding),
-          child: Row(
-            children: [
-              CardTitle('${loc.network}', padding: EdgeInsets.zero),
-              const Spacer(),
-              SmallText('${DateFormat.yMMMMd().add_Hm().format(usageState.netInfoStartDate)}'),
-              const Spacer(),
-              Button.icon(const Icon(CupertinoIcons.restart, color: Colors.red), usageState.resetNetUsage),
-            ],
-          ),
-        ),
+        titleText: '${loc.network}',
+        // SmallText('${DateFormat.yMMMMd().add_Hm().format(usageState.netInfoStartDate)}'),
+        // Button.icon(const Icon(CupertinoIcons.restart, color: Colors.red), usageState.resetNetUsage),
         total: netInfo.total,
         elements: [
           UsageElement.memory(netInfo.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
@@ -113,20 +102,22 @@ class UsageView extends StatelessWidget {
     return CupertinoPageScaffold(
       child: Container(
         decoration: bgDecoration(context),
-        child: SafeArea(
-          child: SingleChildScrollView(
-            child: Observer(
-              builder: (_) => Column(
-                children: [
-                  SizedBox(height: cardPadding),
-                  buildRamUsage(),
-                  buildDiskUsage(),
-                  buildBatteryUsage(),
-                  buildNetUsage(),
-                  SizedBox(height: cardPadding),
-                ],
+        child: Observer(
+          builder: (_) => Column(
+            children: [
+              SizedBox(height: cardPadding),
+              Expanded(
+                child: ListView(
+                  children: [
+                    buildRamUsage(),
+                    buildDiskUsage(),
+                    buildBatteryUsage(),
+                    buildNetUsage(),
+                  ],
+                ),
               ),
-            ),
+              SizedBox(height: cardPadding * 3)
+            ],
           ),
         ),
       ),

@@ -3,6 +3,7 @@
 import 'package:amonitor/generated/l10n.dart';
 import 'package:amonitor/models/app_settings.dart';
 import 'package:amonitor/models/device_models.dart';
+import 'package:amonitor/models/net_stat.dart';
 import 'package:amonitor/services/hive_storage.dart';
 import 'package:amonitor/services/specs_client.dart';
 import 'package:amonitor/state/comparison_state.dart';
@@ -12,6 +13,8 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:package_info/package_info.dart';
 
 late AppSettings settings;
+late NetStat netStat;
+
 late UsageState usageState;
 late SpecsState specsState;
 late ComparisonState comparisonState;
@@ -37,9 +40,11 @@ class Globals {
     final firstLaunch = HiveStorage.appSettingsBox.values.isEmpty;
     if (firstLaunch) {
       await HiveStorage.appSettingsBox.add(AppSettings());
+      await HiveStorage.netStatBox.add(NetStat());
     }
 
     settings = HiveStorage.appSettingsBox.values.first;
+    netStat = HiveStorage.netStatBox.values.first;
 
     final packageInfo = await PackageInfo.fromPlatform();
     // final savedVersion = settings.version;
@@ -66,7 +71,7 @@ class Globals {
 
     // время загрузки
     await usageState.updateBootInfo();
-    // получение информации о диске, памяти и батарее
+    // получение информации о диске, памяти, батарее и трафике
     await usageState.updateUsageInfo();
   }
 }

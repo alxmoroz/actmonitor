@@ -3,7 +3,15 @@ import 'package:hive/hive.dart';
 
 import 'usage_info.dart';
 
-part 'net_info.g.dart';
+part 'net_stat.g.dart';
+
+@HiveType(typeId: HType.NetStat)
+class NetStat extends HiveObject {
+  @HiveField(0, defaultValue: <NetInfo>[])
+  List<NetInfo> entries = [];
+  @HiveField(1)
+  NetInfo? kernelData;
+}
 
 @HiveType(typeId: HType.NetInfo)
 class NetInfo extends UsageInfo {
@@ -54,5 +62,13 @@ class NetInfo extends UsageInfo {
       cellularSent -= other.cellularSent;
     }
     return this;
+  }
+
+  bool operator <(NetInfo? other) {
+    return other != null &&
+        (wifiReceived < other.wifiReceived ||
+            wifiSent < other.wifiSent ||
+            cellularReceived < other.cellularReceived ||
+            cellularSent < other.cellularSent);
   }
 }

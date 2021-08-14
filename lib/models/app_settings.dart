@@ -3,7 +3,6 @@
 import 'package:hive/hive.dart';
 
 import '../services/hive_storage.dart';
-import 'net_info.dart';
 
 part 'app_settings.g.dart';
 
@@ -19,17 +18,5 @@ class AppSettings extends HiveObject {
   List<String> comparisonModelsNames = [];
 
   @HiveField(3)
-  NetInfo? netInfo;
-
-  @HiveField(4, defaultValue: <NetInfo>[])
-  List<NetInfo> netInfoChunks = [];
-
-  @HiveField(5)
-  NetInfo? netInfoResetAdjustment;
-
-  @HiveField(6)
-  DateTime? netInfoResetDate;
-
-  @HiveField(7)
   DateTime bootDate = DateTime.now();
 }

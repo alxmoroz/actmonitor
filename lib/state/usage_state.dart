@@ -5,7 +5,7 @@ import 'package:mobx/mobx.dart';
 
 import '../models/battery_info.dart';
 import '../models/disk_info.dart';
-import '../models/net_info.dart';
+import '../models/net_stat.dart';
 import '../models/ram_info.dart';
 import '../services/globals.dart';
 
@@ -43,40 +43,34 @@ abstract class _UsageStateBase with Store {
 
   @action
   Future<void> updateNetUsage() async {
-    netInfo = settings.netInfo = await NetInfo.get();
-    await settings.save();
+    netInfo = await NetInfo.get();
+
+    //TODO: накапливать инфу по дням. При смене даты
+    // все дельты складываем в элемент с текущей датой
+    // как посчитать дельту:
+    // - если данных нет, складываем текущее значение kernelNetStat в элемент с текущей датой dailyStats
+    // - считаем разницу между текущим и предыдущим значением kernelNetStat
+    // - если разница положительная, то добавляем её в текущий элемент. Если разница отрицательная (перезагрузка или переполнение)
+    // , то добавляем значение из ядра
+
+    if (netInfo < netStat.kernelData) {
+      netStat.entries.add(netInfo);
+    }
+
+    netStat.kernelData = netInfo;
+    await netStat.save();
   }
 
   @computed
   NetInfo get netInfoAll {
-    final NetInfo chunkSum = settings.netInfoChunks.fold(netInfo, (previousValue, element) => previousValue + element);
-    return chunkSum - settings.netInfoResetAdjustment;
-  }
-
-  @action
-  Future<void> resetNetUsage() async {
-    settings.netInfoResetDate = DateTime.now();
-    settings.netInfoResetAdjustment = settings.netInfo = await NetInfo.get();
-    settings.netInfoChunks.clear();
-    await settings.save();
-  }
-
-  DateTime get netInfoStartDate {
-    return settings.netInfoResetDate != null && settings.bootDate.difference(settings.netInfoResetDate!).isNegative
-        ? settings.netInfoResetDate!
-        : settings.bootDate;
+    final NetInfo chunkSum = netStat.entries.fold(netInfo, (previousValue, element) => previousValue + element);
+    return chunkSum;
   }
 
   Future<void> updateBootInfo() async {
     final bootInfo = await BootInfo.get();
-    // после перезагрузки нужно добавить инфу в чанки
-    // текущая дата загрузки новее чем дата в настройках -> была перезагрузка
-    //TODO: проверить
-    if (settings.bootDate.difference(bootInfo.bootDate).isNegative) {
-      settings.netInfoChunks.add(netInfo);
-      settings.bootDate = bootInfo.bootDate;
-      await settings.save();
-    }
+    settings.bootDate = bootInfo.bootDate;
+    await settings.save();
   }
 
   Future<void> updateUsageInfo() async {
