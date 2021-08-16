@@ -1,15 +1,18 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/services/globals.dart';
-import 'package:amonitor/ui/components/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
+import '../../services/globals.dart';
+import '../components/buttons.dart';
 import '../components/card.dart';
+import '../components/colors.dart';
+import '../components/icons.dart';
 import '../components/images.dart';
 import '../components/text/text_widgets.dart';
+import '../usage/net_usage_details.dart';
 import '../usage/usage_element.dart';
 import '../usage/usage_legend.dart';
 import 'usage_card.dart';
@@ -76,7 +79,7 @@ class UsageView extends StatelessWidget {
           UsageElement.battery(100 - battery.level, color: freeColor),
         ],
         legend: Column(children: [
-          SizedBox(height: cardPadding),
+          SizedBox(height: cardPadding / 2),
           SmallText(loc.battery_legend_title),
           UsageLegend(batteryLifeElements),
         ]),
@@ -85,26 +88,49 @@ class UsageView extends StatelessWidget {
     }
 
     Widget buildNetUsage() {
-      final stat = usageState.netStatSum;
+      final stat = usageState.netStatSumForCurrentMonth;
+      final netUsageElements = [
+        UsageElement.disk(stat.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+        UsageElement.disk(stat.wifiSent, label: loc.net_wifi_sent),
+        UsageElement.disk(stat.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+        UsageElement.disk(stat.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+      ];
+
       return UsageCard(
-        title: ListTile(
-          contentPadding: EdgeInsets.symmetric(horizontal: cardPadding),
-          dense: true,
-          visualDensity: VisualDensity.compact,
-          leading: CardTitle('${loc.network}', padding: EdgeInsets.zero),
-          trailing: SmallText(
-            '↓${UsageElement.memory(usageState.downloadSpeed)} / s     ↑${UsageElement.memory(usageState.uploadSpeed)} / s',
-            weight: FontWeight.w300,
-            color: darkColor,
+        title: Padding(
+          padding: EdgeInsets.symmetric(horizontal: cardPadding),
+          child: Row(
+            children: [
+              CardTitle('${loc.network}', padding: EdgeInsets.zero),
+              const Spacer(),
+              Button(
+                '',
+                () => showNetDetails(context),
+                child: Row(
+                  children: [
+                    SmallText(
+                      '${DateFormat.yMMMM().format(DateTime.now())}',
+                      color: CupertinoColors.activeBlue,
+                      padding: EdgeInsets.symmetric(horizontal: cardPadding / 2),
+                    ),
+                    netDetailsIcon,
+                  ],
+                ),
+              ),
+            ],
           ),
         ),
         total: stat.total,
-        elements: [
-          UsageElement.memory(stat.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
-          UsageElement.memory(stat.wifiSent, label: loc.net_wifi_sent),
-          UsageElement.memory(stat.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
-          UsageElement.memory(stat.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
-        ],
+        elements: netUsageElements,
+        legend: Column(children: [
+          SizedBox(height: cardPadding / 2),
+          SmallText(
+            '↓${UsageElement.disk(usageState.downloadSpeed)} / s  ↑${UsageElement.disk(usageState.uploadSpeed)} / s',
+            weight: FontWeight.w300,
+            color: darkColor,
+          ),
+          UsageLegend(netUsageElements),
+        ]),
         placeholder: stat.placeholder,
       );
     }

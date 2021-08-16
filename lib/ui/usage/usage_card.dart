@@ -18,6 +18,7 @@ class UsageCard extends StatelessWidget {
     required this.total,
     this.placeholder = '',
     this.legend,
+    this.chartOverlay,
   });
 
   @protected
@@ -26,6 +27,8 @@ class UsageCard extends StatelessWidget {
   final String? titleText;
   @protected
   final Widget? legend;
+  @protected
+  final Widget? chartOverlay;
   @protected
   final List<UsageElement> elements;
   @protected
@@ -36,13 +39,17 @@ class UsageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AMCard(
-      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0)),
+      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.all(cardPadding)),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (placeholder.isEmpty) ...[
-            SizedBox(height: cardPadding),
-            UsageChartBar(elements, total),
+            Stack(
+              children: [
+                UsageChartBar(elements, total),
+                chartOverlay ?? Container(),
+              ],
+            ),
             legend ?? UsageLegend(elements),
           ],
           if (placeholder.isNotEmpty) NormalText(placeholder, padding: EdgeInsets.all(cardPadding)),

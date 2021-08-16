@@ -15,3 +15,5 @@ Icon get pencilIcon => const Icon(CupertinoIcons.pencil, color: CupertinoColors.
 Icon get plusIcon => const Icon(CupertinoIcons.plus_circle, size: 30);
 
 Icon get removeIcon => const Icon(CupertinoIcons.minus_circle, size: 30, color: CupertinoColors.systemRed);
+
+Icon get netDetailsIcon => const Icon(CupertinoIcons.info_circle);

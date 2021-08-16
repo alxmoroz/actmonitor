@@ -35,22 +35,22 @@ abstract class _UsageStateBase with Store {
   int uploadSpeed = 0;
 
   @action
-  Future<void> updateRamUsage() async {
+  Future<void> _updateRamUsage() async {
     ram = await RamInfo.get();
   }
 
   @action
-  Future<void> updateDiskUsage() async {
+  Future<void> _updateDiskUsage() async {
     disk = await DiskInfo.get();
   }
 
   @action
-  Future<void> updateBatteryUsage() async {
+  Future<void> _updateBatteryUsage() async {
     battery = await BatteryInfo.get();
   }
 
   @action
-  Future<void> updateNetUsage() async {
+  Future<void> _updateNetUsage() async {
     final kernelData = await NetInfo.get();
 
     // накапливаем инфу по дням. При смене даты добавляем новую запись
@@ -72,17 +72,32 @@ abstract class _UsageStateBase with Store {
     netStatRecords = netStat.records;
     downloadSpeed = ((increment.wifiReceived + increment.cellularReceived) / updateTimerInterval).ceil();
     uploadSpeed = ((increment.wifiSent + increment.cellularSent) / updateTimerInterval).ceil();
-    // print('netStat.records.last ${UsageElement.memory(netStat.records.last.wifiReceived)}');
-    // print('KD ${UsageElement.memory(netStat.kernelData.wifiReceived)}');
-    // print('increment ${UsageElement.memory(increment.wifiReceived)}');
+    // print('netStat.records.last ${UsageElement.disk(netStat.records.last.wifiReceived)}');
+    // print('KD ${UsageElement.disk(netStat.kernelData.wifiReceived)}');
+    // print('increment ${UsageElement.disk(increment.wifiReceived)}');
   }
 
   @computed
-  NetInfo get netStatSum {
-    final NetInfo sumInfo = netStatRecords.fold(NetInfo(), (prev, entry) => prev + entry);
+  NetInfo get netStatSumForCurrentMonth => _netStatSumForMonth(DateTime.now());
+
+  NetInfo _sumRecords(Iterable<NetInfo> records) {
+    final NetInfo sumInfo = records.fold(NetInfo(), (prev, entry) => prev + entry);
     sumInfo.done();
     return sumInfo;
   }
+
+  NetInfo netStatSumForPeriod(DateTime start, DateTime end) {
+    return _sumRecords(recordsForPeriod(start, end));
+  }
+
+  NetInfo _netStatSumForMonth(DateTime month) {
+    return _sumRecords(recordsForMonth(month));
+  }
+
+  Iterable<NetInfo> recordsForPeriod(DateTime start, DateTime end) =>
+      netStatRecords.where((r) => r.dateTime.difference(start).inSeconds >= 0 && r.dateTime.difference(end).inSeconds < 0);
+
+  Iterable<NetInfo> recordsForMonth(DateTime month) => netStatRecords.where((r) => r.dateTime.year == month.year && r.dateTime.month == month.month);
 
   Future<void> updateBootInfo() async {
     final bootInfo = await BootInfo.get();
@@ -91,9 +106,9 @@ abstract class _UsageStateBase with Store {
   }
 
   Future<void> updateUsageInfo() async {
-    await updateRamUsage();
-    await updateDiskUsage();
-    await updateBatteryUsage();
-    await updateNetUsage();
+    await _updateRamUsage();
+    await _updateDiskUsage();
+    await _updateBatteryUsage();
+    await _updateNetUsage();
   }
 }
