@@ -39,7 +39,7 @@ class UsageCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AMCard(
-      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.all(cardPadding)),
+      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.all(sidePadding)),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -52,7 +52,7 @@ class UsageCard extends StatelessWidget {
             ),
             legend ?? UsageLegend(elements),
           ],
-          if (placeholder.isNotEmpty) NormalText(placeholder, padding: EdgeInsets.all(cardPadding)),
+          if (placeholder.isNotEmpty) NormalText(placeholder, padding: EdgeInsets.all(sidePadding)),
         ],
       ),
     );

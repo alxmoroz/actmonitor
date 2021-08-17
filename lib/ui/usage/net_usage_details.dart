@@ -2,12 +2,13 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:intl/intl.dart';
 
 import '../../models/net_stat.dart';
 import '../../services/globals.dart';
 import '../components/notch.dart';
-import '../components/text/text_widgets.dart';
+import '../usage/month_selector.dart';
 import '../usage/usage_card.dart';
 import '../usage/usage_element.dart';
 
@@ -17,26 +18,12 @@ Future<void> showNetDetails(BuildContext context) async {
     backgroundColor: Colors.transparent,
     isScrollControlled: true,
     useRootNavigator: true,
-    builder: (context) => const NetDetailsView(),
+    builder: (context) => NetDetailsView(),
   );
 }
 
-class NetDetailsView extends StatefulWidget {
-  const NetDetailsView();
-
-  @override
-  _NetDetailsViewState createState() => _NetDetailsViewState();
-}
-
-class _NetDetailsViewState extends State<NetDetailsView> {
-  Iterable<NetInfo> records = [];
-  DateTime month = DateTime.now();
-
-  @override
-  void initState() {
-    records = usageState.recordsForMonth(month).toList(growable: false).reversed;
-    super.initState();
-  }
+class NetDetailsView extends StatelessWidget {
+  Iterable<NetInfo> get records => usageState.recordsForMonth(usageState.selectedMonth).toList(growable: false).reversed;
 
   Widget itemBuilder(BuildContext context, int index) {
     final NetInfo record = records.elementAt(index);
@@ -67,15 +54,17 @@ class _NetDetailsViewState extends State<NetDetailsView> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Notch(),
-            H3(DateFormat.yMMMM().format(month)),
-            SizedBox(height: cardPadding / 2),
+            MonthSelector(),
+            SizedBox(height: sidePadding / 2),
             Expanded(
-              child: ListView.builder(
-                itemBuilder: itemBuilder,
-                itemCount: records.length,
+              child: Observer(
+                builder: (_) => ListView.builder(
+                  itemBuilder: itemBuilder,
+                  itemCount: records.length,
+                ),
               ),
             ),
-            SizedBox(height: cardPadding),
+            SizedBox(height: sidePadding),
           ],
         ),
       ),

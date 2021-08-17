@@ -51,14 +51,14 @@ class _ComparisonViewState extends State<ComparisonView> {
         decoration: bgDecoration(context),
         child: Column(
           children: [
-            SizedBox(height: cardPadding),
+            SizedBox(height: sidePadding),
             Expanded(
               child: ListView.builder(
                 itemBuilder: (_, index) => ComparisonParameterCard(comparableParams[index]),
                 itemCount: comparableParams.length,
               ),
             ),
-            SizedBox(height: cardPadding * 3),
+            SizedBox(height: sidePadding * 3),
           ],
         ),
       ),

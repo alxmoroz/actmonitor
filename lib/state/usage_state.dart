@@ -34,6 +34,9 @@ abstract class _UsageStateBase with Store {
   @observable
   int uploadSpeed = 0;
 
+  @observable
+  DateTime selectedMonth = DateTime.now();
+
   @action
   Future<void> _updateRamUsage() async {
     ram = await RamInfo.get();
@@ -72,9 +75,35 @@ abstract class _UsageStateBase with Store {
     netStatRecords = netStat.records;
     downloadSpeed = ((increment.wifiReceived + increment.cellularReceived) / updateTimerInterval).ceil();
     uploadSpeed = ((increment.wifiSent + increment.cellularSent) / updateTimerInterval).ceil();
-    // print('netStat.records.last ${UsageElement.disk(netStat.records.last.wifiReceived)}');
-    // print('KD ${UsageElement.disk(netStat.kernelData.wifiReceived)}');
-    // print('increment ${UsageElement.disk(increment.wifiReceived)}');
+  }
+
+  @action
+  void setNextMonth() {
+    selectedMonth = DateTime(selectedMonth.year, selectedMonth.month + 1);
+  }
+
+  @action
+  void setPrevMonth() {
+    selectedMonth = DateTime(selectedMonth.year, selectedMonth.month - 1);
+  }
+
+  @action
+  void setCurrentMonth() {
+    selectedMonth = DateTime.now();
+  }
+
+  @computed
+  DateTime get firstDate => netStatRecords.isNotEmpty ? netStatRecords.first.dateTime : DateTime.now();
+
+  @computed
+  bool get canNextMonth {
+    final now = DateTime.now();
+    return !(selectedMonth.year == now.year && selectedMonth.month == now.month);
+  }
+
+  @computed
+  bool get canPrevMonth {
+    return !(selectedMonth.year == firstDate.year && selectedMonth.month == firstDate.month);
   }
 
   @computed
@@ -86,16 +115,16 @@ abstract class _UsageStateBase with Store {
     return sumInfo;
   }
 
-  NetInfo netStatSumForPeriod(DateTime start, DateTime end) {
-    return _sumRecords(recordsForPeriod(start, end));
-  }
-
   NetInfo _netStatSumForMonth(DateTime month) {
     return _sumRecords(recordsForMonth(month));
   }
 
-  Iterable<NetInfo> recordsForPeriod(DateTime start, DateTime end) =>
-      netStatRecords.where((r) => r.dateTime.difference(start).inSeconds >= 0 && r.dateTime.difference(end).inSeconds < 0);
+  // NetInfo netStatSumForPeriod(DateTime start, DateTime end) {
+  //   return _sumRecords(recordsForPeriod(start, end));
+  // }
+
+  // Iterable<NetInfo> recordsForPeriod(DateTime start, DateTime end) =>
+  //     netStatRecords.where((r) => r.dateTime.difference(start).inSeconds >= 0 && r.dateTime.difference(end).inSeconds < 0);
 
   Iterable<NetInfo> recordsForMonth(DateTime month) => netStatRecords.where((r) => r.dateTime.year == month.year && r.dateTime.month == month.month);
 

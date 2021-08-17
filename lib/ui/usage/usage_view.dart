@@ -79,7 +79,7 @@ class UsageView extends StatelessWidget {
           UsageElement.battery(100 - battery.level, color: freeColor),
         ],
         legend: Column(children: [
-          SizedBox(height: cardPadding / 2),
+          SizedBox(height: sidePadding / 2),
           SmallText(loc.battery_legend_title),
           UsageLegend(batteryLifeElements),
         ]),
@@ -98,7 +98,7 @@ class UsageView extends StatelessWidget {
 
       return UsageCard(
         title: Padding(
-          padding: EdgeInsets.symmetric(horizontal: cardPadding),
+          padding: EdgeInsets.symmetric(horizontal: sidePadding),
           child: Row(
             children: [
               CardTitle('${loc.network}', padding: EdgeInsets.zero),
@@ -111,7 +111,7 @@ class UsageView extends StatelessWidget {
                     SmallText(
                       '${DateFormat.yMMMM().format(DateTime.now())}',
                       color: CupertinoColors.activeBlue,
-                      padding: EdgeInsets.symmetric(horizontal: cardPadding / 2),
+                      padding: EdgeInsets.symmetric(horizontal: sidePadding / 2),
                     ),
                     netDetailsIcon,
                   ],
@@ -123,7 +123,7 @@ class UsageView extends StatelessWidget {
         total: stat.total,
         elements: netUsageElements,
         legend: Column(children: [
-          SizedBox(height: cardPadding / 2),
+          SizedBox(height: sidePadding / 2),
           SmallText(
             '↓${UsageElement.disk(usageState.downloadSpeed)} / s  ↑${UsageElement.disk(usageState.uploadSpeed)} / s',
             weight: FontWeight.w300,
@@ -141,7 +141,7 @@ class UsageView extends StatelessWidget {
         child: Observer(
           builder: (_) => Column(
             children: [
-              SizedBox(height: cardPadding),
+              SizedBox(height: sidePadding),
               Expanded(
                 child: ListView(
                   children: [
@@ -152,7 +152,7 @@ class UsageView extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: cardPadding * 3)
+              SizedBox(height: sidePadding * 3)
             ],
           ),
         ),

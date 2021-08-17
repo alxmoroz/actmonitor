@@ -27,7 +27,7 @@ class Button extends StatelessWidget {
   final String? title;
   final VoidCallback? onPressed;
   final Widget? child;
-  final Icon? icon;
+  final Widget? icon;
   final ButtonType? type;
   final Color? color;
   final Color? titleColor;

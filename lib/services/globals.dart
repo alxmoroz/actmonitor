@@ -26,7 +26,7 @@ S get loc => S.current;
 //TODO: UI-constants
 bool get isTablet => iosInfo.model == 'iPad';
 
-double get cardPadding => isTablet ? 20 : 10;
+double get sidePadding => isTablet ? 20 : 10;
 
 class Globals {
   static Future<void> initialize() async {

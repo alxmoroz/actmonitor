@@ -38,7 +38,7 @@ class SpecsView extends StatelessWidget {
         final valueStr = pv.toString();
         return AMCard(
           title: CardTitle(Intl.message(pv.name, name: pv.name)),
-          body: NormalText(Intl.message(valueStr, name: valueStr), padding: EdgeInsets.all(cardPadding)),
+          body: NormalText(Intl.message(valueStr, name: valueStr), padding: EdgeInsets.all(sidePadding)),
         );
       }
 
@@ -70,11 +70,11 @@ class SpecsView extends StatelessWidget {
           decoration: bgDecoration(context),
           child: Column(
             children: [
-              SizedBox(height: cardPadding),
+              SizedBox(height: sidePadding),
               Expanded(
                 child: materialWrap(_buildSpecs()),
               ),
-              SizedBox(height: cardPadding * 3),
+              SizedBox(height: sidePadding * 3),
             ],
           ),
         ),

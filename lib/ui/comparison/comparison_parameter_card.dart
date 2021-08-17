@@ -83,7 +83,7 @@ class ComparisonParameterCard extends StatelessWidget {
 
     return AMCard(
       title: CardTitle(Intl.message(paramName, name: paramName)),
-      body: Padding(padding: EdgeInsets.fromLTRB(cardPadding, 0, cardPadding, cardPadding), child: Column(children: [...items])),
+      body: Padding(padding: EdgeInsets.fromLTRB(sidePadding, 0, sidePadding, sidePadding), child: Column(children: [...items])),
     );
   }
 }

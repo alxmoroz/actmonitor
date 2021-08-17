@@ -28,7 +28,7 @@ class CardTitle extends StatelessWidget {
       weight: FontWeight.bold,
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
-      padding: padding ?? EdgeInsets.fromLTRB(cardPadding, cardPadding, cardPadding, 0),
+      padding: padding ?? EdgeInsets.fromLTRB(sidePadding, sidePadding, sidePadding, 0),
     );
   }
 }
