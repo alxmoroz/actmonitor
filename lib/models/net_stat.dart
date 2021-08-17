@@ -46,6 +46,24 @@ class NetInfo extends UsageInfo {
     }
   }
 
+  Future<void> saveInfoToUserDefaults() async {
+    try {
+      status = 'loading';
+      await channel.invokeMethod<void>('saveNetInfo', {
+        'wifiReceived': wifiReceived,
+        'wifiSent': wifiSent,
+        'cellularReceived': cellularReceived,
+        'cellularSent': cellularSent,
+        'total': total,
+        'dateTime': dateTime
+      });
+      done();
+    } on Exception catch (e) {
+      status = 'error';
+      exception = e;
+    }
+  }
+
   bool sameDay(NetInfo other) => dateTime.year == other.dateTime.year && dateTime.month == other.dateTime.month && dateTime.day == other.dateTime.day;
 
   NetInfo operator +(NetInfo other) {

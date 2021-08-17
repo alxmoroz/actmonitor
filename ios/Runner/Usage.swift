@@ -138,6 +138,11 @@ struct NetUsage {
     result([netUsageInfo.wifiReceived, netUsageInfo.wifiSent, netUsageInfo.cellularReceived, netUsageInfo.cellularSent])
   }
   
+  static func saveNetData() {
+    
+  }
+
+  
   static func getBootTime(result: FlutterResult) {
     
     var mib = [ CTL_KERN, KERN_BOOTTIME ]

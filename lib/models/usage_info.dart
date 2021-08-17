@@ -2,27 +2,28 @@ import 'package:flutter/services.dart';
 
 abstract class UsageInfo {
   List? _values;
-  Exception? _exception;
-  String _status = 'loading';
+  Exception? exception;
+  String status = 'loading';
 
-  String get _error => _exception != null ? _exception.toString() : 'unknown error';
+  final channel = const MethodChannel('amonitor.w-cafe.ru/usage');
+
+  String get _error => exception != null ? exception.toString() : 'unknown error';
 
   List get values => _values ?? <dynamic>[];
 
-  String get placeholder => {'done': '', 'loading': 'loading', 'error': _error}[_status] ?? '';
+  String get placeholder => {'done': '', 'loading': 'loading', 'error': _error}[status] ?? '';
 
-  void done() => _status = 'done';
+  void done() => status = 'done';
 
   Future<void> getValuesFrom(String methodName) async {
-    const _channel = MethodChannel('amonitor.w-cafe.ru/usage');
     try {
-      _status = 'loading';
-      _values = await _channel.invokeMethod(methodName);
+      status = 'loading';
+      _values = await channel.invokeMethod(methodName);
       fillData();
       done();
     } on Exception catch (e) {
-      _status = 'error';
-      _exception = e;
+      status = 'error';
+      exception = e;
     }
   }
 
