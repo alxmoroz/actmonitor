@@ -95,7 +95,7 @@
 		A8F3E74726CCFEAB000F04B0 /* UsageWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UsageWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F3E74B26CCFEAC000F04B0 /* UsageWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageWidgets.swift; sourceTree = "<group>"; };
 		A8F3E74D26CCFEAC000F04B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8F3E76026CD0733000F04B0 /* UsageWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UsageWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		A8F3E76026CD0733000F04B0 /* UsageWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UsageWidgets.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 		A8F3E74A26CCFEAC000F04B0 /* UsageWidgets */ = {
 			isa = PBXGroup;
 			children = (
-				A8F3E76026CD0733000F04B0 /* UsageWidgetsExtension.entitlements */,
+				A8F3E76026CD0733000F04B0 /* UsageWidgets.entitlements */,
 				A8F3E74D26CCFEAC000F04B0 /* Assets.xcassets */,
 				A8F3E74B26CCFEAC000F04B0 /* UsageWidgets.swift */,
 				A8F3E72026CC5BB6000F04B0 /* ChartView.swift */,
@@ -754,7 +754,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = UsageWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UsageWidgets/UsageWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BT4N8B3PW;
@@ -788,7 +788,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = UsageWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UsageWidgets/UsageWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BT4N8B3PW;
@@ -819,7 +819,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = UsageWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UsageWidgets/UsageWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BT4N8B3PW;
