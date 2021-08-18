@@ -1,6 +1,6 @@
 import UIKit
-import Flutter
 import WidgetKit
+import Flutter
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
@@ -15,20 +15,32 @@ import WidgetKit
       (call: FlutterMethodCall, result: FlutterResult) -> Void in
       
       if call.method == "getRamUsage" {
-        Usage.getRamUsage(result: result)
+        result(Usage._getRamUsage())
       }
       else if call.method == "getDiskUsage" {
-        Usage.getDiskUsage(result: result)
+        result(Usage._getDiskUsage())
       }
       else if call.method == "getBatteryUsage" {
-        Usage.getBatteryUsage(result: result)
+        let device = UIDevice.current
+        device.isBatteryMonitoringEnabled = true
+        let state = device.batteryState.rawValue
+        var level:Float = -1.0
+        if state != UIDevice.BatteryState.unknown.rawValue {
+          level = device.batteryLevel
+        }
+        result([level, state])
       }
       else if call.method == "getNetUsage" {
-        Usage.getNetUsage(result: result)
+        let netUsage = Usage._getNetUsage()
+        result([netUsage.wifiReceived, netUsage.wifiSent, netUsage.cellularReceived, netUsage.cellularSent])
       }
       else if call.method == "saveNetUsage" {
         if let args = call.arguments as? [String: Int] {
-          Usage.saveNetUsage(args: args)
+          if let defaults = UserDefaults.init(suiteName: APP_GROUP) {
+            for key in ["wifiReceived", "wifiSent", "cellularReceived", "cellularSent"] {
+              defaults.setValue(args[key] ?? 0, forKey: key)
+            }
+          }
           WidgetCenter.shared.reloadAllTimelines()
         } else {
           result(FlutterError())
@@ -36,7 +48,7 @@ import WidgetKit
         result(nil)
       }
       else if call.method == "getBootTime" {
-        Usage.getBootTime(result: result)
+        result([Usage._getBootTime()])
       }
       else {
         result(FlutterMethodNotImplemented)

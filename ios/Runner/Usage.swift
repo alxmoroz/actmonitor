@@ -1,5 +1,4 @@
-import Flutter
-
+import Foundation
 import Darwin.sys.sysctl
 import Darwin.Mach
 
@@ -20,7 +19,7 @@ struct NetUsage {
 }
 
 @objc class Usage : NSObject {
-  static func _getRamUsage() -> Array<Int64> {
+  static func _getRamUsage() -> Array<Int> {
     
     let port = mach_host_self()
     var pageSize = vm_size_t()
@@ -41,34 +40,30 @@ struct NetUsage {
       return []
     }
     
-    let pageSize64 = Int64(pageSize)
+    let pageSize64 = Int(pageSize)
     
     return [
-      pageSize64 * Int64(vmStats.wire_count),
-      pageSize64 * Int64(vmStats.active_count),
-      pageSize64 * Int64(vmStats.inactive_count),
-      pageSize64 * Int64(vmStats.compressor_page_count),
-      pageSize64 * Int64(vmStats.free_count),
-      Int64(total)
+      pageSize64 * Int(vmStats.wire_count),
+      pageSize64 * Int(vmStats.active_count),
+      pageSize64 * Int(vmStats.inactive_count),
+      pageSize64 * Int(vmStats.compressor_page_count),
+      pageSize64 * Int(vmStats.free_count),
+      Int(total)
     ]
   }
-  
-  static func getRamUsage(result: FlutterResult) {
-    result(_getRamUsage())
-  }
-  
-  static func _getDiskUsage() -> Array<Int64> {
-    var freeDiskSpace:Int64 {
+
+  static func _getDiskUsage() -> Array<Int> {
+    var freeDiskSpace:Int {
       if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
-        return space
+        return Int(space)
       } else {
         return 0
       }
     }
     
-    var totalDiskSpace:Int64 {
+    var totalDiskSpace:Int {
       if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeTotalCapacityKey]).volumeTotalCapacity {
-        return Int64(space)
+        return Int(space)
       } else {
         return 0
       }
@@ -76,22 +71,7 @@ struct NetUsage {
     return  [freeDiskSpace, totalDiskSpace]
   }
   
-  static func getDiskUsage(result: FlutterResult) {
-    result(_getDiskUsage())
-  }
-  
-  static func getBatteryUsage(result: FlutterResult) {
-    let device = UIDevice.current
-    device.isBatteryMonitoringEnabled = true
-    let state = device.batteryState.rawValue
-    var level:Float = -1.0
-    if state != UIDevice.BatteryState.unknown.rawValue {
-      level = device.batteryLevel
-    }
-    result([level, state])
-  }
-  
-  static func getNetUsageForIface(from addrPtr: UnsafeMutablePointer<ifaddrs>) -> NetUsage? {
+  static func _getNetUsageForIface(from addrPtr: UnsafeMutablePointer<ifaddrs>) -> NetUsage? {
     let name: String! = String(cString: addrPtr.pointee.ifa_name)
     let addr = addrPtr.pointee.ifa_addr.pointee
     guard addr.sa_family == UInt8(AF_LINK) else { return nil }
@@ -117,13 +97,13 @@ struct NetUsage {
     return netUsage
   }
   
-  static func getNetUsage(result: FlutterResult) {
+  static func _getNetUsage() -> NetUsage {
     var ifaddr: UnsafeMutablePointer<ifaddrs>?
     var netUsage = NetUsage()
     
     if getifaddrs(&ifaddr) == 0 {
       while let addr = ifaddr {
-        guard let info = getNetUsageForIface(from: addr) else {
+        guard let info = _getNetUsageForIface(from: addr) else {
           ifaddr = addr.pointee.ifa_next
           continue
         }
@@ -132,15 +112,7 @@ struct NetUsage {
       }
       freeifaddrs(ifaddr)
     }
-    result([netUsage.wifiReceived, netUsage.wifiSent, netUsage.cellularReceived, netUsage.cellularSent])
-  }
-  
-  static func saveNetUsage(args: [String: Int]) {
-    if let defaults = UserDefaults.init(suiteName: APP_GROUP) {
-      for key in ["wifiReceived", "wifiSent", "cellularReceived", "cellularSent"] {
-        defaults.setValue(args[key] ?? 0, forKey: key)
-      }
-    }
+    return netUsage
   }
   
   static func getNetUsageFromDefaults() -> NetUsage {
@@ -154,18 +126,19 @@ struct NetUsage {
     return netUsage
   }
   
-  static func getBootTime(result: FlutterResult) {
+  static func _getBootTime() -> [Int] {
     
     var mib = [ CTL_KERN, KERN_BOOTTIME ]
     var bootTime = timeval()
     var bootTimeSize = MemoryLayout<timeval>.size
     
+    var res: [Int] = [];
+    
     if sysctl(&mib, UInt32(mib.count), &bootTime, &bootTimeSize, nil, 0) == 0 {
-      result([Int64(bootTime.tv_sec)])
+      res = [bootTime.tv_sec]
     }
-    else {
-      result([])
-    }
+
+    return res
   }
 }
 

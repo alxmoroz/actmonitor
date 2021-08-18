@@ -23,8 +23,8 @@ struct RamProvider: TimelineProvider {
 
 struct RamEntry: TimelineEntry {
   let date: Date
-  let free: Int64
-  let total: Int64
+  let free: Int
+  let total: Int
   
   static func getEntry() -> RamEntry {
     let data = Usage._getRamUsage()
@@ -40,7 +40,7 @@ struct RamWidgetEntryView : View {
     ChartView(
       title: "Ram",
       labels: [
-        LabelData(color: FreeColor, title: "Free", value: formatter.string(fromByteCount: entry.free))
+        LabelData(color: FreeColor, title: "Free", value: formatter.string(fromByteCount: Int64(entry.free)))
       ],
       slices: [
         SliceData(color: Color.blue, value: entry.total - entry.free),

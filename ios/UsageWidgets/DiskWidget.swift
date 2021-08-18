@@ -23,8 +23,8 @@ struct Provider: TimelineProvider {
 
 struct DiskUsageEntry: TimelineEntry {
   let date: Date
-  let free: Int64
-  let total: Int64
+  let free: Int
+  let total: Int
   
   static func getEntry() -> DiskUsageEntry {
     let diskData = Usage._getDiskUsage()
@@ -40,7 +40,7 @@ struct UsageWidgetEntryView : View {
     ChartView(
       title: "Disk",
       labels: [
-        LabelData(color: FreeColor, title: "Free", value: formatter.string(fromByteCount: entry.free))
+        LabelData(color: FreeColor, title: "Free", value: formatter.string(fromByteCount: Int64(entry.free)))
       ],
       slices: [
         SliceData(color: Color.blue, value: entry.total - entry.free),

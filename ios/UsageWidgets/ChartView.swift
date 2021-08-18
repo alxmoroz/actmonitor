@@ -91,7 +91,7 @@ struct ChartView: View {
 
 struct SliceData {
   var color: Color
-  var value: Int64
+  var value: Int
 }
 
 struct LabelData {

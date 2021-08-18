@@ -38,8 +38,8 @@ struct WiFiEntryView : View {
     ChartView(
       title: "WiFi",
       labels: [
-        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: entry.netUsage.wifiSent), oneLine: true),
-        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: entry.netUsage.wifiReceived), oneLine: true)
+        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: Int64(entry.netUsage.wifiSent)), oneLine: true),
+        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: Int64(entry.netUsage.wifiReceived)), oneLine: true)
       ],
       slices: [
         SliceData(color: Color.orange, value: entry.netUsage.wifiReceived),
@@ -58,8 +58,8 @@ struct CellularEntryView : View {
     ChartView(
       title: "Cellular",
       labels: [
-        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: entry.netUsage.cellularSent), oneLine: true),
-        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: entry.netUsage.cellularReceived), oneLine: true)
+        LabelData(color: Color.blue, title: "▲", value: formatter.string(fromByteCount: Int64(entry.netUsage.cellularSent)), oneLine: true),
+        LabelData(color: Color.orange, title: "▼", value: formatter.string(fromByteCount: Int64(entry.netUsage.cellularReceived)), oneLine: true)
       ],
       slices: [
         SliceData(color: Color.orange, value: entry.netUsage.cellularReceived),
