@@ -1,6 +1,5 @@
 // Copyright (c) 2021. Alexandr Moroz
 
-import 'package:amonitor/models/boot_info.dart';
 import 'package:mobx/mobx.dart';
 
 import '../models/battery_info.dart';
@@ -129,12 +128,6 @@ abstract class _UsageStateBase with Store {
   //     netStatRecords.where((r) => r.dateTime.difference(start).inSeconds >= 0 && r.dateTime.difference(end).inSeconds < 0);
 
   Iterable<NetInfo> recordsForMonth(DateTime month) => netStatRecords.where((r) => r.dateTime.year == month.year && r.dateTime.month == month.month);
-
-  Future<void> updateBootInfo() async {
-    final bootInfo = await BootInfo.get();
-    settings.bootDate = bootInfo.bootDate;
-    await settings.save();
-  }
 
   Future<void> updateUsageInfo() async {
     await _updateRamUsage();
