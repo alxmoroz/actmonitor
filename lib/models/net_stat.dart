@@ -48,7 +48,7 @@ class NetInfo extends UsageInfo {
     }
   }
 
-  Future<void> saveInfoToUserDefaults() async {
+  Future<void> saveToUserDefaults() async {
     try {
       await channel.invokeMethod<void>('saveNetUsage', {
         'wifiReceived': wifiReceived,

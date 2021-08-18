@@ -76,7 +76,7 @@ abstract class _UsageStateBase with Store {
     downloadSpeed = ((increment.wifiReceived + increment.cellularReceived) / updateTimerInterval).ceil();
     uploadSpeed = ((increment.wifiSent + increment.cellularSent) / updateTimerInterval).ceil();
 
-    await netStatSumForCurrentMonth.saveInfoToUserDefaults();
+    await netStatSumForCurrentMonth.saveToUserDefaults();
   }
 
   @action

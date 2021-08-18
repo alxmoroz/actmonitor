@@ -3,6 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:workmanager/workmanager.dart';
 
 import 'generated/l10n.dart';
 import 'services/globals.dart';
@@ -12,6 +13,15 @@ import 'ui/main_view.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(App());
+
+  await Workmanager().initialize(callbackDispatcher);
+}
+
+void callbackDispatcher() {
+  Workmanager().executeTask((task, inputData) {
+    usageState.updateUsageInfo();
+    return Future.value(true);
+  });
 }
 
 class SplashScreen extends StatelessWidget {

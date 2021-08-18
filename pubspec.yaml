@@ -1,7 +1,7 @@
 name: amonitor
 description: AMonitor
 
-version: 3.0.114+114
+version: 3.1.114+114
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -19,6 +19,7 @@ dependencies:
   mobx: any
   package_info: any
   path_provider: any
+  workmanager: any
 
 dev_dependencies:
   build_runner: any
