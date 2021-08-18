@@ -1,5 +1,7 @@
 import 'package:flutter/services.dart';
 
+//TODO: общение с iOS вынести в сервисы
+
 abstract class UsageInfo {
   List? _values;
   Exception? exception;

@@ -93,12 +93,12 @@ struct NetUsage {
     let name: String! = String(cString: addrPtr.pointee.ifa_name)
     let addr = addrPtr.pointee.ifa_addr.pointee
     guard addr.sa_family == UInt8(AF_LINK) else { return nil }
-
+    
     var networkData: UnsafeMutablePointer<if_data>?
     var netUsage = NetUsage()
     let cellularPrefix = "pdp_ip"
     let wifiPrefix = "en"
-
+    
     if name.hasPrefix(wifiPrefix) {
       networkData = unsafeBitCast(addrPtr.pointee.ifa_data, to: UnsafeMutablePointer<if_data>.self)
       if let data = networkData {
@@ -138,10 +138,10 @@ struct NetUsage {
     result([netUsageInfo.wifiReceived, netUsageInfo.wifiSent, netUsageInfo.cellularReceived, netUsageInfo.cellularSent])
   }
   
-  static func saveNetData() {
-    
+  static func saveNetUsage(args: [String: Any]) {
+    debugPrint(args["wifiReceived"] as? Int64 ?? 0)
   }
-
+  
   
   static func getBootTime(result: FlutterResult) {
     

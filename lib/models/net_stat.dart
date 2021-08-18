@@ -13,6 +13,8 @@ class NetStat extends HiveObject {
   NetInfo kernelData = NetInfo();
 }
 
+//TODO: общение с iOS вынести в сервисы
+
 @HiveType(typeId: HType.NetInfo)
 class NetInfo extends UsageInfo {
   @HiveField(0, defaultValue: 0)
@@ -49,7 +51,7 @@ class NetInfo extends UsageInfo {
   Future<void> saveInfoToUserDefaults() async {
     try {
       status = 'loading';
-      await channel.invokeMethod<void>('saveNetInfo', {
+      await channel.invokeMethod<void>('saveNetUsage', {
         'wifiReceived': wifiReceived,
         'wifiSent': wifiSent,
         'cellularReceived': cellularReceived,
