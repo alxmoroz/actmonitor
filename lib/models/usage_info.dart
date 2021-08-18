@@ -7,7 +7,7 @@ abstract class UsageInfo {
   Exception? exception;
   String status = 'loading';
 
-  final channel = const MethodChannel('amonitor.w-cafe.ru/usage');
+  final channel = const MethodChannel('amonitor/usage');
 
   String get _error => exception != null ? exception.toString() : 'unknown error';
 

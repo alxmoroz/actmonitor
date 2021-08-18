@@ -1,5 +1,6 @@
 import UIKit
 import Flutter
+import WidgetKit
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
@@ -9,7 +10,7 @@ import Flutter
   ) -> Bool {
     
     let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
-    let usageChannel = FlutterMethodChannel(name: "amonitor.w-cafe.ru/usage", binaryMessenger: controller.binaryMessenger)
+    let usageChannel = FlutterMethodChannel(name: "amonitor/usage", binaryMessenger: controller.binaryMessenger)
     usageChannel.setMethodCallHandler({
       (call: FlutterMethodCall, result: FlutterResult) -> Void in
       
@@ -26,9 +27,13 @@ import Flutter
         Usage.getNetUsage(result: result)
       }
       else if call.method == "saveNetUsage" {
-        if let args = call.arguments as? [String: Any] {
+        if let args = call.arguments as? [String: Int] {
           Usage.saveNetUsage(args: args)
+          WidgetCenter.shared.reloadAllTimelines()
+        } else {
+          result(FlutterError())
         }
+        result(nil)
       }
       else if call.method == "getBootTime" {
         Usage.getBootTime(result: result)

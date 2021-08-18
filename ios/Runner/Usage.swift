@@ -3,11 +3,13 @@ import Flutter
 import Darwin.sys.sysctl
 import Darwin.Mach
 
+let APP_GROUP = "group.ru.aeonika.AMonitor.Widgets"
+
 struct NetUsage {
-  var wifiReceived: Int64 = 0
-  var wifiSent: Int64 = 0
-  var cellularReceived: Int64 = 0
-  var cellularSent: Int64 = 0
+  var wifiReceived: Int = 0
+  var wifiSent: Int = 0
+  var cellularReceived: Int = 0
+  var cellularSent: Int = 0
   
   mutating func add(_ other: NetUsage) {
     wifiSent += other.wifiSent
@@ -102,22 +104,22 @@ struct NetUsage {
     if name.hasPrefix(wifiPrefix) {
       networkData = unsafeBitCast(addrPtr.pointee.ifa_data, to: UnsafeMutablePointer<if_data>.self)
       if let data = networkData {
-        netUsage.wifiSent += Int64(data.pointee.ifi_obytes)
-        netUsage.wifiReceived += Int64(data.pointee.ifi_ibytes)
+        netUsage.wifiSent += Int(data.pointee.ifi_obytes)
+        netUsage.wifiReceived += Int(data.pointee.ifi_ibytes)
       }
     } else if name.hasPrefix(cellularPrefix) {
       networkData = unsafeBitCast(addrPtr.pointee.ifa_data, to: UnsafeMutablePointer<if_data>.self)
       if let data = networkData {
-        netUsage.cellularSent += Int64(data.pointee.ifi_obytes)
-        netUsage.cellularReceived += Int64(data.pointee.ifi_ibytes)
+        netUsage.cellularSent += Int(data.pointee.ifi_obytes)
+        netUsage.cellularReceived += Int(data.pointee.ifi_ibytes)
       }
     }
     return netUsage
   }
   
-  static func _getNetUsage() -> NetUsage {
+  static func getNetUsage(result: FlutterResult) {
     var ifaddr: UnsafeMutablePointer<ifaddrs>?
-    var netUsageInfo = NetUsage()
+    var netUsage = NetUsage()
     
     if getifaddrs(&ifaddr) == 0 {
       while let addr = ifaddr {
@@ -125,23 +127,32 @@ struct NetUsage {
           ifaddr = addr.pointee.ifa_next
           continue
         }
-        netUsageInfo.add(info)
+        netUsage.add(info)
         ifaddr = addr.pointee.ifa_next
       }
       freeifaddrs(ifaddr)
     }
-    return netUsageInfo
+    result([netUsage.wifiReceived, netUsage.wifiSent, netUsage.cellularReceived, netUsage.cellularSent])
   }
   
-  static func getNetUsage(result: FlutterResult) {
-    let netUsageInfo = _getNetUsage()
-    result([netUsageInfo.wifiReceived, netUsageInfo.wifiSent, netUsageInfo.cellularReceived, netUsageInfo.cellularSent])
+  static func saveNetUsage(args: [String: Int]) {
+    if let defaults = UserDefaults.init(suiteName: APP_GROUP) {
+      for key in ["wifiReceived", "wifiSent", "cellularReceived", "cellularSent"] {
+        defaults.setValue(args[key] ?? 0, forKey: key)
+      }
+    }
   }
   
-  static func saveNetUsage(args: [String: Any]) {
-    debugPrint(args["wifiReceived"] as? Int64 ?? 0)
+  static func getNetUsageFromDefaults() -> NetUsage {
+    var netUsage = NetUsage()
+    if let defaults = UserDefaults.init(suiteName: APP_GROUP) {
+      netUsage.wifiReceived = defaults.integer(forKey: "wifiReceived")
+      netUsage.wifiSent = defaults.integer(forKey: "wifiSent")
+      netUsage.cellularReceived = defaults.integer(forKey: "cellularReceived")
+      netUsage.cellularSent = defaults.integer(forKey: "cellularSent")
+    }
+    return netUsage
   }
-  
   
   static func getBootTime(result: FlutterResult) {
     

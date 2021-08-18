@@ -26,7 +26,7 @@ struct NetworkEntry: TimelineEntry {
   let netUsage: NetUsage
   
   static func getEntry() -> NetworkEntry {
-    return NetworkEntry(date: Calendar.current.date(byAdding: .minute, value: 5, to: Date())!, netUsage: Usage._getNetUsage())
+    return NetworkEntry(date: Calendar.current.date(byAdding: .minute, value: 5, to: Date())!, netUsage: Usage.getNetUsageFromDefaults())
   }
 }
 

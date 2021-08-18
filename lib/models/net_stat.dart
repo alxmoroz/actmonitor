@@ -50,16 +50,12 @@ class NetInfo extends UsageInfo {
 
   Future<void> saveInfoToUserDefaults() async {
     try {
-      status = 'loading';
       await channel.invokeMethod<void>('saveNetUsage', {
         'wifiReceived': wifiReceived,
         'wifiSent': wifiSent,
         'cellularReceived': cellularReceived,
         'cellularSent': cellularSent,
-        'total': total,
-        'dateTime': dateTime
       });
-      done();
     } on Exception catch (e) {
       status = 'error';
       exception = e;
