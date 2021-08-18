@@ -6,8 +6,7 @@ struct ChartView: View {
   let title: String
   let labels: [LabelData]
   let slices: [SliceData]
-  var lineWidthFraction: CGFloat? = 0.12
-
+  
   var valuesSum: Double {
     var sum : Double = 0;
     for (_, slice) in slices.enumerated() {
@@ -15,31 +14,23 @@ struct ChartView: View {
     }
     return sum
   }
-
+  
   var body: some View {
-    VStack(spacing: 4, content: {
-      Text(title)
-      GeometryReader { geometry in
-        let size: CGFloat = min(geometry.size.width, geometry.size.height)
-        let lineWidth: CGFloat = size * lineWidthFraction!;
-        HStack {
-          Spacer()
-          ZStack {
-            ForEach(0..<slices.count) { i in
-              SliceView(data: slices[i], valuesSum:valuesSum, lineWidth: lineWidth)
-            }
-            VStack {
-              ForEach(0..<labels.count) {i in
-                LabelView(data: labels[i])
-              }
-            }.padding(lineWidth + 4)
-          }
-          .frame(width: size, height: size)
-          Spacer()
+    GeometryReader { geometry in
+      ZStack {
+        ForEach(0..<slices.count) { i in
+          SliceView(data: slices[i], valuesSum:valuesSum, lineWidth: 14)
         }
+        VStack(spacing: 4, content: {
+          Text(title).bold()
+          ForEach(0..<labels.count) {i in
+            LabelView(data: labels[i])
+          }
+          Text("")
+        }).padding(24)
       }
-    })
-    .padding(8)
+    }
+    .padding(6)
     .background(Color(UIColor.systemGray6))
   }
   
@@ -49,7 +40,7 @@ struct ChartView: View {
     var lineWidth: CGFloat
     
     static var startDegree: Double = 0;
-
+    
     var body: some View {
       GeometryReader { geometry in
         Path { path in
@@ -71,7 +62,7 @@ struct ChartView: View {
   
   struct LabelView : View {
     var data : LabelData
-
+    
     var body: some View {
       if (data.oneLine!) {
         HStack (spacing: 0, content: {
