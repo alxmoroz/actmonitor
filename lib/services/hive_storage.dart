@@ -9,8 +9,8 @@ const bool _kIsWeb = identical(0, 0.0);
 
 class HType {
   static const AppSettings = 0;
-  static const NetStat = 1;
-  static const NetInfo = 2;
+  static const NetInfo = 1;
+  static const NetStat = 2;
 }
 
 class HiveStorage {

@@ -37,7 +37,7 @@ class SplashScreen extends StatelessWidget {
 }
 
 class App extends StatelessWidget {
-  final Future<void> _initFuture = Globals.initialize();
+  final Future<void> _initFuture = initGlobals();
 
   @override
   Widget build(BuildContext context) {

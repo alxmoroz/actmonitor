@@ -14,7 +14,6 @@ import 'package:package_info/package_info.dart';
 
 late AppSettings settings;
 late NetStat netStat;
-
 late UsageState usageState;
 late SpecsState specsState;
 late ComparisonState comparisonState;
@@ -28,47 +27,48 @@ bool get isTablet => iosInfo.model == 'iPad';
 
 double get sidePadding => isTablet ? 20 : 10;
 
-class Globals {
-  static Future<void> initialize() async {
-    await HiveStorage.init();
+// TODO: перенести взаимодействие с БД в стейты
 
-    usageState = UsageState();
-    specsState = SpecsState();
-    comparisonState = ComparisonState();
+// TODO: все глабальные штуки перенести в стейт приложения
 
-    // первый запуск приложения
-    final firstLaunch = HiveStorage.appSettingsBox.values.isEmpty;
-    if (firstLaunch) {
-      await HiveStorage.appSettingsBox.add(AppSettings());
-      await HiveStorage.netStatBox.add(NetStat());
-    }
+Future<void> initGlobals() async {
+  await HiveStorage.init();
 
-    settings = HiveStorage.appSettingsBox.values.first;
-    netStat = HiveStorage.netStatBox.values.first;
-
-    final packageInfo = await PackageInfo.fromPlatform();
-    // final savedVersion = settings.version;
-    final currentVersion = packageInfo.version;
-    settings.version = currentVersion;
-
-    // инфа о текущем устройстве
-    iosInfo = await DeviceInfoPlugin().iosInfo;
-
-    // загрузка спецификаций
-    await SpecsClient.load();
-    // сопоставляем текущее устройство и модель из спецификаций
-    hostModel = specsState.modelForId(iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model);
-    if (specsState.isKnownModel(hostModel) && settings.selectedModelName.isEmpty) {
-      settings.selectedModelName = hostModel!.name;
-    }
-    specsState.setSelectedModelByName(settings.selectedModelName);
-    // настройки
-    await settings.save();
-
-    // загрузка списка сравниваемых устройств из бд в стейт
-    comparisonState.setComparisonModelsNames(settings.comparisonModelsNames);
-
-    // получение информации о диске, памяти, батарее и трафике
-    await usageState.updateUsageInfo();
+  if (HiveStorage.appSettingsBox.isEmpty) {
+    await HiveStorage.appSettingsBox.add(AppSettings());
   }
+  if (HiveStorage.netStatBox.isEmpty) {
+    await HiveStorage.netStatBox.add(NetStat());
+  }
+
+  settings = HiveStorage.appSettingsBox.values.first;
+  netStat = HiveStorage.netStatBox.values.first;
+
+  // версия приложения
+  final packageInfo = await PackageInfo.fromPlatform();
+  // final savedVersion = settings.version;
+  final currentVersion = packageInfo.version;
+  settings.version = currentVersion;
+
+  // инфа о текущем устройстве
+  iosInfo = await DeviceInfoPlugin().iosInfo;
+
+  // загрузка спецификаций
+  specsState = SpecsState();
+  await SpecsClient.load();
+  // сопоставляем текущее устройство и модель из спецификаций
+  hostModel = specsState.modelForId(iosInfo.isPhysicalDevice ? iosInfo.utsname.machine : iosInfo.model);
+  if (specsState.isKnownModel(hostModel) && settings.selectedModelName.isEmpty) {
+    settings.selectedModelName = hostModel!.name;
+    await settings.save();
+  }
+  specsState.setSelectedModelByName(settings.selectedModelName);
+
+  // загрузка списка сравниваемых устройств из бд в стейт
+  comparisonState = ComparisonState();
+  comparisonState.setComparisonModelsNames(settings.comparisonModelsNames);
+
+  // получение информации о диске, памяти, батарее и трафике
+  usageState = UsageState();
+  await usageState.updateUsageInfo();
 }

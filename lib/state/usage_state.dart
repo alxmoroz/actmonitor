@@ -53,8 +53,6 @@ abstract class _UsageStateBase with Store {
 
   @action
   Future<void> _updateNetUsage() async {
-    final kernelData = await NetInfo.get();
-
     // накапливаем инфу по дням. При смене даты добавляем новую запись
     // все дельты складываем в крайний элемент (с сегодняшней датой)
     // если данных нет, складываем текущее значение kernelNetStat в элемент с текущей датой dailyStats
@@ -66,9 +64,10 @@ abstract class _UsageStateBase with Store {
     // Считаем разницу между текущим и предыдущим значением kernelData
     // Если разница положительная, то добавляем её в текущий элемент
     // Если разница отрицательная (перезагрузка или переполнение), то добавляем значение из ядра
+    final kernelData = await NetInfo.get();
     final increment = kernelData < netStat.kernelData ? kernelData : kernelData - netStat.kernelData;
     netStat.records.last += increment;
-    netStat.kernelData = kernelData;
+    netStat.setKernelData(kernelData);
     await netStat.save();
 
     netStatRecords = netStat.records;

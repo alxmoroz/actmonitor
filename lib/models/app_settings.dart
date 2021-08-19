@@ -16,7 +16,4 @@ class AppSettings extends HiveObject {
 
   @HiveField(2, defaultValue: <String>[])
   List<String> comparisonModelsNames = [];
-
-  @HiveField(3)
-  DateTime bootDate = DateTime.now();
 }

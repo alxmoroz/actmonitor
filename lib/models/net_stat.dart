@@ -10,7 +10,11 @@ class NetStat extends HiveObject {
   @HiveField(0, defaultValue: <NetInfo>[])
   List<NetInfo> records = [];
   @HiveField(1)
-  NetInfo kernelData = NetInfo();
+  NetInfo? _kernelData;
+
+  NetInfo get kernelData => _kernelData ?? NetInfo();
+
+  void setKernelData(NetInfo data) => _kernelData = data;
 }
 
 //TODO: общение с iOS вынести в сервисы
@@ -26,7 +30,11 @@ class NetInfo extends UsageInfo {
   @HiveField(3, defaultValue: 0)
   int cellularSent = 0;
   @HiveField(4)
-  DateTime dateTime = DateTime.now();
+  DateTime? _dateTime;
+
+  DateTime get dateTime => _dateTime ?? DateTime.now();
+
+  void setDateTime(DateTime dt) => _dateTime = dt;
 
   int get total => wifiReceived + wifiSent + cellularReceived + cellularSent;
 
