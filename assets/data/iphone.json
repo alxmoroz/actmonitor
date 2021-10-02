@@ -568,7 +568,7 @@
     "discontinued_date": {
       "Date": "2016-03-21T07:00:00Z"
     },
-    "supported_os": "iOS 7.0 — 12.5.3",
+    "supported_os": "iOS 7.0 — 12.5.5",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -655,7 +655,7 @@
     "discontinued_date": {
       "Date": "2016-09-07T07:00:00Z"
     },
-    "supported_os": "iOS 8.0 — 12.5.3",
+    "supported_os": "iOS 8.0 — 12.5.5",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -742,7 +742,7 @@
     "discontinued_date": {
       "Date": "2016-09-07T07:00:00Z"
     },
-    "supported_os": "iOS 8.0 — 12.5.3",
+    "supported_os": "iOS 8.0 — 12.5.5",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
