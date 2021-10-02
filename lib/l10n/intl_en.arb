@@ -19,6 +19,7 @@
   "connector": "Connector",
   "dimensions": "Dimensions",
   "discontinued_date": "Discontinued Date",
+
   "display": "Display",
   "display_iphone_3g": "TN, LED-backlit, 200:1 contrast",
   "display_iphone_3gs": "Oleophobic TN, LED-backlit, 200:1 contrast",
@@ -55,9 +56,11 @@
   "front_camera_iphone_13": "12MP camera\nƒ/2.2 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nNight mode\nDeep Fusion\nSmart HDR 4\nPhotographic Styles\nCinematic mode for recording videos with shallow depth of field (in 1080p at 30 fps)\nHDR video recording with Dolby Vision up to 4K at 60 fps\n4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nSlo-mo video support for 1080p at 120 fps\nTime‑lapse video with stabilization\nNight mode Time-lapse\nCinematic video stabilization (4K, 1080p, and 720p)\nQuickTake video\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode\nFace ID\nEnabled by TrueDepth camera for facial recognition",
   "front_camera_ipad_4": "1.2MP photos\n720p HD video\nFace detection\nBackside illumination",
   "front_camera_ipad_5": "1.2-megapixel photos\nLive Photos\nƒ/2.2 aperture\nRetina Flash\n720p HD video recording\nBackside illumination\nHDR for photos and videos\nFace detection\nBurst mode\nExposure control\nTimer mode",
+  "front_camera_ipad_9": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nHDR for photos\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
   "front_camera_ipad_air3": "7-megapixel photos\nƒ/2.2 aperture\n1080p HD video recording at 30 fps\nRetina Flash\nWide color capture for photos and Live Photos\nAuto HDR for photos and videos\nBackside illumination\nBurst mode\nExposure control\nTimer mode",
   "front_camera_ipad_pro3": "7-megapixel photos\nPortrait mode\nPortrait Lighting\nAnimoji and Memoji\n1080p HD video recording at 30 fps or 60 fps\nRetina Flash\nƒ/2.2 aperture\nWide color capture for photos and Live Photos\nSmart HDR\nBackside illumination sensor\nAuto image stabilization\nBurst mode\nExposure control\nTimer mode",
   "front_camera_ipad_pro5": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
+
   "full": "Full",
   "graphics": "Graphics",
   "inactive": "Inactive",
@@ -77,6 +80,7 @@
   "price": "Price",
   "processor": "Processor",
   "release_date": "Release Date",
+
   "rear_camera": "RearCamera",
   "rear_camera_iphone_3gs": "3-MP photos\nAutofocus\nƒ/2.8 aperture\n480p VGA video (30 fps)",
   "rear_camera_iphone_4": "5-MP iSight camera\nAutofocus\nƒ/2.8 aperture\nLED flash\nBackside illumination sensor\nHDR for photos\nPhoto geotagging\n\n720p HD video (30 fps)",
