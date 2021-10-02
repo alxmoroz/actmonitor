@@ -1646,6 +1646,9 @@
     "release_date": {
       "Date": "2018-10-26T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2021-09-14T07:00:00Z"
+    },
     "supported_os": "iOS 12.0 — ...",
     "display": {
       "NumericValue": "6.06\" 1792 × 828 (326 ppi)",
@@ -2138,6 +2141,9 @@
     "release_date": {
       "Date": "2020-10-23T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2021-09-14T07:00:00Z"
+    },
     "supported_os": "iOS 14.1 — ...",
     "display": {
       "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
@@ -2206,6 +2212,9 @@
     ],
     "release_date": {
       "Date": "2020-11-13T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2021-09-14T07:00:00Z"
     },
     "supported_os": "iOS 14.1 — ...",
     "display": {
