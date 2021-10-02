@@ -2268,5 +2268,74 @@
     "Geekbench 5": {
       "NumericValue": "1585 \/ 3951 Multi-Core"
     }
+  },
+  "iPhone 13 mini": {
+    "ids": [
+      "iPhone14,4"
+    ],
+    "release_date": {
+      "Date": "2021-09-24T07:00:00Z"
+    },
+    "supported_os": "iOS 15 — ...",
+    "display": {
+      "NumericValue": "5.42\" 2340 x 1080 (476 ppi)",
+      "Details": "display_iphone_11pro"
+    },
+    "processor": {
+      "Value": "Apple A15 Bionic hexa-core",
+      "NumericValue": "3230 MHz",
+      "Details": "5 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n29, n30, n38, n40, n41, n48, n66, n71, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nCDMA EV‑DO Rev. A (800, 1900 MHz)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_x"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_13"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_13"
+    },
+    "battery_capacity": {
+      "Value": "8.57 Wh (3.85 V)",
+      "NumericValue": "2227 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "17"
+    },
+    "audio_playback": {
+      "NumericValue": "55"
+    },
+    "dimensions": {
+      "NumericValue": "131.5 × 64.2 × 7.65 mm"
+    },
+    "weight": {
+      "NumericValue": "141 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "7732 \/ 19120 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1722 \/ 4503 Multi-Core"
+    }
   }
 }
