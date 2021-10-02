@@ -33,13 +33,16 @@
   "display_iphone_xr": "Oleophobic Liquid Retina HD, all-screen IPS display, Haptic Touch, Wide color (P3), 1400:1 contrast",
   "display_iphone_11pro": "Oleophobic Super Retina XDR, all-screen OLED display, HDR, Haptic Touch, Wide color display (P3), 2,000,000:1 contrast",
   "display_iphone_13pro": "Oleophobic Super Retina XDR with ProMotion up to 120Hz, all-screen OLED display, HDR, Haptic Touch, Wide color display (P3), 2,000,000:1 contrast",
+
   "display_ipod_4": "Retina TN, LED-backlit, 800:1 contrast",
+
   "display_ipad": "Oleophobic IPS, LED-backlit, 800:1 contrast",
   "display_ipad_air2": "Oleophobic Retina IPS, LED-backlit, 800:1 contrast\nAntireflective coating\nFully laminated display",
   "display_ipad_air3": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3), True Tone\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro2": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro3": "Oleophobic Liquid Retina IPS, LED-backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro5": "Oleophobic Liquid Retina XDR IPS, mini-LED backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil\n1,000,000:1 contrast ratio",
+
   "free": "Free",
 
   "front_camera": "Front Camera",

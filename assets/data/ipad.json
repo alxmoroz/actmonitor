@@ -1044,6 +1044,70 @@
       "NumericValue": "1112 \/ 2782 Multi-Core"
     }
   },
+  "iPad mini 6": {
+    "ids": [
+      "iPad14,1",
+      "iPad14,2"
+    ],
+    "release_date": {
+      "Date": "2021-09-24T07:00:00Z"
+    },
+    "supported_os": "iOS 15 — ...",
+    "display": {
+      "NumericValue": "8.3\" 2266 × 1488 (326 ppi)",
+      "Details": "display_ipad_air3"
+    },
+    "processor": {
+      "Value": "Apple A15 Bionic hexa-core",
+      "NumericValue": "2930 MHz",
+      "Details": "5 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "64, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_9"
+    },
+    "battery_capacity": {
+      "Value": "19.56 Wh (3.88 V)",
+      "NumericValue": "5124 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "195.4 × 134.8 × 6.3 mm"
+    },
+    "weight": {
+      "NumericValue": "293-297 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "7102 \/ 18489 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1593 \/ 4497 Multi-Core"
+    }
+  },
 
   "iPad Air": {
     "ids": [
@@ -1686,6 +1750,9 @@
     "weight": {
       "NumericValue": "684 g"
     },
+    "Geekbench 4": {
+      "NumericValue": "7518 \/ 28253 Multi-Core"
+    },
     "Geekbench 5": {
       "NumericValue": "1708 \/ 7145 Multi-Core"
     }
@@ -2035,6 +2102,9 @@
     },
     "weight": {
       "NumericValue": "468 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "7539 \/ 28253 Multi-Core"
     },
     "Geekbench 5": {
       "NumericValue": "1708 \/ 7145 Multi-Core"
