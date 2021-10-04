@@ -45,7 +45,8 @@ struct WiFiEntryView : View {
         SliceData(color: Color.orange, value: entry.netUsage.wifiReceived),
         SliceData(color: Color.blue, value: entry.netUsage.wifiSent),
         SliceData(color: FreeColor, value: 1),
-      ]
+      ],
+      valuesSum: entry.netUsage.wifiReceived + entry.netUsage.wifiSent + 1
     )
   }
 }
@@ -65,7 +66,8 @@ struct CellularEntryView : View {
         SliceData(color: Color.orange, value: entry.netUsage.cellularReceived),
         SliceData(color: Color.blue, value: entry.netUsage.cellularSent),
         SliceData(color: FreeColor, value: 1),
-      ]
+      ],
+      valuesSum: entry.netUsage.cellularReceived + entry.netUsage.cellularSent + 1
     )
   }
 }

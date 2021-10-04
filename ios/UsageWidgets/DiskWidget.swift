@@ -45,7 +45,8 @@ struct UsageWidgetEntryView : View {
       slices: [
         SliceData(color: Color.blue, value: entry.total - entry.free),
         SliceData(color: FreeColor, value: entry.free)
-      ]
+      ],
+      valuesSum: entry.total
     )
   }
 }

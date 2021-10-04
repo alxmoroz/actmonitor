@@ -6,20 +6,31 @@ struct ChartView: View {
   let title: String
   let labels: [LabelData]
   let slices: [SliceData]
+  let valuesSum : Int;
+
+  var sliceViews: [SliceView]
   
-  var valuesSum: Double {
-    var sum : Double = 0;
+  init(title: String, labels: [LabelData], slices: [SliceData], valuesSum: Int) {
+    
+    self.title = title
+    self.labels = labels
+    self.slices = slices
+    self.valuesSum = valuesSum
+    self.sliceViews = []
+
+    var startDegree: Int = 0;
     for (_, slice) in slices.enumerated() {
-      sum += Double(slice.value)
+      let delta = 360 * slice.value / valuesSum;
+      sliceViews.append(SliceView(startDegree: startDegree, endDegree: startDegree + delta, color: slice.color))
+      startDegree += delta;
     }
-    return sum
   }
   
   var body: some View {
     GeometryReader { geometry in
       ZStack {
-        ForEach(0..<slices.count) { i in
-          SliceView(data: slices[i], valuesSum:valuesSum, lineWidth: 14)
+        ForEach(0..<sliceViews.count) { i in
+          sliceViews[i]
         }
         VStack(spacing: 4, content: {
           Text(title).bold()
@@ -35,27 +46,24 @@ struct ChartView: View {
   }
   
   struct SliceView: View {
-    var data: SliceData
-    var valuesSum: Double
-    var lineWidth: CGFloat
-    
-    static var startDegree: Double = 0;
+    var startDegree: Int
+    var endDegree: Int
+    var color: Color
+    let lineWidth: CGFloat = 14
     
     var body: some View {
       GeometryReader { geometry in
+        let halfSize: CGFloat = min(geometry.size.width, geometry.size.height) / 2
         Path { path in
-          let size: CGFloat = min(geometry.size.width, geometry.size.height)
-          let delta: Double = 360.0 * Double(data.value) / valuesSum;
           path.addArc(
-            center: CGPoint(x: size / 2, y: size / 2),
-            radius: size / 2 - lineWidth / 2,
-            startAngle: Angle(degrees: -90.0 + SliceView.startDegree),
-            endAngle: Angle(degrees: -90.0 + SliceView.startDegree + delta),
+            center: CGPoint(x: halfSize, y: halfSize),
+            radius: halfSize - lineWidth / 2,
+            startAngle: Angle(degrees: Double(startDegree) - 90),
+            endAngle: Angle(degrees: Double(endDegree) - 90),
             clockwise: false
           )
-          SliceView.startDegree += delta;
         }
-        .stroke(data.color, lineWidth: lineWidth)
+        .stroke(color, lineWidth: lineWidth)
       }
     }
   }
@@ -81,13 +89,13 @@ struct ChartView: View {
 }
 
 struct SliceData {
-  var color: Color
-  var value: Int
+  let color: Color
+  let value: Int
 }
 
 struct LabelData {
-  var color: Color
-  var title: String
-  var value: String
+  let color: Color
+  let title: String
+  let value: String
   var oneLine: Bool? = false
 }
