@@ -3,7 +3,7 @@
 build_number=$(git rev-list --all | wc -l | xargs)
 sed -i.bak "s/^\(version:.*[.]\).*$/\1$build_number+$build_number/" pubspec.yaml
 
-version=$(grep 'version: ' pubspec.yaml | sed 's/version: //')
+version=$(grep 'version: ' pubspec.yaml | sed "s/^[^0-9]*\(.*[.]\).*/\1$build_number/")
 
 # extension
 extPlistPath="ios/UsageWidgets/Info.plist"
