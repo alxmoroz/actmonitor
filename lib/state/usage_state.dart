@@ -107,7 +107,7 @@ abstract class _UsageStateBase with Store {
   }
 
   @computed
-  NetInfo get netStatSumForCurrentMonth => _netStatSumForMonth(DateTime.now());
+  NetInfo get netStatSumForCurrentMonth => netStatSumForMonth(DateTime.now());
 
   NetInfo _sumRecords(Iterable<NetInfo> records) {
     final NetInfo sumInfo = records.fold(NetInfo(), (prev, entry) => prev + entry);
@@ -115,7 +115,7 @@ abstract class _UsageStateBase with Store {
     return sumInfo;
   }
 
-  NetInfo _netStatSumForMonth(DateTime month) {
+  NetInfo netStatSumForMonth(DateTime month) {
     return _sumRecords(recordsForMonth(month));
   }
 

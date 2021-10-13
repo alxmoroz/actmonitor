@@ -21,6 +21,10 @@ class NetStat extends HiveObject {
 
 @HiveType(typeId: HType.NetInfo)
 class NetInfo extends UsageInfo {
+  NetInfo() {
+    _dateTime = DateTime.now();
+  }
+
   @HiveField(0, defaultValue: 0)
   int wifiReceived = 0;
   @HiveField(1, defaultValue: 0)
@@ -32,9 +36,10 @@ class NetInfo extends UsageInfo {
   @HiveField(4)
   DateTime? _dateTime;
 
-  DateTime get dateTime => _dateTime ?? DateTime.now();
-
-  void setDateTime(DateTime dt) => _dateTime = dt;
+  DateTime get dateTime {
+    _dateTime ??= DateTime.now();
+    return _dateTime!;
+  }
 
   int get total => wifiReceived + wifiSent + cellularReceived + cellularSent;
 

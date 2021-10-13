@@ -25,10 +25,24 @@ Future<void> showNetDetails(BuildContext context) async {
 class NetDetailsView extends StatelessWidget {
   Iterable<NetInfo> get records => usageState.recordsForMonth(usageState.selectedMonth).toList(growable: false).reversed;
 
+  Widget monthSummary() {
+    final NetInfo record = usageState.netStatSumForMonth(usageState.selectedMonth);
+    return UsageCard(
+      titleText: '${loc.total} ${DateFormat.yMMMM().format(record.dateTime)}',
+      elements: [
+        UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+        UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
+        UsageElement.disk(record.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+        UsageElement.disk(record.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+      ],
+      total: record.total,
+    );
+  }
+
   Widget itemBuilder(BuildContext context, int index) {
     final NetInfo record = records.elementAt(index);
     return UsageCard(
-      titleText: DateFormat.yMMMMd().format(record.dateTime),
+      titleText: DateFormat.MMMMd().format(record.dateTime),
       elements: [
         UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
         UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
@@ -50,22 +64,23 @@ class NetDetailsView extends StatelessWidget {
           color: CupertinoDynamicColor.resolve(CupertinoColors.secondarySystemBackground, context),
           borderRadius: const BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20)),
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Notch(),
-            MonthSelector(),
-            SizedBox(height: sidePadding / 2),
-            Expanded(
-              child: Observer(
-                builder: (_) => ListView.builder(
+        child: Observer(
+          builder: (_) => Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const Notch(),
+              MonthSelector(),
+              SizedBox(height: sidePadding / 2),
+              monthSummary(),
+              Expanded(
+                child: ListView.builder(
                   itemBuilder: itemBuilder,
                   itemCount: records.length,
                 ),
               ),
-            ),
-            SizedBox(height: sidePadding),
-          ],
+              SizedBox(height: sidePadding),
+            ],
+          ),
         ),
       ),
     );
