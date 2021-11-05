@@ -14,11 +14,6 @@ class Button extends StatelessWidget {
         icon = null,
         color = null;
 
-  const Button.secondary(this.title, this.onPressed, {this.child, this.titleColor, this.padding})
-      : type = ButtonType.secondary,
-        icon = null,
-        color = CupertinoColors.systemGrey4;
-
   const Button.icon(this.icon, this.onPressed, {this.color, this.type, this.padding})
       : title = null,
         child = icon,
