@@ -28,7 +28,7 @@ class NetDetailsView extends StatelessWidget {
   Widget monthSummary() {
     final NetInfo record = usageState.netStatSumForMonth(usageState.selectedMonth);
     return UsageCard(
-      titleText: '${loc.total} ${DateFormat.yMMMM().format(record.dateTime)}',
+      titleText: '${loc.total} ${DateFormat.yMMMM().format(usageState.selectedMonth)}',
       elements: [
         UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
         UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
