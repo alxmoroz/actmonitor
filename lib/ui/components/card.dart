@@ -34,19 +34,20 @@ class CardTitle extends StatelessWidget {
 }
 
 class AMCard extends StatelessWidget {
-  const AMCard({this.body, this.title});
+  const AMCard({this.body, this.title, this.margin});
 
   @protected
   final Widget? title;
-
   @protected
   final Widget? body;
+  @protected
+  final EdgeInsets? margin;
 
   @override
   Widget build(BuildContext context) {
     const double radius = 8;
     return Card(
-      margin: EdgeInsets.symmetric(horizontal: isTablet ? 50 : 12, vertical: isTablet ? 10 : 8),
+      margin: margin ?? EdgeInsets.symmetric(horizontal: isTablet ? 50 : 12, vertical: isTablet ? 10 : 8),
       elevation: 6,
       color: CupertinoDynamicColor.resolve(cardBackgroundColor, context),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius)),

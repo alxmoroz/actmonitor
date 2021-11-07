@@ -4,17 +4,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Notch extends StatelessWidget {
-  const Notch();
-
-  static double height = 30;
-
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: height,
+    return Container(
+      height: 20,
       child: Center(
         child: Container(
-          width: 45,
+          width: 50,
           height: 4,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(100),

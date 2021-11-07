@@ -7,7 +7,9 @@ import 'package:intl/intl.dart';
 
 import '../../models/net_stat.dart';
 import '../../services/globals.dart';
-import '../components/notch.dart';
+import '../../ui/components/notch.dart';
+import '../../ui/components/text/text_widgets.dart';
+import '../../ui/usage/usage_legend.dart';
 import '../usage/month_selector.dart';
 import '../usage/usage_card.dart';
 import '../usage/usage_element.dart';
@@ -27,29 +29,38 @@ class NetDetailsView extends StatelessWidget {
 
   Widget monthSummary() {
     final NetInfo record = usageState.netStatSumForMonth(usageState.selectedMonth);
+    final elements = [
+      UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+      UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
+      UsageElement.disk(record.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+      UsageElement.disk(record.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+    ];
     return UsageCard(
-      titleText: '${loc.total} ${DateFormat.yMMMM().format(usageState.selectedMonth)}',
-      elements: [
-        UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
-        UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
-        UsageElement.disk(record.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
-        UsageElement.disk(record.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
-      ],
+      title: Column(children: [
+        Notch(),
+        MonthSelector(),
+      ]),
+      elements: elements,
       total: record.total,
+      margin: EdgeInsets.zero,
+      chartHeight: 32,
     );
   }
 
   Widget itemBuilder(BuildContext context, int index) {
     final NetInfo record = records.elementAt(index);
+    final elements = [
+      UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
+      UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
+      UsageElement.disk(record.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
+      UsageElement.disk(record.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
+    ];
     return UsageCard(
-      titleText: DateFormat.MMMMd().format(record.dateTime),
-      elements: [
-        UsageElement.disk(record.wifiReceived, label: loc.net_wifi_received, color: CupertinoColors.activeOrange),
-        UsageElement.disk(record.wifiSent, label: loc.net_wifi_sent),
-        UsageElement.disk(record.cellularReceived, label: loc.net_cellular_received, color: CupertinoColors.systemIndigo),
-        UsageElement.disk(record.cellularSent, label: loc.net_cellular_sent, color: CupertinoColors.systemPurple),
-      ],
+      title: MediumText(DateFormat.MMMMd().format(record.dateTime), color: CupertinoColors.systemGrey, padding: EdgeInsets.all(sidePadding)),
+      elements: elements,
+      legend: UsageLegend(elements, noLabel: true),
       total: record.total,
+      chartHeight: 18,
     );
   }
 
@@ -68,10 +79,8 @@ class NetDetailsView extends StatelessWidget {
           builder: (_) => Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Notch(),
-              MonthSelector(),
-              SizedBox(height: sidePadding / 2),
               monthSummary(),
+              SizedBox(height: sidePadding),
               Expanded(
                 child: ListView.builder(
                   itemBuilder: itemBuilder,

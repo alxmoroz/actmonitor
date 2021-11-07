@@ -19,6 +19,8 @@ class UsageCard extends StatelessWidget {
     this.placeholder = '',
     this.legend,
     this.chartOverlay,
+    this.margin,
+    this.chartHeight,
   });
 
   @protected
@@ -35,18 +37,22 @@ class UsageCard extends StatelessWidget {
   final int total;
   @protected
   final String placeholder;
+  @protected
+  final EdgeInsets? margin;
+  @protected
+  final double? chartHeight;
 
   @override
   Widget build(BuildContext context) {
     return AMCard(
-      title: title ?? CardTitle(titleText ?? '', padding: EdgeInsets.all(sidePadding)),
+      title: title ?? (titleText != null ? CardTitle(titleText!, padding: EdgeInsets.all(sidePadding)) : SizedBox(height: sidePadding * 2)),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (placeholder.isEmpty) ...[
             Stack(
               children: [
-                UsageChartBar(elements, total),
+                UsageChartBar(elements, total, height: chartHeight),
                 chartOverlay ?? Container(),
               ],
             ),
@@ -55,6 +61,7 @@ class UsageCard extends StatelessWidget {
           if (placeholder.isNotEmpty) NormalText(placeholder, padding: EdgeInsets.all(sidePadding)),
         ],
       ),
+      margin: margin,
     );
   }
 }

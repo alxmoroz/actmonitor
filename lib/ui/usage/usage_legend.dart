@@ -8,9 +8,12 @@ import '../components/text/text_widgets.dart';
 import 'usage_element.dart';
 
 class UsageLegend extends StatelessWidget {
-  const UsageLegend(this.elements);
+  const UsageLegend(this.elements, {this.noLabel = false});
 
+  @protected
   final List<UsageElement> elements;
+  @protected
+  final bool noLabel;
 
   @override
   Widget build(BuildContext context) {
@@ -21,10 +24,10 @@ class UsageLegend extends StatelessWidget {
           children: elements
               .map(
                 (el) => Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: noLabel ? CrossAxisAlignment.center : CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 2, top: 5, left: 2),
+                      padding: EdgeInsets.only(left: 2, right: noLabel ? 4 : 2, top: 5),
                       child: Container(
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
@@ -37,7 +40,7 @@ class UsageLegend extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        SmallText(el.label ?? '', color: darkColor, weight: FontWeight.w300),
+                        if (!noLabel) SmallText(el.label ?? '', color: darkColor, weight: FontWeight.w300),
                         const SizedBox(height: 2),
                         MediumText(el.toString()),
                       ],

@@ -7,8 +7,8 @@ import 'package:intl/intl.dart';
 
 import '../../services/globals.dart';
 import '../components/buttons.dart';
+import '../components/card.dart';
 import '../components/icons.dart';
-import '../components/text/text_widgets.dart';
 
 class MonthSelector extends StatelessWidget {
   bool get _showTodayBtn {
@@ -31,7 +31,7 @@ class MonthSelector extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     usageState.canPrevMonth ? Button.icon(chevronBackIcon(context), usageState.setPrevMonth) : emptyButton,
-                    MediumText(DateFormat.yMMMM().format(usageState.selectedMonth)),
+                    CardTitle(DateFormat.yMMMM().format(usageState.selectedMonth), padding: EdgeInsets.zero),
                     usageState.canNextMonth ? Button.icon(chevronForwardIcon(context), usageState.setNextMonth) : emptyButton,
                   ],
                 ),
