@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 
-import '../text_widgets.dart';
+import 'text_widgets.dart';
 
 enum ButtonType { primary, secondary, outlined, error }
 

@@ -2,8 +2,8 @@
 
 import 'package:flutter/cupertino.dart';
 
-import '../L2_data/repositories/platform.dart';
-import 'components/colors.dart';
+import '../../L2_data/repositories/platform.dart';
+import 'colors.dart';
 
 class TextShadow {
   const TextShadow(this.color, this.offset);

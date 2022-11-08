@@ -5,9 +5,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../L1_domain/entities/device_models.dart';
-import '../text_widgets.dart';
 import 'notch.dart';
 import 'single_variant_selection.dart';
+import 'text_widgets.dart';
 
 Future<DeviceModel?> selectModel(BuildContext context, DeviceModel? selectedModel, {bool comparisonMode = false}) async {
   DeviceModel? model;

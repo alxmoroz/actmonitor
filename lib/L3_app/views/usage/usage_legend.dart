@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 
 import '../../components/colors.dart';
-import '../../text_widgets.dart';
+import '../../components/text_widgets.dart';
 import 'usage_element.dart';
 
 class UsageLegend extends StatelessWidget {

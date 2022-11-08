@@ -6,9 +6,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../L2_data/repositories/platform.dart';
-import '../text_widgets.dart';
 import 'colors.dart';
 import 'constants.dart';
+import 'text_widgets.dart';
 
 class CardTitle extends StatelessWidget {
   const CardTitle(this.title, {this.padding});
@@ -29,6 +29,7 @@ class CardTitle extends StatelessWidget {
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
       padding: padding ?? EdgeInsets.fromLTRB(onePadding, onePadding, onePadding, 0),
+      align: TextAlign.left,
     );
   }
 }
@@ -63,7 +64,7 @@ class AMCard extends StatelessWidget {
           ),
         ),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             if (title != null) title!,
             if (body != null) body!,

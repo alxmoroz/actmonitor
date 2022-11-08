@@ -6,8 +6,8 @@ import 'package:intl/intl.dart';
 import '../../../L1_domain/entities/device_models.dart';
 import '../../components/card.dart';
 import '../../components/constants.dart';
+import '../../components/text_widgets.dart';
 import '../../extra/services.dart';
-import '../../text_widgets.dart';
 import 'comparison_controller.dart';
 
 class ComparisonParameterCard extends StatelessWidget {

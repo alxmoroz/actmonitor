@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/card.dart';
 import '../../components/constants.dart';
-import '../../text_widgets.dart';
+import '../../components/text_widgets.dart';
 import 'usage_chart_bar.dart';
 import 'usage_element.dart';
 import 'usage_legend.dart';

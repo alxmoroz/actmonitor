@@ -14,8 +14,8 @@ import '../../components/material_wrapper.dart';
 import '../../components/models_list.dart';
 import '../../components/navbar.dart';
 import '../../components/separator.dart';
+import '../../components/text_widgets.dart';
 import '../../extra/services.dart';
-import '../../text_widgets.dart';
 import 'comparison_controller.dart';
 
 class ComparisonListView extends StatelessWidget {

@@ -2,8 +2,8 @@
 
 import 'package:flutter/cupertino.dart';
 
-import '../text_widgets.dart';
 import 'colors.dart';
+import 'text_widgets.dart';
 
 CupertinoNavigationBar navBar(
   BuildContext context, {
