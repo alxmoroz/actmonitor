@@ -2,7 +2,7 @@
 
 echo "BUILDING FOR iOS..."
 
-flutter build ios
+flutter build ios -t lib/L3_app/main.dart
 
 # iOS - без подписи. Шаг выше всё равно нужен для обновления инфы о версии
 #appName="AMonitor"

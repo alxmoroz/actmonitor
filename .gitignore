@@ -48,4 +48,4 @@ app.*.map.json
 #files generated to view code coverage
 coverage/
 
-/lib/generated/
+generated/

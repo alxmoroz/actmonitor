@@ -4,7 +4,9 @@ description: AMonitor
 version: 3.1.155+155
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
+
+publish_to: none
 
 dependencies:
   cupertino_icons: any
@@ -15,9 +17,10 @@ dependencies:
     sdk: flutter
   flutter_mobx: any
   flutter_svg: any
+  get_it: any
   hive: any
   mobx: any
-  package_info: any
+  package_info_plus: any
   path_provider: any
   workmanager: any
 
@@ -29,13 +32,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   hive_generator: any
+  intl_utils: any
   mobx_codegen: any
   test: any
 
 flutter_icons:
   ios: true
   android: true
-  image_path: assets/dev/ios_icon.png
+  image_path: scripts/ios_icon.png
 
 flutter:
   uses-material-design: true
@@ -46,6 +50,9 @@ flutter:
 flutter_intl:
   main_locale: en
   enabled: true
+  arb_dir: lib/L3_app/l10n # Optional. Sets the directory of your ARB resource files. Provided value should be a valid path on your system. Default: lib/l10n
+  output_dir: lib/L3_app/l10n/generated # Optional. Sets the directory of generated localization files. Provided value should be a valid path on your system. Default: lib/generated
+
 
 flutter_native_splash:
   background_image: "assets/images/background.png"

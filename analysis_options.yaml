@@ -1,4 +1,3 @@
-include: package:pedantic/analysis_options.yaml
 
 analyzer:
   strong-mode:
@@ -7,13 +6,13 @@ analyzer:
     mixin_inherits_from_not_object: ignore
     missing_required_param: error
     missing_return: error
-    todo: warning
+    todo: ignore
     sdk_version_async_exported_from_core: ignore
     omit_local_variable_types: ignore
   exclude:
-    - 'lib/**/*.g.dart'
-    - 'lib/generated/**/*'
-
+    - '**/*.g.dart'
+    - '**/generated/**/*'
+    - 'proto/**/*.dart'
 
 linter:
   rules:
