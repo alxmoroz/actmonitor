@@ -1,4 +1,16 @@
 {
+  "iPad": {
+    "ids": [
+      "iPad"
+    ],
+    "DetailName": "Unknown model",
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "audio_playback": {
+      "NumericValue": "10"
+    }
+  },
 
   "iPad Pro 9.7\"": {
     "ids": [
@@ -22,7 +34,7 @@
       "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "display_ipad_air2"
     },
-    "supported_os": "iOS 9.3 — current",
+    "supported_os": "iOS 9.3 — ...",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "2048 MB"
@@ -297,6 +309,9 @@
     "release_date": {
       "Date": "2021-05-21T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2022-10-18T07:00:00Z"
+    },
     "supported_os": "iPadOS 14.5 — ...",
     "display": {
       "NumericValue": "11\" 2388 x 1668 (264 ppi)",
@@ -437,7 +452,7 @@
       "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
       "Details": "display_ipad_air2"
     },
-    "supported_os": "iOS 9.1 — current",
+    "supported_os": "iOS 9.1 — ...",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "4000 MB"
@@ -712,6 +727,9 @@
     "release_date": {
       "Date": "2021-05-21T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2022-10-18T07:00:00Z"
+    },
     "supported_os": "iPadOS 14.5 — ...",
     "display": {
       "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
@@ -853,7 +871,7 @@
     "discontinued_date": {
       "Date": "2016-03-21T07:00:00Z"
     },
-    "supported_os": "iOS 7.0 — 12.5.3",
+    "supported_os": "iOS 7.0 — 12.5.6",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -934,7 +952,7 @@
       "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
       "Details": "display_ipad_air2"
     },
-    "supported_os": "iOS 8.1 — ...",
+    "supported_os": "iOS 8.1 — iPadOS 15.7.1",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "2048 MB"
@@ -1067,6 +1085,9 @@
     ],
     "release_date": {
       "Date": "2020-10-23T07:00:00Z"
+    },
+    "discontinued_date": {
+      "Date": "2022-03-08T07:00:00Z"
     },
     "supported_os": "iPadOS 14.0 — ...",
     "display": {
@@ -1290,7 +1311,7 @@
       "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "display_iphone_4"
     },
-    "supported_os": "iOS 7.0.3 — 12.5.5",
+    "supported_os": "iOS 7.0.3 — 12.5.6",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -1372,7 +1393,7 @@
     "discontinued_date": {
       "Date": "2015-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 8.1 — 12.5.5",
+    "supported_os": "iOS 8.1 — 12.5.6",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -1453,7 +1474,7 @@
       "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
       "Details": "display_iphone_4"
     },
-    "supported_os": "iOS 9.0 — ...",
+    "supported_os": "iOS 9.0 — iPadOS 15.7.1",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "2000 MB"
@@ -1644,18 +1665,6 @@
     }
   },
 
-  "iPad": {
-    "ids": [
-      "iPad"
-    ],
-    "DetailName": "Unknown model",
-    "video_playback": {
-      "NumericValue": "10"
-    },
-    "audio_playback": {
-      "NumericValue": "10"
-    }
-  },
   "iPad Original": {
     "ids": [
       "iPad1,1"
