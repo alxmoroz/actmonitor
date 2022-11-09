@@ -1996,7 +1996,6 @@
       "NumericValue": "1322 \/ 2785 Multi-Core"
     }
   },
-
   "iPhone 12 mini": {
     "ids": [
       "iPhone13,1"
@@ -2279,7 +2278,6 @@
       "NumericValue": "1585 \/ 3951 Multi-Core"
     }
   },
-
   "iPhone 13 mini": {
     "ids": [
       "iPhone14,4"
@@ -2556,7 +2554,6 @@
       "NumericValue": "1728 \/ 4594 Multi-Core"
     }
   },
-
   "iPhone SE 3": {
     "ids": [
       "iPhone14,6"
@@ -2626,7 +2623,6 @@
       "NumericValue": "1726 \/ 4504 Multi-Core"
     }
   },
-
   "iPhone 14": {
     "ids": [
       "iPhone14,7"
@@ -2757,6 +2753,138 @@
     },
     "Geekbench 5": {
       "NumericValue": "1732 \/ 4631 Multi-Core"
+    }
+  },
+  "iPhone 14 Pro": {
+    "ids": [
+      "iPhone15,2"
+    ],
+    "release_date": {
+      "Date": "2022-09-16T07:00:00Z"
+    },
+    "supported_os": "iOS 16 — ...",
+    "display": {
+      "NumericValue": "6.12\" 2556 x 1179 (460 ppi)",
+      "Details": "display_iphone_14pro"
+    },
+    "processor": {
+      "Value": "Apple A16 Bionic hexa-core",
+      "NumericValue": "3460 MHz",
+      "Details": "4 nm, 16-core Neural Engine (6th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core (6th gen)"
+    },
+    "capacity": "128, 256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5 DRAM",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_14pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_13"
+    },
+    "battery_capacity": {
+      "Value": "12.68 Wh (3.87 V)",
+      "NumericValue": "3279 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "23"
+    },
+    "audio_playback": {
+      "NumericValue": "75"
+    },
+    "dimensions": {
+      "NumericValue": "147.5 × 71.5 × 7.85 mm"
+    },
+    "weight": {
+      "NumericValue": "206 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1886 \/ 5493 Multi-Core"
+    }
+  },
+  "iPhone 14 Pro Max": {
+    "ids": [
+      "iPhone15,3"
+    ],
+    "release_date": {
+      "Date": "2022-09-16T07:00:00Z"
+    },
+    "supported_os": "iOS 16 — ...",
+    "display": {
+      "NumericValue": "6.69\" 2796 x 1290 (460 ppi)",
+      "Details": "display_iphone_14pro"
+    },
+    "processor": {
+      "Value": "Apple A16 Bionic hexa-core",
+      "NumericValue": "3460 MHz",
+      "Details": "4 nm, 16-core Neural Engine (6th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core (6th gen)"
+    },
+    "capacity": "128, 256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5 DRAM",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_14pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_13"
+    },
+    "battery_capacity": {
+      "Value": "16.68 Wh (3.86 V)",
+      "NumericValue": "4323 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "29"
+    },
+    "audio_playback": {
+      "NumericValue": "95"
+    },
+    "dimensions": {
+      "NumericValue": "160.7 × 77.6 × 7.85 mm"
+    },
+    "weight": {
+      "NumericValue": "240 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1886 \/ 5493 Multi-Core"
     }
   }
 }
