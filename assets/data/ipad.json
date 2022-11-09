@@ -1882,6 +1882,67 @@
       "NumericValue": "1708 \/ 7145 Multi-Core"
     }
   },
+  "iPad Pro 12.9\" 6": {
+    "ids": [
+      "iPad14,5",
+      "iPad14,6"
+    ],
+    "release_date": {
+      "Date": "2022-10-26T07:00:00Z"
+    },
+    "supported_os": "iPadOS 16.1 — ...",
+    "display": {
+      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Details": "display_ipad_pro5"
+    },
+    "processor": {
+      "Value": "Apple M2 octa-core",
+      "NumericValue": "3490 MHz",
+      "Details": "5 nm, motion coprocessor, 16-core Neural Engine (5th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 10-core (5th gen)"
+    },
+    "capacity": "128, 256, 512 GB, 1, 2 TB",
+    "onboard_ram": {
+      "Value": "LPDDR5 3200Mhz",
+      "NumericValue": "8192, 16384 MB"
+    },
+    "connector": {
+      "Value": "USB-C (USB 4, Thunderbolt 3)"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6E MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_pro4"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_pro4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_pro5"
+    },
+    "battery_capacity": {
+      "Value": "40.88 Wh (3.82 V)",
+      "NumericValue": "10566 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "280.6 × 214.9 × 6.4 mm"
+    },
+    "weight": {
+      "NumericValue": "685 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1871 \/ 8404 Multi-Core"
+    }
+  },
 
   "iPad Pro 9.7\"": {
     "ids": [
@@ -2234,6 +2295,67 @@
     },
     "Geekbench 5": {
       "NumericValue": "1708 \/ 7145 Multi-Core"
+    }
+  },
+  "iPad Pro 11\" 4": {
+    "ids": [
+      "iPad14,3",
+      "iPad14,4"
+    ],
+    "release_date": {
+      "Date": "2022-10-26T07:00:00Z"
+    },
+    "supported_os": "iPadOS 16.1 — ...",
+    "display": {
+      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Details": "display_ipad_pro3"
+    },
+    "processor": {
+      "Value": "Apple M2 octa-core",
+      "NumericValue": "3490 MHz",
+      "Details": "5 nm, motion coprocessor, 16-core Neural Engine (5th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 10-core (5th gen)"
+    },
+    "capacity": "128, 256, 512 GB, 1, 2 TB",
+    "onboard_ram": {
+      "Value": "LPDDR5 3200Mhz",
+      "NumericValue": "8192, 16384 MB"
+    },
+    "connector": {
+      "Value": "USB-C (USB 4, Thunderbolt 3)"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6E MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_pro4"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_pro4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_pro5"
+    },
+    "battery_capacity": {
+      "Value": "28.65 Wh (3.77 V)",
+      "NumericValue": "7540 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "247.6 × 178.5 × 5.9 mm"
+    },
+    "weight": {
+      "NumericValue": "470 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1871 \/ 8404 Multi-Core"
     }
   }
 }
