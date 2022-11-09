@@ -38,8 +38,10 @@
   "display_ipod_4": "Retina TN, LED-backlit, 800:1 contrast",
 
   "display_ipad": "Oleophobic IPS, LED-backlit, 800:1 contrast",
+  "display_ipad_10": "Oleophobic Liquid Retina IPS, LED-backlit\nWide color display (P3), True Tone\nApple Pencil 1st gen",
   "display_ipad_air2": "Oleophobic Retina IPS, LED-backlit, 800:1 contrast\nAntireflective coating\nFully laminated display",
   "display_ipad_air3": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3), True Tone\nAntireflective coating\nFully laminated display\nApple Pencil",
+  "display_ipad_air4": "Oleophobic Liquid Retina IPS, LED-backlit\nWide color display (P3), True Tone\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro2": "Oleophobic Retina IPS, LED-backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro3": "Oleophobic Liquid Retina IPS, LED-backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil",
   "display_ipad_pro5": "Oleophobic Liquid Retina XDR IPS, mini-LED backlit\nWide color display (P3)\nTrue Tone, ProMotion\nAntireflective coating\nFully laminated display\nApple Pencil\n1,000,000:1 contrast ratio",
@@ -61,6 +63,7 @@
   "front_camera_ipad_4": "1.2MP photos\n720p HD video\nFace detection\nBackside illumination",
   "front_camera_ipad_5": "1.2-MP photos\nLive Photos\nƒ/2.2 aperture\nRetina Flash\n720p HD video recording\nBackside illumination\nHDR for photos and videos\nFace detection\nBurst mode\nExposure control\nTimer mode",
   "front_camera_ipad_9": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nHDR for photos\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
+  "front_camera_ipad_10": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
   "front_camera_ipad_air3": "7-MP photos\nƒ/2.2 aperture\n1080p HD video recording at 30 fps\nRetina Flash\nWide color capture for photos and Live Photos\nAuto HDR for photos and videos\nBackside illumination\nBurst mode\nExposure control\nTimer mode",
   "front_camera_ipad_pro3": "7-MP photos\nPortrait mode\nPortrait Lighting\nAnimoji and Memoji\n1080p HD video recording at 30 fps or 60 fps\nRetina Flash\nƒ/2.2 aperture\nWide color capture for photos and Live Photos\nSmart HDR\nBackside illumination sensor\nAuto image stabilization\nBurst mode\nExposure control\nTimer mode",
   "front_camera_ipad_pro5": "12MP Ultra Wide camera, 122° field of view\nƒ/2.4 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 3\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",

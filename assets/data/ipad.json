@@ -631,7 +631,7 @@
       "Value": "rear_camera_ipad_air2"
     },
     "front_camera": {
-      "Value": "front_camera_ipad_5"
+      "Value": "front_camera_ipad_9"
     },
     "battery_capacity": {
       "Value": "32.9 Wh (3.73 V)",
@@ -651,6 +651,67 @@
     },
     "weight": {
       "NumericValue": "487-498 g"
+    }
+  },
+  "iPad 10": {
+    "ids": [
+      "iPad13,18",
+      "iPad13,19"
+    ],
+    "release_date": {
+      "Date": "2022-10-26T07:00:00Z"
+    },
+    "supported_os": "iPadOS 16.1 — ...",
+    "display": {
+      "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
+      "Details": "display_ipad_10"
+    },
+    "processor": {
+      "Value": "Apple A14 Bionic hexa-core",
+      "NumericValue": "3090 MHz",
+      "Details": "5 nm, 16-core Neural Engine (4th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core (4th gen)"
+    },
+    "capacity": "64, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.2"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_10"
+    },
+    "battery_capacity": {
+      "Value": "28.6 Wh (3.8 V)",
+      "NumericValue": "7526 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1584 \/ 4124 Multi-Core"
+    },
+    "dimensions": {
+      "NumericValue": "248.6 × 179.5 × 7 mm"
+    },
+    "weight": {
+      "NumericValue": "477-481 g"
     }
   },
 
@@ -1055,7 +1116,7 @@
     "supported_os": "iOS 15 — ...",
     "display": {
       "NumericValue": "8.3\" 2266 × 1488 (326 ppi)",
-      "Details": "display_ipad_air3"
+      "Details": "display_ipad_air4"
     },
     "processor": {
       "Value": "Apple A15 Bionic hexa-core",
@@ -1086,7 +1147,7 @@
       "Value": "rear_camera_ipad_air4"
     },
     "front_camera": {
-      "Value": "front_camera_ipad_9"
+      "Value": "front_camera_ipad_10"
     },
     "battery_capacity": {
       "Value": "19.56 Wh (3.88 V)",
@@ -1350,7 +1411,7 @@
     "supported_os": "iPadOS 14.0 — ...",
     "display": {
       "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
-      "Details": "display_ipad_air3"
+      "Details": "display_ipad_air4"
     },
     "processor": {
       "Value": "Apple A14 Bionic hexa-core",
