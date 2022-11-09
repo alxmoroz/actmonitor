@@ -699,7 +699,7 @@
     },
     "battery_capacity": {
       "Value": "28.6 Wh (3.8 V)",
-      "NumericValue": "7526 mAh"
+      "NumericValue": "7606 mAh"
     },
     "video_playback": {
       "NumericValue": "10"
@@ -1464,6 +1464,70 @@
       "NumericValue": "1584 \/ 4124 Multi-Core"
     }
   },
+  "iPad Air 5": {
+    "ids": [
+      "iPad13,16",
+      "iPad13,17"
+    ],
+    "release_date": {
+      "Date": "2022-03-18T07:00:00Z"
+    },
+    "supported_os": "iPadOS 15.4 — ...",
+    "display": {
+      "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
+      "Details": "display_ipad_air4"
+    },
+    "processor": {
+      "Value": "Apple M1 octa-core",
+      "NumericValue": "3200 MHz",
+      "Details": "5 nm, 16-core Neural Engine (4th gen)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core (4th gen)"
+    },
+    "capacity": "64, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air4"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_10"
+    },
+    "battery_capacity": {
+      "Value": "28.6 Wh (3.8 V)",
+      "NumericValue": "7606 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "247.6 × 178.5 × 6.1 mm"
+    },
+    "weight": {
+      "NumericValue": "462 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "7532 \/ 27778 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1711 \/ 7128 Multi-Core"
+    }
+  },
 
   "iPad Pro 12.9\"": {
     "ids": [
@@ -1773,7 +1837,7 @@
       "Details": "5 nm, motion coprocessor, 16-core Neural Engine"
     },
     "GPU": {
-      "Value": "Apple GPU 8-core "
+      "Value": "Apple GPU 8-core"
     },
     "capacity": "128, 256, 512 GB, 1, 2 TB",
     "onboard_ram": {
@@ -1818,6 +1882,7 @@
       "NumericValue": "1708 \/ 7145 Multi-Core"
     }
   },
+
   "iPad Pro 9.7\"": {
     "ids": [
       "iPad6,3",
