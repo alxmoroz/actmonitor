@@ -131,6 +131,7 @@
     "release_date": {
       "Date": "2010-09-09T07:00:00Z"
     },
+    "supported_os": "iPhone OS 3.1.1 — iOS 5.1.1",
     "Bluetooth": {
       "Value": "2.1 + EDR"
     },
@@ -161,7 +162,6 @@
     "dimensions": {
       "NumericValue": "110 × 61.8 × 8.5 mm"
     },
-    "supported_os": "iPhone OS 3.1.1 — iOS 5.1.1",
     "onboard_ram": {
       "Value": "LPDDR",
       "NumericValue": "256 MB"
@@ -348,7 +348,7 @@
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "display_iphone_4"
     },
-    "supported_os": "iOS 8.4 — 12.5.1",
+    "supported_os": "iOS 8.4 — 12.5.6",
     "onboard_ram": {
       "Value": "LPDDR3",
       "NumericValue": "1024 MB"
@@ -356,7 +356,6 @@
     "connector": {
       "Value": "Lightning"
     },
-
     "front_camera": {
       "Value": "front_camera_iphone_6"
     },
@@ -412,6 +411,9 @@
     "release_date": {
       "Date": "2019-05-28T07:00:00Z"
     },
+    "discontinued_date": {
+      "Date": "2022-05-10T07:00:00Z"
+    },
     "Bluetooth": {
       "Value": "4.1"
     },
@@ -423,7 +425,7 @@
       "NumericValue": "4\" 1136 × 640 (326 ppi)",
       "Details": "display_iphone_4"
     },
-    "supported_os": "iOS 12.3.1 — ...",
+    "supported_os": "iOS 12.3.1 — 15.7.1",
     "onboard_ram": {
       "Value": "LPDDR4",
       "NumericValue": "2048 MB"
