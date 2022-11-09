@@ -2390,10 +2390,10 @@
       "Value": "sensors_iphone_x"
     },
     "rear_camera": {
-      "Value": "rear_camera_iphone_12"
+      "Value": "rear_camera_iphone_13"
     },
     "front_camera": {
-      "Value": "front_camera_iphone_12"
+      "Value": "front_camera_iphone_13"
     },
     "battery_capacity": {
       "Value": "11.97 Wh (3.87 V)",
@@ -2554,6 +2554,209 @@
     },
     "Geekbench 5": {
       "NumericValue": "1728 \/ 4594 Multi-Core"
+    }
+  },
+
+  "iPhone SE 3": {
+    "ids": [
+      "iPhone14,6"
+    ],
+    "release_date": {
+      "Date": "2022-03-18T07:00:00Z"
+    },
+    "supported_os": "iOS 15.4 — ...",
+    "display": {
+      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Details": "display_iphone_se2"
+    },
+    "processor": {
+      "Value": "Apple A15 Bionic hexa-core",
+      "NumericValue": "3230 MHz",
+      "Details": "5 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core (5th gen)"
+    },
+    "capacity": "64, 128, 256 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "4096 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.0"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n29, n30, n38, n40, n41, n48, n66, n71, n77, n78, n79)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_6"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_se3"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_se2"
+    },
+    "battery_capacity": {
+      "Value": "7.82 Wh (3.88 V)",
+      "NumericValue": "2018 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "15"
+    },
+    "audio_playback": {
+      "NumericValue": "50"
+    },
+    "dimensions": {
+      "NumericValue": "138.4 × 67.3 × 7.3 mm"
+    },
+    "weight": {
+      "NumericValue": "144 g"
+    },
+    "Geekbench 4": {
+      "NumericValue": "7651 \/ 19432 Multi-Core"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1726 \/ 4504 Multi-Core"
+    }
+  },
+
+  "iPhone 14": {
+    "ids": [
+      "iPhone14,7"
+    ],
+    "release_date": {
+      "Date": "2022-09-16T07:00:00Z"
+    },
+    "supported_os": "iOS 16 — ...",
+    "display": {
+      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Details": "display_iphone_11pro"
+    },
+    "processor": {
+      "Value": "Apple A15 Bionic hexa-core",
+      "NumericValue": "3230 MHz",
+      "Details": "5 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core (5th gen)"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_13"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_13"
+    },
+    "battery_capacity": {
+      "Value": "12.68 Wh (3.87 V)",
+      "NumericValue": "3279 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "20"
+    },
+    "audio_playback": {
+      "NumericValue": "80"
+    },
+    "dimensions": {
+      "NumericValue": "146.7 × 71.5 × 7.8 mm"
+    },
+    "weight": {
+      "NumericValue": "172 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1732 \/ 4631 Multi-Core"
+    }
+  },
+  "iPhone 14 Plus": {
+    "ids": [
+      "iPhone14,8"
+    ],
+    "release_date": {
+      "Date": "2022-10-07T07:00:00Z"
+    },
+    "supported_os": "iOS 16 — ...",
+    "display": {
+      "NumericValue": "6.68\" 2778 x 1284 (458 ppi)",
+      "Details": "display_iphone_11pro"
+    },
+    "processor": {
+      "Value": "Apple A15 Bionic hexa-core",
+      "NumericValue": "3230 MHz",
+      "Details": "5 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core (5th gen)"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR4X DRAM",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "Lightning"
+    },
+    "Wi-Fi": {
+      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_13"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_13"
+    },
+    "battery_capacity": {
+      "Value": "12.68 Wh (3.87 V)",
+      "NumericValue": "3279 mAh"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "20"
+    },
+    "audio_playback": {
+      "NumericValue": "80"
+    },
+    "dimensions": {
+      "NumericValue": "160.8 × 78.1 × 7.8 mm"
+    },
+    "weight": {
+      "NumericValue": "203 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1732 \/ 4631 Multi-Core"
     }
   }
 }
