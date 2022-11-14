@@ -10,4 +10,12 @@ class NetStatsUC {
 
   Future<NetStat?> getOne() async => await repo.getOne();
   Future update(NetStat stat) async => await repo.update(stat);
+
+  Future cleanData() async {
+    final data = await repo.get();
+    final count = data.length;
+    for (int i = 0; i < count - 1; i++) {
+      await repo.delete(data.elementAt(i));
+    }
+  }
 }

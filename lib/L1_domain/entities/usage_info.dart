@@ -1,10 +1,10 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import 'package:flutter/services.dart';
 
 import 'base_entity.dart';
 
 abstract class UsageInfo extends LocalPersistable {
-  UsageInfo({required super.id});
-
   List? _values;
   Exception? exception;
   String status = 'loading';

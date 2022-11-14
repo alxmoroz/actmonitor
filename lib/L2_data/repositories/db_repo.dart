@@ -25,10 +25,10 @@ abstract class DBRepo<M extends BaseModel, E extends LocalPersistable> extends A
     return _box!;
   }
 
-  Future<M> _getOrCreateModel(String? id) async {
+  Future<M> _getOrCreateModel() async {
     M model;
     try {
-      model = (await box).values.firstWhere((model) => model.id == id);
+      model = (await box).values.first;
     } catch (e) {
       model = modelCreator();
       await (await box).add(model);
@@ -54,11 +54,11 @@ abstract class DBRepo<M extends BaseModel, E extends LocalPersistable> extends A
 
   @override
   Future<M> update(E entity) async {
-    final model = await _getOrCreateModel(entity.id);
+    final model = await _getOrCreateModel();
     try {
       await model.update(entity);
     } catch (e) {
-      print('update error ${entity.id} $e');
+      print('update error $boxName $e');
     }
     return model;
   }
@@ -66,10 +66,10 @@ abstract class DBRepo<M extends BaseModel, E extends LocalPersistable> extends A
   @override
   Future delete(E entity) async {
     try {
-      final model = await _getOrCreateModel(entity.id);
+      final model = await _getOrCreateModel();
       await model.delete();
     } catch (e) {
-      print('delete error ${entity.id} $e');
+      print('delete error $boxName $e');
     }
   }
 }

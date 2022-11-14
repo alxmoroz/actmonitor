@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2022. Alexandr Moroz
 
 import 'package:mobx/mobx.dart';
 
@@ -12,6 +12,7 @@ part 'usage_controller.g.dart';
 
 class UsageController extends _UsageControllerBase with _$UsageController {
   Future<UsageController> init() async {
+    await netStatsUC.cleanData();
     await updateUsageInfo();
     return this;
   }
@@ -33,12 +34,6 @@ abstract class _UsageControllerBase with Store {
   List<NetInfo> netStatRecords = [];
 
   @observable
-  NetInfo? _savedKernelData;
-
-  @computed
-  NetInfo get savedKernelData => _savedKernelData ?? NetInfo(dateTime: DateTime.now());
-
-  @observable
   int downloadSpeed = 0;
 
   @observable
@@ -57,16 +52,11 @@ abstract class _UsageControllerBase with Store {
   Future<void> _updateBatteryUsage() async => battery = await BatteryInfo.get();
 
   @action
-  Future fetchData() async {
+  Future _updateNetUsage() async {
     NetStat? netStat = await netStatsUC.getOne();
     netStat ??= NetStat(records: [], kernelData: NetInfo(dateTime: DateTime.now()));
-    _savedKernelData = netStat.kernelData;
+    final savedKernelData = netStat.kernelData;
     netStatRecords = netStat.records;
-  }
-
-  @action
-  Future _updateNetUsage() async {
-    await fetchData();
 
     // накапливаем инфу по дням. При смене даты добавляем новую запись
     // все дельты складываем в крайний элемент (с сегодняшней датой)

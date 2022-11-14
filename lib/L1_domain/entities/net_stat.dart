@@ -1,9 +1,10 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import '../../L1_domain/entities/usage_info.dart';
 import 'base_entity.dart';
 
 class NetStat extends LocalPersistable {
   NetStat({
-    super.id = 'NetStat',
     required this.records,
     required this.kernelData,
   });
@@ -14,7 +15,6 @@ class NetStat extends LocalPersistable {
 
 class NetInfo extends UsageInfo {
   NetInfo({
-    super.id = 'NetInfo',
     this.wifiReceived = 0,
     this.cellularReceived = 0,
     this.cellularSent = 0,

@@ -8,7 +8,6 @@ class AppSettings extends LocalPersistable {
     this.version = '',
     this.selectedModelName = '',
     required this.comparisonModelsNames,
-    super.id = 'settings',
   });
 
   final bool firstLaunch;

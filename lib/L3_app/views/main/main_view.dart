@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2022. Alexandr Moroz
 
 import 'dart:async';
 
@@ -22,7 +22,7 @@ class _MainViewState extends State<MainView> {
 
   @override
   void initState() {
-    // usageTimer = Timer.periodic(Duration(seconds: usageController.updateTimerInterval), (_) => usageController.updateUsageInfo());
+    usageTimer = Timer.periodic(Duration(seconds: usageController.updateTimerInterval), (_) async => await usageController.updateUsageInfo());
     super.initState();
   }
 

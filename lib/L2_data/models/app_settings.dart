@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2022. Alexandr Moroz
 
 import 'package:hive/hive.dart';
 
@@ -29,7 +29,6 @@ class AppSettingsHO extends BaseModel<AppSettings> {
 
   @override
   Future update(AppSettings entity) async {
-    id = entity.id;
     version = entity.version;
     selectedModelName = entity.selectedModelName;
     comparisonModelsNames = entity.comparisonModelsNames;

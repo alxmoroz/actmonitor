@@ -1,9 +1,9 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import '../../L2_data/repositories/platform.dart';
 import 'usage_info.dart';
 
 class BatteryInfo extends UsageInfo {
-  BatteryInfo({super.id = 'BatteryInfo'});
-
   double _rawLevel = 0;
   int _rawState = 0;
 

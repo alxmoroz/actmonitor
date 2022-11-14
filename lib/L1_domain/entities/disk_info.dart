@@ -1,8 +1,8 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import 'usage_info.dart';
 
 class DiskInfo extends UsageInfo {
-  DiskInfo({super.id = 'DiskInfo'});
-
   int free = 0;
   int total = 0;
 

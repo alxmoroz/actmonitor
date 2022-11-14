@@ -1,8 +1,8 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import 'usage_info.dart';
 
 class RamInfo extends UsageInfo {
-  RamInfo({super.id = 'RamInfo'});
-
   int free = 0;
   int total = 0;
   int wired = 0;

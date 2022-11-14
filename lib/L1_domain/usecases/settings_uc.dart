@@ -27,4 +27,12 @@ class SettingsUC {
   }
 
   Future<AppSettings> getSettings() async => await repo.getOne() ?? AppSettings(firstLaunch: true, comparisonModelsNames: []);
+
+  Future cleanData() async {
+    final data = await repo.get();
+    final count = data.length;
+    for (int i = 0; i < count - 1; i++) {
+      await repo.delete(data.elementAt(i));
+    }
+  }
 }

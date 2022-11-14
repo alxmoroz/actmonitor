@@ -1,3 +1,5 @@
+// Copyright (c) 2022. Alexandr Moroz
+
 import 'package:hive/hive.dart';
 
 import '../../L1_domain/entities/net_stat.dart';
@@ -21,7 +23,6 @@ class NetStatHO extends BaseModel<NetStat> {
 
   @override
   Future update(NetStat entity) async {
-    id = entity.id;
     records.clear();
     for (final r in entity.records) {
       records.add(await NetInfoHO().update(r));
@@ -47,7 +48,6 @@ class NetInfoHO extends BaseModel<NetInfo> {
 
   @override
   NetInfo toEntity() => NetInfo(
-        id: '${dateTime?.millisecondsSinceEpoch}',
         wifiReceived: wifiReceived,
         wifiSent: wifiSent,
         cellularReceived: cellularReceived,
@@ -57,7 +57,6 @@ class NetInfoHO extends BaseModel<NetInfo> {
 
   @override
   Future update(NetInfo entity) async {
-    id = entity.id;
     wifiReceived = entity.wifiReceived;
     wifiSent = entity.wifiSent;
     cellularReceived = entity.cellularReceived;
