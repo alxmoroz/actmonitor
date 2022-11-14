@@ -12,7 +12,7 @@ extPlistPath="ios/UsageWidgets/Info.plist"
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $build_number" $extPlistPath
 /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" $extPlistPath
 
-git commit -m "Bump version to $version" pubspec.yaml
+git commit -m "Bump version to $version" pubspec.yaml $extPlistPath
 
 git tag "$version"
 git push
