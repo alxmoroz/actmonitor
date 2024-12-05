@@ -3,7 +3,7 @@ import WidgetKit
 import Flutter
 import workmanager
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate {
   static func registerPlugins(with registry: FlutterPluginRegistry) {
     GeneratedPluginRegistrant.register(with: registry)

@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2024. Alexandr Moroz
 
 import 'package:flutter/cupertino.dart';
 
@@ -59,28 +59,33 @@ class NormalText extends StatelessWidget {
     final textStyle = cupertinoTS.copyWith(
       color: CupertinoDynamicColor.maybeResolve(color ?? darkColor, context),
       fontWeight: weight ?? cupertinoTS.fontWeight,
-      fontSize: (size ?? cupertinoTS.fontSize ?? (isTablet ? 20 : 16)) * (sizeScale ?? 1),
+      fontSize: (size ?? cupertinoTS.fontSize ?? (isTablet ? 20 : 17)) * (sizeScale ?? 1),
       height: height ?? cupertinoTS.height,
     );
+
+    final mainText = Text(text, style: textStyle, textAlign: align, overflow: overflow);
+
     return Padding(
       padding: padding ?? EdgeInsets.zero,
-      child: Stack(
-        alignment: Alignment.center,
-        children: [
-          if (shadow != null)
-            Positioned(
-              top: shadow!.dy,
-              left: shadow!.dx,
-              child: Text(
-                text,
-                style: textStyle.copyWith(color: CupertinoDynamicColor.maybeResolve(shadow!.color, context)),
-                textAlign: align,
-                overflow: overflow,
-              ),
-            ),
-          Text(text, style: textStyle, textAlign: align, overflow: overflow),
-        ],
-      ),
+      child: shadow != null
+          ? Stack(
+              alignment: Alignment.centerLeft,
+              children: [
+                if (shadow != null)
+                  Positioned(
+                    top: shadow!.dy,
+                    left: shadow!.dx,
+                    child: Text(
+                      text,
+                      style: textStyle.copyWith(color: CupertinoDynamicColor.maybeResolve(shadow!.color, context)),
+                      textAlign: align,
+                      overflow: overflow,
+                    ),
+                  ),
+                mainText,
+              ],
+            )
+          : mainText,
     );
   }
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2022. Alexandr Moroz
+// Copyright (c) 2024. Alexandr Moroz
 
 import 'dart:convert';
 
@@ -52,7 +52,7 @@ abstract class _SpecsControllerBase with Store {
   void setParameters(Map<String, dynamic> params) => parameters = params;
 
   @action
-  void setModels(List<DeviceModel> ms) => models = ms;
+  void setModels(List<DeviceModel> ms) => models = ms.reversed.toList();
 
   @action
   void setSelectedModel(DeviceModel? model) => selectedModel = model;

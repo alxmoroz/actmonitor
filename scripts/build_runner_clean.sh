@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2022. Alexandr Moroz
+# Copyright (c) 2024. Alexandr Moroz
 
 echo "build_runner clean..."
 
 flutter pub get
-flutter pub run build_runner clean
+dart run build_runner clean
 
 echo "build_runner clean complete"

@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2024. Alexandr Moroz
 
 import 'dart:math';
 
@@ -24,7 +24,7 @@ class CardTitle extends StatelessWidget {
 
     return NormalText(
       title,
-      size: isTablet ? 24 : 18,
+      size: isTablet ? 22 : 17,
       weight: FontWeight.bold,
       color: CupertinoColors.systemGrey,
       shadow: TextShadow(CupertinoColors.systemBackground, offset),
@@ -64,7 +64,7 @@ class AMCard extends StatelessWidget {
           ),
         ),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             if (title != null) title!,
             if (body != null) body!,

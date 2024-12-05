@@ -1,5 +1,6 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2024. Alexandr Moroz
 
+import 'package:amonitor/L3_app/components/circle.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
@@ -7,6 +8,7 @@ import 'package:intl/intl.dart';
 
 import '../../../L1_domain/entities/device_models.dart';
 import '../../components/card.dart';
+import '../../components/colors.dart';
 import '../../components/constants.dart';
 import '../../components/icons.dart';
 import '../../components/images.dart';
@@ -24,7 +26,7 @@ class SpecsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Future<void> _selectDevice() async {
+    Future _selectDevice() async {
       final model = await selectModel(context, specsController.selectedModel);
       if (model != null) {
         _controller.setSelectedModel(model);
@@ -37,11 +39,33 @@ class SpecsView extends StatelessWidget {
       final params = model != null ? model.paramsValues['parameters'] ?? [] : <ParamValue>[];
       Widget _buildItem(int index) {
         final pv = params[index];
-        final valueStr = pv.toString();
+
+        final valueStr = '$pv';
+        final lines = Intl.message(valueStr, name: valueStr).split('\n').where((l) => l.trim().isNotEmpty);
+        final multiLine = lines.length > 2;
         return AMCard(
-          title: CardTitle(Intl.message(pv.name, name: pv.name)),
-          body: NormalText(Intl.message(valueStr, name: valueStr), padding: EdgeInsets.all(onePadding)),
-        );
+            title: CardTitle(Intl.message(pv.name, name: pv.name)),
+            body: Padding(
+              padding: EdgeInsets.all(onePadding).copyWith(top: multiLine ? 0 : 4),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  for (final l in lines)
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if (multiLine) const Padding(padding: EdgeInsets.only(top: 16, right: 6), child: MTCircle(size: 6, color: f3Color)),
+                        Expanded(
+                          child: NormalText(
+                            l,
+                            padding: EdgeInsets.only(top: multiLine ? 8 : 2),
+                          ),
+                        ),
+                      ],
+                    ),
+                ],
+              ),
+            ));
       }
 
       return ListView.builder(

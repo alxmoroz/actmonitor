@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-flutter pub run flutter_launcher_icons:main
+# Copyright (c) 2024. Alexandr Moroz
+
+dart run flutter_launcher_icons:main
