@@ -1256,7 +1256,7 @@
     "discontinued_date": {
       "Date": "2020-04-15T07:00:00Z"
     },
-    "supported_os": "iOS 11.0 — ...",
+    "supported_os": "iOS 11.0 — 16.7.10",
     "display": {
       "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
       "Details": "display_iphone_6s"
@@ -1335,7 +1335,7 @@
     "discontinued_date": {
       "Date": "2020-04-15T07:00:00Z"
     },
-    "supported_os": "iOS 11.0 — ...",
+    "supported_os": "iOS 11.0 — 16.7.10",
     "display": {
       "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
       "Details": "display_iphone_6s_plus"
@@ -1414,7 +1414,7 @@
     "discontinued_date": {
       "Date": "2018-09-12T07:00:00Z"
     },
-    "supported_os": "iOS 11.0.1 — ...",
+    "supported_os": "iOS 11.0.1 — 16.7.10",
     "display": {
       "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
       "Details": "display_iphone_x"
@@ -2897,6 +2897,534 @@
     },
     "Geekbench 5": {
       "NumericValue": "1886 \/ 5493 Multi-Core"
+    }
+  },
+"iPhone 15": {
+    "ids": [
+      "iPhone15,4"
+    ],
+    "release_date": {
+      "Date": "2023-09-22T07:00:00Z"
+    },
+    "supported_os": "iOS 17 — ...",
+    "display": {
+      "NumericValue": "6.12\"2556 x 1179 (460 ppi)",
+      "Details": "display_iphone_15"
+    },
+    "processor": {
+      "Value": "Apple A16 Bionic chip",
+      "NumericValue": "3460 MHz",
+      "Details": "4 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11ax Wi‑Fi 6 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n75, n76, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_15"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_15"
+    },
+    "battery_capacity": {
+      "Value": "12.98 Wh",
+      "NumericValue": "3349 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "20"
+    },
+    "audio_playback": {
+      "NumericValue": "80"
+    },
+    "dimensions": {
+      "NumericValue": "147.6 × 71.6 × 7.80 mm"
+    },
+    "weight": {
+      "NumericValue": "171 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1885 \/ 5110 Multi-Core"
+    }
+  },
+  "iPhone 15 Plus": {
+    "ids": [
+      "iPhone15,5"
+    ],
+    "release_date": {
+      "Date": "2023-09-22T07:00:00Z"
+    },
+    "supported_os": "iOS 17 — ...",
+    "display": {
+      "NumericValue": "6.69\"2796 × 1290 (460 ppi)",
+      "Details": "display_iphone_15"
+    },
+    "processor": {
+      "Value": "Apple A16 Bionic chip",
+      "NumericValue": "3460 MHz",
+      "Details": "4 nm, 16-core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "6144 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11ax Wi‑Fi 6 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n75, n76, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_15"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_15"
+    },
+    "battery_capacity": {
+      "Value": "16.95 Wh",
+      "NumericValue": "4383 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "26"
+    },
+    "audio_playback": {
+      "NumericValue": "100"
+    },
+    "dimensions": {
+      "NumericValue": "160.9 × 77.8 × 7.80 mm"
+    },
+    "weight": {
+      "NumericValue": "201 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "1884 \/ 5103 Multi-Core"
+    }
+  },
+"iPhone 15 Pro": {
+    "ids": [
+      "iPhone16,1"
+    ],
+    "release_date": {
+      "Date": "2023-09-22T07:00:00Z"
+    },
+    "supported_os": "iOS 17 — ...",
+    "display": {
+      "NumericValue": "6.12\"2556 × 1179 (460 ppi)",
+      "Details": "display_iphone_15pro"
+    },
+    "processor": {
+      "Value": "Apple A17 Pro chip",
+      "NumericValue": "3780 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "128, 256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11ax Wi‑Fi 6E with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n75, n76, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_15pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_15pro"
+    },
+    "battery_capacity": {
+      "Value": "12.70 Wh",
+      "NumericValue": "3274 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "23"
+    },
+    "audio_playback": {
+      "NumericValue": "75"
+    },
+    "dimensions": {
+      "NumericValue": "146.6 × 70.6 × 8.25 mm"
+    },
+    "weight": {
+      "NumericValue": "187 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2136 \/ 5997 Multi-Core"
+    }
+  },
+"iPhone 15 Pro Max": {
+    "ids": [
+      "iPhone16,2"
+    ],
+    "release_date": {
+      "Date": "2023-09-22T07:00:00Z"
+    },
+    "supported_os": "iOS 17 — ...",
+    "display": {
+      "NumericValue": "6.69\"2796 × 1290 (460 ppi)",
+      "Details": "display_iphone_15pro"
+    },
+    "processor": {
+      "Value": "Apple A17 Pro chip",
+      "NumericValue": "3780 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11ax Wi‑Fi 6E with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n75, n76, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_15promax"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_15pro"
+    },
+    "battery_capacity": {
+      "Value": "17.32 Wh",
+      "NumericValue": "4422 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "29"
+    },
+    "audio_playback": {
+      "NumericValue": "95"
+    },
+    "dimensions": {
+      "NumericValue": "159.9 × 76.7 × 8.25 mm"
+    },
+    "weight": {
+      "NumericValue": "221 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2140 \/ 5825 Multi-Core"
+    }
+  },
+"iPhone 16": {
+    "ids": [
+      "iPhone17,3"
+    ],
+    "release_date": {
+      "Date": "2024-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 18 — ...",
+    "display": {
+      "NumericValue": "6.1\"2556 x 1179 (460 ppi)",
+      "Details": "display_iphone_15"
+    },
+    "processor": {
+      "Value": "Apple A18 chip",
+      "NumericValue": "4040 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be Wi-Fi 7 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75, n76)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16"
+    },
+    "battery_capacity": {
+      "Value": "13.7 Wh",
+      "NumericValue": "3561 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "22"
+    },
+    "audio_playback": {
+      "NumericValue": "80"
+    },
+    "dimensions": {
+      "NumericValue": "147.6 x 71.6 x 7.80 mm"
+    },
+    "weight": {
+      "NumericValue": "170 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2349 \/ 6226 Multi-Core"
+    }
+  },
+"iPhone 16 Plus": {
+    "ids": [
+      "iPhone17,4"
+    ],
+    "release_date": {
+      "Date": "2024-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 18 — ...",
+    "display": {
+      "NumericValue": "6.7\"2796 x 1290 (460 ppi)",
+      "Details": "display_iphone_15"
+    },
+    "processor": {
+      "Value": "Apple A18 chip",
+      "NumericValue": "4040 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be Wi-Fi 7 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75, n76)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16"
+    },
+    "battery_capacity": {
+      "Value": "18 Wh",
+      "NumericValue": "4006 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "27"
+    },
+    "audio_playback": {
+      "NumericValue": "100"
+    },
+    "dimensions": {
+      "NumericValue": "160.9 x 77.8 x 7.80 mm"
+    },
+    "weight": {
+      "NumericValue": "199 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2353 \/ 6297 Multi-Core"
+    }
+  },
+"iPhone 16 Pro": {
+    "ids": [
+      "iPhone17,1"
+    ],
+    "release_date": {
+      "Date": "2024-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 18 — ...",
+    "display": {
+      "NumericValue": "6.3\"2622 x 1206 (460 ppi)",
+      "Details": "display_iphone_15pro"
+    },
+    "processor": {
+      "Value": "Apple A18 chip",
+      "NumericValue": "4040 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "128, 256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be Wi-Fi 7 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "FDD-5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75, n76)\nTDD-5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16pro"
+    },
+    "battery_capacity": {
+      "Value": "13.942 Wh",
+      "NumericValue": "3582 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "27"
+    },
+    "audio_playback": {
+      "NumericValue": "85"
+    },
+    "dimensions": {
+      "NumericValue": "149.6 x 71.5 x 8.25 mm"
+    },
+    "weight": {
+      "NumericValue": "199 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2399 \/ 6496 Multi-Core"
+    }
+  },
+"iPhone 16 Pro Max": {
+    "ids": [
+      "iPhone17,2"
+    ],
+    "release_date": {
+      "Date": "2024-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 18 — ...",
+    "display": {
+      "NumericValue": "6.9\"2868 x 1320 (460 ppi)",
+      "Details": "display_iphone_15pro"
+    },
+    "processor": {
+      "Value": "Apple A18 chip",
+      "NumericValue": "4040 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be Wi-Fi 7 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "FDD-5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75, n76)\nTDD-5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD-LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16pro"
+    },
+    "battery_capacity": {
+      "Value": "18 Wh",
+      "NumericValue": "4676 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "33"
+    },
+    "audio_playback": {
+      "NumericValue": "105"
+    },
+    "dimensions": {
+      "NumericValue": "163.0 x 77.6 x 8.25 mm"
+    },
+    "weight": {
+      "NumericValue": "227 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2396 \/ 6464 Multi-Core"
     }
   }
 }
