@@ -26,7 +26,8 @@
       "NumericValue": "120 g"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -84,7 +85,8 @@
       "NumericValue": "115 g"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -143,7 +145,8 @@
       "NumericValue": "115 g"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -197,7 +200,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "3.5\" 960 × 640",
       "Details": "display_ipod_4"
     },
     "discontinued_date": {
@@ -267,7 +271,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -345,7 +350,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 8.4 — 12.5.6",
@@ -422,7 +428,8 @@
       "NumericValue": "650 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 12.3.1 — 15.7.1",

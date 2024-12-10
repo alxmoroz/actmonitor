@@ -31,7 +31,8 @@
       "NumericValue": "650 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_ipad_air2"
     },
     "supported_os": "iOS 9.3 — ...",
@@ -106,7 +107,8 @@
     },
     "supported_os": "iOS 10.3.2 — ...",
     "display": {
-      "NumericValue": "10.5\" 2224 × 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.5\" 2224 × 1668",
       "Details": "display_ipad_pro2"
     },
     "processor": {
@@ -178,7 +180,8 @@
     },
     "supported_os": "iOS 12.1 — ...",
     "display": {
-      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2388 x 1668",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -245,7 +248,8 @@
     },
     "supported_os": "iPadOS 13.4 — ...",
     "display": {
-      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2388 x 1668",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -314,7 +318,8 @@
     },
     "supported_os": "iPadOS 14.5 — ...",
     "display": {
-      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2388 x 1668",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -378,7 +383,8 @@
     },
     "supported_os": "iPadOS 16.1 — ...",
     "display": {
-      "NumericValue": "11\" 2388 x 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2388 x 1668",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -439,7 +445,8 @@
     },
     "supported_os": "iPadOS 17.4 — ...",
     "display": {
-      "NumericValue": "11\" 2420 x 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2420 x 1668",
       "Details": "display_ipad_pro_m4"
     },
     "processor": {
@@ -510,7 +517,8 @@
       "NumericValue": "650 MHz"
     },
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_air2"
     },
     "supported_os": "iOS 9.1 — iPadOS 16",
@@ -585,7 +593,8 @@
     },
     "supported_os": "iOS 10.3.2 — iPadOS 17",
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_pro2"
     },
     "processor": {
@@ -657,7 +666,8 @@
     },
     "supported_os": "iOS 12.1 — ...",
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -724,7 +734,8 @@
     },
     "supported_os": "iPadOS 13.4 — ...",
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_pro3"
     },
     "processor": {
@@ -793,7 +804,8 @@
     },
     "supported_os": "iPadOS 14.5 — ...",
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_pro5"
     },
     "processor": {
@@ -857,7 +869,8 @@
     },
     "supported_os": "iPadOS 16.1 — ...",
     "display": {
-      "NumericValue": "12.9\" 2732 × 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "12.9\" 2732 × 2048",
       "Details": "display_ipad_pro5"
     },
     "processor": {
@@ -918,7 +931,8 @@
     },
     "supported_os": "iPadOS 17.4 — ...",
     "display": {
-      "NumericValue": "13\" 2752 x 2064 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "13\" 2752 x 2064",
       "Details": "display_ipad_pro_m4"
     },
     "processor": {
@@ -987,7 +1001,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -1071,7 +1086,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_ipad_air2"
     },
     "supported_os": "iOS 8.1 — iPadOS 15.7.1",
@@ -1146,7 +1162,8 @@
     },
     "supported_os": "iOS 12.2 — ...",
     "display": {
-      "NumericValue": "10.5\" 2224 × 1668 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.5\" 2224 × 1668",
       "Details": "display_ipad_air3"
     },
     "processor": {
@@ -1213,7 +1230,8 @@
     },
     "supported_os": "iPadOS 14.0 — ...",
     "display": {
-      "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.9\" 2360 × 1640",
       "Details": "display_ipad_air4"
     },
     "processor": {
@@ -1277,7 +1295,8 @@
     },
     "supported_os": "iPadOS 15.4 — ...",
     "display": {
-      "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.9\" 2360 × 1640",
       "Details": "display_ipad_air4"
     },
     "processor": {
@@ -1341,7 +1360,8 @@
     },
     "supported_os": "iPadOS 17.4 — ...",
     "display": {
-      "NumericValue": "11\" 2360 x 1640 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2360 x 1640",
       "Details": "display_ipad_air_m2"
     },
     "processor": {
@@ -1402,7 +1422,8 @@
     },
     "supported_os": "iPadOS 17.4 — ...",
     "display": {
-      "NumericValue": "13\" 2732 x 2048 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "13\" 2732 x 2048",
       "Details": "display_ipad_air_m2"
     },
     "processor": {
@@ -1471,7 +1492,8 @@
       "NumericValue": "250 MHz"
     },
     "display": {
-      "NumericValue": "7.9\" 1024 × 768 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "7.9\" 1024 × 768",
       "Details": "display_ipad"
     },
     "discontinued_date": {
@@ -1552,7 +1574,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "7.9\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 7.0.3 — 12.5.6",
@@ -1631,7 +1654,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "7.9\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -1715,7 +1739,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "7.9\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 9.0 — iPadOS 15.7.1",
@@ -1790,7 +1815,8 @@
     },
     "supported_os": "iOS 12.2 — ...",
     "display": {
-      "NumericValue": "7.9\" 2048 × 1536 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "7.9\" 2048 × 1536",
       "Details": "display_ipad_air3"
     },
     "processor": {
@@ -1854,7 +1880,8 @@
     },
     "supported_os": "iOS 15 — ...",
     "display": {
-      "NumericValue": "8.3\" 2266 × 1488 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "8.3\" 2266 × 1488",
       "Details": "display_ipad_air4"
     },
     "processor": {
@@ -1918,7 +1945,8 @@
     },
     "supported_os": "iPadOS 18 — ...",
     "display": {
-      "NumericValue": "8.3\" 2266 × 1488 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "8.3\" 2266 × 1488",
       "Details": "display_ipad_air_m2"
     },
     "processor": {
@@ -1985,7 +2013,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
+      "Value": "132 ppi",
+      "NumericValue": "9.7\" 1024 × 768",
       "Details": "display_ipad"
     },
     "discontinued_date": {
@@ -2055,7 +2084,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 1024 × 768 (132 ppi)",
+      "Value": "132 ppi",
+      "NumericValue": "9.7\" 1024 × 768",
       "Details": "display_ipad"
     },
     "discontinued_date": {
@@ -2130,7 +2160,8 @@
       "NumericValue": "250 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -2209,7 +2240,8 @@
       "NumericValue": "300 MHz"
     },
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -2284,7 +2316,8 @@
     },
     "supported_os": "iOS 10.2.1 — iPadOS 16",
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "processor": {
@@ -2354,7 +2387,8 @@
     },
     "supported_os": "iOS 11.3 — iPadOS 17",
     "display": {
-      "NumericValue": "9.7\" 2048 × 1536 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "9.7\" 2048 × 1536",
       "Details": "display_iphone_4"
     },
     "processor": {
@@ -2424,7 +2458,8 @@
     },
     "supported_os": "iPadOS 13.1 — ...",
     "display": {
-      "NumericValue": "10.2\" 2160 × 1620 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.2\" 2160 × 1620",
       "Details": "display_iphone_4"
     },
     "processor": {
@@ -2494,7 +2529,8 @@
     },
     "supported_os": "iPadOS 14.0 — ...",
     "display": {
-      "NumericValue": "10.2\" 2160 × 1620 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.2\" 2160 × 1620",
       "Details": "display_iphone_4"
     },
     "processor": {
@@ -2558,7 +2594,8 @@
     },
     "supported_os": "iPadOS 15.0 — ...",
     "display": {
-      "NumericValue": "10.2\" 2160 × 1620 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.2\" 2160 × 1620",
       "Details": "display_iphone_4"
     },
     "processor": {
@@ -2622,7 +2659,8 @@
     },
     "supported_os": "iPadOS 16.1 — ...",
     "display": {
-      "NumericValue": "10.9\" 2360 × 1640 (264 ppi)",
+      "Value": "264 ppi",
+      "NumericValue": "10.9\" 2360 × 1640",
       "Details": "display_ipad_10"
     },
     "processor": {

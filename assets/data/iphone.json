@@ -29,7 +29,8 @@
       "NumericValue": "103 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -95,7 +96,8 @@
       "NumericValue": "103 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -166,7 +168,8 @@
       "NumericValue": "150 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 480 × 320 (163 ppi)",
+      "Value": "163 ppi",
+      "NumericValue": "3.5\" 480 × 320",
       "Details": "display_iphone_3gs"
     },
     "discontinued_date": {
@@ -242,7 +245,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "3.5\" 960 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -316,7 +320,8 @@
       "NumericValue": "200 MHz"
     },
     "display": {
-      "NumericValue": "3.5\" 960 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "3.5\" 960 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -397,7 +402,8 @@
       "NumericValue": "266 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -478,7 +484,8 @@
       "NumericValue": "266 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -562,7 +569,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -649,7 +657,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_6"
     },
     "discontinued_date": {
@@ -736,7 +745,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
+      "Value": "401 ppi",
+      "NumericValue": "5.5\" 1920 × 1080",
       "Details": "display_iphone_6_plus"
     },
     "discontinued_date": {
@@ -826,7 +836,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_6s"
     },
     "supported_os": "iOS 9.0 — 15.7.1",
@@ -913,7 +924,8 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
+      "Value": "401 ppi",
+      "NumericValue": "5.5\" 1920 × 1080",
       "Details": "display_iphone_6s_plus"
     },
     "supported_os": "iOS 9.0 — 15.7.1",
@@ -1000,12 +1012,13 @@
       "NumericValue": "450 MHz"
     },
     "display": {
-      "NumericValue": "4\" 1136 × 640 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4\" 1136 × 640",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 9.3 — 15.7.1",
     "onboard_ram": {
-      "Value": "LPDDR4 DRAM",
+      "Value": "LPDDR4",
       "NumericValue": "2048 MB"
     },
     "connector": {
@@ -1088,12 +1101,13 @@
       "NumericValue": "900 MHz"
     },
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_6s"
     },
     "supported_os": "iOS 10.0 — 15.7.1",
     "onboard_ram": {
-      "Value": "LPDDR4 DRAM",
+      "Value": "LPDDR4",
       "NumericValue": "2048 MB"
     },
     "connector": {
@@ -1176,12 +1190,13 @@
       "NumericValue": "900 MHz"
     },
     "display": {
-      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
+      "Value": "401 ppi",
+      "NumericValue": "5.5\" 1920 × 1080",
       "Details": "display_iphone_6s_plus"
     },
     "supported_os": "iOS 10.0 — 15.7.1",
     "onboard_ram": {
-      "Value": "LPDDR4 DRAM",
+      "Value": "LPDDR4",
       "NumericValue": "3072 MB"
     },
     "connector": {
@@ -1258,7 +1273,8 @@
     },
     "supported_os": "iOS 11.0 — 16.7.10",
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_6s"
     },
     "processor": {
@@ -1271,7 +1287,7 @@
     },
     "capacity": "64, 128 & 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "2048 MB"
     },
     "connector": {
@@ -1337,7 +1353,8 @@
     },
     "supported_os": "iOS 11.0 — 16.7.10",
     "display": {
-      "NumericValue": "5.5\" 1920 × 1080 (401 ppi)",
+      "Value": "401 ppi",
+      "NumericValue": "5.5\" 1920 × 1080",
       "Details": "display_iphone_6s_plus"
     },
     "processor": {
@@ -1350,7 +1367,7 @@
     },
     "capacity": "64, 128 & 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "3072 MB"
     },
     "connector": {
@@ -1416,7 +1433,8 @@
     },
     "supported_os": "iOS 11.0.1 — 16.7.10",
     "display": {
-      "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "5.85\" 2436 × 1125",
       "Details": "display_iphone_x"
     },
     "processor": {
@@ -1429,7 +1447,7 @@
     },
     "capacity": "64, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "3072 MB"
     },
     "connector": {
@@ -1494,7 +1512,8 @@
     },
     "supported_os": "iOS 12.0 — ...",
     "display": {
-      "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "5.85\" 2436 × 1125",
       "Details": "display_iphone_x"
     },
     "processor": {
@@ -1507,7 +1526,7 @@
     },
     "capacity": "64, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -1573,7 +1592,8 @@
     },
     "supported_os": "iOS 12.0 — ...",
     "display": {
-      "NumericValue": "6.46\" 2688 × 1242 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.46\" 2688 × 1242",
       "Details": "display_iphone_x"
     },
     "processor": {
@@ -1586,7 +1606,7 @@
     },
     "capacity": "64, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -1651,7 +1671,8 @@
     },
     "supported_os": "iOS 12.0 — ...",
     "display": {
-      "NumericValue": "6.06\" 1792 × 828 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "6.06\" 1792 × 828",
       "Details": "display_iphone_xr"
     },
     "processor": {
@@ -1664,7 +1685,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "3072 MB"
     },
     "connector": {
@@ -1723,7 +1744,8 @@
     },
     "supported_os": "iOS 13.0 — ...",
     "display": {
-      "NumericValue": "6.06\" 1792 × 828 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "6.06\" 1792 × 828",
       "Details": "display_iphone_xr"
     },
     "processor": {
@@ -1736,7 +1758,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -1795,7 +1817,8 @@
     },
     "supported_os": "iOS 13.0 — ...",
     "display": {
-      "NumericValue": "5.85\" 2436 × 1125 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "5.85\" 2436 × 1125",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -1808,7 +1831,7 @@
     },
     "capacity": "64, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -1867,7 +1890,8 @@
     },
     "supported_os": "iOS 13.0 — ...",
     "display": {
-      "NumericValue": "6.46\" 2688 × 1242 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.46\" 2688 × 1242",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -1880,7 +1904,7 @@
     },
     "capacity": "64, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -1939,7 +1963,8 @@
     },
     "supported_os": "iOS 13.4 — ...",
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_se2"
     },
     "processor": {
@@ -1952,7 +1977,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "3072 MB"
     },
     "connector": {
@@ -2011,7 +2036,8 @@
     },
     "supported_os": "iOS 14.1 — ...",
     "display": {
-      "NumericValue": "5.42\" 2340 x 1080 (476 ppi)",
+      "Value": "476 ppi",
+      "NumericValue": "5.42\" 2340 x 1080",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2024,7 +2050,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -2083,7 +2109,8 @@
     },
     "supported_os": "iOS 14.1 — ...",
     "display": {
-      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.06\" 2532 x 1170",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2096,7 +2123,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2155,7 +2182,8 @@
     },
     "supported_os": "iOS 14.1 — ...",
     "display": {
-      "NumericValue": "6.68\" 2778 x 1284 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.68\" 2778 x 1284",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2168,7 +2196,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2224,7 +2252,8 @@
     },
     "supported_os": "iOS 14.1 — ...",
     "display": {
-      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.06\" 2532 x 1170",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2237,7 +2266,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -2296,7 +2325,8 @@
     },
     "supported_os": "iOS 15 — ...",
     "display": {
-      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.06\" 2532 x 1170",
       "Details": "display_iphone_13pro"
     },
     "processor": {
@@ -2309,7 +2339,7 @@
     },
     "capacity": "128, 256, 512 GB, 1TB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2368,7 +2398,8 @@
     },
     "supported_os": "iOS 15 — ...",
     "display": {
-      "NumericValue": "6.68\" 2778 x 1284 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.68\" 2778 x 1284",
       "Details": "display_iphone_13pro"
     },
     "processor": {
@@ -2381,7 +2412,7 @@
     },
     "capacity": "128, 256, 512 GB, 1TB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2437,7 +2468,8 @@
     },
     "supported_os": "iOS 15 — ...",
     "display": {
-      "NumericValue": "5.42\" 2340 x 1080 (476 ppi)",
+      "Value": "476 ppi",
+      "NumericValue": "5.42\" 2340 x 1080",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2450,7 +2482,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -2506,7 +2538,8 @@
     },
     "supported_os": "iOS 15 — ...",
     "display": {
-      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.06\" 2532 x 1170",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2519,7 +2552,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -2575,7 +2608,8 @@
     },
     "supported_os": "iOS 15.4 — ...",
     "display": {
-      "NumericValue": "4.7\" 1334 × 750 (326 ppi)",
+      "Value": "326 ppi",
+      "NumericValue": "4.7\" 1334 × 750",
       "Details": "display_iphone_se2"
     },
     "processor": {
@@ -2588,7 +2622,7 @@
     },
     "capacity": "64, 128, 256 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "4096 MB"
     },
     "connector": {
@@ -2644,7 +2678,8 @@
     },
     "supported_os": "iOS 16 — ...",
     "display": {
-      "NumericValue": "6.06\" 2532 x 1170 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.06\" 2532 x 1170",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2657,7 +2692,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2710,7 +2745,8 @@
     },
     "supported_os": "iOS 16 — ...",
     "display": {
-      "NumericValue": "6.68\" 2778 x 1284 (458 ppi)",
+      "Value": "458 ppi",
+      "NumericValue": "6.68\" 2778 x 1284",
       "Details": "display_iphone_11pro"
     },
     "processor": {
@@ -2723,7 +2759,7 @@
     },
     "capacity": "128, 256, 512 GB",
     "onboard_ram": {
-      "Value": "LPDDR4X DRAM",
+      "Value": "LPDDR4X",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2776,7 +2812,8 @@
     },
     "supported_os": "iOS 16 — ...",
     "display": {
-      "NumericValue": "6.12\" 2556 x 1179 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.12\" 2556 x 1179",
       "Details": "display_iphone_14pro"
     },
     "processor": {
@@ -2789,7 +2826,7 @@
     },
     "capacity": "128, 256, 512 GB, 1TB",
     "onboard_ram": {
-      "Value": "LPDDR5 DRAM",
+      "Value": "LPDDR5",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2842,7 +2879,8 @@
     },
     "supported_os": "iOS 16 — ...",
     "display": {
-      "NumericValue": "6.69\" 2796 x 1290 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.69\" 2796 x 1290",
       "Details": "display_iphone_14pro"
     },
     "processor": {
@@ -2855,7 +2893,7 @@
     },
     "capacity": "128, 256, 512 GB, 1TB",
     "onboard_ram": {
-      "Value": "LPDDR5 DRAM",
+      "Value": "LPDDR5",
       "NumericValue": "6144 MB"
     },
     "connector": {
@@ -2899,7 +2937,7 @@
       "NumericValue": "1886 \/ 5493 Multi-Core"
     }
   },
-"iPhone 15": {
+  "iPhone 15": {
     "ids": [
       "iPhone15,4"
     ],
@@ -2908,7 +2946,8 @@
     },
     "supported_os": "iOS 17 — ...",
     "display": {
-      "NumericValue": "6.12\"2556 x 1179 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.12\" 2556 x 1179",
       "Details": "display_iphone_15"
     },
     "processor": {
@@ -2974,7 +3013,8 @@
     },
     "supported_os": "iOS 17 — ...",
     "display": {
-      "NumericValue": "6.69\"2796 × 1290 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.69\" 2796 × 1290",
       "Details": "display_iphone_15"
     },
     "processor": {
@@ -3031,7 +3071,7 @@
       "NumericValue": "1884 \/ 5103 Multi-Core"
     }
   },
-"iPhone 15 Pro": {
+  "iPhone 15 Pro": {
     "ids": [
       "iPhone16,1"
     ],
@@ -3040,7 +3080,8 @@
     },
     "supported_os": "iOS 17 — ...",
     "display": {
-      "NumericValue": "6.12\"2556 × 1179 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.12\" 2556 × 1179",
       "Details": "display_iphone_15pro"
     },
     "processor": {
@@ -3097,7 +3138,7 @@
       "NumericValue": "2136 \/ 5997 Multi-Core"
     }
   },
-"iPhone 15 Pro Max": {
+  "iPhone 15 Pro Max": {
     "ids": [
       "iPhone16,2"
     ],
@@ -3106,7 +3147,8 @@
     },
     "supported_os": "iOS 17 — ...",
     "display": {
-      "NumericValue": "6.69\"2796 × 1290 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.69\" 2796 × 1290",
       "Details": "display_iphone_15pro"
     },
     "processor": {
@@ -3163,7 +3205,7 @@
       "NumericValue": "2140 \/ 5825 Multi-Core"
     }
   },
-"iPhone 16": {
+  "iPhone 16": {
     "ids": [
       "iPhone17,3"
     ],
@@ -3172,7 +3214,8 @@
     },
     "supported_os": "iOS 18 — ...",
     "display": {
-      "NumericValue": "6.1\"2556 x 1179 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.1\" 2556 x 1179",
       "Details": "display_iphone_15"
     },
     "processor": {
@@ -3229,7 +3272,7 @@
       "NumericValue": "2349 \/ 6226 Multi-Core"
     }
   },
-"iPhone 16 Plus": {
+  "iPhone 16 Plus": {
     "ids": [
       "iPhone17,4"
     ],
@@ -3238,7 +3281,8 @@
     },
     "supported_os": "iOS 18 — ...",
     "display": {
-      "NumericValue": "6.7\"2796 x 1290 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.7\" 2796 x 1290",
       "Details": "display_iphone_15"
     },
     "processor": {
@@ -3295,7 +3339,7 @@
       "NumericValue": "2353 \/ 6297 Multi-Core"
     }
   },
-"iPhone 16 Pro": {
+  "iPhone 16 Pro": {
     "ids": [
       "iPhone17,1"
     ],
@@ -3304,11 +3348,12 @@
     },
     "supported_os": "iOS 18 — ...",
     "display": {
-      "NumericValue": "6.3\"2622 x 1206 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.3\" 2622 x 1206",
       "Details": "display_iphone_15pro"
     },
     "processor": {
-      "Value": "Apple A18 chip",
+      "Value": "Apple A18 Pro chip",
       "NumericValue": "4040 MHz",
       "Details": "3 nm, 16‑core Neural Engine"
     },
@@ -3361,7 +3406,7 @@
       "NumericValue": "2399 \/ 6496 Multi-Core"
     }
   },
-"iPhone 16 Pro Max": {
+  "iPhone 16 Pro Max": {
     "ids": [
       "iPhone17,2"
     ],
@@ -3370,11 +3415,12 @@
     },
     "supported_os": "iOS 18 — ...",
     "display": {
-      "NumericValue": "6.9\"2868 x 1320 (460 ppi)",
+      "Value": "460 ppi",
+      "NumericValue": "6.9\" 2868 x 1320",
       "Details": "display_iphone_15pro"
     },
     "processor": {
-      "Value": "Apple A18 chip",
+      "Value": "Apple A18 Pro chip",
       "NumericValue": "4040 MHz",
       "Details": "3 nm, 16‑core Neural Engine"
     },
