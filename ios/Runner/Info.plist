@@ -19,6 +19,8 @@
 	</array>
 	<key>CFBundleName</key>
 	<string>AMonitor</string>
+    <key>CFBundleDisplayName</key>
+    <string>AMonitor</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
