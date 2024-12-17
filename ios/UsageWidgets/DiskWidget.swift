@@ -3,7 +3,7 @@
 import WidgetKit
 import SwiftUI
 
-struct Provider: TimelineProvider {
+struct DiskProvider: TimelineProvider {
   func placeholder(in context: Context) -> DiskUsageEntry {
     return DiskUsageEntry.getEntry()
   }
@@ -33,7 +33,7 @@ struct DiskUsageEntry: TimelineEntry {
 }
 
 struct UsageWidgetEntryView : View {
-  var entry: Provider.Entry
+  var entry: DiskProvider.Entry
   
   let formatter = ByteCountFormatter()
   var body: some View {
@@ -55,10 +55,11 @@ struct DiskWidget: Widget {
   var body: some WidgetConfiguration {
     StaticConfiguration(
       kind: "ru.aeonika.ActMonitor.UsageWidget.Disk",
-      provider: Provider()
+      provider: DiskProvider()
     ) { entry in
       UsageWidgetEntryView(entry: entry)
     }
+    .contentMarginsDisabled()
     .configurationDisplayName("Disk")
     .description("Free space")
     .supportedFamilies([.systemSmall])

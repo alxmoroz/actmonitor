@@ -59,6 +59,7 @@ struct RamWidget: Widget {
     ) { entry in
       RamWidgetEntryView(entry: entry)
     }
+    .contentMarginsDisabled()
     .configurationDisplayName("Ram")
     .description("Free")
     .supportedFamilies([.systemSmall])

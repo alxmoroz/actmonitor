@@ -80,6 +80,7 @@ struct CellularWidget: Widget {
     ) { entry in
       CellularEntryView(entry: entry)
     }
+    .contentMarginsDisabled()
     .configurationDisplayName("Network Cellular")
     .description("Cellular traffic")
     .supportedFamilies([.systemSmall])
@@ -93,7 +94,8 @@ struct WiFiWidget: Widget {
       provider: NetworkProvider()
     ) { entry in
       WiFiEntryView(entry: entry)
-    }
+    } 
+    .contentMarginsDisabled()
     .configurationDisplayName("Network WiFi")
     .description("WiFi traffic")
     .supportedFamilies([.systemSmall])

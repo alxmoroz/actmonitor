@@ -2,6 +2,9 @@
 
 import SwiftUI
 
+let _lineWidth: CGFloat = 15
+let _padding: CGFloat = 8
+
 struct ChartView: View {
   let title: String
   let labels: [LabelData]
@@ -27,29 +30,24 @@ struct ChartView: View {
   }
   
   var body: some View {
-    GeometryReader { geometry in
-      ZStack {
-        ForEach(0..<sliceViews.count) { i in
+    ZStack {
+        ForEach(0 ..< sliceViews.count, id: \.self) { i in
           sliceViews[i]
         }
         VStack(spacing: 4, content: {
           Text(title).bold()
-          ForEach(0..<labels.count) {i in
+          ForEach(0 ..< labels.count, id: \.self) {i in
             LabelView(data: labels[i])
           }
-          Text("")
-        }).padding(24)
-      }
-    }
-    .padding(6)
-    .background(Color(UIColor.systemGray6))
+          Spacer().frame(height: 10)
+        }).padding(_lineWidth * 1.5)
+    }.padding(_padding)
   }
   
   struct SliceView: View {
     var startDegree: Int
     var endDegree: Int
     var color: Color
-    let lineWidth: CGFloat = 14
     
     var body: some View {
       GeometryReader { geometry in
@@ -57,13 +55,13 @@ struct ChartView: View {
         Path { path in
           path.addArc(
             center: CGPoint(x: halfSize, y: halfSize),
-            radius: halfSize - lineWidth / 2,
+            radius: halfSize - _lineWidth / 2,
             startAngle: Angle(degrees: Double(startDegree) - 90),
             endAngle: Angle(degrees: Double(endDegree) - 90),
             clockwise: false
           )
         }
-        .stroke(color, lineWidth: lineWidth)
+        .stroke(color, lineWidth: _lineWidth)
       }
     }
   }
