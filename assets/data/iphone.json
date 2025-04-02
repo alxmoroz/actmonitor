@@ -3472,5 +3472,72 @@
     "Geekbench 5": {
       "NumericValue": "2396 \/ 6464 Multi-Core"
     }
-  }
+  },
+  "iPhone 16": {
+    "ids": [
+      "iPhone17,5"
+    ],
+    "release_date": {
+      "Date": "2025-02-19T07:00:00Z"
+    },
+    "supported_os": "iOS 18.3 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.1\"2532 × 1170",
+      "Details": "display_iphone_16e"
+    },
+    "processor": {
+      "Value": "Apple A18 chip",
+      "NumericValue": "4040 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 4-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be Wi-Fi 6 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n75, n76, n77, n78, n79)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16e"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16e"
+    },
+    "battery_capacity": {
+      "Value": "13.7 Wh",
+      "NumericValue": "3561 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "26"
+    },
+    "audio_playback": {
+      "NumericValue": "90"
+    },
+    "dimensions": {
+      "NumericValue": "146.7 x 71.5 x 7.8 mm"
+    },
+    "weight": {
+      "NumericValue": "167 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "2348 \/ 6066 Multi-Core"
+    }
+  },
 }
