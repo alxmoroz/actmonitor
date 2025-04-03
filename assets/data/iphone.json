@@ -3473,7 +3473,7 @@
       "NumericValue": "2396 \/ 6464 Multi-Core"
     }
   },
-  "iPhone 16": {
+  "iPhone 16e": {
     "ids": [
       "iPhone17,5"
     ],
@@ -3539,5 +3539,5 @@
     "Geekbench 5": {
       "NumericValue": "2348 \/ 6066 Multi-Core"
     }
-  },
+  }
 }

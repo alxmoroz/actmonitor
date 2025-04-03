@@ -1,4 +1,4 @@
-// Copyright (c) 2021. Alexandr Moroz
+// Copyright (c) 2025. Alexandr Moroz
 
 import 'package:flutter/cupertino.dart';
 
@@ -12,7 +12,6 @@ CupertinoNavigationBar navBar(
   Widget? middle,
   String? title,
   Widget? trailing,
-  Color? bgColor,
 }) {
   Widget backButton() => CupertinoNavigationBarBackButton(
         previousPageTitle: backTitle,
@@ -33,6 +32,7 @@ CupertinoNavigationBar navBar(
             : null,
     trailing: trailing != null ? mQuery(trailing) : null,
     padding: const EdgeInsetsDirectional.only(start: 0),
-    backgroundColor: bgColor ?? navbarBgColor,
+    backgroundColor: navbarBgColor,
+    automaticBackgroundVisibility: false,
   );
 }
