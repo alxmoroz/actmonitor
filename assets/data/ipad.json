@@ -1482,7 +1482,7 @@
     "release_date": {
       "Date": "2025-03-12T07:00:00Z"
     },
-    "supported_os": "iPadOS 18 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "11\" 2360 × 1640",
@@ -1544,7 +1544,7 @@
     "release_date": {
       "Date": "2025-03-12T07:00:00Z"
     },
-    "supported_os": "iPadOS 18 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "13\" 2732 x 2048",
@@ -2067,7 +2067,7 @@
     "release_date": {
       "Date": "2024-10-23T07:00:00Z"
     },
-    "supported_os": "iPadOS 18 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "326 ppi",
       "NumericValue": "8.3\" 2266 × 1488",
@@ -2843,7 +2843,7 @@
     "release_date": {
       "Date": "2025-03-12T07:00:00Z"
     },
-    "supported_os": "iPadOS 18 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "11\" 2360 × 1640",
@@ -2905,7 +2905,7 @@
     "release_date": {
       "Date": "2025-03-12T07:00:00Z"
     },
-    "supported_os": "iPadOS 18 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "10.9\" 2360 × 1640",
@@ -2967,7 +2967,7 @@
     "release_date": {
       "Date": "2025-05-15T07:00:00Z"
     },
-    "supported_os": "iPadOS 19 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "11\" 2420 x 1668",
@@ -3029,7 +3029,7 @@
     "release_date": {
       "Date": "2025-05-15T07:00:00Z"
     },
-    "supported_os": "iPadOS 19 — ...",
+    "supported_os": "iPadOS 26 — ...",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "13\" 2752 x 2064",
