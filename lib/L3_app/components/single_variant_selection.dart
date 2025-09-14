@@ -4,8 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'checkbox_circle.dart';
-//TODO: рефакторинг
-
 import 'separator.dart';
 
 class SelectionItem {

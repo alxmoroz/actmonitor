@@ -22,9 +22,9 @@ class ComparisonView extends StatelessWidget {
 
   Future _gotoComparisonList(BuildContext context) async => await Navigator.of(context).pushNamed(ComparisonListView.routeName);
 
-  List<dynamic> get comparableParams {
+  List<String> get comparableParams {
     const section = 'parameters';
-    return specsController.paramsBySection(section).where((dynamic p) {
+    return specsController.paramsBySection(section).where((p) {
       int comparableValuesCount = 0;
       models.forEach((m) {
         final pv = m.paramByName(p, section);

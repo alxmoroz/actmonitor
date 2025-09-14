@@ -60,7 +60,7 @@ class UsageView extends StatelessWidget {
       final battery = _controller.battery;
       final batteryLifeElements = <UsageElement>[];
       const batterySection = 'battery_life';
-      specsController.paramsBySection(batterySection).forEach((dynamic p) {
+      specsController.paramsBySection(batterySection).forEach((p) {
         if (specsController.hostModel != null) {
           final pv = specsController.hostModel!.paramByName(p, batterySection);
 

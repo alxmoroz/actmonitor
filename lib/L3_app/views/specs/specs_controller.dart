@@ -37,7 +37,7 @@ abstract class _SpecsControllerBase with Store {
   DeviceModel? hostModel;
 
   @observable
-  Map<String, dynamic> parameters = <String, List<String>>{};
+  Map<String, List<String>> parameters = <String, List<String>>{};
 
   @observable
   List<DeviceModel> models = [];
@@ -49,7 +49,7 @@ abstract class _SpecsControllerBase with Store {
   List<DeviceModel> get knownModels => models.where((m) => isKnownModel(m)).toList(growable: false);
 
   @action
-  void setParameters(Map<String, dynamic> params) => parameters = params;
+  void setParameters(Map<String, List<String>> params) => parameters = params;
 
   @action
   void setModels(List<DeviceModel> ms) => models = ms.reversed.toList();
@@ -78,7 +78,7 @@ abstract class _SpecsControllerBase with Store {
 
   List<DeviceModel> modelsForNames(Iterable<String> names) => models.where((m) => names.contains(m.name)).toList(growable: false);
 
-  List<dynamic> paramsBySection(String section) => parameters[section] ?? <dynamic>[];
+  List<String> paramsBySection(String section) => parameters[section] ?? <String>[];
 
   bool isKnownModel(DeviceModel? dm) => dm?.detailName != 'Unknown model';
 
@@ -95,7 +95,13 @@ abstract class _SpecsControllerBase with Store {
   Future _loadParams() async {
     final paramsJsonString = await rootBundle.loadString('assets/data/params.json');
     final Map<String, dynamic> paramsJson = await json.decode(paramsJsonString);
-    setParameters(paramsJson);
+    final Map<String, List<String>> typedParams = {};
+    paramsJson.forEach((key, value) {
+      if (value is List) {
+        typedParams[key] = value.cast<String>();
+      }
+    });
+    setParameters(typedParams);
   }
 
   Future<List<DeviceModel>> _getSpecsForType(String type) async {
@@ -103,12 +109,12 @@ abstract class _SpecsControllerBase with Store {
     final Map<String, dynamic> deviceJson = await json.decode(deviceJsonString);
 
     final List<DeviceModel> devices = [];
-    deviceJson.forEach((name, dynamic paramsValues) {
+    deviceJson.forEach((name, paramsValues) {
       final Map<String, List<ParamValue>> deviceParamsValues = {};
-      parameters.forEach((section, dynamic params) {
+      parameters.forEach((section, params) {
         final List<ParamValue> pValues = [];
-        (params as List<dynamic>).forEach((dynamic param) {
-          final dynamic valueJson = paramsValues[param];
+        params.forEach((param) {
+          final valueJson = paramsValues[param];
           if (valueJson != null) {
             pValues.add(ParamValue(name: param, value: valueJson));
           }

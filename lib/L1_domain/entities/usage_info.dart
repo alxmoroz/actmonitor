@@ -13,7 +13,7 @@ abstract class UsageInfo extends LocalPersistable {
 
   String get _error => exception != null ? exception.toString() : 'unknown error';
 
-  List get values => _values ?? <dynamic>[];
+  List<dynamic> get values => _values ?? <dynamic>[];
 
   String get placeholder => {'done': '', 'loading': 'loading', 'error': _error}[status] ?? '';
 

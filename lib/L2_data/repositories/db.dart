@@ -20,7 +20,7 @@ class HiveStorage {
       final _dirPath = _dir.path;
       Hive.init(_dirPath);
     } else {
-      // TODO: убрать после фикса Hive 2.2
+      // Web platform initialization
       Hive.init('');
     }
 
