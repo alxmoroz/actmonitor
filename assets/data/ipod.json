@@ -27,7 +27,7 @@
     },
     "display": {
       "Value": "163 ppi",
-      "NumericValue": "3.5\" 480 × 320",
+      "NumericValue": "3.5\" 480 x 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -44,7 +44,7 @@
       "Value": "802.11 b\/g"
     },
     "dimensions": {
-      "NumericValue": "110 × 61.8 × 8 mm"
+      "NumericValue": "110 x 61.8 x 8 mm"
     },
     "supported_os": "iPhone OS 1.0 — 3.1.3",
     "onboard_ram": {
@@ -86,7 +86,7 @@
     },
     "display": {
       "Value": "163 ppi",
-      "NumericValue": "3.5\" 480 × 320",
+      "NumericValue": "3.5\" 480 x 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -103,7 +103,7 @@
       "Value": "802.11b\/g"
     },
     "dimensions": {
-      "NumericValue": "110 × 61.8 × 8.5 mm"
+      "NumericValue": "110 x 61.8 x 8.5 mm"
     },
     "supported_os": "iPhone OS 2.1 — iOS 4.2.1",
     "onboard_ram": {
@@ -146,7 +146,7 @@
     },
     "display": {
       "Value": "163 ppi",
-      "NumericValue": "3.5\" 480 × 320",
+      "NumericValue": "3.5\" 480 x 320",
       "Details": "display_iphone_3g"
     },
     "discontinued_date": {
@@ -163,7 +163,7 @@
       "Value": "802.11b\/g"
     },
     "dimensions": {
-      "NumericValue": "110 × 61.8 × 8.5 mm"
+      "NumericValue": "110 x 61.8 x 8.5 mm"
     },
     "onboard_ram": {
       "Value": "LPDDR",
@@ -201,7 +201,7 @@
     },
     "display": {
       "Value": "326 ppi",
-      "NumericValue": "3.5\" 960 × 640",
+      "NumericValue": "3.5\" 960 x 640",
       "Details": "display_ipod_4"
     },
     "discontinued_date": {
@@ -224,7 +224,7 @@
     },
     "capacity": "8, 16, 32 & 64 GB",
     "dimensions": {
-      "NumericValue": "110 × 58 × 7.1 mm"
+      "NumericValue": "110 x 58 x 7.1 mm"
     },
     "battery_capacity": {
       "Value": "3.44 Wh (3.7 V)",
@@ -246,7 +246,7 @@
       "Value": "802.11b\/g\/n Wi-Fi (802.11n 2.4GHz only)"
     },
     "rear_camera": {
-      "Value": "0.7 MP (960 × 720) Tap to focus 720p HD 30 fps"
+      "Value": "0.7 MP (960 x 720) Tap to focus 720p HD 30 fps"
     },
     "weight": {
       "NumericValue": "101 g"
@@ -272,7 +272,7 @@
     },
     "display": {
       "Value": "326 ppi",
-      "NumericValue": "4\" 1136 × 640",
+      "NumericValue": "4\" 1136 x 640",
       "Details": "display_iphone_4"
     },
     "discontinued_date": {
@@ -297,7 +297,7 @@
     },
     "capacity": "16, 32 & 64 GB",
     "dimensions": {
-      "NumericValue": "123.4 × 58.6 × 6.1 mm"
+      "NumericValue": "123.4 x 58.6 x 6.1 mm"
     },
     "battery_capacity": {
       "Value": "3.8 Wh (3.7 V)",
@@ -351,7 +351,7 @@
     },
     "display": {
       "Value": "326 ppi",
-      "NumericValue": "4\" 1136 × 640",
+      "NumericValue": "4\" 1136 x 640",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 8.4 — 12.5.6",
@@ -372,7 +372,7 @@
     },
     "capacity": "16, 32, 64 & 128 GB",
     "dimensions": {
-      "NumericValue": "123.4 × 58.6 × 6.1 mm"
+      "NumericValue": "123.4 x 58.6 x 6.1 mm"
     },
     "battery_capacity": {
       "Value": "3.99 Wh (3.83 V)",
@@ -429,7 +429,7 @@
     },
     "display": {
       "Value": "326 ppi",
-      "NumericValue": "4\" 1136 × 640",
+      "NumericValue": "4\" 1136 x 640",
       "Details": "display_iphone_4"
     },
     "supported_os": "iOS 12.3.1 — 15.7.1",
@@ -450,7 +450,7 @@
     },
     "capacity": "32, 128 & 256 GB",
     "dimensions": {
-      "NumericValue": "123.4 × 58.6 × 6.1 mm"
+      "NumericValue": "123.4 x 58.6 x 6.1 mm"
     },
     "battery_capacity": {
       "Value": "3.99 Wh (3.83 V)",
