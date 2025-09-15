@@ -28,12 +28,9 @@ dev_dependencies:
   flutter_launcher_icons: any
   flutter_lints: any
   flutter_native_splash: any
-  flutter_test:
-    sdk: flutter
   hive_generator: any
   intl_utils: any
   mobx_codegen: any
-  test: any
 
 flutter_launcher_icons:
   ios: true
