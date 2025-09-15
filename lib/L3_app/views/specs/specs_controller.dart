@@ -37,7 +37,7 @@ abstract class _SpecsControllerBase with Store {
   DeviceModel? hostModel;
 
   @observable
-  Map<String, List<String>> parameters = <String, List<String>>{};
+  Map<String, dynamic> parameters = <String, dynamic>{};
 
   @observable
   List<DeviceModel> models = [];
@@ -49,7 +49,7 @@ abstract class _SpecsControllerBase with Store {
   List<DeviceModel> get knownModels => models.where((m) => isKnownModel(m)).toList(growable: false);
 
   @action
-  void setParameters(Map<String, List<String>> params) => parameters = params;
+  void setParameters(Map<String, dynamic> params) => parameters = params;
 
   @action
   void setModels(List<DeviceModel> ms) => models = ms.reversed.toList();
@@ -78,7 +78,16 @@ abstract class _SpecsControllerBase with Store {
 
   List<DeviceModel> modelsForNames(Iterable<String> names) => models.where((m) => names.contains(m.name)).toList(growable: false);
 
-  List<String> paramsBySection(String section) => parameters[section] ?? <String>[];
+  List<String> paramsBySection(String section) {
+    final value = parameters[section];
+    if (value is List<String>) {
+      return value;
+    } else if (value is List) {
+      // Safely convert to List<String>, filtering out non-string values
+      return value.whereType<String>().toList();
+    }
+    return <String>[];
+  }
 
   bool isKnownModel(DeviceModel? dm) => dm?.detailName != 'Unknown model';
 
@@ -95,12 +104,27 @@ abstract class _SpecsControllerBase with Store {
   Future _loadParams() async {
     final paramsJsonString = await rootBundle.loadString('assets/data/params.json');
     final Map<String, dynamic> paramsJson = await json.decode(paramsJsonString);
-    final Map<String, List<String>> typedParams = {};
+    final Map<String, dynamic> typedParams = {};
+
     paramsJson.forEach((key, value) {
       if (value is List) {
-        typedParams[key] = value.cast<String>();
+        // Safely convert list elements to strings, filtering out non-string values
+        final List<String> stringList = [];
+        for (final item in value) {
+          if (item is String) {
+            stringList.add(item);
+          } else {
+            // Log warning for non-string values but continue processing
+            print('Warning: Non-string value "$item" found in parameter "$key", skipping');
+          }
+        }
+        typedParams[key] = stringList;
+      } else {
+        // Log warning for non-list values but continue processing
+        print('Warning: Non-list value found for parameter "$key", expected List<String>');
       }
     });
+
     setParameters(typedParams);
   }
 
@@ -113,12 +137,14 @@ abstract class _SpecsControllerBase with Store {
       final Map<String, List<ParamValue>> deviceParamsValues = {};
       parameters.forEach((section, params) {
         final List<ParamValue> pValues = [];
-        params.forEach((param) {
-          final valueJson = paramsValues[param];
-          if (valueJson != null) {
-            pValues.add(ParamValue(name: param, value: valueJson));
-          }
-        });
+        if (params is List<String>) {
+          params.forEach((param) {
+            final valueJson = paramsValues[param];
+            if (valueJson != null) {
+              pValues.add(ParamValue(name: param, value: valueJson));
+            }
+          });
+        }
         deviceParamsValues.putIfAbsent(section, () => pValues);
       });
       devices.add(DeviceModel(name, type, deviceParamsValues));

@@ -2676,7 +2676,7 @@
     "release_date": {
       "Date": "2025-03-15T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.1\" 2556 x 1179",
@@ -3279,7 +3279,7 @@
     "release_date": {
       "Date": "2024-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.1\" 2556 x 1179",
@@ -3346,7 +3346,7 @@
     "release_date": {
       "Date": "2024-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.7\" 2796 x 1290",
@@ -3413,7 +3413,7 @@
     "release_date": {
       "Date": "2024-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.3\" 2622 x 1206",
@@ -3480,7 +3480,7 @@
     "release_date": {
       "Date": "2024-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.9\" 2868 x 1320",
@@ -3614,7 +3614,7 @@
     "release_date": {
       "Date": "2025-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.1\" 2556 x 1179",
@@ -3681,7 +3681,7 @@
     "release_date": {
       "Date": "2025-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.7\" 2796 x 1290",
@@ -3743,12 +3743,12 @@
   },
   "iPhone 17 Air": {
     "ids": [
-      "iPhone18,3"
+      "iPhone18,1"
     ],
     "release_date": {
       "Date": "2025-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.6\" 2796 x 1290",
@@ -3815,7 +3815,7 @@
     "release_date": {
       "Date": "2025-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.3\" 2622 x 1206",
@@ -3882,7 +3882,7 @@
     "release_date": {
       "Date": "2025-09-09T07:00:00Z"
     },
-    "supported_os": "iOS 26 — ...",
+    "supported_os": "iOS 18 — ...",
     "display": {
       "Value": "460 ppi",
       "NumericValue": "6.9\" 2868 x 1320",
