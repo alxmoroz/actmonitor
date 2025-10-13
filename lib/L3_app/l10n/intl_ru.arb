@@ -54,7 +54,6 @@
   "display_ipad_a16": "Liquid Retina display\nLED backlit Multi‑Touch display with IPS technology\nTrue Tone\n500 nits brightness\nFingerprint-resistant oleophobic coating\nSupports Apple Pencil (USB-C), Apple Pencil (1st generation)",
   "display_ipad_air_m2": "Liquid Retina display\nLED backlit Multi‑Touch display with IPS technology\nWide color (P3)\nTrue Tone\nFingerprint-resistant oleophobic coating\nFully laminated\nAntireflective coating\nSupports Apple Pencil Pro, Apple Pencil (USB‑C)\nApple Pencil hover",
   "display_ipad_pro_m4": "Ultra Retina XDR display\nTandem OLED\nProMotion technology with adaptive refresh rates from 10Hz to 120Hz\nWide color (P3)\nTrue Tone\nFingerprint-resistant oleophobic coating\nFully laminated\nAntireflective coating\nNano-texture display glass option on 1TB and 2TB models\nSDR brightness: 1000 nits max\nXDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)\n2,000,000:1 contrast ratio\nSupports Apple Pencil Pro, Apple Pencil (USB‑C)\nApple Pencil hover",
-  "display_ipad_11gen": "Liquid Retina display\nLED backlit Multi‑Touch display with IPS technology\nTrue Tone\n500 nits brightness\nFingerprint-resistant oleophobic coating\nSupports Apple Pencil (USB-C), Apple Pencil (1st generation)",
 
   "free": "Свободно",
 
@@ -92,7 +91,6 @@
   "front_camera_ipad_air_m3": "Landscape 12MP Center Stage camera\nƒ/2.0 aperture\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilization\nBurst mode",
   "front_camera_ipad_mini7": "12MP Ultra Wide front camera\nƒ/2.4 aperture\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilization\nBurst mode",
   "front_camera_ipad_pro_m4": "Landscape 12MP Ultra Wide camera\nƒ/2 aperture\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)\nAnimoji and Memoji\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nWide color capture for photos and Live Photos\nLens correction\nRetina Flash with True Tone\nAuto image stabilization\nBurst mode",
-  "front_camera_ipad_11gen": "Landscape 12MP Center Stage camera\nƒ/2.4 aperture\nSmart HDR 4\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\nTime‑lapse video with stabilization\nExtended dynamic range for video up to 30 fps\nCinematic video stabilization (1080p and 720p)\nLens correction\nRetina Flash\nAuto image stabilization\nBurst mode",
 
   "full": "Заряжена",
   "graphics": "Графика",
