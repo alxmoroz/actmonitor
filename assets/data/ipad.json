@@ -2575,7 +2575,7 @@
     "discontinued_date": {
       "Date": "2020-09-15T07:00:00Z"
     },
-    "supported_os": "iPadOS 13.1 — ...",
+    "supported_os": "iPadOS 13.1 — 18.7.1",
     "display": {
       "Value": "264 ppi",
       "NumericValue": "10.2\" 2160 x 1620",
