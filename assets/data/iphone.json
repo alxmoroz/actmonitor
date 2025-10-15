@@ -3539,5 +3539,273 @@
     "Geekbench 5": {
       "NumericValue": "2348 \/ 6066 Multi-Core"
     }
+  },
+  "iPhone 17": {
+    "ids": [
+      "iPhone18,3"
+    ],
+    "release_date": {
+      "Date": "2025-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 26 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.3\" 2622 x 1206",
+      "Details": "display_iphone_17"
+    },
+    "processor": {
+      "Value": "Apple A19 chip",
+      "NumericValue": "3200 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_17"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_17"
+    },
+    "battery_capacity": {
+      "Value": "14.2 Wh",
+      "NumericValue": "3691 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "30"
+    },
+    "audio_playback": {
+      "NumericValue": "95"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "18"
+    },
+    "dimensions": {
+      "NumericValue": "149.6 x 71.5 x 7.95 mm"
+    },
+    "weight": {
+      "NumericValue": "177 g"
+    }
+  },
+  "iPhone 17 Pro": {
+    "ids": [
+      "iPhone18,1"
+    ],
+    "release_date": {
+      "Date": "2025-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 26 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.3\" 2622 x 1206",
+      "Details": "display_iphone_17pro"
+    },
+    "processor": {
+      "Value": "Apple A19 Pro chip",
+      "NumericValue": "3200 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_17pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16pro"
+    },
+    "battery_capacity": {
+      "Value": "14.2 Wh",
+      "NumericValue": "3691 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "33"
+    },
+    "audio_playback": {
+      "NumericValue": "95"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "18"
+    },
+    "dimensions": {
+      "NumericValue": "150.0 x 71.9 x 8.75 mm"
+    },
+    "weight": {
+      "NumericValue": "206 g"
+    }
+  },
+  "iPhone 17 Pro Max": {
+    "ids": [
+      "iPhone18,2"
+    ],
+    "release_date": {
+      "Date": "2025-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 26 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.9\" 2868 x 1320",
+      "Details": "display_iphone_17promax"
+    },
+    "processor": {
+      "Value": "Apple A19 Pro chip",
+      "NumericValue": "3200 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 6-core"
+    },
+    "capacity": "256, 512 GB, 1TB, 2TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_17promax"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_17promax"
+    },
+    "battery_capacity": {
+      "Value": "18.0 Wh",
+      "NumericValue": "4676 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "39"
+    },
+    "audio_playback": {
+      "NumericValue": "105"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "20"
+    },
+    "dimensions": {
+      "NumericValue": "163.4 x 78.0 x 8.75 mm"
+    },
+    "weight": {
+      "NumericValue": "233 g"
+    }
+  },
+  "iPhone Air": {
+    "ids": [
+      "iPhone18,4"
+    ],
+    "release_date": {
+      "Date": "2025-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 26 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.5\" 2736 x 1260",
+      "Details": "display_iphone_17pro"
+    },
+    "processor": {
+      "Value": "Apple A19 Pro chip",
+      "NumericValue": "3200 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "256, 512 GB, 1TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_air"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_17promax"
+    },
+    "battery_capacity": {
+      "Value": "14.2 Wh",
+      "NumericValue": "3691 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "27"
+    },
+    "audio_playback": {
+      "NumericValue": "95"
+    },
+    "browsing_over_cellular": {
+      "NumericValue": "18"
+    },
+    "dimensions": {
+      "NumericValue": "156.2 x 74.7 x 5.64 mm"
+    },
+    "weight": {
+      "NumericValue": "165 g"
+    }
   }
 }
