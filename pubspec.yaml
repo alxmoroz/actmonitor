@@ -1,7 +1,7 @@
 name: amonitor
 description: AMonitor
 
-version: 3.1.226+226
+version: 3.1.227+227
 
 environment:
   sdk: ">=3.9.0 <4.0.0"
@@ -34,7 +34,6 @@ dev_dependencies:
 
 flutter_launcher_icons:
   ios: true
-  android: true
   image_path: scripts/ios_icon.png
 
 flutter:
