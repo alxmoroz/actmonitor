@@ -3741,6 +3741,66 @@
       "NumericValue": "233 g"
     }
   },
+  "iPhone 17e": {
+    "ids": [
+      "iPhone18,5"
+    ],
+    "release_date": {
+      "Date": "2026-03-11T07:00:00Z"
+    },
+    "supported_os": "iOS 26 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.1\" 2532 x 1170",
+      "Details": "display_iphone_17e"
+    },
+    "processor": {
+      "Value": "Apple A19 chip",
+      "NumericValue": "3200 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 5-core"
+    },
+    "capacity": "256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "8192 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11ax Wi‑Fi 6 with 2x2 MIMO"
+    },
+    "Bluetooth": {
+      "Value": "5.3"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)\nApple C1X cellular modem\n5G (sub-6 GHz) with 4x4 MIMO\nGigabit LTE with 4x4 MIMO"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_16e"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_16e"
+    },
+    "video_playback": {
+      "NumericValue": "26"
+    },
+    "dimensions": {
+      "NumericValue": "146.7 x 71.5 x 7.80 mm"
+    },
+    "weight": {
+      "NumericValue": "169 g"
+    },
+    "Geekbench 5": {
+      "NumericValue": "3519 \/ 8889 Multi-Core"
+    }
+  },
   "iPhone Air": {
     "ids": [
       "iPhone18,4"
