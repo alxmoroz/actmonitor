@@ -56,7 +56,7 @@
       "NumericValue": "115 x 61 x 11.6 mm"
     },
     "cellular": {
-      "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "GSM/GPRS/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "24"
@@ -70,10 +70,10 @@
     },
     "sim_card": "Mini-SIM",
     "Wi-Fi": {
-      "Value": "802.11b\/g"
+      "Value": "802.11b/g"
     },
     "rear_camera": {
-      "Value": "2.0 MP f\/2.8"
+      "Value": "2.0 MP f/2.8"
     },
     "weight": {
       "NumericValue": "135 g"
@@ -123,7 +123,7 @@
       "NumericValue": "115.5 x 62.1 x 12.3 mm"
     },
     "cellular": {
-      "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz) UMTS\/HSDPA (850, 1900, 2100 MHz)"
+      "Value": "GSM/GPRS/EDGE (850, 900, 1800, 1900 MHz) UMTS/HSDPA (850 1900 2100 MHz) UMTS/HSDPA (850, 1900, 2100 MHz)"
     },
     "audio_playback": {
       "NumericValue": "24"
@@ -137,10 +137,10 @@
     },
     "sim_card": "Mini-SIM",
     "Wi-Fi": {
-      "Value": "802.11b\/g"
+      "Value": "802.11b/g"
     },
     "rear_camera": {
-      "Value": "2.0 MP f\/2.8"
+      "Value": "2.0 MP f/2.8"
     },
     "weight": {
       "NumericValue": "133 g"
@@ -195,7 +195,7 @@
       "NumericValue": "115.5 x 62.1 x 12.3 mm"
     },
     "cellular": {
-      "Value": "GSM\/GPRS\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA (850 1900 2100 MHz)"
+      "Value": "GSM/GPRS/EDGE (850, 900, 1800, 1900 MHz) UMTS/HSDPA (850 1900 2100 MHz)"
     },
     "audio_playback": {
       "NumericValue": "30"
@@ -209,7 +209,7 @@
     },
     "sim_card": "Mini-SIM",
     "Wi-Fi": {
-      "Value": "802.11b\/g"
+      "Value": "802.11b/g"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_3gs"
@@ -272,7 +272,7 @@
       "NumericValue": "115.2 x 58.6 x 9.3 mm"
     },
     "cellular": {
-      "Value": "GSM\/EDGE (850, 900, 1800, 1900 MHz) UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz)"
+      "Value": "GSM/EDGE (850, 900, 1800, 1900 MHz) UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -289,7 +289,7 @@
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
-      "Value": "802.11b\/g\/n"
+      "Value": "802.11b/g/n"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_4"
@@ -350,7 +350,7 @@
       "NumericValue": "115.2 x 58.6 x 9.3 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev.A (800, 1900 MHz)"
+      "Value": "UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz) CDMA EV-DO Rev.A (800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -366,14 +366,14 @@
       "NumericValue": "617"
     },
     "Geekbench 3": {
-      "NumericValue": "215 \/ 406 Multi-Core"
+      "NumericValue": "215 / 406 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "284 \/ 491 Multi-Core"
+      "NumericValue": "284 / 491 Multi-Core"
     },
     "sim_card": "Micro-SIM",
     "Wi-Fi": {
-      "Value": "802.11b\/g\/n"
+      "Value": "802.11b/g/n"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_4s"
@@ -432,7 +432,7 @@
       "NumericValue": "123.8 x 58.6 x 7.6 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSPA+\/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) LTE (Bands 4,17 - A1428; Bands 1,3,5 - A1429)"
+      "Value": "UMTS/HSPA+/DC-HSDPA (850, 900, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz) LTE (Bands 4,17 - A1428; Bands 1,3,5 - A1429)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -446,7 +446,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+      "Value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_5"
@@ -456,10 +456,10 @@
       "NumericValue": "1577"
     },
     "Geekbench 3": {
-      "NumericValue": "712 \/ 1279 Multi-Core"
+      "NumericValue": "712 / 1279 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "754 \/ 1208 Multi-Core"
+      "NumericValue": "754 / 1208 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -514,7 +514,7 @@
       "NumericValue": "124.4 x 59.2 x 8.97 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz) GSM Model: LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800,1700\/2100,1900,2100 MHz) LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25,26)"
+      "Value": "UMTS/HSPA+/DC-HSDPA (850,900,1700/2100,1900,2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz) GSM Model: LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800,1700/2100,1900,2100 MHz) LTE (Bands 1,2,3,4,5,8,13,17,18,19,20,25,26)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -531,7 +531,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+      "Value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_5"
@@ -541,10 +541,10 @@
       "NumericValue": "1637"
     },
     "Geekbench 3": {
-      "NumericValue": "700 \/ 1251 Multi-Core"
+      "NumericValue": "700 / 1251 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "743 \/ 1191 Multi-Core"
+      "NumericValue": "743 / 1191 Multi-Core"
     },
     "weight": {
       "NumericValue": "132 g"
@@ -600,7 +600,7 @@
       "NumericValue": "123.8 x 58.6 x 7.6 mm"
     },
     "cellular": {
-      "Value": "GSM\/EDGE (850,900,1800,1900 MHz) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26(A1453 Model)) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz)"
+      "Value": "GSM/EDGE (850,900,1800,1900 MHz) UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) LTE (Bands 1, 2, 3, 4, 5, 8, 13, 17, 18, 19, 20, 25, 26(A1453 Model)) CDMA Model: CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -617,7 +617,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+      "Value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_5s"
@@ -627,13 +627,13 @@
       "NumericValue": "2224"
     },
     "Geekbench 3": {
-      "NumericValue": "1401 \/ 2526 Multi-Core"
+      "NumericValue": "1401 / 2526 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1266 \/ 2144 Multi-Core"
+      "NumericValue": "1266 / 2144 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "259 \/ 476 Multi-Core"
+      "NumericValue": "259 / 476 Multi-Core"
     },
     "weight": {
       "NumericValue": "112 g"
@@ -688,7 +688,7 @@
       "NumericValue": "138.1 x 67.0 x 6.9 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29)CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz) Model A1586: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
+      "Value": "UMTS/HSPA+/DC-HSDPA (850,900,1700/2100,1900,2100 MHz) GSM/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29)CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz) Model A1586: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
     },
     "audio_playback": {
       "NumericValue": "50"
@@ -705,7 +705,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac"
+      "Value": "802.11 a/b/g/n/ac"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_6"
@@ -715,13 +715,13 @@
       "NumericValue": "2421"
     },
     "Geekbench 3": {
-      "NumericValue": "1599 \/ 2860 Multi-Core"
+      "NumericValue": "1599 / 2860 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1459 \/ 2455 Multi-Core"
+      "NumericValue": "1459 / 2455 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "308 \/ 569 Multi-Core"
+      "NumericValue": "308 / 569 Multi-Core"
     },
     "weight": {
       "NumericValue": "129 g"
@@ -776,7 +776,7 @@
       "NumericValue": "158.1 x 77.8 x 7.1 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSPA+\/DC-HSDPA (850,900,1700\/2100,1900,2100 MHz) GSM\/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29) CDMA EV-DO Rev. A and Rev. B (800, 1700\/2100, 1900, 2100 MHz) Model A1524: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
+      "Value": "UMTS/HSPA+/DC-HSDPA (850,900,1700/2100,1900,2100 MHz) GSM/EDGE (850,900,1800,1900 MHz) (FDD-)LTE (Bands 1-5,7,8,13,17-20,25,26,28,29) CDMA EV-DO Rev. A and Rev. B (800, 1700/2100, 1900, 2100 MHz) Model A1524: TD-SCDMA 1900 (F), 2000 (A) TD-LTE (Bands 38, 39, 40, 41)"
     },
     "audio_playback": {
       "NumericValue": "80"
@@ -793,7 +793,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac"
+      "Value": "802.11 a/b/g/n/ac"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_6"
@@ -803,13 +803,13 @@
       "NumericValue": "2384"
     },
     "Geekbench 3": {
-      "NumericValue": "1578 \/ 2812 Multi-Core"
+      "NumericValue": "1578 / 2812 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1490 \/ 2503 Multi-Core"
+      "NumericValue": "1490 / 2503 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "313 \/ 572 Multi-Core"
+      "NumericValue": "313 / 572 Multi-Core"
     },
     "weight": {
       "NumericValue": "172 g"
@@ -864,7 +864,7 @@
       "NumericValue": "138.3 x 67.1 x 7.1 mm"
     },
     "cellular": {
-      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700/2100, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "50"
@@ -881,7 +881,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac"
+      "Value": "802.11 a/b/g/n/ac"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_6s"
@@ -891,13 +891,13 @@
       "NumericValue": "2985"
     },
     "Geekbench 3": {
-      "NumericValue": "2506 \/ 4346 Multi-Core"
+      "NumericValue": "2506 / 4346 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "2382 \/ 4057 Multi-Core"
+      "NumericValue": "2382 / 4057 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "541 \/ 990 Multi-Core"
+      "NumericValue": "541 / 990 Multi-Core"
     },
     "weight": {
       "NumericValue": "143 g"
@@ -952,7 +952,7 @@
       "NumericValue": "158.2 x 77.9 x 7.3 mm"
     },
     "cellular": {
-      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700/2100, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "80"
@@ -971,17 +971,17 @@
       "NumericValue": "2985"
     },
     "Geekbench 3": {
-      "NumericValue": "2506 \/ 4346 Multi-Core"
+      "NumericValue": "2506 / 4346 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "2382 \/ 4057 Multi-Core"
+      "NumericValue": "2382 / 4057 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "541 \/ 990 Multi-Core"
+      "NumericValue": "541 / 990 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac"
+      "Value": "802.11 a/b/g/n/ac"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_6s"
@@ -1040,7 +1040,7 @@
       "NumericValue": "123.8 x 58.6 x 7.6 mm"
     },
     "cellular": {
-      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25,26,28,29) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700\/2100, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "LTE (Bands 1-5,7,8,12,13,17-20,25,26,28,29) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) CDMA EV-DO Rev. A (800, 1700/2100, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "50"
@@ -1057,7 +1057,7 @@
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac"
+      "Value": "802.11 a/b/g/n/ac"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_6s"
@@ -1067,13 +1067,13 @@
       "NumericValue": "3035"
     },
     "Geekbench 3": {
-      "NumericValue": "2544 \/ 4422 Multi-Core"
+      "NumericValue": "2544 / 4422 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "2473 \/ 4223 Multi-Core"
+      "NumericValue": "2473 / 4223 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "546 \/ 1002 Multi-Core"
+      "NumericValue": "546 / 1002 Multi-Core"
     },
     "weight": {
       "NumericValue": "113 g"
@@ -1129,7 +1129,7 @@
       "NumericValue": "138.3 x 67.1 x 7.1 mm"
     },
     "cellular": {
-      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)  GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "40"
@@ -1148,17 +1148,17 @@
       "NumericValue": "3570"
     },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 Multi-Core"
+      "NumericValue": "3427 / 5524 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3444 \/ 5740 Multi-Core"
+      "NumericValue": "3444 / 5740 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "741 \/ 1313 Multi-Core"
+      "NumericValue": "741 / 1313 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi with MIMO"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_7"
@@ -1218,7 +1218,7 @@
       "NumericValue": "158.2 x 77.9 x 7.3 mm"
     },
     "cellular": {
-      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A) CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)  GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "audio_playback": {
       "NumericValue": "60"
@@ -1237,17 +1237,17 @@
       "NumericValue": "3570"
     },
     "Geekbench 3": {
-      "NumericValue": "3427 \/ 5524 Multi-Core"
+      "NumericValue": "3427 / 5524 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3435 \/ 5732 Multi-Core"
+      "NumericValue": "3435 / 5732 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "742 \/ 1324 Multi-Core"
+      "NumericValue": "742 / 1324 Multi-Core"
     },
     "sim_card": "Nano-SIM",
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi with MIMO"
     },
     "rear_camera": {
       "Value": "rear_camera_iphone_7+"
@@ -1294,13 +1294,13 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
     },
     "cellular": {
-      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)  GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
       "Value": "sensors_iphone_6"
@@ -1331,13 +1331,13 @@
       "NumericValue": "148 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4269 \/ 10291 Multi-Core"
+      "NumericValue": "4269 / 10291 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "4212 \/ 10057 Multi-Core"
+      "NumericValue": "4212 / 10057 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "919 \/ 2231 Multi-Core"
+      "NumericValue": "919 / 2231 Multi-Core"
     }
   },
   "iPhone 8 Plus": {
@@ -1374,13 +1374,13 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
     },
     "cellular": {
-      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)  GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
       "Value": "sensors_iphone_6"
@@ -1411,13 +1411,13 @@
       "NumericValue": "202 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4250 \/ 10401 Multi-Core"
+      "NumericValue": "4250 / 10401 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "4214 \/ 10133 Multi-Core"
+      "NumericValue": "4214 / 10133 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "923 \/ 2327 Multi-Core"
+      "NumericValue": "923 / 2327 Multi-Core"
     }
   },
   "iPhone X": {
@@ -1454,13 +1454,13 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
     },
     "cellular": {
-      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS\/HSPA+\/DC-HSDPA (850, 900, 1700\/2100, 1900, 2100 MHz)  GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "FDD-LTE (Bands 1-5, 7, 8, 12, 13, 17-20, 25-30) TD-LTE (Bands 38, 39, 40, 41) TD-SCDMA 1900 (F), 2000 (A)  CDMA EV-DO Rev. A  (800, 1900, 2100 MHz)  UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)  GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "sensors": {
       "Value": "sensors_iphone_x"
@@ -1491,13 +1491,13 @@
       "NumericValue": "174 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4312 \/ 10585 Multi-Core"
+      "NumericValue": "4312 / 10585 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "4193 \/ 10025 Multi-Core"
+      "NumericValue": "4193 / 10025 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "918 \/ 2365 Multi-Core"
+      "NumericValue": "918 / 2365 Multi-Core"
     }
   },
   "iPhone XS": {
@@ -1533,7 +1533,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1570,13 +1570,13 @@
       "NumericValue": "177 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4773 \/ 11288 Multi-Core"
+      "NumericValue": "4773 / 11288 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "4795 \/ 11149 Multi-Core"
+      "NumericValue": "4795 / 11149 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1106 \/ 2701 Multi-Core"
+      "NumericValue": "1106 / 2701 Multi-Core"
     }
   },
   "iPhone XS Max": {
@@ -1613,7 +1613,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1650,13 +1650,13 @@
       "NumericValue": "208 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4806 \/ 11140 Multi-Core"
+      "NumericValue": "4806 / 11140 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "4797 \/ 11203 Multi-Core"
+      "NumericValue": "4797 / 11203 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1109 \/ 2651 Multi-Core"
+      "NumericValue": "1109 / 2651 Multi-Core"
     }
   },
   "iPhone XR": {
@@ -1692,7 +1692,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac Wi‑Fi 5 with MIMO"
+      "Value": "802.11a/b/g/n/ac Wi‑Fi 5 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1729,10 +1729,10 @@
       "NumericValue": "194 g"
     },
     "Geekbench 4": {
-      "NumericValue": "4792 \/ 10791 Multi-Core"
+      "NumericValue": "4792 / 10791 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1107 \/ 2569 Multi-Core"
+      "NumericValue": "1107 / 2569 Multi-Core"
     }
   },
   "iPhone 11": {
@@ -1765,7 +1765,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1799,10 +1799,10 @@
       "NumericValue": "194 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5471 \/ 13571 Multi-Core"
+      "NumericValue": "5471 / 13571 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1325 \/ 3229 Multi-Core"
+      "NumericValue": "1325 / 3229 Multi-Core"
     }
   },
   "iPhone 11 Pro": {
@@ -1838,7 +1838,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1872,10 +1872,10 @@
       "NumericValue": "188 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5475 \/ 13537 Multi-Core"
+      "NumericValue": "5475 / 13537 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1327 \/ 3391 Multi-Core"
+      "NumericValue": "1327 / 3391 Multi-Core"
     }
   },
   "iPhone 11 Pro Max": {
@@ -1911,7 +1911,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -1945,10 +1945,10 @@
       "NumericValue": "226 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5478 \/ 13591 Multi-Core"
+      "NumericValue": "5478 / 13591 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1326 \/ 3393 Multi-Core"
+      "NumericValue": "1326 / 3393 Multi-Core"
     }
   },
   "iPhone SE 2": {
@@ -1984,7 +1984,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2018,10 +2018,10 @@
       "NumericValue": "148 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5459 \/ 13636 Multi-Core"
+      "NumericValue": "5459 / 13636 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1322 \/ 2785 Multi-Core"
+      "NumericValue": "1322 / 2785 Multi-Core"
     }
   },
   "iPhone 12 mini": {
@@ -2057,7 +2057,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2091,10 +2091,10 @@
       "NumericValue": "133 g"
     },
     "Geekbench 4": {
-      "NumericValue": "6518 \/ 16753 Multi-Core"
+      "NumericValue": "6518 / 16753 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1585 \/ 3951 Multi-Core"
+      "NumericValue": "1585 / 3951 Multi-Core"
     }
   },
   "iPhone 12 Pro": {
@@ -2130,7 +2130,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2164,10 +2164,10 @@
       "NumericValue": "187 g"
     },
     "Geekbench 4": {
-      "NumericValue": "6518 \/ 16753 Multi-Core"
+      "NumericValue": "6518 / 16753 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1585 \/ 3951 Multi-Core"
+      "NumericValue": "1585 / 3951 Multi-Core"
     }
   },
   "iPhone 12 Pro Max": {
@@ -2203,7 +2203,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2237,10 +2237,10 @@
       "NumericValue": "226 g"
     },
     "Geekbench 4": {
-      "NumericValue": "6518 \/ 16753 Multi-Core"
+      "NumericValue": "6518 / 16753 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1585 \/ 3951 Multi-Core"
+      "NumericValue": "1585 / 3951 Multi-Core"
     }
   },
   "iPhone 12": {
@@ -2273,7 +2273,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2307,10 +2307,10 @@
       "NumericValue": "162 g"
     },
     "Geekbench 4": {
-      "NumericValue": "6518 \/ 16753 Multi-Core"
+      "NumericValue": "6518 / 16753 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1585 \/ 3951 Multi-Core"
+      "NumericValue": "1585 / 3951 Multi-Core"
     }
   },
   "iPhone 13 Pro": {
@@ -2346,7 +2346,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2380,10 +2380,10 @@
       "NumericValue": "204 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7453 \/ 19125 Multi-Core"
+      "NumericValue": "7453 / 19125 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1728 \/ 4594 Multi-Core"
+      "NumericValue": "1728 / 4594 Multi-Core"
     }
   },
   "iPhone 13 Pro Max": {
@@ -2419,7 +2419,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2453,10 +2453,10 @@
       "NumericValue": "240 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7453 \/ 19125 Multi-Core"
+      "NumericValue": "7453 / 19125 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1728 \/ 4594 Multi-Core"
+      "NumericValue": "1728 / 4594 Multi-Core"
     }
   },
   "iPhone 13 mini": {
@@ -2489,7 +2489,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2523,10 +2523,10 @@
       "NumericValue": "141 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7732 \/ 19120 Multi-Core"
+      "NumericValue": "7732 / 19120 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1722 \/ 4503 Multi-Core"
+      "NumericValue": "1722 / 4503 Multi-Core"
     }
   },
   "iPhone 13": {
@@ -2559,7 +2559,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2593,10 +2593,10 @@
       "NumericValue": "174 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7732 \/ 19120 Multi-Core"
+      "NumericValue": "7732 / 19120 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1718 \/ 4478 Multi-Core"
+      "NumericValue": "1718 / 4478 Multi-Core"
     }
   },
   "iPhone SE 3": {
@@ -2629,7 +2629,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.0"
@@ -2663,10 +2663,10 @@
       "NumericValue": "144 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7651 \/ 19432 Multi-Core"
+      "NumericValue": "7651 / 19432 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1726 \/ 4504 Multi-Core"
+      "NumericValue": "1726 / 4504 Multi-Core"
     }
   },
   "iPhone 14": {
@@ -2699,7 +2699,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.3"
@@ -2733,7 +2733,7 @@
       "NumericValue": "172 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1732 \/ 4631 Multi-Core"
+      "NumericValue": "1732 / 4631 Multi-Core"
     }
   },
   "iPhone 14 Plus": {
@@ -2766,7 +2766,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.3"
@@ -2800,7 +2800,7 @@
       "NumericValue": "203 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1732 \/ 4631 Multi-Core"
+      "NumericValue": "1732 / 4631 Multi-Core"
     }
   },
   "iPhone 14 Pro": {
@@ -2833,7 +2833,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.3"
@@ -2867,7 +2867,7 @@
       "NumericValue": "206 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1886 \/ 5493 Multi-Core"
+      "NumericValue": "1886 / 5493 Multi-Core"
     }
   },
   "iPhone 14 Pro Max": {
@@ -2900,7 +2900,7 @@
       "Value": "Lightning"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n\/ac\/ax Wi‑Fi 6 with MIMO"
+      "Value": "802.11a/b/g/n/ac/ax Wi‑Fi 6 with MIMO"
     },
     "Bluetooth": {
       "Value": "5.3"
@@ -2934,7 +2934,7 @@
       "NumericValue": "240 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1886 \/ 5493 Multi-Core"
+      "NumericValue": "1886 / 5493 Multi-Core"
     }
   },
   "iPhone 15": {
@@ -3001,7 +3001,7 @@
       "NumericValue": "171 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1885 \/ 5110 Multi-Core"
+      "NumericValue": "1885 / 5110 Multi-Core"
     }
   },
   "iPhone 15 Plus": {
@@ -3068,7 +3068,7 @@
       "NumericValue": "201 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1884 \/ 5103 Multi-Core"
+      "NumericValue": "1884 / 5103 Multi-Core"
     }
   },
   "iPhone 15 Pro": {
@@ -3135,7 +3135,7 @@
       "NumericValue": "187 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2136 \/ 5997 Multi-Core"
+      "NumericValue": "2136 / 5997 Multi-Core"
     }
   },
   "iPhone 15 Pro Max": {
@@ -3202,7 +3202,7 @@
       "NumericValue": "221 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2140 \/ 5825 Multi-Core"
+      "NumericValue": "2140 / 5825 Multi-Core"
     }
   },
   "iPhone 16": {
@@ -3269,7 +3269,7 @@
       "NumericValue": "170 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2349 \/ 6226 Multi-Core"
+      "NumericValue": "2349 / 6226 Multi-Core"
     }
   },
   "iPhone 16 Plus": {
@@ -3336,7 +3336,7 @@
       "NumericValue": "199 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2353 \/ 6297 Multi-Core"
+      "NumericValue": "2353 / 6297 Multi-Core"
     }
   },
   "iPhone 16 Pro": {
@@ -3403,7 +3403,7 @@
       "NumericValue": "199 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2399 \/ 6496 Multi-Core"
+      "NumericValue": "2399 / 6496 Multi-Core"
     }
   },
   "iPhone 16 Pro Max": {
@@ -3470,7 +3470,7 @@
       "NumericValue": "227 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2396 \/ 6464 Multi-Core"
+      "NumericValue": "2396 / 6464 Multi-Core"
     }
   },
   "iPhone 16e": {
@@ -3537,7 +3537,7 @@
       "NumericValue": "167 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2348 \/ 6066 Multi-Core"
+      "NumericValue": "2348 / 6066 Multi-Core"
     }
   },
   "iPhone 17": {
@@ -3798,7 +3798,7 @@
       "NumericValue": "169 g"
     },
     "Geekbench 5": {
-      "NumericValue": "3519 \/ 8889 Multi-Core"
+      "NumericValue": "3519 / 8889 Multi-Core"
     }
   },
   "iPhone Air": {
@@ -3866,6 +3866,199 @@
     },
     "weight": {
       "NumericValue": "165 g"
+    }
+  },
+  "iPhone 18 Pro": {
+    "ids": [
+      "iPhone19,2"
+    ],
+    "release_date": {
+      "Date": "2026-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 27 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.3\" 2622 x 1206",
+      "Details": "display_iphone_17promax"
+    },
+    "processor": {
+      "Value": "Apple A20 Pro chip",
+      "NumericValue": "4900 MHz",
+      "Details": "2 nm, Dual 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 7-core"
+    },
+    "capacity": "256, 512 GB, 1TB, 2TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71, 106)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_18pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_17promax"
+    },
+    "battery_capacity": {
+      "Value": "16.76 Wh",
+      "NumericValue": "4288 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "36"
+    },
+    "dimensions": {
+      "NumericValue": "150.0 x 71.9 x 8.75 mm"
+    },
+    "weight": {
+      "NumericValue": "211 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "4695 / 12521 Multi-Core"
+    }
+  },
+  "iPhone 18 Pro Max": {
+    "ids": [
+      "iPhone19,3",
+      "iPhone19,7"
+    ],
+    "release_date": {
+      "Date": "2026-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 27 — ...",
+    "display": {
+      "Value": "460 ppi",
+      "NumericValue": "6.9\" 2868 x 1320",
+      "Details": "display_iphone_17promax"
+    },
+    "processor": {
+      "Value": "Apple A20 Pro chip",
+      "NumericValue": "4900 MHz",
+      "Details": "2 nm, Dual 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 7-core"
+    },
+    "capacity": "256, 512 GB, 1TB, 2TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_14pro"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_18pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_17promax"
+    },
+    "battery_capacity": {
+      "Value": "21.751 Wh",
+      "NumericValue": "5567 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "45"
+    },
+    "dimensions": {
+      "NumericValue": "163.4 x 78.0 x 8.75 mm"
+    },
+    "weight": {
+      "NumericValue": "249 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "4697 / 12528 Multi-Core"
+    }
+  },
+  "iPhone Duo": {
+    "ids": [
+      "iPhone19,4"
+    ],
+    "release_date": {
+      "Date": "2026-09-09T07:00:00Z"
+    },
+    "supported_os": "iOS 27 — ...",
+    "display": {
+      "Value": "430 / 460 ppi",
+      "NumericValue": "7.6\" 1878 x 2670 / 5.4\" 1398 x 2034",
+      "Details": "display_iphone_duo"
+    },
+    "processor": {
+      "Value": "Apple A20 Pro chip",
+      "NumericValue": "4900 MHz",
+      "Details": "2 nm, Dual 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 7-core"
+    },
+    "capacity": "256, 512 GB, 1TB, 2TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6.0"
+    },
+    "cellular": {
+      "Value": "FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)\nTDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)\n5G NR mmWave (Bands n258, n260, n261)\nFDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71, 106)\nTDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)\nUMTS/HSPA+ (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)"
+    },
+    "sensors": {
+      "Value": "sensors_iphone_duo"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_iphone_duo"
+    },
+    "front_camera": {
+      "Value": "front_camera_iphone_duo"
+    },
+    "battery_capacity": {
+      "Value": "19.1 Wh",
+      "NumericValue": "4883 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "31-44"
+    },
+    "dimensions": {
+      "NumericValue": "117.8 x 164.6 x 5.2 mm (open)\n117.8 x 84.1 x 11.3 mm (closed)"
+    },
+    "weight": {
+      "NumericValue": "254 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "4663 / 12283 Multi-Core"
     }
   }
 }

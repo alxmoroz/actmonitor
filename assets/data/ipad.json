@@ -71,16 +71,16 @@
       "NumericValue": "3443"
     },
     "Geekbench 3": {
-      "NumericValue": "3058 \/ 5247 Multi-Core"
+      "NumericValue": "3058 / 5247 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "2959 \/ 4883 Multi-Core"
+      "NumericValue": "2959 / 4883 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "643 \/ 1176 Multi-Core"
+      "NumericValue": "643 / 1176 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+      "Value": "802.11 a/b/g/n/ac dual channel (2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera 9.7‑inch iPad Pro"
@@ -155,13 +155,13 @@
       "NumericValue": "469-477 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4159 \/ 9789 Multi-Core"
+      "NumericValue": "4159 / 9789 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3876 \/ 9178 Multi-Core"
+      "NumericValue": "3876 / 9178 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "831 \/ 2264 Multi-Core"
+      "NumericValue": "831 / 2264 Multi-Core"
     }
   },
   "iPad Pro 11\"": {
@@ -228,10 +228,10 @@
       "NumericValue": "468 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5006 \/ 17800 Multi-Core"
+      "NumericValue": "5006 / 17800 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1112 \/ 4607 Multi-Core"
+      "NumericValue": "1112 / 4607 Multi-Core"
     }
   },
   "iPad Pro 11\" 2": {
@@ -296,10 +296,10 @@
       "NumericValue": "473 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5024 \/ 17809 Multi-Core"
+      "NumericValue": "5024 / 17809 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1116 \/ 4617 Multi-Core"
+      "NumericValue": "1116 / 4617 Multi-Core"
     }
   },
   "iPad Pro 11\" 3": {
@@ -366,10 +366,10 @@
       "NumericValue": "468 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7539 \/ 28253 Multi-Core"
+      "NumericValue": "7539 / 28253 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1708 \/ 7145 Multi-Core"
+      "NumericValue": "1708 / 7145 Multi-Core"
     }
   },
   "iPad Pro 11\" 4": {
@@ -431,7 +431,7 @@
       "NumericValue": "470 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1871 \/ 8404 Multi-Core"
+      "NumericValue": "1871 / 8404 Multi-Core"
     }
   },
   "iPad Pro 11\" M4": {
@@ -493,7 +493,7 @@
       "NumericValue": "444-446 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2588 \/ 11304-12529 Multi-Core"
+      "NumericValue": "2588 / 11304-12529 Multi-Core"
     }
   },
   "iPad Pro 12.9\"": {
@@ -556,16 +556,16 @@
       "NumericValue": "3591"
     },
     "Geekbench 3": {
-      "NumericValue": "3160 \/ 5411 Multi-Core"
+      "NumericValue": "3160 / 5411 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3034 \/ 4992 Multi-Core"
+      "NumericValue": "3034 / 4992 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "648 \/ 1195 Multi-Core"
+      "NumericValue": "648 / 1195 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+      "Value": "802.11 a/b/g/n/ac dual channel (2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera 12.9‑inch iPad Pro"
@@ -640,13 +640,13 @@
       "NumericValue": "677-692 g"
     },
     "Geekbench 3": {
-      "NumericValue": "4118 \/ 9639 Multi-Core"
+      "NumericValue": "4118 / 9639 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3884 \/ 9202 Multi-Core"
+      "NumericValue": "3884 / 9202 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "832 \/ 2270 Multi-Core"
+      "NumericValue": "832 / 2270 Multi-Core"
     }
   },
   "iPad Pro 12.9\" 3": {
@@ -713,10 +713,10 @@
       "NumericValue": "633 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5001 \/ 17908 Multi-Core"
+      "NumericValue": "5001 / 17908 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1112 \/ 4581 Multi-Core"
+      "NumericValue": "1112 / 4581 Multi-Core"
     }
   },
   "iPad Pro 12.9\" 4": {
@@ -781,10 +781,10 @@
       "NumericValue": "643 g"
     },
     "Geekbench 4": {
-      "NumericValue": "5023 \/ 17778 Multi-Core"
+      "NumericValue": "5023 / 17778 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1118 \/ 4624 Multi-Core"
+      "NumericValue": "1118 / 4624 Multi-Core"
     }
   },
   "iPad Pro 12.9\" 5": {
@@ -851,10 +851,10 @@
       "NumericValue": "684 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7518 \/ 28253 Multi-Core"
+      "NumericValue": "7518 / 28253 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1708 \/ 7145 Multi-Core"
+      "NumericValue": "1708 / 7145 Multi-Core"
     }
   },
   "iPad Pro 12.9\" 6": {
@@ -916,7 +916,7 @@
       "NumericValue": "685 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1871 \/ 8404 Multi-Core"
+      "NumericValue": "1871 / 8404 Multi-Core"
     }
   },
   "iPad Pro 13\" M4": {
@@ -978,7 +978,7 @@
       "NumericValue": "579-582 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2596 \/ 11261-12747 Multi-Core"
+      "NumericValue": "2596 / 11261-12747 Multi-Core"
     }
   },
   "iPad Pro 11\" M5": {
@@ -1040,7 +1040,7 @@
       "NumericValue": "444-446 g"
     },
     "Geekbench 5": {
-      "NumericValue": "4144 \/ 16503 Multi-Core"
+      "NumericValue": "4144 / 16503 Multi-Core"
     }
   },
   "iPad Pro 13\" M5": {
@@ -1102,7 +1102,7 @@
       "NumericValue": "579-582 g"
     },
     "Geekbench 5": {
-      "NumericValue": "4144 \/ 16503 Multi-Core"
+      "NumericValue": "4144 / 16503 Multi-Core"
     }
   },
   "iPad Air": {
@@ -1166,16 +1166,16 @@
       "NumericValue": "2377"
     },
     "Geekbench 3": {
-      "NumericValue": "1474 \/ 2669 Multi-Core"
+      "NumericValue": "1474 / 2669 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1326 \/ 2254 Multi-Core"
+      "NumericValue": "1326 / 2254 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "278 \/ 526 Multi-Core"
+      "NumericValue": "278 / 526 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
+      "Value": "802.11a/b/g/n (2.4GHz and 5GHz) and MIMO"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_air"
@@ -1248,16 +1248,16 @@
       "NumericValue": "3042"
     },
     "Geekbench 3": {
-      "NumericValue": "1791 \/ 4403 Multi-Core"
+      "NumericValue": "1791 / 4403 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1796 \/ 4176 Multi-Core"
+      "NumericValue": "1796 / 4176 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "378 \/ 1049 Multi-Core"
+      "NumericValue": "378 / 1049 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+      "Value": "802.11 a/b/g/n/ac dual channel (2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_air2"
@@ -1332,10 +1332,10 @@
       "NumericValue": "456-464 g"
     },
     "Geekbench 4": {
-      "NumericValue": "4799 \/ 11396 Multi-Core"
+      "NumericValue": "4799 / 11396 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1112 \/ 2782 Multi-Core"
+      "NumericValue": "1112 / 2782 Multi-Core"
     }
   },
   "iPad Air 4": {
@@ -1400,10 +1400,10 @@
       "NumericValue": "460 g"
     },
     "Geekbench 4": {
-      "NumericValue": "6643 \/ 17181 Multi-Core"
+      "NumericValue": "6643 / 17181 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1584 \/ 4124 Multi-Core"
+      "NumericValue": "1584 / 4124 Multi-Core"
     }
   },
   "iPad Air 5": {
@@ -1465,10 +1465,10 @@
       "NumericValue": "462 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7532 \/ 27778 Multi-Core"
+      "NumericValue": "7532 / 27778 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1711 \/ 7128 Multi-Core"
+      "NumericValue": "1711 / 7128 Multi-Core"
     }
   },
   "iPad Air 11\" M2": {
@@ -1530,7 +1530,7 @@
       "NumericValue": "462 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1894 \/ 8579 Multi-Core"
+      "NumericValue": "1894 / 8579 Multi-Core"
     }
   },
   "iPad Air 13\" M2": {
@@ -1592,7 +1592,7 @@
       "NumericValue": "617-618 g"
     },
     "Geekbench 5": {
-      "NumericValue": "1885 \/ 8479 Multi-Core"
+      "NumericValue": "1885 / 8479 Multi-Core"
     }
   },
   "iPad Air 11\" M3": {
@@ -1654,7 +1654,7 @@
       "NumericValue": "460 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2266 \/ 10516 Multi-Core"
+      "NumericValue": "2266 / 10516 Multi-Core"
     }
   },
   "iPad Air 13\" M3": {
@@ -1716,7 +1716,7 @@
       "NumericValue": "616-617 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2239 \/ 10515 Multi-Core"
+      "NumericValue": "2239 / 10515 Multi-Core"
     }
   },
   "iPad mini": {
@@ -1779,13 +1779,13 @@
       "NumericValue": "745"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 492 Multi-Core"
+      "NumericValue": "261 / 492 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "329 \/ 567 Multi-Core"
+      "NumericValue": "329 / 567 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+      "Value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_3"
@@ -1859,16 +1859,16 @@
       "NumericValue": "2274"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 Multi-Core"
+      "NumericValue": "1385 / 2496 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1247 \/ 2113 Multi-Core"
+      "NumericValue": "1247 / 2113 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "258 \/ 488 Multi-Core"
+      "NumericValue": "258 / 488 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
+      "Value": "802.11a/b/g/n (2.4GHz and 5GHz) and MIMO"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_air"
@@ -1942,16 +1942,16 @@
       "NumericValue": "2274"
     },
     "Geekbench 3": {
-      "NumericValue": "1385 \/ 2496 Multi-Core"
+      "NumericValue": "1385 / 2496 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1247 \/ 2113 Multi-Core"
+      "NumericValue": "1247 / 2113 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "258 \/ 488 Multi-Core"
+      "NumericValue": "258 / 488 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (2.4GHz and 5GHz) and MIMO"
+      "Value": "802.11a/b/g/n (2.4GHz and 5GHz) and MIMO"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_air"
@@ -2024,16 +2024,16 @@
       "NumericValue": "2611"
     },
     "Geekbench 3": {
-      "NumericValue": "1704 \/ 3096 Multi-Core"
+      "NumericValue": "1704 / 3096 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "1654 \/ 2815 Multi-Core"
+      "NumericValue": "1654 / 2815 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "357 \/ 668 Multi-Core"
+      "NumericValue": "357 / 668 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11 a\/b\/g\/n\/ac dual channel (2.4GHz and 5GHz)"
+      "Value": "802.11 a/b/g/n/ac dual channel (2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_air2"
@@ -2108,10 +2108,10 @@
       "NumericValue": "300-308 g"
     },
     "Geekbench 4": {
-      "NumericValue": "4799 \/ 11396 Multi-Core"
+      "NumericValue": "4799 / 11396 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1112 \/ 2782 Multi-Core"
+      "NumericValue": "1112 / 2782 Multi-Core"
     }
   },
   "iPad mini 6": {
@@ -2173,10 +2173,10 @@
       "NumericValue": "293-297 g"
     },
     "Geekbench 4": {
-      "NumericValue": "7102 \/ 18489 Multi-Core"
+      "NumericValue": "7102 / 18489 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1593 \/ 4497 Multi-Core"
+      "NumericValue": "1593 / 4497 Multi-Core"
     }
   },
   "iPad mini 7": {
@@ -2238,7 +2238,7 @@
       "NumericValue": "293-297 g"
     },
     "Geekbench 5": {
-      "NumericValue": "2141 \/ 5622 Multi-Core"
+      "NumericValue": "2141 / 5622 Multi-Core"
     }
   },
   "iPad Original": {
@@ -2283,7 +2283,7 @@
       "NumericValue": "242.8 x 189.7 x 13.4 mm"
     },
     "cellular": {
-      "Value": "UMTS\/HSDPA\/HSUPA (850, 900, 1900, 2100 MHz) GSM\/EDGE (850, 900, 1800, 1900 MHz)"
+      "Value": "UMTS/HSDPA/HSUPA (850, 900, 1900, 2100 MHz) GSM/EDGE (850, 900, 1800, 1900 MHz)"
     },
     "video_playback": {
       "NumericValue": "10"
@@ -2296,13 +2296,13 @@
       "NumericValue": "6613 mAh"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n"
+      "Value": "802.11a/b/g/n"
     },
     "Geekbench 2": {
       "NumericValue": "454"
     },
     "weight": {
-      "NumericValue": "680\/730(3G) g"
+      "NumericValue": "680/730(3G) g"
     },
     "price": "499-699 USD",
     "sensors": {
@@ -2367,7 +2367,7 @@
       "NumericValue": "6579 mAh"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n"
+      "Value": "802.11a/b/g/n"
     },
     "rear_camera": {
       "Value": "Video HD (720p), 30 fps, audio Still camera with 5x digital zoom"
@@ -2377,7 +2377,7 @@
       "NumericValue": "749"
     },
     "Geekbench 3": {
-      "NumericValue": "261 \/ 488 Multi-Core"
+      "NumericValue": "261 / 488 Multi-Core"
     },
     "weight": {
       "NumericValue": "613 g"
@@ -2447,13 +2447,13 @@
       "NumericValue": "756"
     },
     "Geekbench 3": {
-      "NumericValue": "260 \/ 493 Multi-Core"
+      "NumericValue": "260 / 493 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "329 \/ 569 Multi-Core"
+      "NumericValue": "329 / 569 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n"
+      "Value": "802.11a/b/g/n"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_3"
@@ -2527,13 +2527,13 @@
       "NumericValue": "1756"
     },
     "Geekbench 3": {
-      "NumericValue": "773 \/ 1410 Multi-Core"
+      "NumericValue": "773 / 1410 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "808 \/ 1332 Multi-Core"
+      "NumericValue": "808 / 1332 Multi-Core"
     },
     "Wi-Fi": {
-      "Value": "802.11a\/b\/g\/n (802.11n 2.4GHz and 5GHz)"
+      "Value": "802.11a/b/g/n (802.11n 2.4GHz and 5GHz)"
     },
     "rear_camera": {
       "Value": "rear_camera_ipad_3"
@@ -2602,13 +2602,13 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "2542 \/ 4424 Multi-Core"
+      "NumericValue": "2542 / 4424 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "2547 \/ 4408 Multi-Core"
+      "NumericValue": "2547 / 4408 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "553 \/ 1026 Multi-Core"
+      "NumericValue": "553 / 1026 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "240 x 169.5 x 7.5 mm"
@@ -2673,13 +2673,13 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "3494 \/ 6111 Multi-Core"
+      "NumericValue": "3494 / 6111 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3457 \/ 5874 Multi-Core"
+      "NumericValue": "3457 / 5874 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "759 \/ 1404 Multi-Core"
+      "NumericValue": "759 / 1404 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "240 x 169.5 x 7.5 mm"
@@ -2744,13 +2744,13 @@
       "NumericValue": "10"
     },
     "Geekbench 3": {
-      "NumericValue": "3494 \/ 6111 Multi-Core"
+      "NumericValue": "3494 / 6111 Multi-Core"
     },
     "Geekbench 4": {
-      "NumericValue": "3457 \/ 5874 Multi-Core"
+      "NumericValue": "3457 / 5874 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "759 \/ 1404 Multi-Core"
+      "NumericValue": "759 / 1404 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "250.6 x 174.1 x 7.5 mm"
@@ -2815,10 +2815,10 @@
       "NumericValue": "10"
     },
     "Geekbench 4": {
-      "NumericValue": "4807 \/ 11242 Multi-Core"
+      "NumericValue": "4807 / 11242 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1111 \/ 2120 Multi-Core"
+      "NumericValue": "1111 / 2120 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "250.6 x 174.1 x 7.5 mm"
@@ -2880,10 +2880,10 @@
       "NumericValue": "10"
     },
     "Geekbench 4": {
-      "NumericValue": "5475 \/ 13624 Multi-Core"
+      "NumericValue": "5475 / 13624 Multi-Core"
     },
     "Geekbench 5": {
-      "NumericValue": "1329 \/ 3275 Multi-Core"
+      "NumericValue": "1329 / 3275 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "250.6 x 174.1 x 7.5 mm"
@@ -2945,7 +2945,7 @@
       "NumericValue": "10"
     },
     "Geekbench 5": {
-      "NumericValue": "1584 \/ 4124 Multi-Core"
+      "NumericValue": "1584 / 4124 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "248.6 x 179.5 x 7 mm"
@@ -3007,13 +3007,199 @@
       "NumericValue": "9-10"
     },
     "Geekbench 5": {
-      "NumericValue": "1894 \/ 4867 Multi-Core"
+      "NumericValue": "1894 / 4867 Multi-Core"
     },
     "dimensions": {
       "NumericValue": "248.6 x 179.5 x 7 mm"
     },
     "weight": {
       "NumericValue": "477-481 g"
+    }
+  },
+  "iPad Air 11\" M4": {
+    "ids": [
+      "iPad16,8",
+      "iPad16,9"
+    ],
+    "release_date": {
+      "Date": "2026-03-02T07:00:00Z"
+    },
+    "supported_os": "iPadOS 26 — ...",
+    "display": {
+      "Value": "264 ppi",
+      "NumericValue": "11\" 2360 x 1640",
+      "Details": "display_ipad_air_m2"
+    },
+    "processor": {
+      "Value": "Apple M4 chip",
+      "NumericValue": "4100 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 9-core"
+    },
+    "capacity": "128, 256, 512GB, 1 TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be with 2x2 MIMO (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air_m3"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_air_m3"
+    },
+    "battery_capacity": {
+      "Value": "28.93 Wh",
+      "NumericValue": "7606 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "247.6 mm x 178.5 mm x 6.1 mm"
+    },
+    "weight": {
+      "NumericValue": "464-465 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "3715 / 13211 Multi-Core"
+    }
+  },
+  "iPad Air 13\" M4": {
+    "ids": [
+      "iPad16,10",
+      "iPad16,11"
+    ],
+    "release_date": {
+      "Date": "2026-03-02T07:00:00Z"
+    },
+    "supported_os": "iPadOS 26 — ...",
+    "display": {
+      "Value": "264 ppi",
+      "NumericValue": "13\" 2732 x 2048",
+      "Details": "display_ipad_air_m2"
+    },
+    "processor": {
+      "Value": "Apple M4 chip",
+      "NumericValue": "4100 MHz",
+      "Details": "3 nm, 16‑core Neural Engine"
+    },
+    "GPU": {
+      "Value": "Apple GPU 9-core"
+    },
+    "capacity": "128, 256, 512GB, 1 TB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be with 2x2 MIMO (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_air_m3"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_air_m3"
+    },
+    "battery_capacity": {
+      "Value": "36.59 Wh",
+      "NumericValue": "9720 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "280.6 mm x 214.9 mm x 6.1 mm"
+    },
+    "weight": {
+      "NumericValue": "616-617 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "3708 / 13147 Multi-Core"
+    }
+  },
+  "iPad mini A20 Pro": {
+    "ids": [
+      "iPad19,1",
+      "iPad19,2"
+    ],
+    "release_date": {
+      "Date": "2026-10-26T07:00:00Z"
+    },
+    "supported_os": "iPadOS 27 — ...",
+    "display": {
+      "Value": "326 ppi",
+      "NumericValue": "8.5\" 2316 x 1512",
+      "Details": "display_ipad_mini_a20pro"
+    },
+    "processor": {
+      "Value": "Apple A20 Pro chip",
+      "NumericValue": "4900 MHz",
+      "Details": "2 nm, 5-core CPU (512 GB: 6-core), 16‑core Neural Engine (512 GB: Dual 16‑core)"
+    },
+    "GPU": {
+      "Value": "Apple GPU 7-core"
+    },
+    "capacity": "128, 256, 512 GB",
+    "onboard_ram": {
+      "Value": "LPDDR5X",
+      "NumericValue": "12288 MB"
+    },
+    "connector": {
+      "Value": "USB-C"
+    },
+    "Wi-Fi": {
+      "Value": "802.11be with 2x2 MIMO (Wi-Fi 7)"
+    },
+    "Bluetooth": {
+      "Value": "6"
+    },
+    "sensors": {
+      "Value": "sensors_ipad_air2"
+    },
+    "rear_camera": {
+      "Value": "rear_camera_ipad_mini_a20pro"
+    },
+    "front_camera": {
+      "Value": "front_camera_ipad_air_m3"
+    },
+    "battery_capacity": {
+      "Value": "18.9 Wh",
+      "NumericValue": "4900 mAh"
+    },
+    "video_playback": {
+      "NumericValue": "10"
+    },
+    "dimensions": {
+      "NumericValue": "195.3 x 132.6 x 5.4 mm"
+    },
+    "weight": {
+      "NumericValue": "255-263 g"
+    },
+    "Geekbench 6": {
+      "NumericValue": "4691 / 11536 Multi-Core (512 GB: 4689 / 12538 Multi-Core)"
     }
   }
 }
