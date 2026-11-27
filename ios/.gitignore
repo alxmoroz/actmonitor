@@ -13,12 +13,12 @@ Icon?
 **/.symlinks/
 profile
 xcuserdata
-xcshareddata
 **/.generated/
 Flutter/App.framework
 Flutter/Flutter.framework
 Flutter/Flutter.podspec
 Flutter/Generated.xcconfig
+Flutter/ephemeral/
 Flutter/app.flx
 Flutter/app.zip
 Flutter/flutter_assets/

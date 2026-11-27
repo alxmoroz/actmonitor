@@ -4,7 +4,7 @@ import Flutter
 import workmanager_apple
 
 @main
-@objc class AppDelegate: FlutterAppDelegate {
+@objc class AppDelegate: FlutterAppDelegate, FlutterImplicitEngineDelegate {
   static func registerPlugins(with registry: FlutterPluginRegistry) {
     GeneratedPluginRegistrant.register(with: registry)
   }
@@ -13,12 +13,25 @@ import workmanager_apple
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    
-    let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
-    let usageChannel = FlutterMethodChannel(name: "amonitor/usage", binaryMessenger: controller.binaryMessenger)
+    UIApplication.shared.setMinimumBackgroundFetchInterval(TimeInterval(60*15))
+
+    WorkmanagerPlugin.setPluginRegistrantCallback { registry in
+      AppDelegate.registerPlugins(with: registry)
+    }
+
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+
+  func didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge) {
+    AppDelegate.registerPlugins(with: engineBridge.pluginRegistry)
+
+    let usageChannel = FlutterMethodChannel(
+      name: "amonitor/usage",
+      binaryMessenger: engineBridge.applicationRegistrar.messenger()
+    )
     usageChannel.setMethodCallHandler({
       (call: FlutterMethodCall, result: FlutterResult) -> Void in
-      
+
       if call.method == "getRamUsage" {
         result(Usage._getRamUsage())
       }
@@ -60,17 +73,5 @@ import workmanager_apple
         return
       }
     })
-
-    UIApplication.shared.setMinimumBackgroundFetchInterval(TimeInterval(60*15))
-
-    AppDelegate.registerPlugins(with: self)
-    
-    WorkmanagerPlugin.setPluginRegistrantCallback { registry in
-      AppDelegate.registerPlugins(with: registry)
-    }
-
-    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
-
-
